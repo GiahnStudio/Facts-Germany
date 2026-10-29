@@ -43,8 +43,17 @@ def flag(img, x, y, code, w=96):
     img.paste(F, (int(x), int(y)), m)
 
 # ---------- Initialen-Avatar ----------
-def avatar(img, cx, cy, r, initials, col, a=1.0, ring=None):
+def avatar(img, cx, cy, r, initials, col, a=1.0, ring=None, look=None):
     if a <= 0: return
+    if look:
+        import cartoon
+        A = cartoon.rendered(cartoon.look_key(look, tuple(int(v * 0.55) for v in col)), 2 * r).copy()
+        if a < 1: A.putalpha(A.getchannel("A").point(lambda v: int(v * a)))
+        img.alpha_composite(A, (int(cx - r), int(cy - r)))
+        if ring:
+            R = Image.new("RGBA", img.size); ImageDraw.Draw(R).ellipse([cx - r - 6, cy - r - 6, cx + r + 6, cy + r + 6], outline=ring + (int(255 * a),), width=8)
+            img.alpha_composite(R)
+        return
     S = 2 * r + 40; A = Image.new("RGBA", (S, S)); d = ImageDraw.Draw(A)
     c2 = tuple(max(0, int(v * 0.45)) for v in col)
     for i in range(r, 0, -2):  # radialer Verlauf
@@ -83,7 +92,7 @@ def person_card(img, y, p, lt, t0, v, rank_txt, big=False):
     a = ease((lt - t0) / 0.35); dy = (1 - a) * 60
     if a <= 0: return
     col = RANKCOL.get(p.get("rank"), (140, 120, 255))
-    avatar(img, W / 2, y + 170 + dy, 150 if big else 130, p["ini"], p["col"], a, ring=col if p.get("rank", 9) <= 3 else None)
+    avatar(img, W / 2, y + 170 + dy, 150 if big else 130, p["ini"], p["col"], a, ring=col if p.get("rank", 9) <= 3 else None, look=p.get("look"))
     layer_text(img, (W / 2, y + 360 + dy), p["name"], fName, FG, a, "ma")
     # Flagge + Kategorie
     d = ImageDraw.Draw(img); tw = d.textlength(p["cat"][v["lang"]], font=fBody)
@@ -116,7 +125,7 @@ def sc_tie(img, d, lt, s, v):
         y = 560 + i * 270; dx = (1 - a) * -80
         P = Image.new("RGBA", img.size); ImageDraw.Draw(P).rounded_rectangle([M - 20 + dx, y, W - M + 20 + dx, y + 230], radius=34, fill=PANEL + (int(255 * a),))
         img.alpha_composite(P)
-        avatar(img, M + 95 + dx, y + 115, 80, p["ini"], p["col"], a)
+        avatar(img, M + 95 + dx, y + 115, 80, p["ini"], p["col"], a, look=p.get("look"))
         layer_text(img, (M + 210 + dx, y + 42), p["name"], fD(64), FG, a)
         if a > 0.5: flag(img, M + 212 + dx, y + 140, p["flag"], 72)
         layer_text(img, (M + 300 + dx, y + 134), p["cat"][L], fSmall, MUTED, a)
@@ -158,7 +167,7 @@ def sc_board(img, d, lt, s, v):
         y = 360 + i * 175
         rc = RANKCOL.get(p["rank"], (140, 120, 255))
         layer_text(img, (M - 10, y + 40), f"{p['rank']}", fD(58), rc, a)
-        avatar(img, M + 110, y + 75, 58, p["ini"], p["col"], a)
+        avatar(img, M + 110, y + 75, 58, p["ini"], p["col"], a, look=p.get("look"))
         layer_text(img, (M + 190, y + 12), p["name"], fLbl, FG, a)
         bw = W - M - (M + 190) - 10; wbar = int(bw * p["v"] / v["vmax"] * g)
         if wbar > 8: ImageDraw.Draw(img).rounded_rectangle([M + 190, y + 66, M + 190 + wbar, y + 116], radius=16, fill=rc)
