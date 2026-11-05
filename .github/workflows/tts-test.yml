@@ -1,0 +1,19 @@
+name: tts-test
+on:
+  push:
+    paths: ['.github/workflows/tts-test.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install edge-tts
+      - run: |
+          edge-tts --list-voices | grep de-DE
+          edge-tts --voice de-DE-SeraphinaMultilingualNeural --text "Darf mein Vermieter einfach in meine Wohnung? Die kurze Antwort: Nein. Aber es gibt Ausnahmen." --write-media test_seraphina.mp3 --write-subtitles test.vtt
+          ls -la
+      - uses: actions/upload-artifact@v4
+        with: {name: tts, path: "test_*"}
