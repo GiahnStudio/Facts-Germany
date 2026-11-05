@@ -1,0 +1,381 @@
+1
+00:00:00,400 --> 00:00:02,802
+Du bestellst für 25 Euro Essen.
+
+2
+00:00:02,802 --> 00:00:04,817
+Am Ende zahlst du fast 28.
+
+3
+00:00:05,267 --> 00:00:07,197
+Dazu kommt die Liefergebühr.
+
+4
+00:00:07,197 --> 00:00:11,746
+Und seit 2025 eine Servicegebühr,
+die erst im Warenkorb auftaucht.
+
+5
+00:00:12,196 --> 00:00:16,788
+Lieferando ist mit 75 Prozent Anteil der
+mit Abstand beliebteste Lieferdienst in
+
+6
+00:00:16,788 --> 00:00:17,477
+Deutschland.
+
+7
+00:00:17,926 --> 00:00:21,360
+Aber wer verdient eigentlich
+an deiner Bestellung?
+
+8
+00:00:21,360 --> 00:00:24,039
+Lieferando? Das Restaurant? Der Fahrer?
+
+9
+00:00:24,489 --> 00:00:26,809
+Wir rechnen das heute
+auf. Posten für Posten.
+
+10
+00:00:26,809 --> 00:00:30,213
+Und am Ende kommt der Teil, über
+den Restaurants nur ungern reden.
+
+11
+00:00:31,564 --> 00:00:35,022
+Das ist unsere Bestellung als Kassenbon.
+
+12
+00:00:35,022 --> 00:00:40,123
+25 Euro Essen, 2 Euro Liefergebühr,
+dazu die Servicegebühr.
+
+13
+00:00:40,123 --> 00:00:41,593
+Zusammen 27,99 €.
+
+14
+00:00:42,042 --> 00:00:44,969
+Acht Posten. Zwei davon
+gehen direkt an Lieferando.
+
+15
+00:00:44,969 --> 00:00:49,042
+Und der letzte, der Gewinn des
+Restaurants, ist kleiner, als du denkst.
+
+16
+00:00:49,493 --> 00:00:49,855
+Vorweg:
+
+17
+00:00:49,855 --> 00:00:54,156
+Die Aufteilung ist eine Beispielrechnung
+für ein Restaurant, das selbst ausliefert.
+
+18
+00:00:54,156 --> 00:00:57,939
+Gebühren und Provisionen stammen aus
+Berichten, die Quellen stehen in der
+
+19
+00:00:57,939 --> 00:00:58,612
+Beschreibung.
+
+20
+00:00:59,963 --> 00:01:01,477
+Posten eins: die Provision.
+
+21
+00:01:01,477 --> 00:01:06,019
+Für jede Bestellung über die App zahlt
+das Restaurant einen Anteil an Lieferando.
+
+22
+00:01:06,468 --> 00:01:12,053
+Liefert das Restaurant selbst, sind das
+laut Branchenberichten 13 bis 14 Prozent.
+
+23
+00:01:12,053 --> 00:01:16,052
+2022 hat Lieferando den Satz
+von 13 auf 14 Prozent erhöht.
+
+24
+00:01:16,503 --> 00:01:18,979
+Bei 25 Euro Essen sind das 3,50 €.
+
+25
+00:01:18,979 --> 00:01:21,236
+Bei jeder einzelnen Bestellung.
+
+26
+00:01:22,587 --> 00:01:25,643
+Posten zwei zahlst du
+selbst: die Servicegebühr.
+
+27
+00:01:26,093 --> 00:01:29,325
+Lieferando hat sie im
+April 2025 eingeführt.
+
+28
+00:01:29,325 --> 00:01:34,907
+Erst 2,5 Prozent, inzwischen laut
+Nutzerberichten 5 Prozent vom Bestellwert,
+
+29
+00:01:34,907 --> 00:01:36,524
+gedeckelt bei 99 Cent.
+
+30
+00:01:36,974 --> 00:01:38,952
+Bei unserer Bestellung also 99 Cent.
+
+31
+00:01:38,952 --> 00:01:42,304
+Und die gehen nicht ans Restaurant,
+sondern an die Plattform.
+
+32
+00:01:42,754 --> 00:01:46,268
+Zusammen bekommt Lieferando
+von dieser Bestellung 4,49 €.
+
+33
+00:01:47,617 --> 00:01:50,181
+Posten drei: die Mehrwertsteuer.
+
+34
+00:01:50,181 --> 00:01:54,026
+Auf Essen sind es seit
+2026 dauerhaft 7 Prozent.
+
+35
+00:01:54,026 --> 00:01:55,388
+Hier also 1,64 €.
+
+36
+00:01:55,837 --> 00:01:59,563
+Dann das Restaurant selbst.
+Zutaten und Verpackung:
+
+37
+00:01:59,563 --> 00:02:01,827
+8 Euro. Die Leute in der Küche:
+
+38
+00:02:01,827 --> 00:02:02,338
+5,50 €.
+
+39
+00:02:02,789 --> 00:02:04,965
+Das sind die Kosten, die jeder erwartet.
+
+40
+00:02:04,965 --> 00:02:07,141
+Aber beim Liefern kommt noch einer dazu.
+
+41
+00:02:08,491 --> 00:02:13,306
+Posten sechs: der Fahrer. Die meisten
+Restaurants liefern mit eigenen Leuten aus.
+
+42
+00:02:13,757 --> 00:02:18,698
+Laut Statista wurden 2024 mit Lieferungen
+durch Restaurants rund 7,2 Milliarden Euro
+
+43
+00:02:18,698 --> 00:02:23,344
+umgesetzt. Mit Lieferungen durch
+Plattform-Fahrer nur gut eine halbe Milliarde.
+
+44
+00:02:23,794 --> 00:02:28,471
+Ein Fahrer mit Auto, Sprit und Versicherung
+kostet pro Fahrt schnell mehr, als die
+
+45
+00:02:28,471 --> 00:02:30,980
+Liefergebühr einbringt.
+In unserem Beispiel:
+
+46
+00:02:30,980 --> 00:02:32,919
+4,50 € Kosten gegen 2 Euro Gebühr.
+
+47
+00:02:33,370 --> 00:02:35,968
+Dazu kommen Miete und Energie:
+
+48
+00:02:35,968 --> 00:02:36,574
+2,40 €.
+
+49
+00:02:37,925 --> 00:02:41,165
+Und jetzt der Posten,
+auf den du gewartet hast.
+
+50
+00:02:41,165 --> 00:02:43,784
+Was bleibt dem Restaurant von 27,99 €?
+
+51
+00:02:44,235 --> 00:02:48,646
+In unserem Beispiel: 1,46 €.
+Vor Steuern auf den Gewinn.
+
+52
+00:02:49,097 --> 00:02:52,345
+Lieferando bekommt von
+derselben Bestellung 4,49 €.
+
+53
+00:02:52,345 --> 00:02:53,620
+Gut dreimal so viel.
+
+54
+00:02:54,069 --> 00:02:56,590
+Fairerweise: Das ist Umsatz, kein Gewinn.
+
+55
+00:02:56,590 --> 00:03:01,632
+Davon bezahlt Lieferando Plattform, Werbung,
+Kundenservice und Zahlungsabwicklung.
+
+56
+00:03:02,981 --> 00:03:05,807
+Und jetzt der Teil, über den
+Restaurants ungern reden.
+
+57
+00:03:05,807 --> 00:03:08,215
+Was passiert, wenn
+Lieferando auch ausliefert?
+
+58
+00:03:08,664 --> 00:03:13,667
+Dann steigt die Provision laut
+Branchenberichten auf rund 30 Prozent.
+
+59
+00:03:13,667 --> 00:03:15,407
+Bei 25 Euro also 7,50 €.
+
+60
+00:03:15,858 --> 00:03:18,801
+Das Restaurant spart
+sich den eigenen Fahrer.
+
+61
+00:03:18,801 --> 00:03:24,098
+Aber rechnen wir nach: 25 Euro minus
+Provision, Steuer, Zutaten, Küche und Miete.
+
+62
+00:03:24,549 --> 00:03:27,711
+Übrig bleiben: minus 4
+Cent. Praktisch null.
+
+63
+00:03:28,161 --> 00:03:30,994
+Deshalb liefern so viele
+Restaurants lieber selbst.
+
+64
+00:03:30,994 --> 00:03:32,995
+Oder sie müssen ihre Preise erhöhen.
+
+65
+00:03:34,344 --> 00:03:35,291
+Und der Fahrer?
+
+66
+00:03:35,291 --> 00:03:40,594
+Lieferando sagt, seine Kuriere verdienen
+im Schnitt 14 Euro pro Stunde und sind fest
+
+67
+00:03:40,594 --> 00:03:41,288
+angestellt.
+
+68
+00:03:41,739 --> 00:03:46,161
+Die Gewerkschaft NGG fordert mindestens
+15 Euro und einen Tarifvertrag.
+
+69
+00:03:46,161 --> 00:03:48,590
+Dafür gab es schon mehrere Warnstreiks.
+
+70
+00:03:49,039 --> 00:03:53,174
+Und Lieferando hat erklärt, ausgerechnet
+mit der Auslieferung Verluste zu machen.
+
+71
+00:03:54,524 --> 00:03:56,727
+Also: Wer verdient an deiner Bestellung?
+
+72
+00:03:57,176 --> 00:03:59,602
+Mein Urteil: Für dich ist es bequem.
+
+73
+00:03:59,602 --> 00:04:01,556
+Fürs Restaurant ist es teuer.
+
+74
+00:04:02,006 --> 00:04:05,561
+Die App bekommt pro Bestellung
+mehr als das Restaurant verdient.
+
+75
+00:04:05,561 --> 00:04:08,228
+Und der Fahrer liegt knapp
+über dem Mindestlohn.
+
+76
+00:04:08,677 --> 00:04:12,924
+Schreib in die Kommentare: Bestellst du
+über die App oder direkt beim Restaurant?
+
+77
+00:04:14,274 --> 00:04:18,213
+Drei Tipps, damit mehr beim Restaurant
+ankommt und du weniger zahlst.
+
+78
+00:04:18,213 --> 00:04:21,468
+Erstens: Hol selbst ab. Dann
+fällt die Servicegebühr weg.
+
+79
+00:04:21,918 --> 00:04:26,096
+Zweitens: Bestell direkt beim
+Restaurant, per Telefon oder Website.
+
+80
+00:04:26,096 --> 00:04:27,843
+Dann spart es die Provision.
+
+81
+00:04:28,293 --> 00:04:30,733
+Drittens: Gib dem Fahrer Trinkgeld in bar.
+
+82
+00:04:30,733 --> 00:04:32,360
+Das kommt sicher bei ihm an.
+
+83
+00:04:33,709 --> 00:04:37,385
+Und warum ein Glühwein auf dem Weihnachtsmarkt
+so viel kostet, rechne ich dir im
+
+84
+00:04:37,385 --> 00:04:38,257
+nächsten Video auf.

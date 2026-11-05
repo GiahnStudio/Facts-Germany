@@ -1,0 +1,342 @@
+1
+00:00:00,400 --> 00:00:04,608
+Eine Tasse Glühwein hat letzte Saison
+im Schnitt gut 4,50 € gekostet.
+
+2
+00:00:04,608 --> 00:00:07,291
+Zwei Jahre davor waren
+es noch unter 4 Euro.
+
+3
+00:00:07,742 --> 00:00:10,890
+In München und Berlin
+zahlst du 5 bis 6 Euro.
+
+4
+00:00:10,890 --> 00:00:11,660
+Plus Pfand.
+
+5
+00:00:12,109 --> 00:00:16,260
+In Deutschland werden pro Jahr rund
+50 Millionen Liter Glühwein getrunken.
+
+6
+00:00:16,260 --> 00:00:18,615
+Das sind rechnerisch 250 Millionen Tassen.
+
+7
+00:00:19,065 --> 00:00:21,061
+Wer verdient daran? Der Winzer?
+
+8
+00:00:21,061 --> 00:00:23,443
+Die Stadt? Oder der Mann in der Bude?
+
+9
+00:00:23,893 --> 00:00:25,539
+Wir rechnen das heute auf.
+
+10
+00:00:25,539 --> 00:00:29,272
+Und am Ende sage ich dir, ob
+4,50 € fair sind oder Abzocke.
+
+11
+00:00:30,623 --> 00:00:32,982
+Das ist deine Tasse
+Glühwein als Kassenbon.
+
+12
+00:00:32,982 --> 00:00:36,219
+4,50 €, ungefähr der
+Durchschnittspreis der letzten Saison.
+
+13
+00:00:36,668 --> 00:00:40,633
+Sechs Posten. Und einer davon
+kostet mehr als der Wein selbst.
+
+14
+00:00:41,082 --> 00:00:44,856
+Grundlage ist eine Modellrechnung
+von für-gruender.de:
+
+15
+00:00:44,856 --> 00:00:47,931
+ein Stand, 28 Tage
+Markt, 550 Tassen am Tag.
+
+16
+00:00:47,931 --> 00:00:51,356
+Wir rechnen sie auf eine
+einzelne Tasse herunter.
+
+17
+00:00:52,706 --> 00:00:54,674
+Posten eins: der Glühwein selbst.
+
+18
+00:00:54,674 --> 00:00:55,987
+Wein, Gewürze, Zucker.
+
+19
+00:00:56,436 --> 00:01:00,470
+In der Modellrechnung kostet der
+Inhalt einer Tasse im Einkauf 1,20 €.
+
+20
+00:01:00,470 --> 00:01:02,084
+Gut ein Viertel des Preises.
+
+21
+00:01:03,433 --> 00:01:07,398
+Posten zwei. Und das ist der Posten,
+der mehr kostet als der Wein:
+
+22
+00:01:07,398 --> 00:01:08,299
+die Standmiete.
+
+23
+00:01:08,748 --> 00:01:11,555
+Wie hoch die ist, hängt
+stark vom Markt ab.
+
+24
+00:01:11,555 --> 00:01:17,039
+In Gießen kostet ein großer Glühweinstand
+laut hessenschau rund 2.100 Euro, in Fulda
+
+25
+00:01:17,039 --> 00:01:17,887
+bis zu 3.400.
+
+26
+00:01:17,887 --> 00:01:23,305
+Auf dem Wiesbadener Sternschnuppenmarkt
+sind es 11.000 Euro, plus Strom und Wasser.
+
+27
+00:01:23,756 --> 00:01:28,741
+Die Modellrechnung geht von 25.000
+Euro für einen großen Markt aus.
+
+28
+00:01:28,741 --> 00:01:32,686
+Verteilt auf 15.400 Tassen
+sind das 1,62 € pro Tasse.
+
+29
+00:01:33,135 --> 00:01:38,297
+Ein Betreiber am Berliner Breitscheidplatz
+hat der Berliner Zeitung vorgerechnet:
+
+30
+00:01:38,297 --> 00:01:41,611
+35.000 Euro für das Zelt,
+30.000 Euro für Propangas.
+
+31
+00:01:41,611 --> 00:01:43,841
+Er müsste 8 Euro pro Becher nehmen.
+
+32
+00:01:45,191 --> 00:01:50,529
+Posten drei: das Personal. Zwölf
+Stunden am Tag, jeden Tag, in der Kälte.
+
+33
+00:01:50,529 --> 00:01:54,038
+In der Modellrechnung
+9.300 Euro für die Saison.
+
+34
+00:01:54,038 --> 00:01:55,354
+Pro Tasse 60 Cent.
+
+35
+00:01:55,805 --> 00:01:59,667
+Posten vier: Strom und Gas, um
+den Glühwein heiß zu halten.
+
+36
+00:01:59,667 --> 00:02:01,042
+Pro Tasse nur 8 Cent.
+
+37
+00:02:02,391 --> 00:02:04,400
+Jetzt kommt der Teil,
+den kaum jemand kennt.
+
+38
+00:02:04,849 --> 00:02:10,018
+Seit Januar 2026 gilt für Speisen
+dauerhaft 7 Prozent Mehrwertsteuer.
+
+39
+00:02:10,018 --> 00:02:12,490
+Die Bratwurst nebenan: 7 Prozent.
+
+40
+00:02:12,939 --> 00:02:14,647
+Glühwein ist aber ein Getränk.
+
+41
+00:02:14,647 --> 00:02:16,866
+Und auf Getränke bleiben es 19 Prozent.
+
+42
+00:02:17,317 --> 00:02:20,931
+In deinen 4,50 € stecken
+also 72 Cent Steuer.
+
+43
+00:02:21,381 --> 00:02:24,022
+Wenn dich das überrascht
+hat: Abonnier Aufgerechnet.
+
+44
+00:02:24,022 --> 00:02:26,003
+Jede Woche rechnen wir einen Preis auf.
+
+45
+00:02:27,354 --> 00:02:29,937
+Und jetzt der Posten,
+auf den du gewartet hast.
+
+46
+00:02:29,937 --> 00:02:31,092
+Was bleibt dem Stand?
+
+47
+00:02:31,542 --> 00:02:33,920
+In unserer Rechnung: 28 Cent pro Tasse.
+
+48
+00:02:33,920 --> 00:02:38,312
+Und dabei sind Tassen, Deko, Hütte
+und Versicherung noch gar nicht drin.
+
+49
+00:02:38,762 --> 00:02:42,771
+Die Modellrechnung kommt auf gut
+15.000 Euro Gewinn für die Saison.
+
+50
+00:02:42,771 --> 00:02:47,738
+Zieht man aber die 19 Prozent Mehrwertsteuer
+ab, die in den 4,50 € stecken, bleiben
+
+51
+00:02:47,738 --> 00:02:49,653
+rechnerisch nur rund 4.300 Euro.
+
+52
+00:02:50,104 --> 00:02:54,046
+Bei zwölf Stunden an 28 Tagen
+sind das knapp 13 Euro pro Stunde.
+
+53
+00:02:54,046 --> 00:02:55,771
+Weniger als der Mindestlohn.
+
+54
+00:02:56,222 --> 00:03:00,092
+Der Staat bekommt pro Tasse mehr als
+zweieinhalbmal so viel wie der Stand.
+
+55
+00:03:01,443 --> 00:03:03,423
+Und das Pfand? Meistens 3 Euro.
+
+56
+00:03:03,423 --> 00:03:05,659
+Viele nehmen die Tasse einfach mit.
+
+57
+00:03:06,110 --> 00:03:08,641
+Rechtlich gehört die Tasse
+aber weiter dem Stand.
+
+58
+00:03:08,641 --> 00:03:10,140
+Das Pfand ist kein Kaufpreis.
+
+59
+00:03:10,140 --> 00:03:13,344
+Die meisten Betreiber planen den
+Tassenschwund aber schon ein.
+
+60
+00:03:14,693 --> 00:03:17,655
+Also: 4,50 € für eine Tasse Glühwein.
+
+61
+00:03:17,655 --> 00:03:19,096
+Fair oder Abzocke?
+
+62
+00:03:19,545 --> 00:03:20,937
+Mein Urteil: fair.
+
+63
+00:03:21,388 --> 00:03:26,145
+Du bezahlst nicht den Wein. Du bezahlst
+die Standmiete, die Leute und die Steuer.
+
+64
+00:03:26,145 --> 00:03:28,318
+Der Stand selbst behält am wenigsten.
+
+65
+00:03:28,768 --> 00:03:33,221
+Aber wer 6 Euro auf dem größten Markt der
+Stadt zahlt, bezahlt vor allem den Platz.
+
+66
+00:03:33,670 --> 00:03:38,629
+Stimm ab: Fair oder Abzocke? Und schreib
+dazu, was die Tasse bei dir kostet.
+
+67
+00:03:39,979 --> 00:03:43,304
+Drei Tipps. Erstens: Nicht
+jeder Markt ist teuer.
+
+68
+00:03:43,304 --> 00:03:49,004
+Letzte Saison gab es Glühwein in Dortmund,
+Augsburg, Braunschweig und Mannheim schon
+
+69
+00:03:49,004 --> 00:03:49,683
+ab 3,50 €.
+
+70
+00:03:50,133 --> 00:03:53,879
+Zweitens: Stände mitten im Markt
+zahlen oft mehr Standmiete.
+
+71
+00:03:53,879 --> 00:03:57,001
+Am Eingang oder Ausgang
+ist es manchmal günstiger.
+
+72
+00:03:57,450 --> 00:03:59,342
+Drittens: Bring die Tasse zurück.
+
+73
+00:03:59,342 --> 00:04:01,348
+Oder frag, ob du sie kaufen kannst.
+
+74
+00:04:02,699 --> 00:04:06,819
+Und was ein ganzes Weihnachtsfest eine
+Familie kostet, rechne ich dir im nächsten
+
+75
+00:04:06,819 --> 00:04:07,328
+Video auf.
