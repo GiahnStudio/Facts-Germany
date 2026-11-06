@@ -1,0 +1,30 @@
+name: Stimmen-Test Chatterbox
+on:
+  push:
+    branches: [durchschaut]
+    paths: ['voice_test/chatterbox_test.py', '.github/workflows/voice-test.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Chatterbox installieren (CPU)
+        run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts --extra-index-url https://download.pytorch.org/whl/cpu
+          pip list 2>/dev/null | grep -i -E "torch|chatterbox"
+      - run: python voice_test/chatterbox_test.py
+      - name: Hörproben speichern
+        run: |
+          git config user.name "durchschaut-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add voice_test/out
+          git commit -m "Hörproben Chatterbox [skip ci]" || exit 0
+          git pull --rebase origin durchschaut && git push origin HEAD:durchschaut
