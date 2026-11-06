@@ -233,13 +233,19 @@ def _synth_edge(text, voice, rate="+0%"):
         words = json.load(open(meta))["words"]
         _wav_from_mp3(mp3, wav)
     elif not offline:
-        for attempt in range(4):
+        import time
+        words = None
+        for attempt in range(7):
             try:
                 words = asyncio.run(_edge(text, voice, rate, mp3))
                 if os.path.getsize(mp3) > 1000:
                     break
-            except Exception as e:  # Netzwerk-Wackler
+                words = None
+            except Exception as e:  # Netzwerk-Wackler / Drosselung
                 print("TTS-Fehler, neuer Versuch:", e)
+            time.sleep([3, 8, 15, 30, 45, 60, 90][attempt])
+        if words is None:
+            raise RuntimeError(f"edge-tts liefert keine Audiodaten für: {text[:60]}…")
         json.dump({"text": text, "voice": voice, "rate": rate, "words": words}, open(meta, "w"), ensure_ascii=False)
         _wav_from_mp3(mp3, wav)
     else:

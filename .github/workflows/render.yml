@@ -43,19 +43,24 @@ jobs:
           LIST=$(for f in $LIST; do [ -f "$f" ] && echo $f; done | sort -u | tr '\n' ' ')
           echo "list=$LIST" >> $GITHUB_OUTPUT
           echo "Rendere: $LIST"
-      - name: Rendern
+      - name: Rendern (jede Folge wird sofort gespeichert)
         if: steps.eps.outputs.list != ''
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
         run: |
-          for f in ${{ steps.eps.outputs.list }}; do python renderer/build.py "$f"; done
-      - name: Ergebnis speichern
-        if: steps.eps.outputs.list != ''
-        run: |
           git config user.name "durchschaut-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add up audio_cache
-          git commit -m "Gerendert: ${{ steps.eps.outputs.list }} [skip ci]" || exit 0
-          git pull --rebase origin durchschaut && git push origin HEAD:durchschaut
+          FAIL=0
+          for f in ${{ steps.eps.outputs.list }}; do
+            if python renderer/build.py "$f"; then
+              git add up audio_cache
+              git commit -m "Gerendert: $f [skip ci]" || true
+              git pull --rebase origin durchschaut && git push origin HEAD:durchschaut
+            else
+              echo "::error::Rendern fehlgeschlagen: $f"; FAIL=1
+              git add audio_cache && git commit -m "Audio-Zwischenstand: $f [skip ci]" && git pull --rebase origin durchschaut && git push origin HEAD:durchschaut || true
+            fi
+          done
+          exit $FAIL
