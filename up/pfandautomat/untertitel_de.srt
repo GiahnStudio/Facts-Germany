@@ -9,7 +9,7 @@ kurz, und ein paar
 Sekunden später weiß
 
 3
-00:00:04,673 --> 00:00:07,600
+00:00:04,673 --> 00:00:07,350
 der Automat: 25 Cent.
 
 4
@@ -476,12 +476,12 @@ wenn du eine Flasche
 nicht zurückbringst?
 
 103
-00:03:56,233 --> 00:04:00,160
+00:03:56,233 --> 00:03:59,270
 Laut Deutscher
 Umwelthilfe kommen 98,5
 
 104
-00:04:00,160 --> 00:04:01,823
+00:03:59,270 --> 00:04:01,823
 Prozent der
 Einwegverpackungen zurück.
 
