@@ -1,4 +1,4 @@
-"""Darf der das? – Zeichen-Engine (Pillow).
+"""Durchschaut – Zeichen-Engine (Pillow).
 
 Jede Szene wird in "Blöcke" (RGBA-Sprites) zerlegt, die zu einem Zeitpunkt
 (an ein gesprochenes Wort gekoppelt) einblenden. Statische Frames werden
@@ -19,14 +19,15 @@ CARD = (247, 244, 237)
 INK = (16, 19, 27)
 MUTED = (108, 114, 126)
 SOFT = (226, 221, 210)
-AMBER = (255, 184, 0)
+AMBER = (40, 214, 186)  # Akzentfarbe Türkis
 RED = (226, 55, 52)
 GREEN = (36, 168, 106)
 BLUE = (66, 128, 230)
 WHITE = (255, 255, 255)
-COLORS = {"red": RED, "green": GREEN, "amber": AMBER, "blue": BLUE, "ink": INK}
+YELLOW = (255, 196, 0)
+COLORS = {"yellow": YELLOW, "red": RED, "green": GREEN, "amber": AMBER, "blue": BLUE, "ink": INK}
 
-BRAND = "DARF DER DAS?"
+BRAND = "DURCHSCHAUT"
 
 
 @lru_cache(maxsize=None)
@@ -197,6 +198,103 @@ def icon(name, s=300, color=INK, accent=AMBER):
         d.rectangle((S * .2, S * .45, S * .8, S * .78), fill=accent)
         d.rounded_rectangle((S * .1, S * .72, S * .9, S * .82), 10, fill=accent)
         d.ellipse((S * .42, S * .8, S * .58, S * .94), fill=accent)
+    elif name == "lens":
+        d.ellipse((S * .04, S * .04, S * .96, S * .96), fill=accent)
+        d.ellipse((S * .2, S * .18, S * .66, S * .64), outline=color, width=int(S * .08))
+        d.line((S * .6, S * .58, S * .8, S * .8), fill=color, width=int(S * .11))
+    elif name == "bottle":
+        d.rounded_rectangle((S * .42, S * .04, S * .58, S * .14), S * .02, fill=accent)
+        d.polygon([(S * .43, S * .14), (S * .57, S * .14), (S * .68, S * .32), (S * .32, S * .32)], fill=(120, 190, 240))
+        d.rounded_rectangle((S * .3, S * .28, S * .7, S * .96), S * .07, fill=(120, 190, 240))
+        d.rectangle((S * .3, S * .5, S * .7, S * .74), fill=WHITE)
+        d.rectangle((S * .36, S * .55, S * .64, S * .69), fill=color)
+        for i in range(7):
+            d.rectangle((S * (.38 + i * .035), S * .57, S * (.38 + i * .035) + S * .015, S * .67), fill=WHITE)
+    elif name == "can":
+        d.rounded_rectangle((S * .28, S * .1, S * .72, S * .92), S * .06, fill=(200, 205, 214))
+        d.rectangle((S * .28, S * .3, S * .72, S * .74), fill=RED)
+        d.ellipse((S * .28, S * .04, S * .72, S * .16), fill=(170, 176, 186))
+        d.ellipse((S * .44, S * .4, S * .56, S * .64), fill=WHITE)
+    elif name == "coin":
+        d.ellipse((S * .06, S * .06, S * .94, S * .94), fill=YELLOW)
+        d.ellipse((S * .16, S * .16, S * .84, S * .84), outline=(200, 140, 0), width=int(S * .03))
+        f = font(S * .34, "Black")
+        bx = f.getbbox("25")
+        d.text((S / 2 - (bx[0] + bx[2]) / 2, S / 2 - (bx[1] + bx[3]) / 2), "25", font=f, fill=(120, 80, 0))
+    elif name == "barcode":
+        d.rounded_rectangle((S * .06, S * .2, S * .94, S * .8), S * .05, fill=WHITE)
+        import random
+        rnd = random.Random(4)
+        x = S * .14
+        while x < S * .84:
+            w = S * rnd.choice([.012, .02, .035])
+            d.rectangle((x, S * .28, x + w, S * .66), fill=color)
+            x += w + S * rnd.choice([.012, .02])
+        d.rectangle((S * .1, S * .48, S * .9, S * .5), fill=RED)
+    elif name == "eye":
+        d.ellipse((S * .04, S * .25, S * .96, S * .75), fill=WHITE)
+        d.ellipse((S * .32, S * .27, S * .68, S * .73), fill=accent)
+        d.ellipse((S * .42, S * .38, S * .58, S * .62), fill=color)
+    elif name == "chip":
+        d.rounded_rectangle((S * .2, S * .2, S * .8, S * .8), S * .06, fill=color)
+        d.rounded_rectangle((S * .32, S * .32, S * .68, S * .68), S * .03, fill=accent)
+        for i in range(4):
+            o = S * (.28 + i * .13)
+            for (a, b, c, e) in ((o, S * .08, o + S * .05, S * .2), (o, S * .8, o + S * .05, S * .92),
+                                 (S * .08, o, S * .2, o + S * .05), (S * .8, o, S * .92, o + S * .05)):
+                d.rectangle((a, b, c, e), fill=color)
+    elif name == "press":
+        d.rectangle((S * .15, S * .1, S * .85, S * .26), fill=color)
+        d.rectangle((S * .44, S * .26, S * .56, S * .44), fill=(90, 96, 110))
+        d.rectangle((S * .25, S * .44, S * .75, S * .54), fill=color)
+        d.polygon([(S * .3, S * .62), (S * .7, S * .62), (S * .76, S * .9), (S * .24, S * .9)], fill=(120, 190, 240))
+        d.rectangle((S * .1, S * .9, S * .9, S * .96), fill=color)
+    elif name == "crate":
+        d.rounded_rectangle((S * .08, S * .4, S * .92, S * .92), S * .04, fill=accent)
+        for i in range(4):
+            x = S * (.16 + i * .19)
+            d.rounded_rectangle((x, S * .1, x + S * .12, S * .5), S * .04, fill=(70, 120, 60))
+        d.rectangle((S * .18, S * .56, S * .82, S * .64), fill=(0, 0, 0, 60))
+    elif name == "recycle":
+        import math as _m
+        for k in range(3):
+            a0 = k * 120 + 15
+            d.arc((S * .14, S * .14, S * .86, S * .86), a0, a0 + 85, fill=GREEN, width=int(S * .1))
+            a = _m.radians(a0 + 92)
+            cx, cy = S * .5 + S * .36 * _m.cos(a), S * .5 + S * .36 * _m.sin(a)
+            t = _m.radians(a0 + 182)
+            r = S * .1
+            d.polygon([(cx + r * _m.cos(t + _m.pi / 2), cy + r * _m.sin(t + _m.pi / 2)),
+                       (cx - r * _m.cos(t + _m.pi / 2), cy - r * _m.sin(t + _m.pi / 2)),
+                       (cx + r * 1.4 * _m.cos(t + _m.pi), cy + r * 1.4 * _m.sin(t + _m.pi))], fill=GREEN)
+    elif name == "factory":
+        d.polygon([(S * .06, S * .9), (S * .06, S * .5), (S * .3, S * .36), (S * .3, S * .5), (S * .54, S * .36),
+                   (S * .54, S * .5), (S * .78, S * .36), (S * .78, S * .9)], fill=color)
+        d.rectangle((S * .8, S * .14, S * .92, S * .9), fill=color)
+        for i in range(3):
+            d.rectangle((S * (.12 + i * .22), S * .62, S * (.22 + i * .22), S * .74), fill=accent)
+    elif name == "shop":
+        d.rectangle((S * .1, S * .42, S * .9, S * .92), fill=color)
+        for i in range(5):
+            d.rectangle((S * (.06 + i * .176), S * .2, S * (.06 + (i + 1) * .176), S * .42),
+                        fill=accent if i % 2 == 0 else WHITE)
+        d.rectangle((S * .4, S * .6, S * .6, S * .92), fill=accent)
+    elif name == "receipt":
+        d.polygon([(S * .2, S * .06), (S * .8, S * .06), (S * .8, S * .94), (S * .7, S * .88), (S * .6, S * .94),
+                   (S * .5, S * .88), (S * .4, S * .94), (S * .3, S * .88), (S * .2, S * .94)], fill=WHITE)
+        for i in range(4):
+            d.rectangle((S * .3, S * (.2 + i * .12), S * (.6 if i % 2 else .7), S * (.24 + i * .12)), fill=(170, 175, 185))
+        d.rectangle((S * .3, S * .7, S * .7, S * .76), fill=color)
+    elif name == "server":
+        for i in range(3):
+            y = S * (.12 + i * .27)
+            d.rounded_rectangle((S * .14, y, S * .86, y + S * .22), S * .04, fill=color)
+            d.ellipse((S * .7, y + S * .08, S * .76, y + S * .14), fill=accent)
+            d.rectangle((S * .22, y + S * .09, S * .5, y + S * .13), fill=(90, 96, 110))
+    elif name == "wash":
+        d.ellipse((S * .1, S * .1, S * .9, S * .9), fill=(120, 190, 240))
+        for (x, y, r) in ((.35, .4, .1), (.6, .35, .07), (.55, .6, .12), (.3, .65, .06)):
+            d.ellipse((S * (x - r), S * (y - r), S * (x + r), S * (y + r)), outline=WHITE, width=int(S * .025))
     else:
         d.ellipse((S * .1, S * .1, S * .9, S * .9), fill=accent)
     return img.resize((s, s), Image.LANCZOS)
@@ -237,7 +335,7 @@ def background(W, H):
     # Logo
     vertical = H > W
     lx, ly = (70, 60) if not vertical else (70, 150)
-    para = icon("para", 64)
+    para = icon("lens", 64)
     img.paste(para, (lx, ly), para)
     f = font(36, "Black")
     ImageDraw.Draw(img).text((lx + 84, ly + 10), BRAND, font=f, fill=WHITE)

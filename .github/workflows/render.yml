@@ -1,12 +1,12 @@
 name: Folgen rendern
 on:
   push:
-    branches: [darf-der-das]
+    branches: [durchschaut]
     paths: ['episodes/**']
   workflow_dispatch:
     inputs:
       episode:
-        description: 'Pfad der Folge, z. B. episodes/01_vermieter.json (leer = alle ohne fertiges Video)'
+        description: 'Pfad der Folge, z. B. episodes/01_pfandautomat.json (leer = alle ohne fertiges Video)'
         required: false
 permissions:
   contents: write
@@ -44,8 +44,8 @@ jobs:
       - name: Ergebnis speichern
         if: steps.eps.outputs.list != ''
         run: |
-          git config user.name "darf-der-das-bot"
+          git config user.name "durchschaut-bot"
           git config user.email "actions@users.noreply.github.com"
           git add up audio_cache
           git commit -m "Gerendert: ${{ steps.eps.outputs.list }} [skip ci]" || exit 0
-          git pull --rebase origin darf-der-das && git push origin HEAD:darf-der-das
+          git pull --rebase origin durchschaut && git push origin HEAD:durchschaut

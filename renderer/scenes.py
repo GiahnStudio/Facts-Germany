@@ -5,6 +5,9 @@ from core import (AMBER, BLUE, CARD, COLORS, GREEN, INK, MUTED, RED, SOFT, WHITE
                   chip, font, icon, rounded, stamp, text_block, tw)
 
 
+LIGHT = (214, 222, 236)
+
+
 class Layout:
     def __init__(self, W, H):
         self.W, self.H = W, H
@@ -69,7 +72,7 @@ def sc_title(sc, L, cue):
     if sc.get("kicker"):
         rows.append([{"img": chip(sc["kicker"], L.s(34)), "t": t}])
     if sc.get("icon"):
-        rows.append([{"img": icon(sc["icon"], L.s(sc.get("icon_size", 300))), "t": 0.1, "anim": "pop"}])
+        rows.append([{"img": icon(sc["icon"], L.s(sc.get("icon_size", 300)), color=LIGHT), "t": 0.1, "anim": "pop"}])
     rows.append([{"img": heading(L, sc["text"], sc.get("size", 108), align="center"), "t": 0.15}])
     if sc.get("sub"):
         rows.append([{"img": text_block(sc["sub"], L.s(46), L.CW, SOFT, "SemiBold", "center"),
@@ -137,7 +140,7 @@ def sc_law(sc, L, cue):
     rows = []
     if sc.get("label"):
         lab = chip(sc["label"], L.s(38), INK, AMBER)
-        rows.append([{"img": icon("para", L.s(120)), "t": 0, "anim": "pop"}, {"img": lab, "t": 0.1}])
+        rows.append([{"img": icon(sc.get("icon", "lens"), L.s(120), color=INK if sc.get("icon", "lens") == "lens" else LIGHT), "t": 0, "anim": "pop"}, {"img": lab, "t": 0.1}])
     rows.append([{"img": heading(L, sc["headline"], sc.get("size", 76)), "t": 0.15}])
     for ln in sc.get("lines", []):
         text, at = (ln, None) if isinstance(ln, str) else (ln["text"], ln.get("at"))
@@ -168,7 +171,7 @@ def sc_checks(sc, L, cue):
 
 
 def list_row(L, text, ic="ok", color=WHITE):
-    cb = check_box(L.s(66), ic) if ic in ("ok", "x") else icon(ic, L.s(80), color=WHITE if ic == "person" else INK)
+    cb = check_box(L.s(66), ic) if ic in ("ok", "x") else icon(ic, L.s(80), color=LIGHT)
     t = text_block(text, L.s(48), L.CW - 140, color, "Bold")
     h = max(cb.height, t.height)
     img = Image.new("RGBA", (L.CW, h), (0, 0, 0, 0))
@@ -309,11 +312,91 @@ def sc_split(sc, L, cue):
 
 
 def sc_outro(sc, L, cue):
-    rows = [[{"img": icon("para", L.s(180)), "t": 0, "anim": "pop"}],
-            [{"img": heading(L, sc.get("text", "DARF DER DAS?"), 110), "t": 0.1}]]
+    rows = [[{"img": icon("lens", L.s(180)), "t": 0, "anim": "pop"}],
+            [{"img": heading(L, sc.get("text", "DURCHSCHAUT"), 110), "t": 0.1}]]
     if sc.get("sub"):
         rows.append([{"img": text_block(sc["sub"], L.s(46), L.CW, SOFT, "SemiBold", "center"), "t": 0.2}])
     if sc.get("button"):
         rows.append([{"img": chip(sc["button"], L.s(50), WHITE, RED, 46, 22), "t": cue(sc.get("button_at"), 0.5),
                       "anim": "pop"}])
     return stack(L, rows)
+
+
+sc_fact = sc_law
+
+
+def flow_box(L, item, w):
+    ic = icon(item["icon"], L.s(150 if not L.v else 130), color=LIGHT)
+    t = text_block(item["text"], L.s(36 if not L.v else 40), w, WHITE, "ExtraBold", "center", 1.12)
+    h = ic.height + 24 + t.height
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    img.alpha_composite(ic, ((w - ic.width) // 2, 0))
+    img.alpha_composite(t, (0, ic.height + 24))
+    return img
+
+
+def arrow_img(L, vertical=False):
+    s = L.s(56)
+    img = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    if vertical:
+        d.rectangle((s * .4, 0, s * .6, s * .55), fill=AMBER)
+        d.polygon([(s * .12, s * .5), (s * .88, s * .5), (s * .5, s)], fill=AMBER)
+    else:
+        d.rectangle((0, s * .4, s * .55, s * .6), fill=AMBER)
+        d.polygon([(s * .5, s * .12), (s * .5, s * .88), (s, s * .5)], fill=AMBER)
+    return img
+
+
+def sc_flow(sc, L, cue):
+    """Ablauf: Icons mit Pfeilen. Quer: nebeneinander, Hochformat: 2er-Raster."""
+    rows = []
+    if sc.get("title"):
+        rows.append([{"img": heading(L, sc["title"], sc.get("size", 64)), "t": 0}])
+    items = sc["items"]
+    n = len(items)
+    if not L.v:
+        w = min(300, (L.W - 200 - (n - 1) * 90) // n)
+        row = []
+        for i, it in enumerate(items):
+            t = cue(it.get("at"), 0.1 + 0.75 * i / n)
+            if i:
+                row.append({"img": arrow_img(L), "t": t, "anim": "left"})
+            row.append({"img": flow_box(L, it, w), "t": t, "anim": "pop"})
+        rows.append(row)
+        blocks = stack(L, rows, gap=60, hgap=22, maxw=L.W - 60)
+    else:
+        for i, it in enumerate(items):
+            t = cue(it.get("at"), 0.1 + 0.75 * i / n)
+            if i:
+                rows.append([{"img": arrow_img(L, True), "t": t}])
+            ic = icon(it["icon"], L.s(110), color=LIGHT)
+            tx = text_block(it["text"], L.s(44), L.CW - 200, WHITE, "ExtraBold")
+            h = max(ic.height, tx.height)
+            img = Image.new("RGBA", (L.CW - 60, h), (0, 0, 0, 0))
+            img.alpha_composite(ic, (0, (h - ic.height) // 2))
+            img.alpha_composite(tx, (ic.width + 36, (h - tx.height) // 2))
+            rows.append([{"img": img, "t": t, "anim": "left"}])
+        blocks = stack(L, rows, gap=14)
+    return blocks
+
+
+def sc_bignum(sc, L, cue):
+    rows = []
+    if sc.get("title"):
+        rows.append([{"img": heading(L, sc["title"], 60), "t": 0}])
+    row = []
+    n = len(sc["items"])
+    w = L.CW if L.v else min(820, (L.W - 240 - 40 * (n - 1)) // n)
+    for i, it in enumerate(sc["items"]):
+        num = text_block(it["num"], L.s(it.get("size", 128)), w, COLORS.get(it.get("color", "amber"), AMBER), "Black", "center", 1.0)
+        lab = text_block(it["label"], L.s(42), w, SOFT, "SemiBold", "center")
+        img = Image.new("RGBA", (w, num.height + 20 + lab.height), (0, 0, 0, 0))
+        img.alpha_composite(num, (0, 0))
+        img.alpha_composite(lab, (0, num.height + 20))
+        row.append({"img": img, "t": cue(it.get("at"), 0.1 + 0.5 * i), "anim": "pop"})
+    rows.append(row)
+    if sc.get("note"):
+        rows.append([{"img": text_block(sc["note"], L.s(44), L.CW, WHITE, "Bold", "center"),
+                      "t": cue(sc.get("note_at"), 0.7)}])
+    return stack(L, rows, gap=50, hgap=40, maxw=L.W - 100)

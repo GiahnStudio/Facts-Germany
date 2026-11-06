@@ -18,11 +18,11 @@ def thumbnail(th):
     # Logo-Ecke neu (größer lesbar)
     d = ImageDraw.Draw(base)
     d.rectangle((0, 0, 560, 110), fill=BG)
-    p = icon("para", 64)
+    p = icon("lens", 64)
     base.alpha_composite(p, (44, 30))
     d.text((122, 38), BRAND, font=font(40, "Black"), fill=WHITE)
     # Icon links
-    ic = icon(th.get("icon", "door"), th.get("icon_size", 400))
+    ic = icon(th.get("icon", "bottle"), th.get("icon_size", 400), color=(214, 222, 236))
     pad = Image.new("RGBA", (ic.width + 200, ic.height + 200), (0, 0, 0, 0))
     pad.alpha_composite(ic, (100, 100))
     base.alpha_composite(glow(pad), (th.get("icon_x", 20), th.get("icon_y", 150)))
@@ -51,10 +51,8 @@ def channel_assets(out):
     # Profilbild
     S = 800
     pb = Image.new("RGB", (S, S), BG)
-    p = icon("para", 500)
-    pb.paste(p, ((S - 500) // 2 - 30, (S - 500) // 2 - 40), p)
-    q = text_block("?", 210, 160, WHITE, "Black", "center")
-    pb.paste(q, (520, 400), q)
+    p = icon("lens", 560)
+    pb.paste(p, ((S - 560) // 2, (S - 560) // 2), p)
     pb.save(f"{out}/profilbild_800.png")
     m = Image.new("L", (S, S), 0)
     ImageDraw.Draw(m).ellipse((0, 0, S, S), fill=255)
@@ -62,7 +60,7 @@ def channel_assets(out):
     rund.paste(pb, (0, 0), m)
     rund.save(f"{out}/vorschau_profilbild_rund.png")
     # Wasserzeichen
-    wz = icon("para", 150)
+    wz = icon("lens", 150)
     wz.save(f"{out}/wasserzeichen_150.png")
     # Banner 2560x1440, sichere Zone 1546x423 in der Mitte
     W, H = 2560, 1440
@@ -70,15 +68,15 @@ def channel_assets(out):
     d = ImageDraw.Draw(bn)
     d.rectangle((0, 0, 700, 200), fill=BG)  # Logo aus dem Hintergrund entfernen
     cx, cy = W // 2, H // 2
-    title = text_block("DARF DER DAS?", 150, 1500, WHITE, "Black", "center")
+    title = text_block("DURCHSCHAUT", 160, 1500, WHITE, "Black", "center")
     bn.alpha_composite(title, (cx - title.width // 2, cy - 120))
-    sub = text_block("Alltagsrecht in Deutschland. Kurz, klar, mit echten Urteilen.", 50, 1500,
+    sub = text_block("Wie alltägliche Dinge eigentlich funktionieren.", 50, 1500,
                      (226, 221, 210), "SemiBold", "center")
     bn.alpha_composite(sub, (cx - sub.width // 2, cy + 60))
     c = chip("JEDEN FREITAG NEU", 40, WHITE, RED, 32, 14)
     bn.alpha_composite(c, (cx + 560 - c.width, cy - 190))
-    for name, x, y, s in (("gavel", 150, cy - 170, 300), ("key", 2110, cy - 150, 300)):
-        ic = icon(name, s, color=WHITE)
+    for name, x, y, s in (("bottle", 170, cy - 170, 300), ("chip", 2100, cy - 150, 300)):
+        ic = icon(name, s, color=(214, 222, 236))
         bn.alpha_composite(ic, (x, y))
     bn.convert("RGB").save(f"{out}/banner_2560x1440.png")
     prev = bn.copy()
