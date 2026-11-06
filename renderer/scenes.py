@@ -120,7 +120,10 @@ def sc_quiz(sc, L, cue):
     rt = cue(sc.get("reveal_at"), None) if sc.get("answer") else None
     for i, o in enumerate(sc["options"]):
         text, at = (o, None) if isinstance(o, str) else (o["text"], o.get("at"))
-        it = {"img": option_card(L, letters[i], text), "t": cue(at, 0.3 + 0.15 * i), "anim": "left"}
+        t_in = (0.15 + 0.12 * i) if rt is not None else cue(at, 0.3 + 0.15 * i)
+        it = {"img": option_card(L, letters[i], text), "t": t_in, "anim": "left"}
+        if rt is not None:
+            rt = max(rt, 0.15 + 0.12 * (len(sc["options"]) - 1) + 0.6)
         if rt is not None:
             if letters[i] == sc["answer"]:
                 it["img2"], it["t2"] = option_card(L, letters[i], text, "ok"), rt
