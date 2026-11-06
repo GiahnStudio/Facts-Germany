@@ -51,6 +51,13 @@ const ThinkTimer: React.FC<{ from: number; to: number; size?: number }> = ({ fro
   );
 };
 
+const TickOnly: React.FC<{ from: number; to: number }> = ({ from, to }) => {
+  if (to - from < 0.5) return null;
+  const ticks: number[] = [];
+  for (let x = from; x < to - 0.2; x += 0.5) ticks.push(x);
+  return <>{ticks.map((x, i) => <Sfx key={i} at={x} name="tick" vol={0.35} />)}</>;
+};
+
 const lastWordBefore = (words: [number, number, string][], at: number) => {
   let e = 0;
   for (const w of words) if (w[1] <= at - 0.2) e = Math.max(e, w[1]);
@@ -86,7 +93,7 @@ const Chips: React.FC<P> = ({ s }) => {
   return (
     <div style={col}>
       <KineticText text={s.title} at={0} size={fs(74, v)} />
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 28, justifyContent: "center", maxWidth: v ? 900 : 1500 }}>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 28, justifyContent: "center", maxWidth: v ? 900 : 1300 }}>
         {s.items.map((c: any, i: number) => (
           <PopIn key={i} at={at(c.at, 0.25 + (0.6 * i) / s.items.length)} rot={(i % 2 ? 3 : -3)}>
             <Chip bg={bgs[i % 4]} size={fs(48, v)}>{c.text}</Chip>
@@ -98,7 +105,7 @@ const Chips: React.FC<P> = ({ s }) => {
 };
 
 const Option: React.FC<{ letter: string; text: string; state: "n" | "ok" | "dim"; v: boolean }> = ({ letter, text, state, v }) => (
-  <div style={{ display: "flex", alignItems: "center", gap: 30, background: state === "dim" ? "#5a6273" : C.card, border: state === "ok" ? `8px solid ${C.green}` : "8px solid transparent", borderRadius: 30, padding: "18px 30px", width: v ? 920 : 1300, boxShadow: state === "ok" ? `0 0 60px ${C.green}88` : "0 14px 30px rgba(0,0,0,.35)" }}>
+  <div style={{ display: "flex", alignItems: "center", gap: 30, background: state === "dim" ? "#5a6273" : C.card, border: state === "ok" ? `8px solid ${C.green}` : "8px solid transparent", borderRadius: 30, padding: "18px 30px", width: v ? 920 : 1240, boxShadow: state === "ok" ? `0 0 60px ${C.green}88` : "0 14px 30px rgba(0,0,0,.35)" }}>
     <div style={{ width: 84, height: 84, borderRadius: "50%", background: state === "ok" ? C.green : C.ink, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 48, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{letter}</div>
     <div style={{ fontFamily: FONT, fontWeight: 700, fontSize: fs(48, v), color: state === "dim" ? "#2b3040" : C.ink, flex: 1 }}>{text}</div>
     {state === "ok" && <CheckBadge size={72} />}
@@ -131,8 +138,8 @@ const Quiz: React.FC<P> = ({ s }) => {
       })}
       {reveal != null && <><Sfx at={reveal} name="ding" vol={0.6} /><Confetti at={reveal} /></>}
       {reveal == null && (
-        <div style={{ position: "absolute", right: v ? 0 : 60, top: v ? -150 : -110 }}>
-          <ThinkTimer from={lastOpt + 1.2} to={Math.min(dur - 0.3, adur + 0.6)} />
+        <div style={{ position: "absolute", left: v ? 0 : 20, top: v ? -150 : -110 }}>
+          <TickOnly from={lastOpt + 1.2} to={Math.min(dur - 0.3, adur + 0.6)} />
         </div>
       )}
     </div>
@@ -174,7 +181,7 @@ const BigNum: React.FC<P> = ({ s }) => {
   return (
     <div style={col}>
       {s.title && <KineticText text={s.title} at={0} size={fs(64, v)} />}
-      <div style={{ display: "flex", flexDirection: v ? "column" : "row", gap: v ? 40 : 120, alignItems: "center" }}>
+      <div style={{ display: "flex", flexDirection: v ? "column" : "row", gap: v ? 40 : 90, alignItems: "center" }}>
         {s.items.map((it: any, i: number) => {
           const a = at(it.at, 0.1 + 0.5 * i);
           return (
@@ -214,7 +221,7 @@ const Flow: React.FC<P> = ({ s }) => {
       </div>
     );
   }
-  const W = 1640, gap = W / n;
+  const W = 1380, gap = W / n;
   return (
     <div style={{ ...col, gap: 60 }}>
       {s.title && <KineticText text={s.title} at={0} size={70} />}
@@ -230,7 +237,7 @@ const Flow: React.FC<P> = ({ s }) => {
         </svg>
         {s.items.map((it: any, i: number) => (
           <div key={i} style={{ position: "absolute", left: gap * i, width: gap, top: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 22 }}>
-            <IconBounce name={it.icon} size={170} at={times[i]} active={t >= times[i] && (i === n - 1 || t < times[i + 1])} />
+            <IconBounce name={it.icon} size={150} at={times[i]} active={t >= times[i] && (i === n - 1 || t < times[i + 1])} />
             <Rise at={times[i] + 0.1}><div style={{ ...txt(36, C.white, 800), width: gap - 20 }}>{it.text}</div></Rise>
           </div>
         ))}
@@ -296,7 +303,7 @@ const Story: React.FC<P> = ({ s }) => {
   return (
     <div style={col}>
       {s.title && <KineticText text={s.title} at={0} size={fs(70, v)} />}
-      <div style={{ position: "relative", display: "flex", flexDirection: "column", gap: 40, paddingLeft: 60, width: v ? 900 : 1300 }}>
+      <div style={{ position: "relative", display: "flex", flexDirection: "column", gap: 40, paddingLeft: 60, width: v ? 900 : 1240 }}>
         <div style={{ position: "absolute", left: 20, top: 20, width: 8, height: `calc(${lineP * 100}% - 40px)`, background: C.accent, borderRadius: 4 }} />
         {s.steps.map((st: any, i: number) => (
           <SlideIn key={i} at={times[i]}>
@@ -328,7 +335,7 @@ const Split: React.FC<P> = ({ s }) => {
           return (
             <div key={i} style={{ perspective: 1200 }}>
               {show && <Sfx at={a} name="swipe" vol={0.4} />}
-              <div style={{ width: v ? 900 : 740, background: C.card, borderRadius: 34, padding: 46, boxShadow: "0 20px 40px rgba(0,0,0,.4)", borderTop: `16px solid ${COLOR[it.color || "amber"]}`, transform: `rotateY(${(1 - p) * 90}deg)`, opacity: show ? 1 : 0, display: "flex", flexDirection: "column", gap: 18 }}>
+              <div style={{ width: v ? 900 : 660, background: C.card, borderRadius: 34, padding: 46, boxShadow: "0 20px 40px rgba(0,0,0,.4)", borderTop: `16px solid ${COLOR[it.color || "amber"]}`, transform: `rotateY(${(1 - p) * 90}deg)`, opacity: show ? 1 : 0, display: "flex", flexDirection: "column", gap: 18 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
                   <div style={{ background: C.ink, borderRadius: 24, padding: 14 }}><Icon name={it.icon} size={fs(110, v)} /></div>
                   {it.label && <Chip bg={C.ink} fg={C.white} size={fs(30, v)}>{it.label}</Chip>}
@@ -351,7 +358,7 @@ const List: React.FC<P> = ({ s }) => {
   return (
     <div style={col}>
       <KineticText text={s.title} at={0} size={fs(s.size || 70, v)} />
-      <div style={{ display: "flex", flexDirection: "column", gap: 26, width: v ? 920 : 1300 }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 26, width: v ? 920 : 1240 }}>
         {s.items.map((it: any, i: number) => {
           const a = at(it.at, 0.15 + (0.7 * i) / n);
           const ic = it.icon || "ok";
@@ -381,7 +388,7 @@ const Case: React.FC<P> = ({ s }) => {
       {s.kicker && <PopIn at={0}><Chip bg={C.yellow} size={fs(36, v)}>{s.kicker}</Chip></PopIn>}
       <div style={{ position: "relative" }}>
         <Rise at={0.05} dist={120}>
-          <div style={{ display: "flex", alignItems: "center", gap: 46, background: C.card, borderRadius: 40, padding: v ? "40px 40px" : "50px 60px", width: v ? 920 : 1400, boxShadow: "0 24px 50px rgba(0,0,0,.45)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 46, background: C.card, borderRadius: 40, padding: v ? "40px 40px" : "50px 60px", width: v ? 920 : 1300, boxShadow: "0 24px 50px rgba(0,0,0,.45)" }}>
             <div style={{ background: C.ink, borderRadius: 30, padding: 18, transform: `translateY(${fl}px)`, flexShrink: 0 }}><Icon name={s.icon || "lens"} size={fs(170, v)} /></div>
             <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
               {s.label && <div style={{ fontFamily: FONT, fontWeight: 800, fontSize: fs(30, v), color: C.muted, letterSpacing: 2 }}>{s.label.toUpperCase()}</div>}
@@ -393,7 +400,7 @@ const Case: React.FC<P> = ({ s }) => {
           <Stamp text={s.verdict} color={COLOR[s.verdict_color || "red"]} at={verdictAt} size={fs(90, v)} />
         </div>
         <div style={{ position: "absolute", right: -40, top: -60 }}>
-          <ThinkTimer from={thinkFrom + 0.05} to={verdictAt - 0.05} size={130} />
+          <TickOnly from={thinkFrom + 0.05} to={verdictAt - 0.05} />
         </div>
       </div>
       {s.note && <Rise at={at(s.note_at, 0.8)} style={{ marginTop: 110 }}><div style={txt(fs(46, v))}>{s.note}</div></Rise>}

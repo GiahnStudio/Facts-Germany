@@ -4,6 +4,7 @@ import { loadFont } from "@remotion/fonts";
 import { C, Ctx, FONT, Sfx } from "./ui";
 import { Icon } from "./icons";
 import { SCENES } from "./scenes";
+import { Host } from "./host";
 
 for (const [w, f] of [["500", "Medium"], ["600", "SemiBold"], ["700", "Bold"], ["800", "ExtraBold"], ["900", "Black"]]) {
   loadFont({ family: "Inter", url: staticFile(`fonts/Inter-${f}.otf`), weight: w });
@@ -82,8 +83,8 @@ const SceneShell: React.FC<{ s: SceneData; idx: number; v: boolean; W: number; H
   return (
     <Ctx.Provider value={{ adur: s.adur, dur: s.dur / fps, v, W, H, words: s.words }}>
       <AbsoluteFill style={style}>
-        <AbsoluteFill style={{ padding: v ? "330px 70px 560px" : "150px 140px 90px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <div style={{ transform: v ? "none" : "scale(1.12)", width: "100%", display: "flex", justifyContent: "center" }}>
+        <AbsoluteFill style={{ padding: v ? "370px 60px 540px" : "140px 400px 80px 110px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
             {Comp ? <Comp s={s} /> : <div style={{ color: "red", fontSize: 60 }}>Unbekannter Typ: {s.type}</div>}
           </div>
         </AbsoluteFill>
@@ -136,6 +137,7 @@ export const Video: React.FC<VideoProps> = ({ scenes, fps, width, height, captio
         </Sequence>
       ))}
       <Logo v={v} />
+      <Host scenes={scenes} v={v} W={width} H={height} />
       {captions && <Captions scenes={scenes} fps={fps} W={width} />}
       {music && <Audio src={staticFile(music)} loop volume={0.07} />}
     </AbsoluteFill>

@@ -27,4 +27,13 @@ Ziel: Jede Woche eine neue Folge + 2 Shorts, ohne Zutun von GIAHN.
 5. Auf Branch `durchschaut` pushen. Die Action rendert alles (ca. 5–10 Min.) und pusht `up/<slug>/`.
 6. Ergebnis per `git pull` holen, Frames mit ffmpeg prüfen, Thema in `TOPICS.md` als erledigt eintragen.
 
+## Maskottchen Lupo
+Lupo (eine Lupe mit Gesicht, `remotion/src/Lupo.tsx`) moderiert jede Folge. Er spricht mit der Kanalstimme, der Mund läuft
+synchron zur Lautstärke. Er reagiert automatisch je Szenentyp (`remotion/src/host.tsx`): winkt im Intro, denkt mit Countdown
+beim Quiz und bei "Stimmt oder Mythos?", jubelt bei "Stimmt"/richtiger Antwort, Facepalm bei "Mythos", staunt bei großen Zahlen.
+- Die erste Szene beginnt immer mit "Hi, ich bin Lupo …", das Outro endet mit "Bis dann, euer Lupo!".
+- Pro Folge 6–8 Sprechblasen mit kurzen, witzigen Kommentaren: `"lupo": {"bubbles": [{"text": "Krass!", "at": "Wort"}]}`.
+- Eigene Reaktionen: `"lupo": {"events": [{"mood": "wow", "at": "Wort", "dur": 1.5}]}` (Moods: talk, happy, wave, wow, think, cheer, facepalm, pointLeft).
+- Thumbnails zeigen Lupo (`mood`, `icon`, `big`, `chip`, `stamp` im Abschnitt `thumbs`).
+
 Stimme: de-DE-SeraphinaMultilingualNeural, rate +6 % (Kanalstimme, nicht ändern).

@@ -120,6 +120,23 @@ def synth_scene(sc, voice, rate):
 REMOTION = os.path.join(ROOT, "remotion")
 
 
+def amp_string(wav, frames):
+    """Lautstärke pro Videoframe als Ziffern 0-9 (für Lupos Mundbewegung)."""
+    import numpy as np
+    with wave.open(wav) as w:
+        sr = w.getframerate()
+        x = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32)
+    hop = sr / FPS
+    vals = []
+    for i in range(frames):
+        seg = x[int(i * hop):int((i + 1) * hop)]
+        vals.append(float(np.sqrt(np.mean(seg ** 2))) if len(seg) else 0.0)
+    v = np.array(vals)
+    ref = np.percentile(v[v > 0], 90) if (v > 0).any() else 1
+    q = np.clip(v / (ref + 1e-9), 0, 1)
+    return "".join(str(int(round(a * 9))) for a in q)
+
+
 def resolve_cues(obj, cue):
     """Ersetzt alle 'at'/'*_at'-Texte (in Dokument-Reihenfolge) durch Sekunden."""
     if isinstance(obj, dict):
@@ -157,7 +174,7 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
         cue = make_cue(words, adur)
         res = resolve_cues({k: v for k, v in sc.items() if k != "say"}, cue)
         f0, fd = int(round(t0 * FPS)), int(round(dur * FPS))
-        res.update({"start": f0, "dur": fd, "adur": adur, "audio": rel,
+        res.update({"start": f0, "dur": fd, "adur": adur, "audio": rel, "amp": amp_string(wav, fd),
                     "words": [[round(a, 3), round(b, 3), w] for a, b, w in align_tokens(sc["say"].replace(" ... ", " "), words)]})
         scenes_out.append(res)
         prepared.append((sc, wav, adur, dur, words, t0))
@@ -260,9 +277,14 @@ def main():
             entry["shorts"].append({"file": fn, "title": sh["title"], "date": sh["date"], "duration": round(total, 1)})
 
     if a.only in ("all", "thumbs"):
+        tdir = out if not a.preview else os.path.join(ROOT, "preview", slug)
+        os.makedirs(tdir, exist_ok=True)
         for k, th in ep.get("thumbs", {}).items():
-            thumbnail(th).save(os.path.join(out if not a.preview else os.path.join(ROOT, "preview", slug),
-                                            f"thumbnail_{k}.png"))
+            pj = os.path.join(REMOTION, "out", f"thumb_{k}.json")
+            os.makedirs(os.path.dirname(pj), exist_ok=True)
+            json.dump(th, open(pj, "w"), ensure_ascii=False)
+            subprocess.run(remotion_cmd("still", "src/index.ts", "Thumb", os.path.join(tdir, f"thumbnail_{k}.png"),
+                                        f"--props={pj}", "--log=error"), cwd=REMOTION, check=True)
 
     if not a.preview and a.only == "all":
         plan = [p for p in plan if p.get("v") != slug] + [entry]

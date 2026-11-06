@@ -42,7 +42,7 @@ export const MachineScene: React.FC<{ s: any }> = ({ s }) => {
   // Bon
   const bonP = interpolate(t, [tBon, tBon + 1.0], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
 
-  const scale = v ? 0.58 : 0.95;
+  const scale = v ? 0.58 : 0.86;
   const cams = [[440, 205], [560, 190], [680, 205], [440, 445], [560, 460], [680, 445]];
 
   return (

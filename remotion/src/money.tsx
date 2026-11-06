@@ -14,7 +14,7 @@ export const MoneyScene: React.FC<{ s: any }> = ({ s }) => {
   const n = s.nodes.length;
   const pos = s.nodes.map((_: any, i: number) => ({ x: (SW / n) * (i + 0.5), y: 330 }));
   const moves = s.moves.map((m: any, i: number) => ({ ...m, t0: at(m.at, 0.1 + (0.8 * i) / s.moves.length) }));
-  const scale = v ? 0.56 : 1;
+  const scale = v ? 0.56 : 0.84;
   // aktueller Hinweis
   let cur = -1;
   moves.forEach((m: any, i: number) => { if (t >= m.t0) cur = i; });
