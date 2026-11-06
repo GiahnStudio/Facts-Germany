@@ -92,7 +92,7 @@
      "say": "1854 steht Elisha Otis in New York hoch oben auf seiner Plattform. Dann wird das Seil mit einer Axt durchtrennt. Die Plattform sackt nur ein paar Zentimeter ab, und hält.",
      "lupo": {"bubbles": [{"text": "Wahnsinn!", "at": "Axt"}]}},
     {"type": "fact", "icon": "chip", "label": "BIS HEUTE", "headline": "Seine Idee steckt in jedem Aufzug", "size": 70,
-     "lines": [{"text": "Die Fangvorrichtung krallt sich an den Schienen fest.", "at": "krallt"}],
+     "lines": [{"text": "Die Fangvorrichtung krallt sich an den Schienen fest.", "at": "festkrallt"}],
      "say": "Seine Idee steckt bis heute in Aufzügen: eine Fangvorrichtung, die sich an den Schienen festkrallt."},
     {"type": "outro", "sub": "Ganzes Video auf dem Kanal.", "button": "FOLGEN",
      "say": "Wie das genau funktioniert, siehst du im ganzen Video auf dem Kanal.", "pause": 1.0}

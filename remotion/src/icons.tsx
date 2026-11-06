@@ -138,6 +138,28 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <path d="M20 94 v-16 a30 30 0 0 1 60 0 v16 z" fill={L} />
     </>
   ),
+  warn: () => (
+    <>
+      <path d="M50 6 L96 90 H4 Z" fill={C.yellow} stroke={C.ink} strokeWidth="5" strokeLinejoin="round" />
+      <rect x="45" y="34" width="10" height="32" rx="5" fill={C.ink} />
+      <circle cx="50" cy="77" r="6" fill={C.ink} />
+    </>
+  ),
+  bell: () => (
+    <>
+      <path d="M50 10 C30 10 22 28 22 48 V64 L12 78 H88 L78 64 V48 C78 28 70 10 50 10 Z" fill={C.yellow} stroke={C.ink} strokeWidth="5" strokeLinejoin="round" />
+      <circle cx="50" cy="86" r="9" fill={C.yellow} stroke={C.ink} strokeWidth="5" />
+      <path d="M8 30 Q2 44 8 58 M92 30 Q98 44 92 58" stroke="#fff" strokeWidth="5" fill="none" strokeLinecap="round" />
+    </>
+  ),
+  calendar: ({ accent }) => (
+    <>
+      <rect x="10" y="16" width="80" height="76" rx="8" fill="#fff" stroke={C.ink} strokeWidth="5" />
+      <rect x="12" y="18" width="76" height="20" rx="6" fill={C.red} />
+      <rect x="28" y="6" width="8" height="20" rx="3" fill={C.ink} /><rect x="64" y="6" width="8" height="20" rx="3" fill={C.ink} />
+      {[0, 1, 2].map((r) => [0, 1, 2].map((c) => <rect key={r + "" + c} x={22 + c * 20} y={46 + r * 14} width="14" height="9" rx="2" fill={r === 1 && c === 1 ? accent : "#b0b6c2"} />))}
+    </>
+  ),
   machine: ({ accent }) => (
     <>
       <rect x="18" y="4" width="64" height="92" rx="6" fill={L} />
