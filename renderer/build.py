@@ -94,6 +94,20 @@ def caption_img(text, W):
     return img
 
 
+def expand_words(words):
+    """edge-tts fasst manchmal mehrere Wörter zusammen ("seit 2003") -> einzeln aufteilen."""
+    out = []
+    for st, en, w in words:
+        parts = w.split()
+        if len(parts) <= 1:
+            out.append([st, en, w])
+            continue
+        step = (en - st) / len(parts)
+        for k, p in enumerate(parts):
+            out.append([st + k * step, st + (k + 1) * step, p])
+    return out
+
+
 def synth_scene(sc, voice, rate):
     """Unterstützt Denkpausen: Text mit ' ... ' wird geteilt und mit Stille verbunden."""
     parts = [p.strip() for p in sc["say"].split(" ... ") if p.strip()]
@@ -124,6 +138,7 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
     srt_tokens = []
     for i, sc in enumerate(scs):
         wav, adur, words = synth_scene(sc, voice, rate)
+        words = expand_words(words)
         pad = sc.get("pause", 0.45)
         dur = adur + pad
         prepared.append((sc, wav, adur, dur, words, t0))
