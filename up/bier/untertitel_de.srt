@@ -1,0 +1,298 @@
+1
+00:00:00,400 --> 00:00:02,847
+Ein halber Liter Pils in der Kneipe:
+
+2
+00:00:02,847 --> 00:00:03,528
+4,80 Euro.
+
+3
+00:00:03,978 --> 00:00:07,166
+Im Supermarkt kostet dieselbe
+Menge oft nur rund einen Euro.
+
+4
+00:00:07,617 --> 00:00:10,213
+Fast das Fünffache. Ist das Abzocke?
+
+5
+00:00:10,213 --> 00:00:13,458
+Wir rechnen das heute
+auf. Posten für Posten.
+
+6
+00:00:14,807 --> 00:00:17,416
+Das ist dein Bier als Kassenbon.
+
+7
+00:00:17,416 --> 00:00:18,231
+4,80 Euro.
+
+8
+00:00:18,681 --> 00:00:21,844
+Sieben Posten. Und die Biersteuer
+ist der kleinste davon.
+
+9
+00:00:22,295 --> 00:00:25,738
+Wichtig: Wirte veröffentlichen
+keine Kalkulation pro Glas.
+
+10
+00:00:25,738 --> 00:00:30,667
+Das hier ist eine Modellrechnung auf Basis
+von Branchenangaben und den gesetzlichen
+
+11
+00:00:30,667 --> 00:00:31,439
+Steuersätzen.
+
+12
+00:00:32,789 --> 00:00:34,981
+Posten eins: die Mehrwertsteuer.
+
+13
+00:00:34,981 --> 00:00:39,298
+Seit 2026 gilt für Essen in der
+Gastronomie nur noch 7 Prozent.
+
+14
+00:00:39,298 --> 00:00:41,901
+Für Getränke bleibt es bei 19 Prozent.
+
+15
+00:00:42,351 --> 00:00:44,576
+In deinem Bier: 77 Cent.
+
+16
+00:00:45,027 --> 00:00:47,248
+Posten zwei: die Biersteuer.
+
+17
+00:00:47,248 --> 00:00:51,769
+Ein normales Pils kostet 9,44
+Euro Steuer pro Hektoliter.
+
+18
+00:00:51,769 --> 00:00:54,229
+Pro halbem Liter: knapp 5 Cent.
+
+19
+00:00:54,679 --> 00:00:57,972
+In Österreich ist die Biersteuer
+mehr als zweieinhalbmal so hoch.
+
+20
+00:00:59,323 --> 00:01:02,939
+Posten drei: das Bier selbst.
+Der Wirt kauft es im Fass.
+
+21
+00:01:02,939 --> 00:01:07,331
+Ein 50-Liter-Fass einer großen Marke
+kostet im Handel über 150 Euro.
+
+22
+00:01:07,781 --> 00:01:10,780
+Wirte zahlen meist
+weniger. In unserem Modell:
+
+23
+00:01:10,780 --> 00:01:12,932
+1,15 Euro für einen halben Liter.
+
+24
+00:01:13,382 --> 00:01:15,528
+Posten vier: die Schankanlage.
+
+25
+00:01:15,528 --> 00:01:21,182
+Kühlung, Kohlensäure, Leitungsreinigung,
+und das Bier, das beim Zapfen verloren
+
+26
+00:01:21,182 --> 00:01:22,183
+geht. 15 Cent.
+
+27
+00:01:23,534 --> 00:01:27,113
+Posten fünf: Personal. Ein
+gutes Pils braucht Zeit.
+
+28
+00:01:27,113 --> 00:01:31,324
+Und jemand bringt es an den
+Tisch und spült danach das Glas.
+
+29
+00:01:31,324 --> 00:01:32,025
+1,20 Euro.
+
+30
+00:01:32,475 --> 00:01:34,767
+Posten sechs: Miete und Energie.
+
+31
+00:01:34,767 --> 00:01:38,920
+Für den Platz, an dem du sitzt,
+die Heizung und die Musik.
+
+32
+00:01:38,920 --> 00:01:39,493
+85 Cent.
+
+33
+00:01:40,843 --> 00:01:43,632
+Und der letzte Posten.
+Was bleibt dem Wirt?
+
+34
+00:01:44,081 --> 00:01:45,227
+63 Cent.
+
+35
+00:01:45,677 --> 00:01:48,810
+Klingt viel. Aber jetzt kommt
+die Rechnung eines echten Wirts.
+
+36
+00:01:50,159 --> 00:01:53,353
+Ein Wirt aus Ludwigsburg hat
+das mal genau durchgerechnet.
+
+37
+00:01:53,353 --> 00:01:57,757
+Sein Ergebnis: Für sein Helles vom Fass
+müsste er 6,50 Euro pro Halbe verlangen.
+
+38
+00:01:58,207 --> 00:02:00,099
+Er verlangt trotzdem nur 5 Euro.
+
+39
+00:02:00,099 --> 00:02:03,883
+Seine Idee: Wenn das Bier günstiger
+ist, trinken die Gäste mehr.
+
+40
+00:02:03,883 --> 00:02:05,361
+Und das Fass muss laufen.
+
+41
+00:02:05,811 --> 00:02:08,069
+Denn ein angebrochenes
+Fass hält nicht ewig.
+
+42
+00:02:08,069 --> 00:02:11,199
+Und Fassbier ist für Wirte oft
+sogar teurer als Flaschenbier.
+
+43
+00:02:11,650 --> 00:02:14,669
+Wenn dich das überrascht
+hat: Abonnier Aufgerechnet.
+
+44
+00:02:14,669 --> 00:02:16,933
+Jede Woche rechnen wir einen Preis auf.
+
+45
+00:02:18,283 --> 00:02:20,682
+Und wo ist Bier am teuersten?
+
+46
+00:02:20,682 --> 00:02:26,555
+Auf dem Oktoberfest 2026 kostete die
+Maß zwischen 14,80 und 15,90 Euro.
+
+47
+00:02:26,555 --> 00:02:29,782
+Pro halbem Liter also bis zu 7,95 Euro.
+
+48
+00:02:30,231 --> 00:02:31,729
+Und in der normalen Kneipe?
+
+49
+00:02:31,729 --> 00:02:36,110
+Der Brauerbund im Südwesten erwartet,
+dass sich der halbe Liter bei rund 5 Euro
+
+50
+00:02:36,110 --> 00:02:36,720
+einpendelt.
+
+51
+00:02:38,069 --> 00:02:41,296
+Also: 4,80 Euro für
+einen halben Liter Bier.
+
+52
+00:02:41,296 --> 00:02:42,616
+Fair oder Abzocke?
+
+53
+00:02:43,066 --> 00:02:44,394
+Mein Urteil: fair.
+
+54
+00:02:44,843 --> 00:02:48,198
+Das Bier selbst kostet den Wirt
+nur ein Viertel des Preises.
+
+55
+00:02:48,198 --> 00:02:51,609
+Den Rest zahlst du für Zapfen,
+Platz, Wärme und Gesellschaft.
+
+56
+00:02:51,609 --> 00:02:55,300
+Im Supermarkt kaufst du Bier. In
+der Kneipe bezahlst du den Abend.
+
+57
+00:02:55,750 --> 00:02:58,814
+Stimm in den Kommentaren
+ab: Fair oder Abzocke?
+
+58
+00:03:00,164 --> 00:03:04,330
+Drei Tipps. Erstens: Achte auf
+Happy Hour und Stammtisch-Angebote.
+
+59
+00:03:04,330 --> 00:03:07,296
+Viele Kneipen sind zu
+ruhigen Zeiten günstiger.
+
+60
+00:03:07,747 --> 00:03:10,385
+Zweitens: Vergleich pro Liter.
+
+61
+00:03:10,385 --> 00:03:17,420
+0,3 Liter für 3,50 Euro klingt günstiger,
+ist aber teurer als 0,5 Liter für 4,80
+
+62
+00:03:17,420 --> 00:03:17,860
+Euro.
+
+63
+00:03:18,310 --> 00:03:20,480
+Drittens: Raus aus der Innenstadt.
+
+64
+00:03:20,480 --> 00:03:24,117
+Im Biergarten am Stadtrand
+steckt weniger Miete im Preis.
+
+65
+00:03:25,467 --> 00:03:27,680
+Welchen Preis soll ich
+als Nächstes aufrechnen?
+
+66
+00:03:27,680 --> 00:03:29,045
+Schreib es in die Kommentare.
