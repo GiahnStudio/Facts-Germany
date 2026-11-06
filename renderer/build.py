@@ -183,9 +183,15 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
                            cwd=REMOTION, check=True)
     else:
         subprocess.run(remotion_cmd("render", "src/index.ts", "Video", out_mp4, f"--props={props_path}",
-                                    "--codec=h264", "--crf=20", "--log=error",
+                                    "--codec=h264", "--crf=24", "--log=error",
                                     f"--concurrency={os.environ.get('CONCURRENCY', '100%')}"),
                        cwd=REMOTION, check=True)
+        # GitHub erlaubt max. 100 MB pro Datei
+        if os.path.getsize(out_mp4) > 85 * 1024 * 1024:
+            tmp = out_mp4 + ".tmp.mp4"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_mp4, "-c:v", "libx264", "-preset", "veryfast",
+                            "-crf", "28", "-c:a", "copy", "-movflags", "+faststart", tmp], check=True)
+            os.replace(tmp, out_mp4)
     return prepared, srt_tokens, total / FPS
 
 
