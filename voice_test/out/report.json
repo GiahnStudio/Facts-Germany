@@ -1,0 +1,30 @@
+{
+ "load_s": 22.5,
+ "threads": 4,
+ "runs": [
+  {
+   "name": "A_standard",
+   "audio_s": 10.4,
+   "compute_s": 85.9,
+   "x_realtime": 8.23
+  },
+  {
+   "name": "B_weniger_akzent",
+   "audio_s": 12.9,
+   "compute_s": 92.4,
+   "x_realtime": 7.17
+  },
+  {
+   "name": "C_lebendig",
+   "audio_s": 11.4,
+   "compute_s": 82.2,
+   "x_realtime": 7.18
+  },
+  {
+   "name": "D_sehr_lebendig",
+   "audio_s": 11.0,
+   "compute_s": 77.3,
+   "x_realtime": 7.03
+  }
+ ]
+}
