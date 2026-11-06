@@ -1,7 +1,13 @@
 # Anleitung für Claude: Kanal "Durchschaut"
 
 Thema: Wie alltägliche Dinge eigentlich funktionieren. KEINE Rechtsberatung, keine Gesundheits- oder Finanztipps.
-Ziel: Jede Woche eine neue Folge + 2 Shorts, ohne Zutun von GIAHN.
+Ziel: Alle 2 Tage eine neue Folge + 2 Shorts (= jeden Tag ein Short), ohne Zutun von GIAHN.
+Hintergrund: GIAHN will vor dem 1. Februar 2027 die Monetarisierung schaffen (danach verdoppeln sich die Anforderungen).
+
+## Veröffentlichungsplan
+- Hauptvideo alle 2 Tage um 17:00 (Europe/Berlin), Short 1 am selben Tag um 12:00, Short 2 am Folgetag um 12:00.
+- Neue Folge: `date` = Datum des letzten Hauptvideos in `episodes/` + 2 Tage. Felder `date`/`time` in Folge und Shorts setzen.
+- Puffer: Liegen schon 3 oder mehr Folgen in der Zukunft (date > heute + 6 Tage), keine neue Folge bauen.
 
 ## Neue Folge erstellen
 1. Thema aus `TOPICS.md` ("Ideen") wählen, das noch nicht erledigt ist. Bevorzugt Dinge, die jeder täglich sieht und deren Innenleben überrascht.
@@ -13,7 +19,8 @@ Ziel: Jede Woche eine neue Folge + 2 Shorts, ohne Zutun von GIAHN.
      3× "Stimmt oder Mythos?" → Zukunft → 3 Tipps → Fazit → Outro.
    - Videos werden mit Remotion animiert (`remotion/src`). Szenentypen: title, chips, quiz, bignum (zählt hoch), flow (Icons mit Linien),
      fact, story, split, list, case (Stimmt/Mythos mit Timer + Stempel), outro, sowie Spezialszenen:
-     `machine` (animierter Automat, Cues insert_at/scan_at/db_at/press_at/bon_at) und `money` (Münzen fliegen zwischen Knoten).
+     `machine` (animierter Automat, Cues insert_at/scan_at/db_at/press_at/bon_at), `money` (Münzen fliegen zwischen Knoten),
+     `ampel` (Induktionsschleife, Cues car_at/loop_at/signal_at/green_at) und `aufzug` (Seilriss + Fangvorrichtung, Cues move_at/cut_at/governor_at/grip_at).
      Für neue Themen gern eine eigene Spezialszene in `remotion/src` bauen (z. B. animierte Ampel), das macht die Folge unterhaltsamer.
    - Soundeffekte/Musik: `python renderer/sfx.py` (liegen in `remotion/public/sfx` und `remotion/public/music`).
    - Icons (`remotion/src/icons.tsx`): lens, machine, bottle, can, coin, barcode, eye, chip, press, crate, recycle, factory, shop, receipt, server, wash,
@@ -22,7 +29,7 @@ Ziel: Jede Woche eine neue Folge + 2 Shorts, ohne Zutun von GIAHN.
      (bei Wörtern, die mehrfach vorkommen, mehrere Wörter angeben, z. B. "Mythos. Jeder").
    - Kapitel über `"chapter"`, Beschreibung mit `{kapitel}` und Quellenliste.
    - 2 Shorts (25–40 s): 1× Quiz, 1× überraschender Ablauf. Thumbnails A/B.
-   - Termine: Hauptvideo freitags, Short 1 am selben Tag, Short 2 am Sonntag.
+   - Termine nach dem Veröffentlichungsplan oben.
 4. Lokal prüfen: `cd remotion && npm ci`, dann `CHROME=/usr/bin/google-chrome python renderer/build.py episodes/NN_slug.json --preview` (rendert je Szene ein Standbild nach `preview/`). `preview/` nicht committen.
 5. Auf Branch `durchschaut` pushen. Die Action rendert alles (ca. 5–10 Min.) und pusht `up/<slug>/`.
 6. Ergebnis per `git pull` holen, Frames mit ffmpeg prüfen, Thema in `TOPICS.md` als erledigt eintragen.
@@ -36,4 +43,6 @@ beim Quiz und bei "Stimmt oder Mythos?", jubelt bei "Stimmt"/richtiger Antwort, 
 - Eigene Reaktionen: `"lupo": {"events": [{"mood": "wow", "at": "Wort", "dur": 1.5}]}` (Moods: talk, happy, wave, wow, think, cheer, facepalm, pointLeft).
 - Thumbnails zeigen Lupo (`mood`, `icon`, `big`, `chip`, `stamp` im Abschnitt `thumbs`).
 
-Stimme: de-DE-Seraphina:DragonHDLatestNeural (Azure HD, Gratis-Tarif; Schlüssel als GitHub-Secrets AZURE_SPEECH_KEY / AZURE_SPEECH_REGION). Kanalstimme, nicht ändern.
+Stimme: de-DE-Chirp3-HD-Rasalgethi (Google Cloud Text-to-Speech, Gratis-Kontingent 1 Mio. Zeichen/Monat; Schlüssel als GitHub-Secret GOOGLE_TTS_KEY).
+Kanalstimme, nicht ändern. Wortzeiten kommen aus faster-whisper; der Abgleich Skript/Aufnahme steht als `match` in `audio_cache/*.json` (Ziel ≥ 0,85).
+Fehlt der Schlüssel, rendert die Action mit einer Ersatzstimme ("Kein GOOGLE_TTS_KEY" im Log) – dann GIAHN Bescheid geben.

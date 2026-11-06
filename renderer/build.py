@@ -251,7 +251,7 @@ def main():
     voice, rate = ep.get("voice", "de-DE-SeraphinaMultilingualNeural"), ep.get("rate", "+0%")
     plan_path = os.path.join(ROOT, "up", "plan.json")
     plan = json.load(open(plan_path)) if os.path.exists(plan_path) else []
-    entry = {k: ep[k] for k in ("title", "date", "tags", "pin") if k in ep}
+    entry = {k: ep[k] for k in ("title", "date", "time", "tags", "pin") if k in ep}
     entry["v"] = slug
 
     if a.only in ("all", "main"):
@@ -274,7 +274,7 @@ def main():
             fn = f"short_{i}_{sh['slug']}.mp4"
             prev = os.path.join(ROOT, "preview", slug, f"short{i}") if a.preview else None
             _, _, total = render_video(ep, sh["scenes"], 1080, 1920, os.path.join(out, fn), voice, rate, True, prev, tag=f"short{i}")
-            entry["shorts"].append({"file": fn, "title": sh["title"], "date": sh["date"], "duration": round(total, 1)})
+            entry["shorts"].append({"file": fn, "title": sh["title"], "date": sh["date"], "time": sh.get("time", "12:00"), "duration": round(total, 1)})
 
     if a.only in ("all", "thumbs"):
         tdir = out if not a.preview else os.path.join(ROOT, "preview", slug)
