@@ -1,0 +1,685 @@
+1
+00:00:00,050 --> 00:00:02,267
+Du steckst eine Flasche
+rein, es rattert
+
+2
+00:00:02,267 --> 00:00:04,673
+kurz, und ein paar
+Sekunden später weiß
+
+3
+00:00:04,673 --> 00:00:07,600
+der Automat: 25 Cent.
+
+4
+00:00:07,668 --> 00:00:09,283
+Aber woher eigentlich?
+
+5
+00:00:09,602 --> 00:00:11,583
+Und warum spuckt
+er manche Flaschen
+
+6
+00:00:11,583 --> 00:00:12,703
+einfach wieder aus?
+
+7
+00:00:13,532 --> 00:00:15,466
+Heute schauen wir
+hinter die Klappe.
+
+8
+00:00:15,784 --> 00:00:18,320
+Was der Automat in
+einer Sekunde sieht, wo
+
+9
+00:00:18,332 --> 00:00:20,324
+deine Flasche danach
+landet, wer dein
+
+10
+00:00:20,324 --> 00:00:22,824
+Pfand eigentlich bezahlt,
+und wem das Geld
+
+11
+00:00:22,824 --> 00:00:24,829
+gehört, wenn du eine
+Flasche vergisst.
+
+12
+00:00:25,646 --> 00:00:27,179
+Kurze Frage vorab.
+
+13
+00:00:27,509 --> 00:00:29,891
+Woran erkennt der
+Automat, dass deine
+
+14
+00:00:29,891 --> 00:00:31,047
+Flasche Pfand hat?
+
+15
+00:00:31,377 --> 00:00:32,828
+A: am Gewicht.
+
+16
+00:00:33,146 --> 00:00:35,021
+B: nur am Strichcode.
+
+17
+00:00:35,339 --> 00:00:38,736
+C: am Strichcode und
+an einer Spezialfarbe
+
+18
+00:00:38,736 --> 00:00:39,691
+im Pfandlogo.
+
+19
+00:00:40,009 --> 00:00:42,214
+Schreib deinen Tipp
+in die Kommentare.
+
+20
+00:00:42,545 --> 00:00:44,337
+Die Auflösung kommt gleich.
+
+21
+00:00:45,502 --> 00:00:46,917
+Erst mal zur Größe.
+
+22
+00:00:47,236 --> 00:00:49,665
+Rund zwanzig Milliarden
+Einwegflaschen und
+
+23
+00:00:49,665 --> 00:00:51,870
+Dosen laufen jedes Jahr
+durch das deutsche
+
+24
+00:00:51,870 --> 00:00:54,724
+Pfandsystem. Dafür
+stehen in den Läden
+
+25
+00:00:54,724 --> 00:00:56,103
+mehr als vierzigtausend
+
+26
+00:00:56,103 --> 00:00:57,377
+Rücknahmeautomaten.
+
+27
+00:00:57,695 --> 00:00:59,818
+Und für jede einzelne
+Verpackung geht es
+
+28
+00:00:59,818 --> 00:01:03,651
+um 25 Cent, so ist es
+seit 2003 gesetzlich
+
+29
+00:01:03,651 --> 00:01:06,390
+geregelt. So läuft es ab.
+
+30
+00:01:06,709 --> 00:01:08,595
+Deine Flasche rollt
+in einen hell
+
+31
+00:01:08,595 --> 00:01:09,798
+beleuchteten Schacht.
+
+32
+00:01:10,117 --> 00:01:12,841
+Dort prüfen Kameras
+sie von allen Seiten.
+
+33
+00:01:13,171 --> 00:01:15,482
+Der Automat gleicht
+das Ergebnis mit einer
+
+34
+00:01:15,482 --> 00:01:16,355
+Datenbank ab:
+
+35
+00:01:17,051 --> 00:01:19,150
+Welches Produkt ist
+das, aus welchem
+
+36
+00:01:19,150 --> 00:01:20,883
+Material, ist es bepfandet?
+
+37
+00:01:21,202 --> 00:01:23,643
+Dann wird die Flasche
+weitertransportiert
+
+38
+00:01:23,643 --> 00:01:24,586
+und sortiert.
+
+39
+00:01:24,916 --> 00:01:26,897
+Und am Ende druckt
+er dir den Bon.
+
+40
+00:01:27,730 --> 00:01:30,171
+In modernen Automaten
+sitzen bis zu sechs
+
+41
+00:01:30,171 --> 00:01:32,978
+Kameras, teilweise im
+Kreis direkt um die
+
+42
+00:01:32,978 --> 00:01:35,584
+Öffnung. Sie erkennen
+eine Flasche in
+
+43
+00:01:35,584 --> 00:01:37,247
+Bruchteilen einer Sekunde.
+
+44
+00:01:37,565 --> 00:01:39,747
+Ältere Modelle drehen
+die Flasche dagegen
+
+45
+00:01:39,747 --> 00:01:42,140
+ein paar Sekunden
+lang hin und her, bis
+
+46
+00:01:42,140 --> 00:01:44,357
+sie ein lesbares
+Merkmal gefunden haben.
+
+47
+00:01:44,676 --> 00:01:47,140
+Deshalb dauert es dort
+manchmal so lange.
+
+48
+00:01:47,980 --> 00:01:49,560
+Und jetzt das Spannende.
+
+49
+00:01:49,879 --> 00:01:52,367
+Einen Strichcode kann
+man leicht kopieren.
+
+50
+00:01:52,685 --> 00:01:54,466
+Deshalb wird das
+Pfandlogo mit der
+
+51
+00:01:54,466 --> 00:01:56,848
+Flasche, der Dose und
+dem Pfeil mit einer
+
+52
+00:01:56,848 --> 00:01:58,405
+speziellen Farbe gedruckt.
+
+53
+00:01:58,723 --> 00:02:01,211
+Nur zertifizierte
+Druckereien bekommen
+
+54
+00:02:01,211 --> 00:02:04,041
+diese Farbe. Der
+Automat prüft sie mit
+
+55
+00:02:04,041 --> 00:02:06,223
+Licht, das für dich
+unsichtbar ist.
+
+56
+00:02:07,054 --> 00:02:08,717
+Das war nicht immer so sicher.
+
+57
+00:02:09,035 --> 00:02:11,783
+Anfangs wurde das Logo
+mit ultraviolettem
+
+58
+00:02:11,783 --> 00:02:12,691
+Licht geprüft.
+
+59
+00:02:13,021 --> 00:02:16,170
+Im November 2005 wurde
+dieses Verfahren
+
+60
+00:02:16,170 --> 00:02:19,000
+überlistet. Danach
+stieg das System auf
+
+61
+00:02:19,000 --> 00:02:20,969
+eine Prüfung mit Infrarot um.
+
+62
+00:02:21,288 --> 00:02:24,460
+Bei 25 Cent pro Flasche
+lohnt sich Betrug
+
+63
+00:02:24,460 --> 00:02:25,214
+eben schnell.
+
+64
+00:02:26,032 --> 00:02:27,648
+Damit zur Auflösung.
+
+65
+00:02:27,978 --> 00:02:29,310
+Richtig ist C.
+
+66
+00:02:29,640 --> 00:02:31,987
+Der Strichcode verrät
+das Produkt, und die
+
+67
+00:02:31,987 --> 00:02:34,652
+Spezialfarbe im Logo
+beweist, dass es eine
+
+68
+00:02:34,652 --> 00:02:36,433
+echte deutsche
+Pfandflasche ist.
+
+69
+00:02:37,258 --> 00:02:39,499
+Hinter der Klappe
+trennen sich jetzt die
+
+70
+00:02:39,499 --> 00:02:42,258
+Wege. Einwegflaschen
+und Dosen werden
+
+71
+00:02:42,258 --> 00:02:44,310
+direkt gepresst
+oder zerkleinert.
+
+72
+00:02:44,628 --> 00:02:47,022
+Das knirschende
+Geräusch, das du hörst,
+
+73
+00:02:47,234 --> 00:02:48,249
+ist genau das.
+
+74
+00:02:48,567 --> 00:02:51,067
+So kann niemand dieselbe
+Flasche zweimal
+
+75
+00:02:51,067 --> 00:02:53,579
+abgeben. Danach
+wird nach Material
+
+76
+00:02:53,579 --> 00:02:55,241
+sortiert und recycelt.
+
+77
+00:02:55,560 --> 00:02:57,966
+Mehrwegflaschen
+dagegen bleiben ganz.
+
+78
+00:02:58,284 --> 00:03:00,737
+Sie kommen in Kästen
+zurück zum Abfüller,
+
+79
+00:03:00,937 --> 00:03:02,812
+werden gewaschen
+und wieder befüllt.
+
+80
+00:03:03,652 --> 00:03:05,881
+Und warum spuckt er
+manche Flaschen wieder
+
+81
+00:03:05,881 --> 00:03:08,970
+aus? Meistens, weil
+sie zerdrückt sind.
+
+82
+00:03:09,301 --> 00:03:11,081
+Die Flasche muss sich
+im Schacht drehen
+
+83
+00:03:11,081 --> 00:03:13,487
+können, damit die
+Kameras alles sehen.
+
+84
+00:03:13,805 --> 00:03:16,176
+Oder weil das Etikett
+mit dem Pfandlogo
+
+85
+00:03:16,176 --> 00:03:17,154
+beschädigt ist.
+
+86
+00:03:17,485 --> 00:03:19,831
+Oder weil der Laden
+dieses Material gar
+
+87
+00:03:19,831 --> 00:03:20,727
+nicht verkauft.
+
+88
+00:03:21,046 --> 00:03:23,428
+Ein Geschäft muss nur
+die Verpackungsarten
+
+89
+00:03:23,428 --> 00:03:25,645
+zurücknehmen, die
+es selbst anbietet.
+
+90
+00:03:26,470 --> 00:03:28,817
+Und wer bezahlt dein
+Pfand eigentlich?
+
+91
+00:03:29,147 --> 00:03:30,350
+Nicht der Laden.
+
+92
+00:03:30,680 --> 00:03:32,661
+Das Pfand wandert
+durch die ganze
+
+93
+00:03:32,661 --> 00:03:33,569
+Handelskette.
+
+94
+00:03:33,899 --> 00:03:36,541
+Der Abfüller kassiert
+es vom Händler, und
+
+95
+00:03:36,541 --> 00:03:38,746
+der Händler kassiert
+es beim Kauf von dir.
+
+96
+00:03:39,064 --> 00:03:41,482
+Bringst du die Flasche
+zurück, zahlt dir
+
+97
+00:03:41,482 --> 00:03:42,932
+der Laden das Geld aus.
+
+98
+00:03:43,262 --> 00:03:46,140
+Der Automat erzeugt
+dafür einen Datensatz.
+
+99
+00:03:46,458 --> 00:03:48,593
+Über eine Abrechnungsstelle
+bekommt der
+
+100
+00:03:48,593 --> 00:03:50,468
+Laden das Geld
+dann vom Abfüller
+
+101
+00:03:50,468 --> 00:03:53,651
+erstattet. Und was
+passiert mit dem Geld,
+
+102
+00:03:53,886 --> 00:03:55,915
+wenn du eine Flasche
+nicht zurückbringst?
+
+103
+00:03:56,233 --> 00:04:00,160
+Laut Deutscher
+Umwelthilfe kommen 98,5
+
+104
+00:04:00,160 --> 00:04:01,823
+Prozent der
+Einwegverpackungen zurück.
+
+105
+00:04:02,141 --> 00:04:04,110
+Den Rest nennt
+man Pfandschlupf.
+
+106
+00:04:04,429 --> 00:04:06,587
+Dieses Pfand muss
+niemandem erstattet
+
+107
+00:04:06,587 --> 00:04:08,568
+werden, es bleibt
+beim Abfüller.
+
+108
+00:04:08,886 --> 00:04:11,033
+Und bei Milliarden
+Flaschen sind selbst
+
+109
+00:04:11,033 --> 00:04:12,860
+wenige Prozent sehr viel Geld.
+
+110
+00:04:13,690 --> 00:04:16,449
+Jetzt du. Stimmt oder Mythos?
+
+111
+00:04:16,780 --> 00:04:19,740
+Erstens: Du musst die
+Flasche in dem Laden
+
+112
+00:04:19,740 --> 00:04:21,886
+abgeben, in dem du
+sie gekauft hast.
+
+113
+00:04:23,882 --> 00:04:27,078
+Mythos. Jeder Laden,
+der Einwegflaschen
+
+114
+00:04:27,078 --> 00:04:29,578
+aus demselben Material
+verkauft, muss sie
+
+115
+00:04:29,578 --> 00:04:30,580
+auch zurücknehmen.
+
+116
+00:04:31,562 --> 00:04:34,663
+Zweitens: Das Knirschen
+im Automaten ist
+
+117
+00:04:34,663 --> 00:04:36,998
+deine Flasche, die
+gerade gepresst wird.
+
+118
+00:04:38,994 --> 00:04:41,706
+Stimmt. Zumindest bei Einweg.
+
+119
+00:04:42,666 --> 00:04:45,673
+Drittens: Aus deiner
+alten Einwegflasche
+
+120
+00:04:45,673 --> 00:04:47,654
+kann wieder eine neue
+Getränkeverpackung
+
+121
+00:04:47,654 --> 00:04:50,746
+werden. Stimmt.
+
+122
+00:04:51,076 --> 00:04:53,388
+Weil sauber nach
+Material getrennt wird,
+
+123
+00:04:53,647 --> 00:04:55,723
+lässt sich das Material
+wiederverwerten,
+
+124
+00:04:55,982 --> 00:04:57,692
+zum Beispiel für
+neue Flaschen.
+
+125
+00:04:58,690 --> 00:04:59,975
+Und die Zukunft?
+
+126
+00:05:00,294 --> 00:05:02,829
+Einige Märkte testen
+schon Automaten, in
+
+127
+00:05:02,829 --> 00:05:04,751
+die du bis zu hundert
+Flaschen und Dosen
+
+128
+00:05:04,751 --> 00:05:06,497
+auf einmal kippen
+kannst, in einem
+
+129
+00:05:06,497 --> 00:05:09,232
+Schwung. Laut Kaufland
+geht die Rückgabe
+
+130
+00:05:09,232 --> 00:05:11,048
+damit bis zu
+fünfmal schneller.
+
+131
+00:05:11,884 --> 00:05:13,429
+Drei Tipps zum Schluss.
+
+132
+00:05:13,759 --> 00:05:16,672
+Eins: Flaschen und
+Dosen nicht zerdrücken.
+
+133
+00:05:16,990 --> 00:05:19,608
+Zwei: Das Etikett
+mit dem Pfandlogo
+
+134
+00:05:19,608 --> 00:05:21,129
+dranlassen. Drei:
+
+135
+00:05:21,400 --> 00:05:23,511
+Wenn du viel Leergut
+hast, such dir einen
+
+136
+00:05:23,511 --> 00:05:25,870
+Markt mit einem der
+neuen Automaten, die
+
+137
+00:05:25,870 --> 00:05:27,167
+alles auf einmal nehmen.
+
+138
+00:05:27,982 --> 00:05:31,001
+Also: Der Pfandautomat
+wiegt deine Flasche
+
+139
+00:05:31,001 --> 00:05:31,850
+nicht einfach.
+
+140
+00:05:32,168 --> 00:05:34,680
+Er schaut sie mit
+Kameras an, prüft eine
+
+141
+00:05:34,680 --> 00:05:37,274
+Spezialfarbe und
+fragt eine Datenbank.
+
+142
+00:05:37,593 --> 00:05:40,470
+Hinter 25 Cent steckt
+erstaunlich viel
+
+143
+00:05:40,470 --> 00:05:43,914
+Technik. Wenn du wissen
+willst, wie andere
+
+144
+00:05:43,914 --> 00:05:45,907
+Dinge aus deinem
+Alltag funktionieren:
+
+145
+00:05:46,190 --> 00:05:49,067
+abonnieren. Jeden
+Freitag durchschauen wir
+
+146
+00:05:49,067 --> 00:05:49,798
+ein neues.
