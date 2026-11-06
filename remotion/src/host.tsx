@@ -97,11 +97,11 @@ export const Host: React.FC<{ scenes: SceneData[]; v: boolean; W: number; H: num
   const tilt = mood === "think" ? 8 : mood === "facepalm" ? -6 : Math.sin(t * 1.3) * 3;
 
   const size = v ? 250 : 360;
-  const pos: React.CSSProperties = v ? { right: 40, top: 70 } : { right: 50, bottom: 40 };
+  const pos: React.CSSProperties = v ? { right: 40, top: 110 } : { right: 50, bottom: 40 };
   return (
     <div style={{ position: "absolute", ...pos, transform: `translateY(${(1 - enter) * 500 - jump - bob}px) scale(${scaleBig}) rotate(${tilt}deg)`, transformOrigin: "bottom center" }}>
-      {(s.lupo?.bubbles || []).map((b: any, i: number) => <Bubble key={i} text={b.text} at={num(b.at) ?? 0.5} t={lt} side="left" />)}
-      {mood === "think" && <ThinkCloud from={moodStart} to={thinkEnd(evs, moodStart, s.adur)} lt={lt} f={f - s.start} fps={fps} />}
+      {(s.lupo?.bubbles || []).map((b: any, i: number) => <Bubble key={i} text={b.text} at={num(b.at) ?? 0.5} t={lt} side="left" v={v} />)}
+      {mood === "think" && <ThinkCloud v={v} from={moodStart} to={thinkEnd(evs, moodStart, s.adur)} lt={lt} f={f - s.start} fps={fps} />}
       <LupoFigure mood={mood} amp={amp} t={t} size={size} />
     </div>
   );
@@ -114,12 +114,12 @@ const thinkEnd = (evs: Ev[], start: number, adur: number) => {
 };
 
 /** Denkblase mit ablaufendem Ring und Ticken */
-const ThinkCloud: React.FC<{ from: number; to: number; lt: number; f: number; fps: number }> = ({ from, to, lt, f, fps }) => {
+const ThinkCloud: React.FC<{ v: boolean; from: number; to: number; lt: number; f: number; fps: number }> = ({ v, from, to, lt, f, fps }) => {
   const p = interpolate(lt, [from, to], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const pop = spring({ frame: f - Math.round(from * fps), fps, config: { damping: 9, stiffness: 180 } });
   const r = 44, circ = 2 * Math.PI * r;
   return (
-    <div style={{ position: "absolute", bottom: "92%", left: "-8%", transform: `scale(${pop})`, transformOrigin: "bottom right" }}>
+    <div style={{ position: "absolute", ...(v ? { top: "8%", right: "100%" } : { bottom: "92%", left: "-8%" }), transform: `scale(${pop})`, transformOrigin: "bottom right" }}>
       <div style={{ position: "relative", width: 150, height: 150 }}>
         <div style={{ position: "absolute", right: -10, bottom: -18, width: 26, height: 26, borderRadius: "50%", background: "#fff", border: `4px solid ${C.ink}` }} />
         <div style={{ position: "absolute", right: -26, bottom: -40, width: 14, height: 14, borderRadius: "50%", background: "#fff", border: `3px solid ${C.ink}` }} />

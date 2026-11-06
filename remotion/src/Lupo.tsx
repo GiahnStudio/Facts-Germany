@@ -125,14 +125,14 @@ export const LupoFigure: React.FC<{ mood: Mood; amp: number; t: number; size: nu
 };
 
 /** Sprechblase */
-export const Bubble: React.FC<{ text: string; at: number; t: number; side?: "left" | "right" }> = ({ text, at, t, side = "left" }) => {
+export const Bubble: React.FC<{ text: string; at: number; t: number; side?: "left" | "right"; v?: boolean }> = ({ text, at, t, side = "left", v = false }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   if (t < at || t > at + 2.3) return null;
   const p = spring({ frame: f - Math.round(at * fps), fps, config: { damping: 9, stiffness: 200 } });
   const out = interpolate(t, [at + 2.0, at + 2.3], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
-    <div style={{ position: "absolute", bottom: "100%", [side === "left" ? "right" : "left"]: "55%", marginBottom: -10, transform: `scale(${p * out})`, transformOrigin: side === "left" ? "bottom right" : "bottom left" }}>
+    <div style={{ position: "absolute", ...(v ? { top: "10%", right: "95%" } : { bottom: "100%", [side === "left" ? "right" : "left"]: "55%", marginBottom: -10 }), transform: `scale(${p * out})`, transformOrigin: side === "left" ? "bottom right" : "bottom left" }}>
       <div style={{ background: "#fff", color: C.ink, fontFamily: FONT, fontWeight: 900, fontSize: 40, padding: "16px 26px", borderRadius: 28, whiteSpace: "nowrap", boxShadow: "0 10px 24px rgba(0,0,0,.35)", border: `5px solid ${C.ink}` }}>
         {text}
       </div>
