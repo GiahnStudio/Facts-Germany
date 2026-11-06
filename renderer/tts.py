@@ -44,7 +44,82 @@ def _silence(wav, dur):
                     "-t", f"{dur:.3f}", wav], check=True)
 
 
+def _azure_hd(text, voice, mp3):
+    """Azure Speech HD-Stimme per REST (kostenloser F0-Tarif). Liefert keine Wortzeiten."""
+    import urllib.request
+    from xml.sax.saxutils import escape
+    key, region = os.environ["AZURE_SPEECH_KEY"], os.environ.get("AZURE_SPEECH_REGION", "westeurope")
+    lang = voice[:5]
+    ssml = (f"<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='{lang}'>"
+            f"<voice name='{voice}'>{escape(text)}</voice></speak>")
+    req = urllib.request.Request(
+        f"https://{region}.tts.speech.microsoft.com/cognitiveservices/v1", data=ssml.encode("utf-8"),
+        headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
+                 "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3", "User-Agent": "durchschaut-renderer"})
+    with urllib.request.urlopen(req, timeout=120) as r, open(mp3, "wb") as f:
+        f.write(r.read())
+
+
+def _duration(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                         capture_output=True, text=True)
+    return float(out.stdout.strip())
+
+
+def _speech_bounds(wav):
+    """Start/Ende der eigentlichen Sprache (ohne Stille am Rand)."""
+    import wave as _w
+    import numpy as np
+    with _w.open(wav) as w:
+        sr = w.getframerate()
+        x = np.abs(np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32))
+    hop = int(sr * 0.01)
+    env = np.array([x[i:i + hop].mean() for i in range(0, len(x), hop)]) if len(x) else np.zeros(1)
+    thr = max(200.0, env.max() * 0.05)
+    idx = np.where(env > thr)[0]
+    if not len(idx):
+        return 0.0, len(x) / sr
+    return idx[0] * 0.01, (idx[-1] + 1) * 0.01
+
+
 def synth(text, voice, rate="+0%"):
+    """HD-Stimmen (Name enthält ':DragonHD') über Azure, sonst edge-tts.
+    Wortzeiten für HD: aus edge-tts (gleiche Sprecherin, Standardmodell) auf die HD-Aufnahme gestreckt."""
+    if ":DragonHD" in voice:
+        if not os.environ.get("AZURE_SPEECH_KEY"):
+            base = voice.split(":")[0] + "MultilingualNeural"
+            print(f"   ! Kein AZURE_SPEECH_KEY – nutze {base} als Ersatz")
+            return synth(text, base, rate)
+        os.makedirs(CACHE, exist_ok=True)
+        key = hashlib.sha1(f"{voice}|{text}".encode()).hexdigest()[:16]
+        mp3 = os.path.join(CACHE, key + ".mp3")
+        meta = os.path.join(CACHE, key + ".json")
+        wav = os.path.join("/tmp", "ddd_" + key + ".wav")
+        if not (os.path.exists(mp3) and os.path.exists(meta)):
+            for attempt in range(4):
+                try:
+                    _azure_hd(text, voice, mp3)
+                    break
+                except Exception as e:
+                    print("Azure-Fehler, neuer Versuch:", e)
+                    import time
+                    time.sleep(3 + attempt * 5)
+            _wav_from_mp3(mp3, wav)
+            # Referenz-Zeiten von der Standard-Stimme holen und strecken
+            ref_wav, _, ref_words = synth(text, voice.split(":")[0] + "MultilingualNeural", "+0%")
+            r0, r1 = _speech_bounds(ref_wav)
+            h0, h1 = _speech_bounds(wav)
+            k = (h1 - h0) / max(0.1, r1 - r0)
+            words = [[round(h0 + (a - r0) * k, 3), round(h0 + (b - r0) * k, 3), w] for a, b, w in ref_words]
+            json.dump({"text": text, "voice": voice, "words": words, "timing": "scaled"}, open(meta, "w"), ensure_ascii=False)
+        else:
+            words = json.load(open(meta))["words"]
+            _wav_from_mp3(mp3, wav)
+        return wav, _duration(wav), words
+    return _synth_edge(text, voice, rate)
+
+
+def _synth_edge(text, voice, rate="+0%"):
     """Gibt (wav_pfad, dauer_s, words) zurück. words = [[start, ende, wort], ...]"""
     os.makedirs(CACHE, exist_ok=True)
     key = hashlib.sha1(f"{voice}|{rate}|{text}".encode()).hexdigest()[:16]

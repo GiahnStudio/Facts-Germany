@@ -45,6 +45,9 @@ jobs:
           echo "Rendere: $LIST"
       - name: Rendern
         if: steps.eps.outputs.list != ''
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
         run: |
           for f in ${{ steps.eps.outputs.list }}; do python renderer/build.py "$f"; done
       - name: Ergebnis speichern

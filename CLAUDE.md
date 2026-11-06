@@ -36,4 +36,4 @@ beim Quiz und bei "Stimmt oder Mythos?", jubelt bei "Stimmt"/richtiger Antwort, 
 - Eigene Reaktionen: `"lupo": {"events": [{"mood": "wow", "at": "Wort", "dur": 1.5}]}` (Moods: talk, happy, wave, wow, think, cheer, facepalm, pointLeft).
 - Thumbnails zeigen Lupo (`mood`, `icon`, `big`, `chip`, `stamp` im Abschnitt `thumbs`).
 
-Stimme: de-DE-SeraphinaMultilingualNeural, rate +6 % (Kanalstimme, nicht ändern).
+Stimme: de-DE-Seraphina:DragonHDLatestNeural (Azure HD, Gratis-Tarif; Schlüssel als GitHub-Secrets AZURE_SPEECH_KEY / AZURE_SPEECH_REGION). Kanalstimme, nicht ändern.
