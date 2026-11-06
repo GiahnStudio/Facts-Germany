@@ -111,12 +111,12 @@ const Captions: React.FC<{ scenes: SceneData[]; fps: number; W: number }> = ({ s
   const grp = words.slice(g0, g0 + 3);
   if (lt > grp[grp.length - 1][1] + 0.6) return null;
   return (
-    <div style={{ position: "absolute", left: 60, right: 60, top: 1430, display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "0 22px" }}>
+    <div style={{ position: "absolute", left: 60, right: 60, top: 1430, display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "0 0" }}>
       {grp.map((w, i) => {
         const active = g0 + i === gi;
         const p = spring({ frame: f - Math.round((sc.start / fps + w[0]) * fps), fps, config: { damping: 10, stiffness: 200 } });
         return (
-          <span key={i} style={{ fontFamily: FONT, fontWeight: 900, fontSize: 84, textTransform: "uppercase", color: active ? C.accent : C.white, WebkitTextStroke: "3px #000", paintOrder: "stroke", textShadow: "0 8px 0 rgba(0,0,0,.6)", transform: `scale(${active ? 1 + 0.12 * p : 1})`, display: "inline-block" }}>
+          <span key={i} style={{ fontFamily: FONT, fontWeight: 900, fontSize: 84, textTransform: "uppercase", color: active ? C.accent : C.white, WebkitTextStroke: "3px #000", paintOrder: "stroke", textShadow: "0 8px 0 rgba(0,0,0,.6)", transform: `scale(${active ? 1 + 0.07 * p : 1})`, display: "inline-block", margin: "0 18px" }}>
             {w[2]}
           </span>
         );

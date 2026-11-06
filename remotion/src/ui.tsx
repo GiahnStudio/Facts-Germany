@@ -47,7 +47,7 @@ export const useLin = (at: number, len: number, ease = Easing.out(Easing.cubic))
   return interpolate(t, [at, at + len], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: ease });
 };
 
-export const fs = (n: number, v: boolean) => Math.round(n * (v ? 0.86 : 1));
+export const fs = (n: number, v: boolean) => Math.round(n * (v ? 1.0 : 1));
 
 // ---------------------------------------------------------------- Sound
 export const Sfx: React.FC<{ at: number; name: string; vol?: number }> = ({ at, name, vol = 0.5 }) => {
