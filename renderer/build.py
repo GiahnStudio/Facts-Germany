@@ -192,7 +192,16 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_mp4, "-c:v", "libx264", "-preset", "veryfast",
                             "-crf", "28", "-c:a", "copy", "-movflags", "+faststart", tmp], check=True)
             os.replace(tmp, out_mp4)
+        loudnorm(out_mp4)
     return prepared, srt_tokens, total / FPS
+
+
+def loudnorm(mp4):
+    """Lautheit auf YouTube-Niveau (ca. -15 LUFS) bringen, Bild wird nur kopiert."""
+    tmp = mp4 + ".ln.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp4, "-c:v", "copy", "-af", "loudnorm=I=-15:TP=-1.5:LRA=11",
+                    "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart", tmp], check=True)
+    os.replace(tmp, mp4)
 
 
 def write_srt(tokens, path):
