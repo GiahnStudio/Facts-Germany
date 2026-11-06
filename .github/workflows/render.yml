@@ -14,14 +14,20 @@ concurrency: render
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 2}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22', cache: 'npm', cache-dependency-path: remotion/package-lock.json}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - run: pip install -q edge-tts pillow
+      - run: pip install -q edge-tts pillow numpy
+      - run: npm ci --no-audit --no-fund
+        working-directory: remotion
+      - run: npx remotion browser ensure
+        working-directory: remotion
       - name: Folgen bestimmen
         id: eps
         run: |
@@ -30,7 +36,7 @@ jobs:
           else
             LIST=$(git diff --name-only HEAD~1 HEAD -- episodes/ 2>/dev/null | grep '\.json$' || true)
             for f in episodes/*.json; do
-              slug=$(python -c "import json,sys;print(json.load(open('$f'))['slug'])")
+              slug=$(python -c "import json;print(json.load(open('$f'))['slug'])")
               [ -f "up/$slug/${slug}_video.mp4" ] || LIST="$LIST $f"
             done
           fi

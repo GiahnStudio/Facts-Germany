@@ -12,10 +12,7 @@ import wave
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw  # noqa: E402
 
-import scenes  # noqa: E402
-from core import AMBER, INK, WHITE, background, font, text_block, tw  # noqa: E402
 from thumbs import thumbnail  # noqa: E402
 from tts import SR, norm, synth  # noqa: E402
 
@@ -83,17 +80,6 @@ def srt_time(t):
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
 
 
-def caption_img(text, W):
-    f = font(64, "Black")
-    lines = text_block(text.upper(), 64, W - 200, WHITE, "Black", "center", 1.15)
-    pad = 28
-    img = Image.new("RGBA", (lines.width + 2 * pad, lines.height + 2 * pad), (0, 0, 0, 0))
-    d = ImageDraw.Draw(img)
-    d.rounded_rectangle((0, 0, img.width - 1, img.height - 1), 26, fill=(10, 12, 18, 225))
-    img.alpha_composite(lines, (pad, pad))
-    return img
-
-
 def expand_words(words):
     """edge-tts fasst manchmal mehrere Wörter zusammen ("seit 2003") -> einzeln aufteilen."""
     out = []
@@ -131,109 +117,76 @@ def synth_scene(sc, voice, rate):
     return out, t, allw
 
 
-def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_dir=None):
-    L = scenes.Layout(W, H)
-    bg = background(W, H)
-    prepared, t0 = [], 0.0
-    srt_tokens = []
+REMOTION = os.path.join(ROOT, "remotion")
+
+
+def resolve_cues(obj, cue):
+    """Ersetzt alle 'at'/'*_at'-Texte (in Dokument-Reihenfolge) durch Sekunden."""
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if (k == "at" or k.endswith("_at")) and isinstance(v, str):
+                out[k] = cue(v, None)
+            else:
+                out[k] = resolve_cues(v, cue)
+        return out
+    if isinstance(obj, list):
+        return [resolve_cues(x, cue) for x in obj]
+    return obj
+
+
+def remotion_cmd(*args):
+    cmd = ["npx", "remotion", *args]
+    if os.environ.get("CHROME"):
+        cmd += ["--browser-executable", os.environ["CHROME"]]
+    return cmd
+
+
+def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_dir=None, tag="main"):
+    slug = spec["slug"]
+    epdir = os.path.join(REMOTION, "public", "ep", slug)
+    os.makedirs(epdir, exist_ok=True)
+    scenes_out, srt_tokens, t0 = [], [], 0.0
+    prepared = []
     for i, sc in enumerate(scs):
         wav, adur, words = synth_scene(sc, voice, rate)
         words = expand_words(words)
-        pad = sc.get("pause", 0.45)
-        dur = adur + pad
+        dur = adur + sc.get("pause", 0.45)
+        rel = f"ep/{slug}/{tag}_{i:02d}.mp3"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-b:a", "128k", os.path.join(REMOTION, "public", rel)], check=True)
+        cue = make_cue(words, adur)
+        res = resolve_cues({k: v for k, v in sc.items() if k != "say"}, cue)
+        f0, fd = int(round(t0 * FPS)), int(round(dur * FPS))
+        res.update({"start": f0, "dur": fd, "adur": adur, "audio": rel,
+                    "words": [[round(a, 3), round(b, 3), w] for a, b, w in align_tokens(sc["say"].replace(" ... ", " "), words)]})
+        scenes_out.append(res)
         prepared.append((sc, wav, adur, dur, words, t0))
         for tk in align_tokens(sc["say"].replace(" ... ", " "), words):
             srt_tokens.append([tk[0] + t0, tk[1] + t0, tk[2]])
-        t0 += dur
-    total = t0
-    print(f"   {os.path.basename(out_mp4)}: {len(scs)} Szenen, {total:.1f}s")
-
-    # Audio zusammensetzen
-    full_wav = out_mp4 + ".wav"
-    with wave.open(full_wav, "wb") as wo:
-        wo.setnchannels(1)
-        wo.setsampwidth(2)
-        wo.setframerate(SR)
-        written = 0
-        for sc, wav, adur, dur, words, st in prepared:
-            target = int(round(st * SR))
-            if target > written:
-                wo.writeframes(b"\x00\x00" * (target - written))
-                written = target
-            with wave.open(wav) as wi:
-                data = wi.readframes(wi.getnframes())
-            wo.writeframes(data)
-            written += len(data) // 2
-        end = int(round(total * SR))
-        if end > written:
-            wo.writeframes(b"\x00\x00" * (end - written))
-
-    cap_chunks = []
-    if captions:
-        for ch in chunks(srt_tokens, 22, 4):
-            cap_chunks.append((ch[0][0], " ".join(x[2] for x in ch).rstrip(",")))
-
+        t0 += fd / FPS
+    total = sum(s["dur"] for s in scenes_out)
+    props = {"fps": FPS, "width": W, "height": H, "totalFrames": total, "captions": captions,
+             "scenes": scenes_out, "slug": slug, "music": "music/lofi.mp3"}
+    props_path = os.path.join(epdir, f"{tag}_props.json")
+    json.dump(props, open(props_path, "w"), ensure_ascii=False)
+    print(f"   {os.path.basename(out_mp4)}: {len(scs)} Szenen, {total / FPS:.1f}s")
     if preview_dir:
         os.makedirs(preview_dir, exist_ok=True)
-
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-           "-r", str(FPS), "-i", "-", "-i", full_wav, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-           "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-shortest",
-           "-movflags", "+faststart", out_mp4]
-    proc = None if preview_dir else subprocess.Popen(cmd, stdin=subprocess.PIPE)
-    fidx = 0
-    nframes = int(round(total * FPS))
-    cap_cache = {}
-    for si, (sc, wav, adur, dur, words, st) in enumerate(prepared):
-        cue = make_cue(words, adur)
-        blocks = scenes.build(sc, L, cue)
-        last_key, last_bytes = None, None
-        end_f = nframes if si == len(prepared) - 1 else int(round((st + dur) * FPS))
-        while fidx < end_f:
-            t = fidx / FPS - st
-            gt = fidx / FPS
-            states = tuple(b.state(t) for b in blocks)
-            cap = None
-            if cap_chunks:
-                for cs, ctext in cap_chunks:
-                    if cs <= gt + 0.05:
-                        cap = ctext
-                    else:
-                        break
-            key = (states, cap)
-            if key != last_key:
-                fr = bg.copy()
-                for b, s in zip(blocks, states):
-                    if s is not None:
-                        b.draw(fr, s)
-                if cap:
-                    if cap not in cap_cache:
-                        cap_cache[cap] = caption_img(cap, W)
-                    ci = cap_cache[cap]
-                    fr.paste(ci, ((W - ci.width) // 2, 1470), ci)
-                last_key, last_bytes = key, fr.tobytes()
-                if preview_dir and t > dur - 0.6 and not os.path.exists(f"{preview_dir}/s{si:02d}.jpg"):
-                    fr.save(f"{preview_dir}/s{si:02d}.jpg", quality=80)
-            if preview_dir:
-                fidx = end_f
-                fr2 = Image.frombytes("RGB", (W, H), last_bytes)
-                fr2.save(f"{preview_dir}/s{si:02d}.jpg", quality=80)
-                break
-            proc.stdin.write(last_bytes)
-            fidx += 1
-        if preview_dir:
-            # Endzustand der Szene rendern
-            fr = bg.copy()
-            for b in blocks:
-                s = b.state(dur + 5)
-                if s is not None:
-                    b.draw(fr, s)
-            fr.save(f"{preview_dir}/s{si:02d}.jpg", quality=80)
-    if proc:
-        proc.stdin.close()
-        proc.wait()
-        os.remove(full_wav)
-    return prepared, srt_tokens, total
+        bundle = os.path.join(REMOTION, "out", "bundle")
+        if not os.path.exists(bundle) or os.environ.get("REBUNDLE"):
+            subprocess.run(["npx", "remotion", "bundle", "src/index.ts", "--out-dir", bundle], cwd=REMOTION, check=True,
+                           stdout=subprocess.DEVNULL)
+        for i, s in enumerate(scenes_out):
+            fr = s["start"] + int(s["dur"] * 0.82)
+            subprocess.run(remotion_cmd("still", bundle, "Video", os.path.join(preview_dir, f"s{i:02d}.jpg"),
+                                        f"--props={props_path}", f"--frame={fr}", "--jpeg-quality=80", "--log=error"),
+                           cwd=REMOTION, check=True)
+    else:
+        subprocess.run(remotion_cmd("render", "src/index.ts", "Video", out_mp4, f"--props={props_path}",
+                                    "--codec=h264", "--crf=20", "--log=error",
+                                    f"--concurrency={os.environ.get('CONCURRENCY', '100%')}"),
+                       cwd=REMOTION, check=True)
+    return prepared, srt_tokens, total / FPS
 
 
 def write_srt(tokens, path):
@@ -288,7 +241,7 @@ def main():
         for i, sh in enumerate(ep.get("shorts", []), 1):
             fn = f"short_{i}_{sh['slug']}.mp4"
             prev = os.path.join(ROOT, "preview", slug, f"short{i}") if a.preview else None
-            _, _, total = render_video(ep, sh["scenes"], 1080, 1920, os.path.join(out, fn), voice, rate, True, prev)
+            _, _, total = render_video(ep, sh["scenes"], 1080, 1920, os.path.join(out, fn), voice, rate, True, prev, tag=f"short{i}")
             entry["shorts"].append({"file": fn, "title": sh["title"], "date": sh["date"], "duration": round(total, 1)})
 
     if a.only in ("all", "thumbs"):

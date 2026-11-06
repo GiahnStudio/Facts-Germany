@@ -8,100 +8,547 @@
  "pin": "Wie hast du bei der Frage am Anfang getippt: A, B oder C? 👇 Und was soll ich als Nächstes durchschauen?",
  "desc": "Du steckst eine Flasche rein, es rattert, und Sekunden später weiß der Automat: 25 Cent. Aber woher eigentlich? Wir schauen hinter die Klappe: was die Kameras sehen, warum das Pfandlogo mit einer Spezialfarbe gedruckt ist, was mit Einweg- und Mehrwegflaschen passiert, wer dein Pfand am Ende bezahlt und wem das Geld gehört, wenn du die Flasche nicht zurückbringst.\n\nKapitel\n{kapitel}\n\nQuellen\n- DPG: Moderne Rücknahmeautomaten (bis zu sechs Kameras, über 40.000 Automaten): https://dpg-pfandsystem.de/en/the-one-way-deposit-system/useful-information/press-releases/technological-top-performers.html\n- DPG: Pfandlogo und Recycling: https://dpg-pfandsystem.de/index.php/en/the-one-way-deposit-system/useful-information/109-notices.html\n- Spezielle Farbe im Pfandlogo, zertifizierte Druckereien: https://www.deutscherpresseindex.de/?p=1110030\n- Wechsel von UV- auf Infrarot-Prüfung nach Fälschung 2005: https://www.vision-systems.com/cameras-accessories/article/16745629/machine-vision-validates-disposable-beverage-packaging\n- Geldfluss, Datensatz, Pfandschlupf (NABU): https://www2014.nabu.de/imperia/md/content/nabude/abfallpolitik/170207_nabu_infopapier_einwegpfand.pdf\n- Pfand entlang der Handelskette (IHK): https://www.ihk.de/blueprint/servlet/resource/blob/5350772/508e0907cceb4da2915d85028de4ba92/merkblatt-pfandpflicht-data.pdf\n- Rückgabe in jedem Laden mit gleichem Material, Automat braucht unzerdrückte Flaschen (Verbraucherzentrale): https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/abfall/fragen-und-antworten-zum-einwegpfand-dosenpfand-11505\n- Verpackung muss sich im Automaten drehen können: https://cdn.shopify.com/s/files/1/0289/4000/9531/files/Marktinfo_Rucknahme.pdf\n- Rücklaufquote 98,5 % (DUH): https://www.duh.de/presse/pressemitteilungen/pressemitteilung/20-jahre-dosenpfand-deutsche-umwelthilfe-sieht-pfandsysteme-als-erfolgsmodell-und-fordert-ausweit/\n- Rund 20 Milliarden Einwegverpackungen pro Jahr: https://www.meininger.de/alkoholfreie-getraenke/dpg-pfandsystem-feiert-20-jaehriges-jubilaeum\n- Mehrwegpfand 15 Cent (Coca-Cola): https://www.coca-cola.com/de/de/impact/coca-cola-das-deutsche-pfandsystem\n- Multi-Feed-Automaten, bis zu 100 Flaschen auf einmal: https://www.heidelberg24.de/verbraucher/neuer-pfandautomat-bei-kaufland-abgabe-bis-zu-fuenfmal-schneller-menge-gleichzeitig-93697670.html\n\nJeden Freitag durchschauen wir ein Ding aus deinem Alltag. Abonnieren nicht vergessen.\n\n#pfand #wiefunktioniertdas #durchschaut",
  "thumbs": {
-  "A": {"icon": "bottle", "big": "Was sieht der Automat?", "chip": "HINTER DER KLAPPE", "stamp": "6 KAMERAS", "stamp_color": "yellow", "stamp_size": 68, "stamp_x": 10, "stamp_y": 525},
-  "B": {"icon": "coin", "big": "25 Cent. Aber wer zahlt?", "big_size": 98, "stamp": "NICHT DER LADEN", "stamp_color": "red", "stamp_size": 66}
+  "A": {
+   "icon": "bottle",
+   "big": "Was sieht der Automat?",
+   "chip": "HINTER DER KLAPPE",
+   "stamp": "6 KAMERAS",
+   "stamp_color": "yellow",
+   "stamp_size": 68,
+   "stamp_x": 10,
+   "stamp_y": 525
+  },
+  "B": {
+   "icon": "coin",
+   "big": "25 Cent. Aber wer zahlt?",
+   "big_size": 98,
+   "stamp": "NICHT DER LADEN",
+   "stamp_color": "red",
+   "stamp_size": 66
+  }
  },
  "scenes": [
-  {"type": "title", "chapter": "Intro", "icon": "bottle", "text": "Woher weiß er das?",
-   "sub": "Flasche rein, es rattert, 25 Cent.", "sub_at": "Du",
-   "say": "Du steckst eine Flasche rein, es rattert kurz, und ein paar Sekunden später weiß der Automat: 25 Cent. Aber woher eigentlich? Und warum spuckt er manche Flaschen einfach wieder aus?"},
-  {"type": "chips", "title": "Heute schauen wir hinter die Klappe",
-   "items": [{"text": "Was der Automat sieht", "at": "sieht"}, {"text": "Wohin die Flasche geht", "at": "landet"}, {"text": "Wer dein Pfand bezahlt", "at": "bezahlt"}, {"text": "Wem vergessenes Pfand gehört", "at": "vergisst"}],
-   "say": "Heute schauen wir hinter die Klappe. Was der Automat in einer Sekunde sieht, wo deine Flasche danach landet, wer dein Pfand eigentlich bezahlt, und wem das Geld gehört, wenn du eine Flasche vergisst."},
-  {"type": "quiz", "chapter": "Die Quizfrage", "kicker": "KURZE FRAGE", "question": "Woran erkennt der Automat, dass deine Flasche Pfand hat?", "size": 60,
-   "options": [{"text": "Am Gewicht", "at": "A"}, {"text": "Nur am Strichcode", "at": "B"}, {"text": "Am Strichcode und an einer Spezialfarbe im Pfandlogo", "at": "C"}],
-   "say": "Kurze Frage vorab. Woran erkennt der Automat, dass deine Flasche Pfand hat? A: am Gewicht. B: nur am Strichcode. C: am Strichcode und an einer Spezialfarbe im Pfandlogo. Schreib deinen Tipp in die Kommentare. Die Auflösung kommt gleich.", "pause": 0.8},
-  {"type": "bignum", "chapter": "Ein riesiges System", "title": "Das Einwegpfand in Deutschland",
-   "items": [{"num": "20 Mrd.", "label": "Flaschen und Dosen pro Jahr", "at": "zwanzig"}, {"num": "40.000+", "label": "Rücknahmeautomaten", "at": "vierzigtausend"}],
-   "note": "25 Cent pro Stück – seit 2003", "note_at": "2003",
-   "say": "Erst mal zur Größe. Rund zwanzig Milliarden Einwegflaschen und Dosen laufen jedes Jahr durch das deutsche Pfandsystem. Dafür stehen in den Läden mehr als vierzigtausend Rücknahmeautomaten. Und für jede einzelne Verpackung geht es um 25 Cent, so ist es seit 2003 gesetzlich geregelt."},
-  {"type": "flow", "chapter": "Was in einer Sekunde passiert", "title": "Was in einer Sekunde passiert",
-   "items": [{"icon": "bottle", "text": "Einwurf", "at": "Flasche"}, {"icon": "eye", "text": "Kameras scannen", "at": "Kameras"}, {"icon": "server", "text": "Abgleich mit Datenbank", "at": "Datenbank"}, {"icon": "press", "text": "Sortieren & pressen", "at": "sortiert"}, {"icon": "receipt", "text": "Pfandbon", "at": "Bon"}],
-   "say": "So läuft es ab. Deine Flasche rollt in einen hell beleuchteten Schacht. Dort prüfen Kameras sie von allen Seiten. Der Automat gleicht das Ergebnis mit einer Datenbank ab: Welches Produkt ist das, aus welchem Material, ist es bepfandet? Dann wird die Flasche weitertransportiert und sortiert. Und am Ende druckt er dir den Bon."},
-  {"type": "fact", "icon": "eye", "label": "BIS ZU 6 KAMERAS", "headline": "Der Blick in den Schacht", "size": 76,
-   "lines": [{"text": "Moderne Automaten prüfen jede Flasche in Bruchteilen einer Sekunde.", "at": "Bruchteilen"}, {"text": "Ältere Modelle drehen die Flasche, bis sie ein lesbares Merkmal finden.", "at": "Ältere"}],
-   "say": "In modernen Automaten sitzen bis zu sechs Kameras, teilweise im Kreis direkt um die Öffnung. Sie erkennen eine Flasche in Bruchteilen einer Sekunde. Ältere Modelle drehen die Flasche dagegen ein paar Sekunden lang hin und her, bis sie ein lesbares Merkmal gefunden haben. Deshalb dauert es dort manchmal so lange."},
-  {"type": "fact", "chapter": "Das Geheimnis im Pfandlogo", "icon": "barcode", "label": "PFANDLOGO + STRICHCODE", "headline": "Der Strichcode allein reicht nicht.", "size": 76,
-   "lines": [{"text": "Das Pfandlogo wird mit einer speziellen Farbe gedruckt.", "at": "speziellen"}, {"text": "Nur zertifizierte Druckereien dürfen sie verwenden.", "at": "zertifizierte"}, {"text": "Der Automat prüft sie mit Licht, das du nicht sehen kannst.", "at": "Licht"}],
-   "say": "Und jetzt das Spannende. Einen Strichcode kann man leicht kopieren. Deshalb wird das Pfandlogo mit der Flasche, der Dose und dem Pfeil mit einer speziellen Farbe gedruckt. Nur zertifizierte Druckereien bekommen diese Farbe. Der Automat prüft sie mit Licht, das für dich unsichtbar ist."},
-  {"type": "story", "title": "Ein Katz-und-Maus-Spiel",
-   "steps": [{"date": "Anfangs", "text": "Das Logo wird mit UV-Licht geprüft.", "at": "Anfangs"},
-             {"date": "Nov. 2005", "text": "Fälscher überlisten das Verfahren.", "at": "2005"},
-             {"date": "Danach", "text": "Umstieg auf Infrarot-Prüfung.", "at": "Infrarot"}],
-   "say": "Das war nicht immer so sicher. Anfangs wurde das Logo mit ultraviolettem Licht geprüft. Im November 2005 wurde dieses Verfahren überlistet. Danach stieg das System auf eine Prüfung mit Infrarot um. Bei 25 Cent pro Flasche lohnt sich Betrug eben schnell."},
-  {"type": "quiz", "chapter": "Die Auflösung", "kicker": "AUFLÖSUNG", "question": "Woran erkennt der Automat das Pfand?", "size": 62, "answer": "C", "reveal_at": "Richtig",
-   "options": ["Am Gewicht", "Nur am Strichcode", "Am Strichcode und an einer Spezialfarbe im Pfandlogo"],
-   "say": "Damit zur Auflösung. Richtig ist C. Der Strichcode verrät das Produkt, und die Spezialfarbe im Logo beweist, dass es eine echte deutsche Pfandflasche ist."},
-  {"type": "split", "chapter": "Einweg oder Mehrweg?", "title": "Hinter der Klappe trennen sich die Wege",
-   "items": [{"icon": "press", "label": "EINWEG · 25 CENT", "title": "Wird sofort zerstört", "text": "Gepresst oder zerkleinert, damit sie kein zweites Mal Pfand bringt. Dann nach Material sortiert und recycelt.", "color": "red", "at": "Einwegflaschen"},
-             {"icon": "crate", "label": "MEHRWEG · z. B. 15 CENT", "title": "Bleibt ganz", "text": "Kommt in Kästen zurück zum Abfüller, wird gewaschen und wieder befüllt.", "color": "green", "at": "Mehrwegflaschen"}],
-   "say": "Hinter der Klappe trennen sich jetzt die Wege. Einwegflaschen und Dosen werden direkt gepresst oder zerkleinert. Das knirschende Geräusch, das du hörst, ist genau das. So kann niemand dieselbe Flasche zweimal abgeben. Danach wird nach Material sortiert und recycelt. Mehrwegflaschen dagegen bleiben ganz. Sie kommen in Kästen zurück zum Abfüller, werden gewaschen und wieder befüllt."},
-  {"type": "list", "chapter": "Warum der Automat streikt", "title": "Warum er deine Flasche ausspuckt",
-   "items": [{"text": "Zerdrückt: Sie muss sich im Schacht drehen können", "icon": "x", "at": "zerdrückt"}, {"text": "Etikett oder Pfandlogo beschädigt", "icon": "x", "at": "Etikett"}, {"text": "Material, das der Laden nicht verkauft", "icon": "x", "at": "Material"}],
-   "say": "Und warum spuckt er manche Flaschen wieder aus? Meistens, weil sie zerdrückt sind. Die Flasche muss sich im Schacht drehen können, damit die Kameras alles sehen. Oder weil das Etikett mit dem Pfandlogo beschädigt ist. Oder weil der Laden dieses Material gar nicht verkauft. Ein Geschäft muss nur die Verpackungsarten zurücknehmen, die es selbst anbietet."},
-  {"type": "flow", "chapter": "Wer dein Pfand bezahlt", "title": "Wer bezahlt eigentlich dein Pfand?",
-   "items": [{"icon": "factory", "text": "Abfüller kassiert Pfand vom Handel", "at": "Abfüller"}, {"icon": "shop", "text": "Laden kassiert es von dir", "at": "dir"}, {"icon": "receipt", "text": "Rückgabe: Laden zahlt aus", "at": "zurück"}, {"icon": "server", "text": "Datensatz an Abrechnung", "at": "Datensatz"}, {"icon": "coin", "text": "Abfüller erstattet dem Laden", "at": "erstattet"}],
-   "say": "Und wer bezahlt dein Pfand eigentlich? Nicht der Laden. Das Pfand wandert durch die ganze Handelskette. Der Abfüller kassiert es vom Händler, und der Händler kassiert es beim Kauf von dir. Bringst du die Flasche zurück, zahlt dir der Laden das Geld aus. Der Automat erzeugt dafür einen Datensatz. Über eine Abrechnungsstelle bekommt der Laden das Geld dann vom Abfüller erstattet."},
-  {"type": "bignum", "chapter": "Wem vergessenes Pfand gehört", "title": "Und wenn du eine Flasche nicht zurückbringst?",
-   "items": [{"num": "98,5 %", "label": "der Einwegverpackungen kommen zurück", "color": "green", "at": "Prozent"}],
-   "note": "Der Rest heißt Pfandschlupf: Dieses Pfand behält der Abfüller.", "note_at": "Pfandschlupf",
-   "say": "Und was passiert mit dem Geld, wenn du eine Flasche nicht zurückbringst? Laut Deutscher Umwelthilfe kommen 98,5 Prozent der Einwegverpackungen zurück. Den Rest nennt man Pfandschlupf. Dieses Pfand muss niemandem erstattet werden, es bleibt beim Abfüller. Und bei Milliarden Flaschen sind selbst wenige Prozent sehr viel Geld."},
-  {"type": "case", "chapter": "Stimmt oder Mythos?", "kicker": "STIMMT ODER MYTHOS?", "icon": "shop", "label": "Behauptung 1", "text": "Du musst die Flasche in dem Laden abgeben, in dem du sie gekauft hast.",
-   "verdict": "MYTHOS", "verdict_color": "red", "verdict_at": "Mythos. Jeder",
-   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Du musst die Flasche in dem Laden abgeben, in dem du sie gekauft hast. ... Mythos. Jeder Laden, der Einwegflaschen aus demselben Material verkauft, muss sie auch zurücknehmen.", "pause": 0.6},
-  {"type": "case", "kicker": "STIMMT ODER MYTHOS?", "icon": "press", "label": "Behauptung 2", "text": "Das Knirschen im Automaten ist deine Flasche, die gerade gepresst wird.",
-   "verdict": "STIMMT", "verdict_color": "green", "verdict_at": "Stimmt",
-   "say": "Zweitens: Das Knirschen im Automaten ist deine Flasche, die gerade gepresst wird. ... Stimmt. Zumindest bei Einweg.", "pause": 0.6},
-  {"type": "case", "kicker": "STIMMT ODER MYTHOS?", "icon": "recycle", "label": "Behauptung 3", "text": "Aus deiner alten Einwegflasche kann wieder eine neue Getränkeverpackung werden.",
-   "verdict": "STIMMT", "verdict_color": "green", "verdict_at": "Stimmt",
-   "say": "Drittens: Aus deiner alten Einwegflasche kann wieder eine neue Getränkeverpackung werden. ... Stimmt. Weil sauber nach Material getrennt wird, lässt sich das Material wiederverwerten, zum Beispiel für neue Flaschen.", "pause": 0.6},
-  {"type": "fact", "chapter": "Der Automat der Zukunft", "icon": "chip", "label": "MULTI-FEED", "headline": "Bis zu 100 Flaschen auf einmal", "size": 80,
-   "lines": [{"text": "Neue Automaten schlucken den ganzen Beutel in einem Schwung.", "at": "Schwung"}, {"text": "Laut Kaufland bis zu fünfmal schneller.", "at": "fünfmal"}],
-   "say": "Und die Zukunft? Einige Märkte testen schon Automaten, in die du bis zu hundert Flaschen und Dosen auf einmal kippen kannst, in einem Schwung. Laut Kaufland geht die Rückgabe damit bis zu fünfmal schneller."},
-  {"type": "list", "chapter": "3 Tipps", "title": "3 Tipps für weniger Ärger am Automaten",
-   "items": [{"text": "Flaschen und Dosen nicht zerdrücken", "icon": "bottle", "at": "Eins"}, {"text": "Etikett mit Pfandlogo dranlassen", "icon": "barcode", "at": "Zwei"}, {"text": "Viel Leergut? Märkte mit Multi-Feed-Automat suchen", "icon": "chip", "at": "Drei"}],
-   "say": "Drei Tipps zum Schluss. Eins: Flaschen und Dosen nicht zerdrücken. Zwei: Das Etikett mit dem Pfandlogo dranlassen. Drei: Wenn du viel Leergut hast, such dir einen Markt mit einem der neuen Automaten, die alles auf einmal nehmen."},
-  {"type": "title", "chapter": "Fazit", "kicker": "FAZIT", "text": "Kameras, Spezialfarbe und eine riesige Datenbank.", "size": 84,
-   "sub": "Hinter 25 Cent steckt erstaunlich viel Technik.", "sub_at": "Hinter",
-   "say": "Also: Der Pfandautomat wiegt deine Flasche nicht einfach. Er schaut sie mit Kameras an, prüft eine Spezialfarbe und fragt eine Datenbank. Hinter 25 Cent steckt erstaunlich viel Technik."},
-  {"type": "outro", "sub": "Jeden Freitag durchschauen wir ein Ding aus deinem Alltag.", "button": "ABONNIEREN", "button_at": "abonnieren",
-   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Jeden Freitag durchschauen wir ein neues.", "pause": 1.5}
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "icon": "bottle",
+   "text": "Woher weiß er das?",
+   "sub": "Flasche rein, es rattert, 25 Cent.",
+   "sub_at": "Du",
+   "say": "Du steckst eine Flasche rein, es rattert kurz, und ein paar Sekunden später weiß der Automat: 25 Cent. Aber woher eigentlich? Und warum spuckt er manche Flaschen einfach wieder aus?"
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir hinter die Klappe",
+   "items": [
+    {
+     "text": "Was der Automat sieht",
+     "at": "sieht"
+    },
+    {
+     "text": "Wohin die Flasche geht",
+     "at": "landet"
+    },
+    {
+     "text": "Wer dein Pfand bezahlt",
+     "at": "bezahlt"
+    },
+    {
+     "text": "Wem vergessenes Pfand gehört",
+     "at": "vergisst"
+    }
+   ],
+   "say": "Heute schauen wir hinter die Klappe. Was der Automat in einer Sekunde sieht, wo deine Flasche danach landet, wer dein Pfand eigentlich bezahlt, und wem das Geld gehört, wenn du eine Flasche vergisst."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Woran erkennt der Automat, dass deine Flasche Pfand hat?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Am Gewicht",
+     "at": "A"
+    },
+    {
+     "text": "Nur am Strichcode",
+     "at": "B"
+    },
+    {
+     "text": "Am Strichcode und an einer Spezialfarbe im Pfandlogo",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Woran erkennt der Automat, dass deine Flasche Pfand hat? A: am Gewicht. B: nur am Strichcode. C: am Strichcode und an einer Spezialfarbe im Pfandlogo. Schreib deinen Tipp in die Kommentare. Die Auflösung kommt gleich.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Ein riesiges System",
+   "title": "Das Einwegpfand in Deutschland",
+   "items": [
+    {
+     "num": "20 Mrd.",
+     "label": "Flaschen und Dosen pro Jahr",
+     "at": "zwanzig"
+    },
+    {
+     "num": "40.000+",
+     "label": "Rücknahmeautomaten",
+     "at": "vierzigtausend"
+    }
+   ],
+   "note": "25 Cent pro Stück – seit 2003",
+   "note_at": "2003",
+   "say": "Erst mal zur Größe. Rund zwanzig Milliarden Einwegflaschen und Dosen laufen jedes Jahr durch das deutsche Pfandsystem. Dafür stehen in den Läden mehr als vierzigtausend Rücknahmeautomaten. Und für jede einzelne Verpackung geht es um 25 Cent, so ist es seit 2003 gesetzlich geregelt."
+  },
+  {
+   "type": "machine",
+   "chapter": "Was in einer Sekunde passiert",
+   "insert_at": "rollt",
+   "scan_at": "Kameras",
+   "db_at": "Datenbank",
+   "press_at": "weitertransportiert",
+   "bon_at": "Bon",
+   "steps": [
+    "Einwurf",
+    "Kameras scannen",
+    "Abgleich mit Datenbank",
+    "Sortieren & pressen",
+    "Pfandbon"
+   ],
+   "say": "So läuft es ab. Deine Flasche rollt in einen hell beleuchteten Schacht. Dort prüfen Kameras sie von allen Seiten. Der Automat gleicht das Ergebnis mit einer Datenbank ab: Welches Produkt ist das, aus welchem Material, ist es bepfandet? Dann wird die Flasche weitertransportiert und sortiert. Und am Ende druckt er dir den Bon."
+  },
+  {
+   "type": "fact",
+   "icon": "eye",
+   "label": "BIS ZU 6 KAMERAS",
+   "headline": "Der Blick in den Schacht",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Moderne Automaten prüfen jede Flasche in Bruchteilen einer Sekunde.",
+     "at": "Bruchteilen"
+    },
+    {
+     "text": "Ältere Modelle drehen die Flasche, bis sie ein lesbares Merkmal finden.",
+     "at": "Ältere"
+    }
+   ],
+   "say": "In modernen Automaten sitzen bis zu sechs Kameras, teilweise im Kreis direkt um die Öffnung. Sie erkennen eine Flasche in Bruchteilen einer Sekunde. Ältere Modelle drehen die Flasche dagegen ein paar Sekunden lang hin und her, bis sie ein lesbares Merkmal gefunden haben. Deshalb dauert es dort manchmal so lange."
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Geheimnis im Pfandlogo",
+   "icon": "barcode",
+   "label": "PFANDLOGO + STRICHCODE",
+   "headline": "Der Strichcode allein reicht nicht.",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Das Pfandlogo wird mit einer speziellen Farbe gedruckt.",
+     "at": "speziellen"
+    },
+    {
+     "text": "Nur zertifizierte Druckereien dürfen sie verwenden.",
+     "at": "zertifizierte"
+    },
+    {
+     "text": "Der Automat prüft sie mit Licht, das du nicht sehen kannst.",
+     "at": "Licht"
+    }
+   ],
+   "say": "Und jetzt das Spannende. Einen Strichcode kann man leicht kopieren. Deshalb wird das Pfandlogo mit der Flasche, der Dose und dem Pfeil mit einer speziellen Farbe gedruckt. Nur zertifizierte Druckereien bekommen diese Farbe. Der Automat prüft sie mit Licht, das für dich unsichtbar ist."
+  },
+  {
+   "type": "story",
+   "title": "Ein Katz-und-Maus-Spiel",
+   "steps": [
+    {
+     "date": "Anfangs",
+     "text": "Das Logo wird mit UV-Licht geprüft.",
+     "at": "Anfangs"
+    },
+    {
+     "date": "Nov. 2005",
+     "text": "Fälscher überlisten das Verfahren.",
+     "at": "2005"
+    },
+    {
+     "date": "Danach",
+     "text": "Umstieg auf Infrarot-Prüfung.",
+     "at": "Infrarot"
+    }
+   ],
+   "say": "Das war nicht immer so sicher. Anfangs wurde das Logo mit ultraviolettem Licht geprüft. Im November 2005 wurde dieses Verfahren überlistet. Danach stieg das System auf eine Prüfung mit Infrarot um. Bei 25 Cent pro Flasche lohnt sich Betrug eben schnell."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Woran erkennt der Automat das Pfand?",
+   "size": 62,
+   "answer": "C",
+   "reveal_at": "Richtig",
+   "options": [
+    "Am Gewicht",
+    "Nur am Strichcode",
+    "Am Strichcode und an einer Spezialfarbe im Pfandlogo"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist C. Der Strichcode verrät das Produkt, und die Spezialfarbe im Logo beweist, dass es eine echte deutsche Pfandflasche ist."
+  },
+  {
+   "type": "split",
+   "chapter": "Einweg oder Mehrweg?",
+   "title": "Hinter der Klappe trennen sich die Wege",
+   "items": [
+    {
+     "icon": "press",
+     "label": "EINWEG · 25 CENT",
+     "title": "Wird sofort zerstört",
+     "text": "Gepresst oder zerkleinert, damit sie kein zweites Mal Pfand bringt. Dann nach Material sortiert und recycelt.",
+     "color": "red",
+     "at": "Einwegflaschen"
+    },
+    {
+     "icon": "crate",
+     "label": "MEHRWEG · z. B. 15 CENT",
+     "title": "Bleibt ganz",
+     "text": "Kommt in Kästen zurück zum Abfüller, wird gewaschen und wieder befüllt.",
+     "color": "green",
+     "at": "Mehrwegflaschen"
+    }
+   ],
+   "say": "Hinter der Klappe trennen sich jetzt die Wege. Einwegflaschen und Dosen werden direkt gepresst oder zerkleinert. Das knirschende Geräusch, das du hörst, ist genau das. So kann niemand dieselbe Flasche zweimal abgeben. Danach wird nach Material sortiert und recycelt. Mehrwegflaschen dagegen bleiben ganz. Sie kommen in Kästen zurück zum Abfüller, werden gewaschen und wieder befüllt."
+  },
+  {
+   "type": "list",
+   "chapter": "Warum der Automat streikt",
+   "title": "Warum er deine Flasche ausspuckt",
+   "items": [
+    {
+     "text": "Zerdrückt: Sie muss sich im Schacht drehen können",
+     "icon": "x",
+     "at": "zerdrückt"
+    },
+    {
+     "text": "Etikett oder Pfandlogo beschädigt",
+     "icon": "x",
+     "at": "Etikett"
+    },
+    {
+     "text": "Material, das der Laden nicht verkauft",
+     "icon": "x",
+     "at": "Material"
+    }
+   ],
+   "say": "Und warum spuckt er manche Flaschen wieder aus? Meistens, weil sie zerdrückt sind. Die Flasche muss sich im Schacht drehen können, damit die Kameras alles sehen. Oder weil das Etikett mit dem Pfandlogo beschädigt ist. Oder weil der Laden dieses Material gar nicht verkauft. Ein Geschäft muss nur die Verpackungsarten zurücknehmen, die es selbst anbietet."
+  },
+  {
+   "type": "money",
+   "chapter": "Wer dein Pfand bezahlt",
+   "title": "Wer bezahlt eigentlich dein Pfand?",
+   "nodes": [
+    {
+     "icon": "factory",
+     "label": "Abfüller"
+    },
+    {
+     "icon": "server",
+     "label": "Abrechnung"
+    },
+    {
+     "icon": "shop",
+     "label": "Laden"
+    },
+    {
+     "icon": "person",
+     "label": "Du"
+    }
+   ],
+   "moves": [
+    {
+     "from": 2,
+     "to": 0,
+     "label": "25 ct",
+     "at": "Abfüller",
+     "caption": "Laden zahlt Pfand an den Abfüller"
+    },
+    {
+     "from": 3,
+     "to": 2,
+     "label": "25 ct",
+     "at": "dir",
+     "caption": "Du zahlst Pfand an den Laden"
+    },
+    {
+     "from": 2,
+     "to": 3,
+     "label": "25 ct",
+     "at": "zurück",
+     "caption": "Rückgabe: Laden zahlt dir aus"
+    },
+    {
+     "from": 2,
+     "to": 1,
+     "kind": "data",
+     "at": "Datensatz",
+     "caption": "Automat meldet einen Datensatz"
+    },
+    {
+     "from": 0,
+     "to": 2,
+     "label": "25 ct",
+     "at": "erstattet",
+     "caption": "Abfüller erstattet dem Laden"
+    }
+   ],
+   "say": "Und wer bezahlt dein Pfand eigentlich? Nicht der Laden. Das Pfand wandert durch die ganze Handelskette. Der Abfüller kassiert es vom Händler, und der Händler kassiert es beim Kauf von dir. Bringst du die Flasche zurück, zahlt dir der Laden das Geld aus. Der Automat erzeugt dafür einen Datensatz. Über eine Abrechnungsstelle bekommt der Laden das Geld dann vom Abfüller erstattet."
+  },
+  {
+   "type": "bignum",
+   "chapter": "Wem vergessenes Pfand gehört",
+   "title": "Und wenn du eine Flasche nicht zurückbringst?",
+   "items": [
+    {
+     "num": "98,5 %",
+     "label": "der Einwegverpackungen kommen zurück",
+     "color": "green",
+     "at": "Prozent"
+    }
+   ],
+   "note": "Der Rest heißt Pfandschlupf: Dieses Pfand behält der Abfüller.",
+   "note_at": "Pfandschlupf",
+   "say": "Und was passiert mit dem Geld, wenn du eine Flasche nicht zurückbringst? Laut Deutscher Umwelthilfe kommen 98,5 Prozent der Einwegverpackungen zurück. Den Rest nennt man Pfandschlupf. Dieses Pfand muss niemandem erstattet werden, es bleibt beim Abfüller. Und bei Milliarden Flaschen sind selbst wenige Prozent sehr viel Geld."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "shop",
+   "label": "Behauptung 1",
+   "text": "Du musst die Flasche in dem Laden abgeben, in dem du sie gekauft hast.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Jeder",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Du musst die Flasche in dem Laden abgeben, in dem du sie gekauft hast. ... Mythos. Jeder Laden, der Einwegflaschen aus demselben Material verkauft, muss sie auch zurücknehmen.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "press",
+   "label": "Behauptung 2",
+   "text": "Das Knirschen im Automaten ist deine Flasche, die gerade gepresst wird.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Zweitens: Das Knirschen im Automaten ist deine Flasche, die gerade gepresst wird. ... Stimmt. Zumindest bei Einweg.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "recycle",
+   "label": "Behauptung 3",
+   "text": "Aus deiner alten Einwegflasche kann wieder eine neue Getränkeverpackung werden.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Drittens: Aus deiner alten Einwegflasche kann wieder eine neue Getränkeverpackung werden. ... Stimmt. Weil sauber nach Material getrennt wird, lässt sich das Material wiederverwerten, zum Beispiel für neue Flaschen.",
+   "pause": 0.6
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Automat der Zukunft",
+   "icon": "chip",
+   "label": "MULTI-FEED",
+   "headline": "Bis zu 100 Flaschen auf einmal",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Neue Automaten schlucken den ganzen Beutel in einem Schwung.",
+     "at": "Schwung"
+    },
+    {
+     "text": "Laut Kaufland bis zu fünfmal schneller.",
+     "at": "fünfmal"
+    }
+   ],
+   "say": "Und die Zukunft? Einige Märkte testen schon Automaten, in die du bis zu hundert Flaschen und Dosen auf einmal kippen kannst, in einem Schwung. Laut Kaufland geht die Rückgabe damit bis zu fünfmal schneller."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für weniger Ärger am Automaten",
+   "items": [
+    {
+     "text": "Flaschen und Dosen nicht zerdrücken",
+     "icon": "bottle",
+     "at": "Eins"
+    },
+    {
+     "text": "Etikett mit Pfandlogo dranlassen",
+     "icon": "barcode",
+     "at": "Zwei"
+    },
+    {
+     "text": "Viel Leergut? Märkte mit Multi-Feed-Automat suchen",
+     "icon": "chip",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps zum Schluss. Eins: Flaschen und Dosen nicht zerdrücken. Zwei: Das Etikett mit dem Pfandlogo dranlassen. Drei: Wenn du viel Leergut hast, such dir einen Markt mit einem der neuen Automaten, die alles auf einmal nehmen."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Kameras, Spezialfarbe und eine riesige Datenbank.",
+   "size": 84,
+   "sub": "Hinter 25 Cent steckt erstaunlich viel Technik.",
+   "sub_at": "Hinter",
+   "say": "Also: Der Pfandautomat wiegt deine Flasche nicht einfach. Er schaut sie mit Kameras an, prüft eine Spezialfarbe und fragt eine Datenbank. Hinter 25 Cent steckt erstaunlich viel Technik."
+  },
+  {
+   "type": "outro",
+   "sub": "Jeden Freitag durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Jeden Freitag durchschauen wir ein neues.",
+   "pause": 1.5
+  }
  ],
  "shorts": [
-  {"slug": "spezialfarbe", "title": "Woran erkennt der Pfandautomat deine Flasche? #shorts", "date": "2026-11-06",
+  {
+   "slug": "spezialfarbe",
+   "title": "Woran erkennt der Pfandautomat deine Flasche? #shorts",
+   "date": "2026-11-06",
    "scenes": [
-    {"type": "quiz", "kicker": "QUIZ", "question": "Woran erkennt der Pfandautomat, dass deine Flasche Pfand hat?", "size": 58,
-     "options": [{"text": "Gewicht", "at": "A"}, {"text": "Nur Strichcode", "at": "B"}, {"text": "Strichcode + Spezialfarbe", "at": "C"}],
-     "say": "Woran erkennt der Pfandautomat, dass deine Flasche Pfand hat? A: am Gewicht. B: nur am Strichcode. C: Strichcode plus Spezialfarbe.", "pause": 0.9},
-    {"type": "quiz", "kicker": "AUFLÖSUNG", "question": "Richtig ist:", "size": 70, "answer": "C", "reveal_at": "C",
-     "options": ["Gewicht", "Nur Strichcode", "Strichcode + Spezialfarbe"],
-     "say": "Richtig ist C. Das Pfandlogo ist mit einer speziellen Farbe gedruckt."},
-    {"type": "fact", "icon": "eye", "label": "UNSICHTBARES LICHT", "headline": "Den Strichcode kann man kopieren. Die Farbe nicht.", "size": 66,
-     "lines": [{"text": "Bis zu 6 Kameras prüfen sie in Bruchteilen einer Sekunde.", "at": "Kameras"}],
-     "say": "Einen Strichcode kann man kopieren, die Farbe nicht. Bis zu sechs Kameras prüfen sie mit Licht, das du nicht sehen kannst."},
-    {"type": "outro", "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.", "button": "FOLGEN",
-     "say": "Folge Durchschaut für mehr Alltagstechnik.", "pause": 1.0}
-   ]},
-  {"slug": "hinter_der_klappe", "title": "Was passiert mit deiner Flasche im Pfandautomaten? #shorts", "date": "2026-11-08",
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Woran erkennt der Pfandautomat, dass deine Flasche Pfand hat?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Gewicht",
+       "at": "A"
+      },
+      {
+       "text": "Nur Strichcode",
+       "at": "B"
+      },
+      {
+       "text": "Strichcode + Spezialfarbe",
+       "at": "C"
+      }
+     ],
+     "say": "Woran erkennt der Pfandautomat, dass deine Flasche Pfand hat? A: am Gewicht. B: nur am Strichcode. C: Strichcode plus Spezialfarbe.",
+     "pause": 0.9
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "C",
+     "reveal_at": "C",
+     "options": [
+      "Gewicht",
+      "Nur Strichcode",
+      "Strichcode + Spezialfarbe"
+     ],
+     "say": "Richtig ist C. Das Pfandlogo ist mit einer speziellen Farbe gedruckt."
+    },
+    {
+     "type": "fact",
+     "icon": "eye",
+     "label": "UNSICHTBARES LICHT",
+     "headline": "Den Strichcode kann man kopieren. Die Farbe nicht.",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Bis zu 6 Kameras prüfen sie in Bruchteilen einer Sekunde.",
+       "at": "Kameras"
+      }
+     ],
+     "say": "Einen Strichcode kann man kopieren, die Farbe nicht. Bis zu sechs Kameras prüfen sie mit Licht, das du nicht sehen kannst."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "hinter_der_klappe",
+   "title": "Was passiert mit deiner Flasche im Pfandautomaten? #shorts",
+   "date": "2026-11-08",
    "scenes": [
-    {"type": "title", "icon": "bottle", "text": "Was passiert hinter der Klappe?", "size": 84,
-     "say": "Was passiert eigentlich mit deiner Flasche, nachdem sie im Pfandautomaten verschwunden ist?"},
-    {"type": "flow", "title": "Einweg", "items": [{"icon": "eye", "text": "Kameras prüfen Logo und Code", "at": "Kameras"}, {"icon": "press", "text": "Sofort gepresst", "at": "gepresst"}, {"icon": "recycle", "text": "Recycelt", "at": "recycelt"}],
-     "say": "Einweg: Kameras prüfen Logo und Strichcode, dann wird sie sofort gepresst, damit sie nie wieder Pfand bringt, und später recycelt."},
-    {"type": "flow", "title": "Mehrweg", "items": [{"icon": "crate", "text": "Ab in den Kasten", "at": "Kasten"}, {"icon": "wash", "text": "Gewaschen", "at": "gewaschen"}, {"icon": "bottle", "text": "Wieder befüllt", "at": "befüllt"}],
-     "say": "Mehrweg bleibt ganz. Ab in den Kasten, zurück zum Abfüller, gewaschen und wieder befüllt."},
-    {"type": "outro", "sub": "Wer dein Pfand bezahlt? Ganzes Video auf dem Kanal.", "button": "FOLGEN",
-     "say": "Wer dein Pfand am Ende bezahlt, erfährst du im ganzen Video auf dem Kanal.", "pause": 1.0}
-   ]}
+    {
+     "type": "title",
+     "icon": "bottle",
+     "text": "Was passiert hinter der Klappe?",
+     "size": 84,
+     "say": "Was passiert eigentlich mit deiner Flasche, nachdem sie im Pfandautomaten verschwunden ist?"
+    },
+    {
+     "type": "flow",
+     "title": "Einweg",
+     "items": [
+      {
+       "icon": "eye",
+       "text": "Kameras prüfen Logo und Code",
+       "at": "Kameras"
+      },
+      {
+       "icon": "press",
+       "text": "Sofort gepresst",
+       "at": "gepresst"
+      },
+      {
+       "icon": "recycle",
+       "text": "Recycelt",
+       "at": "recycelt"
+      }
+     ],
+     "say": "Einweg: Kameras prüfen Logo und Strichcode, dann wird sie sofort gepresst, damit sie nie wieder Pfand bringt, und später recycelt."
+    },
+    {
+     "type": "flow",
+     "title": "Mehrweg",
+     "items": [
+      {
+       "icon": "crate",
+       "text": "Ab in den Kasten",
+       "at": "Kasten"
+      },
+      {
+       "icon": "wash",
+       "text": "Gewaschen",
+       "at": "gewaschen"
+      },
+      {
+       "icon": "bottle",
+       "text": "Wieder befüllt",
+       "at": "befüllt"
+      }
+     ],
+     "say": "Mehrweg bleibt ganz. Ab in den Kasten, zurück zum Abfüller, gewaschen und wieder befüllt."
+    },
+    {
+     "type": "outro",
+     "sub": "Wer dein Pfand bezahlt? Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wer dein Pfand am Ende bezahlt, erfährst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
  ]
 }
