@@ -1,0 +1,13 @@
+episodes/*/out/
+episodes/*/stills/
+episodes/*/fonts/
+episodes/*/print.js
+episodes/*/nature.js
+episodes/*/traveler.js
+episodes/*/figures.js
+episodes/*/mix.wav
+episodes/*/events.json
+episodes/*/music/score.wav
+episodes/*/music/stems/
+episodes/*/music/score.json
+__pycache__/
