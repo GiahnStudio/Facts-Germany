@@ -58,9 +58,11 @@ Keine API-Uploads (Videos aus nicht verifizierten API-Projekten bleiben privat).
 4. `window.runQueue([['m',i],['s',i,0],['s',i,1], ...])` (i = Index in window.PLAN) und mit kurzen Aufrufen (< 45 s) `window.R`/`window.LOG` abfragen,
    bis `R === 'done'`. Bei "SCHED FAIL": Screenshot ansehen, Uhrzeit aus der Liste wählen, `window.finish()`.
 4b. Einträge mit `"replace": true` in uploaded.json: Die alte, schon eingeplante Version in Studio (Tab Videos bzw. Shorts, gleicher Titel, Status "Geplant")
-   über Checkbox → "Weitere Aktionen" → "Endgültig löschen" (Bestätigungshaken setzen) entfernen und neu hochladen. GIAHN hat das Ersetzen genehmigt.
+   über Checkbox → "Weitere Aktionen" → "Endgültig löschen" (Bestätigungshaken setzen) entfernen und neu hochladen.
+   WICHTIG: Nach dem Klick auf "Endgültig löschen" auf der Seite bleiben, bis das Banner "Videos werden gelöscht" verschwindet (ca. 60 s),
+   sonst wird das Löschen abgebrochen. Danach neu laden und prüfen, dass keine Doppelten mehr da sind. GIAHN hat das Ersetzen genehmigt.
    Nie ein Video löschen, das schon öffentlich ist. Danach `replace` entfernen.
-   Upload-Limit: Ohne bestätigte Telefonnummer erlaubt YouTube nur ca. 10 Uploads pro Tag (Meldung "Tägliches Upload-Limit erreicht").
+   Upload-Limit (Kanal ist seit 7.11. bestätigt, sollte nicht mehr auftreten): Ohne bestätigte Telefonnummer erlaubt YouTube nur ca. 10 Uploads pro Tag (Meldung "Tägliches Upload-Limit erreicht").
    Dann abbrechen, Rest beim nächsten Lauf; Termine, die bis dahin verstrichen wären, um einen Tag (18:00) verschieben.
 5. Erfolgreiche Einträge mit Datum in `up/uploaded.json` eintragen, committen ("[skip ci]"), pushen.
 6. Wenn die Telefonnummer bestätigt ist (setThumb meldet nicht mehr "Telefon nicht bestätigt"): bei schon hochgeladenen Videos ohne eigenes

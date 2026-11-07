@@ -1,43 +1,62 @@
 {
  "pfandautomat:main": {
   "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "pfandautomat:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "pfandautomat:s2": {
+  "uploaded": "2026-11-07",
   "thumb": false,
   "pinned": false
  },
  "ampel:main": {
   "uploaded": "2026-11-07",
-  "thumb": false,
-  "pinned": false,
-  "replace": true
+  "thumb": true,
+  "pinned": false
  },
  "ampel:s1": {
   "uploaded": "2026-11-07",
   "thumb": false,
-  "pinned": false,
-  "replace": true
+  "pinned": false
  },
  "ampel:s2": {
   "uploaded": "2026-11-07",
   "thumb": false,
-  "pinned": false,
-  "replace": true
+  "pinned": false
  },
  "aufzug:main": {
   "uploaded": "2026-11-07",
-  "thumb": false,
-  "pinned": false,
-  "replace": true
+  "thumb": true,
+  "pinned": false
  },
  "aufzug:s1": {
   "uploaded": "2026-11-07",
   "thumb": false,
-  "pinned": false,
-  "replace": true
+  "pinned": false
  },
  "aufzug:s2": {
   "uploaded": "2026-11-07",
   "thumb": false,
-  "pinned": false,
-  "replace": true
+  "pinned": false
+ },
+ "mikrowelle:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "mikrowelle:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "mikrowelle:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
  }
 }
