@@ -46,3 +46,18 @@ beim Quiz und bei "Stimmt oder Mythos?", jubelt bei "Stimmt"/richtiger Antwort, 
 Stimme: de-DE-Chirp3-HD-Rasalgethi (Google Cloud Text-to-Speech, Gratis-Kontingent 1 Mio. Zeichen/Monat; Schlüssel als GitHub-Secret GOOGLE_TTS_KEY).
 Kanalstimme, nicht ändern. Wortzeiten kommen aus faster-whisper; der Abgleich Skript/Aufnahme steht als `match` in `audio_cache/*.json` (Ziel ≥ 0,85).
 Fehlt der Schlüssel, rendert die Action mit einer Ersatzstimme ("Kein GOOGLE_TTS_KEY" im Log) – dann GIAHN Bescheid geben.
+
+## Hochladen auf YouTube (Kanal "Durchschaut", @DurchschautDE)
+Läuft über YouTube Studio im eingebauten Browser auf GIAHNs PC (Konto ist dort angemeldet; im Kontowechsler den Kanal "Durchschaut" wählen).
+Keine API-Uploads (Videos aus nicht verifizierten API-Projekten bleiben privat).
+1. `git pull`, offene Einträge finden: alles aus `up/plan.json` (Hauptvideo + 2 Shorts je Folge), was nicht in `up/uploaded.json` steht
+   (Schlüssel `slug:main`, `slug:s1`, `slug:s2`) und dessen Termin noch in der Zukunft liegt (mind. 1 Stunde).
+2. studio.youtube.com öffnen, auf den Kanal Durchschaut wechseln (Kanal-ID UCv4sZ_T8SQGK_2-oNxI6QOQ), Seite /videos/upload.
+3. `up/ytlib.js` lesen, in der ersten Zeile `COMMIT` durch den aktuellen Commit (`git rev-parse HEAD`) ersetzen und den GANZEN Inhalt
+   per javascript_tool einfügen (eval ist durch Trusted Types gesperrt, daher Code direkt einfügen).
+4. `window.runQueue([['m',i],['s',i,0],['s',i,1], ...])` (i = Index in window.PLAN) und mit kurzen Aufrufen (< 45 s) `window.R`/`window.LOG` abfragen,
+   bis `R === 'done'`. Bei "SCHED FAIL": Screenshot ansehen, Uhrzeit aus der Liste wählen, `window.finish()`.
+5. Erfolgreiche Einträge mit Datum in `up/uploaded.json` eintragen, committen ("[skip ci]"), pushen.
+6. Wenn die Telefonnummer bestätigt ist (setThumb meldet nicht mehr "Telefon nicht bestätigt"): bei schon hochgeladenen Videos ohne eigenes
+   Thumbnail das thumbnail_A.png über Studio → Inhalte → Video → Thumbnail nachtragen und in uploaded.json `thumb: true` setzen.
+7. Nach Veröffentlichung: angepinnten Kommentar (`pin` aus plan.json) setzen, sobald das Video öffentlich ist; in uploaded.json `pinned: true`.
