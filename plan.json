@@ -1,1 +1,12 @@
-[{"ep": "001-the-stonecutter", "date": null, "time": "18:00", "status": "rendered", "metricool_uuid": null}]
+[
+ {
+  "ep": "001-the-stonecutter",
+  "date": "2026-11-07",
+  "time": "18:00",
+  "status": "scheduled",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": "7775548879619900613"
+ }
+]

@@ -2,7 +2,7 @@
 
 Kanal von GIAHN (Antworten an ihn immer auf **Deutsch**). Die Videos selbst sind auf **Englisch**.
 Ein Short pro Tag (9:16, 1080×1920, 45–75 s): eine Fabel / Parabel, am Ende eine Moral als gedrucktes Schild.
-Plattformen: TikTok, Instagram (Reel), YouTube (Short) — alle über **Metricool**, Konto **inktails@gmail.com**.
+Plattformen: TikTok, Instagram (Reel), YouTube (Short) — alle über **Metricool**, Konto **ininktales@gmail.com**.
 Die `blogId` nie raten: per `getBrandSettings` die Marke nehmen, in der der Tales-in-Ink-TikTok verbunden ist
 (nie die alte Marke 7714006 „Who has more?“ von giahnstudio@gmail.com). Zeitzone: die der Marke (Berliner Zeit).
 
@@ -50,8 +50,8 @@ Dieser Branch (`tales-in-ink` im Repo GiahnStudio/Facts-Germany) ist ein eigener
 
 ## Einplanen in Metricool
 
-- Vorher `getBrandSettings`: Liefert es nur die alte Marke 7714006 (giahnstudio, „Who has more?“) oder einen Fehler „no social network connected“, ist der Metricool-Connector noch mit dem alten Konto verbunden → **nichts einplanen**, GIAHN bitten, den Metricool-Connector in den Claude-Einstellungen mit inktails@gmail.com neu zu verbinden.
-- Richtige Marke: `blogId` **7942950** (Konto inktails@gmail.com). TikTok `who.has.more1` nie verwenden.
+- `getBrandSettings` meldet bei dieser Marke fälschlich „doesn't have any social network connected“, obwohl TikTok verbunden ist — **ignorieren** und trotzdem einplanen (am 07.11.2026 so getestet: Post wurde angenommen, Status PENDING). Nur wenn `createScheduledPost` selbst einen Fehler liefert, GIAHN die Meldung schicken. Liefert getBrandSettings dagegen die alte Marke 7714006, ist der Connector mit dem falschen Konto verbunden → nichts einplanen, GIAHN melden.
+- Richtige Marke: `blogId` **7942950** (Konto ininktales@gmail.com). TikTok `who.has.more1` nie verwenden.
 - **Vorerst nur TikTok** (GIAHNs Entscheidung, Metricool-Gratistarif): `providers` = nur tiktok, nur `tiktokData`. Instagram/YouTube erst einplanen, wenn GIAHN das freigibt und diese Zeile hier geändert ist. Fehlende Netze also NICHT als Problem melden.
 - Ein Post pro Folge, täglich **18:00 Europe/Madrid**, nächster freier Tag (Plan in `plan.json` + `getScheduledPosts` prüfen; nie zwei Folgen am selben Tag). Die zwei alten „Who has more“-Entwürfe (#whohasmore) nie anfassen.
 - `createScheduledPost` mit `media` = Raw-GitHub-URL aus `out/`, `providers` = (später) tiktok, instagram, youtube, `text` = caption,
