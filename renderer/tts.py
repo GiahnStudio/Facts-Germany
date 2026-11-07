@@ -94,7 +94,13 @@ def _whisper_words(wav):
         return None
     if _WHISPER is None:
         _WHISPER = WhisperModel(os.environ.get("WHISPER_MODEL", "small"), device="cpu", compute_type="int8")
-    segs, _ = _WHISPER.transcribe(wav, language="de", word_timestamps=True, vad_filter=False)
+    # Audio selbst per ffmpeg dekodieren (16 kHz mono float), damit keine PyAV-Version nötig ist
+    import subprocess
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(wav), "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
+                         capture_output=True, check=True).stdout
+    audio = np.frombuffer(raw, dtype=np.float32).copy()
+    segs, _ = _WHISPER.transcribe(audio, language="de", word_timestamps=True, vad_filter=False)
     return [[w.start, w.end, w.word.strip()] for s in segs for w in (s.words or [])]
 
 
