@@ -160,6 +160,27 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       {[0, 1, 2].map((r) => [0, 1, 2].map((c) => <rect key={r + "" + c} x={22 + c * 20} y={46 + r * 14} width="14" height="9" rx="2" fill={r === 1 && c === 1 ? accent : "#b0b6c2"} />))}
     </>
   ),
+  flame: () => (
+    <>
+      <path d="M50 4 C62 26 84 40 80 66 C77 86 64 96 50 96 C36 96 22 86 20 66 C18 48 32 40 36 22 C44 34 46 40 50 4 Z" fill={C.red} />
+      <path d="M50 44 C58 56 66 62 64 76 C62 88 56 92 50 92 C44 92 37 88 36 78 C35 66 44 62 50 44 Z" fill={C.yellow} />
+    </>
+  ),
+  drop: ({ accent }) => (
+    <>
+      <path d="M50 4 C60 24 80 44 80 64 A30 30 0 0 1 20 64 C20 44 40 24 50 4 Z" fill="#86c4f5" />
+      <path d="M34 62 A16 16 0 0 0 46 80" stroke="#ffffffaa" strokeWidth="6" fill="none" strokeLinecap="round" />
+      <circle cx="64" cy="70" r="5" fill={accent} />
+    </>
+  ),
+  door: ({ accent }) => (
+    <>
+      <rect x="22" y="4" width="56" height="92" rx="5" fill={L} />
+      <rect x="30" y="12" width="40" height="76" rx="3" fill="#7d8698" />
+      {[0, 1, 2, 3, 4].map((r) => [0, 1, 2, 3].map((c) => <circle key={r + "" + c} cx={37 + c * 9} cy={22 + r * 14} r="2.6" fill={C.ink} />))}
+      <rect x="64" y="44" width="6" height="16" rx="3" fill={accent} />
+    </>
+  ),
   machine: ({ accent }) => (
     <>
       <rect x="18" y="4" width="64" height="92" rx="6" fill={L} />

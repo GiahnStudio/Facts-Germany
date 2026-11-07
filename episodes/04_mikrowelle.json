@@ -1,0 +1,529 @@
+{
+ "slug": "mikrowelle",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-13",
+ "time": "17:00",
+ "title": "Wie funktioniert eine Mikrowelle? (Warum dein Essen ohne Flamme heiß wird)",
+ "tags": "mikrowelle, wie funktioniert eine mikrowelle, magnetron, mikrowelle wassermoleküle, mikrowelle drehteller, mikrowelle gitter tür, mikrowelle radioaktiv, percy spencer, mikrowelle erfindung, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Kalte Suppe rein, Start drücken – und zwei Minuten später dampft sie. Aber wie, ganz ohne Flamme? Lupo schaut in die Mikrowelle: was das Magnetron macht, warum Wassermoleküle Milliarden Mal pro Sekunde tanzen, warum sich der Teller dreht, wieso durch die Tür Licht kommt, aber keine Mikrowellen – und wie ein geschmolzener Schokoriegel zur Erfindung führte.\n\nKapitel\n{kapitel}\n\nQuellen\n- Frequenz 2,45 GHz, Emissionsgrenzwert 5 mW/cm² (BfS-Infoblatt Mikrowellengeräte, Archiv): https://archiv.bge.de/archiv/www.asse.bund.de/SharedDocs/Downloads/BfS/DE/broschueren/emf/info-mikrowellengeraetee808.pdf\n- Moleküle rotieren, Erwärmung 2–3 cm unter der Oberfläche, nicht radioaktiv, Leckstrahlung ca. 1 % des Grenzwerts, Abschaltung beim Öffnen (ZDFheute mit BfS und BZfE): https://www.zdfheute.de/ratgeber/mikrowelle-schaedlich-strahlung-vitamine-100.html\n- Magnetron, Wellenlänge ca. 12 cm, Türgitter 1–2 mm, stehende Wellen, Drehteller (TU Graz, Institut für Experimentalphysik): https://www.tugraz.at/fileadmin/user_upload/Institute/IEP/Thermophysics_Group/Files/Experimente_mit_der_Mikrowelle_-_Jannach_Andreas.pdf\n- Erwärmung durch Ausrichtung molekularer Dipole (Spektrum Lexikon der Physik): https://www.spektrum.de/lexikon/physik/mikrowellenerwaermung/9765\n- Gitter und Metall-Innenraum halten die Wellen im Gerät (t-online): https://www.t-online.de/heim-garten/haushaltstipps/id_89948314/zwei-funktionen-darum-hat-die-mikrowelle-vorne-ein-gitter.html\n- Percy Spencer, Schokoriegel, Maiskörner, Patent 1945, erste Geräte 1,80 m / 340 kg (SRF): https://www.srf.ch/radio-srf-1/kochen/4-fakten-zum-80-jubilaeum-die-mikrowelle-zufallsfund-streitobjekt-und-alltagsheldin\n- Radarange ab 1947 (Lemelson-MIT): https://lemelson.mit.edu/resources/percy-spencer\n- 72,2 % der Haushalte, 30,4 Mio. Geräte, Stand 1.1.2023 (Statistisches Bundesamt): https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ausstattung-Gebrauchsgueter/Tabellen/a-evs-haushaltsgeraete-d.html\n- Nicht leer betreiben, Metall/Alu, Löffel gegen Siedeverzug, umrühren (Neff-Gebrauchsanleitung): https://media3.bsh-group.com/Documents/9001972901_A.pdf\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#mikrowelle #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Warum wird das Essen heiß?",
+   "chip": "SO FUNKTIONIERT DIE MIKROWELLE",
+   "mood": "wow",
+   "icon": "flame"
+  },
+  "B": {
+   "big": "Erfunden durch Zufall",
+   "chip": "SCHOKO GESCHMOLZEN",
+   "stamp": "1945",
+   "stamp_color": "red",
+   "mood": "happy",
+   "icon": "person"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie macht die Mikrowelle dein Essen warm?",
+   "size": 92,
+   "sub": "Keine Flamme, keine heiße Platte.",
+   "sub_at": "Flamme",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: die Mikrowelle. Du stellst kalte Suppe rein, drückst auf Start, und zwei Minuten später dampft sie. Aber da drin gibt es keine Flamme und keine heiße Platte. Wie geht das?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Magie?",
+      "at": "dampft"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir rein",
+   "items": [
+    {
+     "text": "Der Sender",
+     "at": "Sender"
+    },
+    {
+     "text": "Tanzende Moleküle",
+     "at": "Moleküle"
+    },
+    {
+     "text": "Das Gitter in der Tür",
+     "at": "Gitter"
+    },
+    {
+     "text": "Ein geschmolzener Schokoriegel",
+     "at": "Schokoriegel"
+    }
+   ],
+   "say": "Heute schauen wir rein: in den Sender, der alles antreibt, auf winzige Moleküle, die tanzen, auf das Gitter in der Tür, und auf einen geschmolzenen Schokoriegel, mit dem alles anfing."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Was bringen die Mikrowellen vor allem in Bewegung?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Die Luft im Garraum",
+     "at": "A"
+    },
+    {
+     "text": "Den Teller",
+     "at": "B"
+    },
+    {
+     "text": "Das Wasser im Essen",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Was bringen die Mikrowellen vor allem in Bewegung? A: die Luft im Garraum. B: den Teller. C: das Wasser im Essen. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Fast in jeder Küche",
+   "title": "Die Mikrowelle ist fast überall",
+   "items": [
+    {
+     "num": "72 %",
+     "label": "der Haushalte haben eine Mikrowelle",
+     "color": "green",
+     "at": "Haushalte"
+    },
+    {
+     "num": "30 Mio.",
+     "label": "Mikrowellen in deutschen Küchen",
+     "at": "Geräte"
+    }
+   ],
+   "say": "Erst mal: Die Mikrowelle ist fast überall. Laut Statistischem Bundesamt steht in rund 72 Prozent der Haushalte in Deutschland eine Mikrowelle. Zusammen sind das über 30 Millionen Geräte.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "So viele!",
+      "at": "Geräte"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Sender",
+   "icon": "chip",
+   "label": "DAS HERZSTÜCK",
+   "headline": "Das Magnetron funkt los",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Es erzeugt Mikrowellen mit 2,45 Gigahertz.",
+     "at": "Gigahertz"
+    },
+    {
+     "text": "Eine Welle ist rund 12 Zentimeter lang.",
+     "at": "Zentimeter"
+    },
+    {
+     "text": "Die Metallwände werfen sie hin und her.",
+     "at": "Metallwände"
+    }
+   ],
+   "say": "Das Herzstück steckt hinter dem Bedienfeld: das Magnetron. Das ist ein Sender. Er erzeugt Mikrowellen mit einer Frequenz von 2,45 Gigahertz. Eine Welle ist dabei rund 12 Zentimeter lang. Die Metallwände im Garraum werfen die Wellen hin und her, so bleiben sie drin."
+  },
+  {
+   "type": "mikrowelle",
+   "chapter": "Was im Garraum passiert",
+   "title": "Was in der Mikrowelle passiert",
+   "on_at": "Start",
+   "wave_at": "Wellen",
+   "flip_at": "Wassermoleküle",
+   "hot_at": "Wärme",
+   "say": "Schauen wir rein. Du drückst auf Start, und das Magnetron legt los. Die Wellen flitzen durch den Garraum und treffen auf dein Essen. Und darin stecken jede Menge Wassermoleküle. Jedes hat ein Ende, das leicht negativ ist, und eins, das leicht positiv ist. Das Feld der Mikrowellen kippt 2,45 Milliarden Mal pro Sekunde hin und her, und die Moleküle versuchen ständig, sich danach auszurichten. Sie drehen sich, ruckeln und stoßen aneinander. Und genau diese Bewegung wird zu Wärme.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Mir wird schwindelig!",
+      "at": "ruckeln"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Was bringen die Mikrowellen vor allem in Bewegung?",
+   "size": 60,
+   "answer": "C",
+   "reveal_at": "Richtig",
+   "options": [
+    "Die Luft im Garraum",
+    "Den Teller",
+    "Das Wasser im Essen"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist C. Die Mikrowellen bringen vor allem das Wasser im Essen in Bewegung, und so wird es von selbst warm."
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum sich der Teller dreht",
+   "icon": "flame",
+   "label": "HEISSE UND KALTE STELLEN",
+   "headline": "Darum dreht sich der Teller",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Die Wellen überlagern sich zu stehenden Wellen.",
+     "at": "stehenden"
+    },
+    {
+     "text": "An manchen Stellen wird es viel heißer als an anderen.",
+     "at": "heißer"
+    },
+    {
+     "text": "Der Drehteller bewegt das Essen hindurch.",
+     "at": "bewegt"
+    }
+   ],
+   "say": "Vielleicht hast du dich schon mal gewundert, warum manche Stellen im Essen glühend heiß sind und andere noch kalt. Die Wellen überlagern sich im Garraum zu sogenannten stehenden Wellen. An manchen Stellen wird es dadurch viel heißer als an anderen. Genau deshalb gibt es den Drehteller: Er bewegt dein Essen durch die heißen und kühleren Zonen, damit es gleichmäßiger warm wird.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Karussell!",
+      "at": "Drehteller"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Nur ein paar Zentimeter",
+   "icon": "drop",
+   "label": "NICHT BIS IN DIE MITTE",
+   "headline": "Die Wellen schaffen nur ein paar Zentimeter",
+   "size": 74,
+   "lines": [
+    {
+     "text": "Am stärksten wird es 2 bis 3 cm unter der Oberfläche warm.",
+     "at": "Oberfläche"
+    },
+    {
+     "text": "Deshalb: zwischendurch umrühren.",
+     "at": "umzurühren"
+    }
+   ],
+   "say": "Und noch etwas: Die Wellen dringen nicht beliebig tief ein. Am stärksten wird das Essen etwa zwei bis drei Zentimeter unter der Oberfläche erwärmt. Deshalb empfehlen Hersteller, es zwischendurch umzurühren."
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Gitter in der Tür",
+   "icon": "door",
+   "label": "DAS GITTER IN DER TÜR",
+   "headline": "Licht kommt raus, Mikrowellen nicht",
+   "size": 78,
+   "lines": [
+    {
+     "text": "Die Löcher im Metallgitter: nur 1 bis 2 Millimeter.",
+     "at": "Millimeter"
+    },
+    {
+     "text": "Für 12 cm lange Wellen viel zu klein.",
+     "at": "klein"
+    },
+    {
+     "text": "Tür auf? Das Gerät schaltet sofort ab.",
+     "at": "Schutzvorrichtung"
+    }
+   ],
+   "say": "Aber warum kommen die Wellen nicht durch die Glastür? Schau mal genau hin: Da ist ein Metallgitter drin. Seine Löcher sind nur ein bis zwei Millimeter groß. Licht passt da locker durch, deshalb kannst du reinschauen. Aber für Wellen, die zwölf Zentimeter lang sind, sind die Löcher viel zu klein. Und öffnest du die Tür, schaltet eine Schutzvorrichtung das Gerät sofort ab.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Schlau!",
+      "at": "locker"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Der geschmolzene Schokoriegel",
+   "title": "Erfunden durch Zufall",
+   "steps": [
+    {
+     "date": "Damals",
+     "text": "Percy Spencer arbeitet bei Raytheon an Radaranlagen mit Magnetrons.",
+     "at": "Spencer"
+    },
+    {
+     "date": "Huch",
+     "text": "Der Schokoriegel in seiner Hosentasche ist geschmolzen.",
+     "at": "Schokoriegel"
+    },
+    {
+     "date": "Test",
+     "text": "Er legt Maiskörner vor die Röhre – sie poppen auf.",
+     "at": "Maiskörner"
+    },
+    {
+     "date": "1945",
+     "text": "Er meldet den Mikrowellenherd zum Patent an.",
+     "at": "Patent"
+    }
+   ],
+   "stamp": "ZUFALLSFUND",
+   "stamp_color": "green",
+   "stamp_at": "Folgen",
+   "say": "Erfunden wurde das Ganze übrigens durch Zufall. Der Ingenieur Percy Spencer arbeitet bei der Firma Raytheon an Radaranlagen mit Magnetrons. Plötzlich merkt er: Der Schokoriegel in seiner Hosentasche ist geschmolzen. Neugierig legt er Maiskörner vor die Röhre, und die poppen auf. Im Oktober 1945 meldet er den Mikrowellenherd zum Patent an. Ein Zufall mit Folgen.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Mein Snack!",
+      "at": "geschmolzen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "bignum",
+   "chapter": "Die erste Mikrowelle",
+   "title": "Die erste Mikrowelle war ein Riese",
+   "items": [
+    {
+     "num": "1,80 m",
+     "label": "hoch",
+     "size": 120,
+     "at": "hoch"
+    },
+    {
+     "num": "340 kg",
+     "label": "schwer",
+     "size": 120,
+     "at": "wog"
+    }
+   ],
+   "say": "Die ersten Geräte hießen Radarange und hatten mit deiner Küchenmikrowelle wenig gemeinsam. Die erste Ausführung war fast 1,80 Meter hoch und wog um die 340 Kilo. Geräte für zu Hause brachte Raytheon erst Ende der Sechzigerjahre auf den Markt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Riesig!",
+      "at": "wog"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 1",
+   "text": "Essen aus der Mikrowelle wird radioaktiv.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Mikrowellen",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Essen aus der Mikrowelle wird radioaktiv. ... Mythos. Mikrowellen sind keine radioaktive Strahlung, und das Essen kann auch keine Strahlung speichern. Es wird einfach nur warm.",
+   "pause": 0.6,
+   "chapter": "Stimmt oder Mythos?"
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "door",
+   "label": "Behauptung 2",
+   "text": "Ein winziges bisschen Mikrowellen kommt durch die Tür.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Zweitens: Ein winziges bisschen Mikrowellenstrahlung kommt durch die Tür nach außen. ... Stimmt. Laut Bundesamt für Strahlenschutz liegt dieser Rest aber meist nur bei etwa einem Prozent des Grenzwerts.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "flame",
+   "label": "Behauptung 3",
+   "text": "Die Mikrowelle leer laufen lassen ist kein Problem.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Hersteller",
+   "say": "Und drittens: Die Mikrowelle leer laufen zu lassen, ist kein Problem. ... Mythos. Hersteller warnen ausdrücklich davor: Ohne Speisen im Garraum wird das Gerät überlastet.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Erwischt!",
+      "at": "überlastet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für deine Mikrowelle",
+   "items": [
+    {
+     "text": "Kein Metall, keine Alufolie: Das kann Funken geben",
+     "icon": "warn",
+     "at": "Eins"
+    },
+    {
+     "text": "Wasser erhitzen? Einen Löffel mit ins Gefäß",
+     "icon": "drop",
+     "at": "Zwei"
+    },
+    {
+     "text": "Zwischendurch zwei- bis dreimal umrühren",
+     "icon": "flame",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für deine Mikrowelle. Eins: Kein Metall und keine Alufolie rein, das kann Funken geben. Zwei: Wenn du Wasser erhitzt, stell einen Löffel mit ins Gefäß. Das verhindert den sogenannten Siedeverzug. Drei: Rühr dein Essen zwischendurch zwei- bis dreimal um, damit es überall warm wird."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Wellen, Wasser, Bewegung.",
+   "size": 96,
+   "sub": "Keine Magie – nur sehr schnell tanzende Moleküle.",
+   "sub_at": "Magie",
+   "say": "Also: Das Magnetron schickt Wellen in den Garraum, die Wassermoleküle im Essen drehen sich Milliarden Mal pro Sekunde hin und her, und diese Bewegung wird zu Wärme. Keine Magie, nur sehr schnell tanzende Moleküle."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "tuer_gitter",
+   "title": "Warum kommen die Mikrowellen nicht durch die Tür? #shorts",
+   "date": "2026-11-13",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Warum kommen die Mikrowellen nicht durch die Glastür?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Das Glas ist extra dick",
+       "at": "A"
+      },
+      {
+       "text": "Die Löcher im Gitter sind zu klein",
+       "at": "B"
+      },
+      {
+       "text": "Die Tür ist magnetisch",
+       "at": "C"
+      }
+     ],
+     "say": "Warum kommen die Mikrowellen nicht durch die Glastür? A: Das Glas ist extra dick. B: Die Löcher im Gitter sind zu klein. C: Die Tür ist magnetisch.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "magnetisch"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Das Glas ist extra dick",
+      "Die Löcher im Gitter sind zu klein",
+      "Die Tür ist magnetisch"
+     ],
+     "say": "Richtig ist B. In der Tür steckt ein Metallgitter."
+    },
+    {
+     "type": "fact",
+     "icon": "door",
+     "label": "LICHT JA, MIKROWELLEN NEIN",
+     "headline": "Löcher: 1 bis 2 mm. Wellen: rund 12 cm.",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Licht passt durch, die Mikrowellen sind viel zu groß.",
+       "at": "Licht"
+      }
+     ],
+     "say": "Seine Löcher sind nur ein bis zwei Millimeter groß. Licht passt locker durch. Aber die Mikrowellen sind rund zwölf Zentimeter lang, für sie sind die Löcher viel zu klein."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "molekuel_tanz",
+   "title": "Darum wird dein Essen in der Mikrowelle heiß #shorts",
+   "date": "2026-11-14",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum wird dein Essen in der Mikrowelle heiß?",
+     "size": 84,
+     "say": "Warum wird dein Essen in der Mikrowelle eigentlich heiß? Da drin gibt es doch gar keine Flamme.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hä?",
+        "at": "Flamme"
+       }
+      ]
+     }
+    },
+    {
+     "type": "mikrowelle",
+     "title": "Das passiert da drin",
+     "on_at": "Magnetron",
+     "wave_at": "Wellen",
+     "flip_at": "Wassermoleküle",
+     "hot_at": "Wärme",
+     "say": "Das Magnetron schickt Wellen in den Garraum. Die treffen auf die Wassermoleküle im Essen. Die drehen sich 2,45 Milliarden Mal pro Sekunde hin und her und stoßen aneinander. Und diese Bewegung wird zu Wärme.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Wild!",
+        "at": "stoßen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Warum sich der Teller dreht, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
