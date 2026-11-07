@@ -34,22 +34,22 @@
   "pin": "Drückst du an der Ampel immer mehrmals? Sei ehrlich 😄 Und welches Alltagsding soll Lupo als Nächstes durchschauen?",
   "v": "ampel",
   "file": "ampel_video.mp4",
-  "desc": "Du stehst an der roten Ampel, weit und breit kein Auto – und trotzdem wird es nicht grün. Woher weiß die Ampel eigentlich, dass du da bist? Lupo schaut in den Asphalt, klärt, ob Drücken am Knopf überhaupt etwas bringt, verrät, wofür der versteckte Knopf unten am Kasten da ist, und erzählt, wie die erste Ampel der Welt explodiert ist.\n\nKapitel\n0:00 Intro\n0:27 Die Quizfrage\n0:46 Das Geheimnis im Asphalt\n1:09 Die Auflösung\n1:22 Wenn die Ampel dich übersieht\n1:43 Bringt Drücken was?\n2:08 Stimmt oder Mythos?\n2:22 Knöpfe ohne Funktion\n2:46 Der versteckte Knopf\n3:19 Wie lange ist Gelb?\n3:37 Die Ampel, die explodierte\n4:06 Deine Lebenszeit an der Ampel\n4:29 3 Tipps\n4:46 Fazit\n\nQuellen\n- Induktionsschleifen und Dauerrot (MOTORRAD): https://www.motorradonline.de/ratgeber/dauerrot-an-der-ampel-erkennen-induktionsschleifen-motorraeder-ueberhaupt/\n- Funktionsweise der Induktionsschleife: https://www.lernhelfer.de/schuelerlexikon/physik/artikel/induktionsschleife\n- Fußgängertaster, Bedarfs- und Festzeitampeln, Knopf für Blinde (GIGA): https://www.giga.de/tech/druecken-oder-nicht-druecken-was-der-knopf-unter-dem-taster-wirklich-ausloest-und-was-nicht--01J5QSY0JFVHBJD60H42XZ8QDP\n- Taster ohne Wirkung in Stuttgart-Sillenbuch: https://www.stuttgarter-zeitung.de/lokales/stuttgart/ampeln-in-stuttgart-taster-haben-mitunter-keinen-effekt-78908433.html\n- Gelbphasen nach Geschwindigkeit (ADAC): https://www.adac.de/verkehr/recht/verkehrsvorschriften-deutschland/ampel/\n- 100 Jahre Ampel in Berlin, Verkehrsturm, erste Grüne Welle: https://www.berlin.de/sen/uvk/presse/pressemitteilungen/2024/pressemitteilung.1512202.php\n- Erste Ampel der Welt in London, 14 Tage vor roten Ampeln: https://www.stuttgarter-zeitung.de/panorama/erste-ampel-der-welt-erste-ampel-der-welt-vor-150-jahren-79004127.html\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#ampel #wiefunktioniertdas #durchschaut",
-  "duration": 308.7,
+  "desc": "Du stehst an der roten Ampel, weit und breit kein Auto – und trotzdem wird es nicht grün. Woher weiß die Ampel eigentlich, dass du da bist? Lupo schaut in den Asphalt, klärt, ob Drücken am Knopf überhaupt etwas bringt, verrät, wofür der versteckte Knopf unten am Kasten da ist, und erzählt, wie die erste Ampel der Welt explodiert ist.\n\nKapitel\n0:00 Intro\n0:27 Die Quizfrage\n0:46 Das Geheimnis im Asphalt\n1:09 Die Auflösung\n1:23 Wenn die Ampel dich übersieht\n1:43 Bringt Drücken was?\n2:10 Stimmt oder Mythos?\n2:28 Knöpfe ohne Funktion\n2:52 Der versteckte Knopf\n3:25 Wie lange ist Gelb?\n3:43 Die Ampel, die explodierte\n4:12 Deine Lebenszeit an der Ampel\n4:35 3 Tipps\n4:54 Fazit\n\nQuellen\n- Induktionsschleifen und Dauerrot (MOTORRAD): https://www.motorradonline.de/ratgeber/dauerrot-an-der-ampel-erkennen-induktionsschleifen-motorraeder-ueberhaupt/\n- Funktionsweise der Induktionsschleife: https://www.lernhelfer.de/schuelerlexikon/physik/artikel/induktionsschleife\n- Fußgängertaster, Bedarfs- und Festzeitampeln, Knopf für Blinde (GIGA): https://www.giga.de/tech/druecken-oder-nicht-druecken-was-der-knopf-unter-dem-taster-wirklich-ausloest-und-was-nicht--01J5QSY0JFVHBJD60H42XZ8QDP\n- Taster ohne Wirkung in Stuttgart-Sillenbuch: https://www.stuttgarter-zeitung.de/lokales/stuttgart/ampeln-in-stuttgart-taster-haben-mitunter-keinen-effekt-78908433.html\n- Gelbphasen nach Geschwindigkeit (ADAC): https://www.adac.de/verkehr/recht/verkehrsvorschriften-deutschland/ampel/\n- 100 Jahre Ampel in Berlin, Verkehrsturm, erste Grüne Welle: https://www.berlin.de/sen/uvk/presse/pressemitteilungen/2024/pressemitteilung.1512202.php\n- Erste Ampel der Welt in London, 14 Tage vor roten Ampeln: https://www.stuttgarter-zeitung.de/panorama/erste-ampel-der-welt-erste-ampel-der-welt-vor-150-jahren-79004127.html\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#ampel #wiefunktioniertdas #durchschaut",
+  "duration": 317.9,
   "shorts": [
    {
     "file": "short_1_mehrmals_druecken.mp4",
     "title": "Wird die Ampel schneller grün, wenn du öfter drückst? #shorts",
     "date": "2026-11-09",
     "time": "12:00",
-    "duration": 30.2
+    "duration": 31.2
    },
    {
     "file": "short_2_draht_im_asphalt.mp4",
     "title": "Diese Ampel spürt dein Auto im Asphalt #shorts",
     "date": "2026-11-10",
     "time": "12:00",
-    "duration": 27.2
+    "duration": 28.6
    }
   ]
  },

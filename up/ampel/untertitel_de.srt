@@ -1,639 +1,639 @@
 1
-00:00:00,050 --> 00:00:02,638
+00:00:00,000 --> 00:00:02,560
 Hi, ich bin Lupo, und
 ich durchschaue für
 
 2
-00:00:02,638 --> 00:00:04,262
+00:00:02,560 --> 00:00:03,920
 dich die Dinge aus
 deinem Alltag.
 
 3
-00:00:04,600 --> 00:00:06,200
+00:00:04,620 --> 00:00:05,760
 Heute: die Ampel.
 
 4
-00:00:06,538 --> 00:00:08,575
+00:00:06,340 --> 00:00:08,180
 Du stehst an der
 roten Ampel, weit und
 
 5
-00:00:08,575 --> 00:00:10,750
+00:00:08,180 --> 00:00:10,180
 breit kein Auto, und
 trotzdem wird es
 
 6
-00:00:10,750 --> 00:00:12,913
+00:00:10,180 --> 00:00:12,020
 nicht grün. Woher
 weiß die Ampel
 
 7
-00:00:12,988 --> 00:00:14,612
+00:00:12,020 --> 00:00:13,220
 eigentlich, dass du da bist?
 
 8
-00:00:15,000 --> 00:00:17,000
+00:00:13,880 --> 00:00:15,620
 Und bringt das Drücken
 am Knopf überhaupt
 
 9
-00:00:17,000 --> 00:00:19,700
+00:00:15,620 --> 00:00:18,613
 was? Heute schauen
 wir, was im Asphalt
 
 10
-00:00:19,700 --> 00:00:21,800
+00:00:18,613 --> 00:00:20,853
 steckt, ob Drücken
 wirklich etwas bringt,
 
 11
-00:00:22,075 --> 00:00:23,938
+00:00:21,293 --> 00:00:23,513
 wofür der versteckte
 Knopf unten am Kasten
 
 12
-00:00:23,938 --> 00:00:26,250
+00:00:23,513 --> 00:00:25,953
 da ist, und warum die
 erste Ampel der Welt
 
 13
-00:00:26,250 --> 00:00:27,112
+00:00:25,953 --> 00:00:26,833
 explodiert ist.
 
 14
-00:00:27,950 --> 00:00:29,350
+00:00:27,600 --> 00:00:29,460
 Kurze Frage vorab.
 
 15
-00:00:29,688 --> 00:00:32,075
+00:00:30,480 --> 00:00:32,520
 Woran merkt eine Ampel
 meistens, dass ein
 
 16
-00:00:32,075 --> 00:00:33,612
+00:00:32,520 --> 00:00:33,780
 Auto wartet? A:
 
 17
-00:00:33,925 --> 00:00:35,675
+00:00:34,140 --> 00:00:35,320
 an einer Waage
 unter der Straße.
 
 18
-00:00:36,050 --> 00:00:37,875
+00:00:35,320 --> 00:00:37,480
 B: an einer Kamera.
 
 19
-00:00:38,250 --> 00:00:41,025
+00:00:37,480 --> 00:00:40,640
 C: an einer Drahtschleife
 im Asphalt.
 
 20
-00:00:41,412 --> 00:00:43,338
+00:00:41,420 --> 00:00:43,420
 Schreib deinen Tipp
 in die Kommentare.
 
 21
-00:00:43,725 --> 00:00:45,350
+00:00:43,940 --> 00:00:45,360
 Die Auflösung kommt gleich.
 
 22
-00:00:46,600 --> 00:00:48,612
+00:00:46,567 --> 00:00:48,967
 Hier rollt ein Auto
 an die Kreuzung.
 
 23
-00:00:49,000 --> 00:00:51,175
+00:00:49,667 --> 00:00:51,727
 Unter dem Asphalt vor
 vielen Ampeln liegt
 
 24
-00:00:51,175 --> 00:00:52,150
+00:00:51,727 --> 00:00:52,667
 eine Drahtschleife.
 
 25
-00:00:52,488 --> 00:00:54,862
+00:00:53,187 --> 00:00:55,247
 Durch sie fließt
 Wechselstrom, und dadurch
 
 26
-00:00:54,862 --> 00:00:56,688
+00:00:55,247 --> 00:00:56,787
 entsteht ein
 schwaches Magnetfeld.
 
 27
-00:00:57,062 --> 00:00:59,250
+00:00:57,747 --> 00:00:59,867
 Fährt ein Auto
 darüber, verändert das
 
 28
-00:00:59,250 --> 00:01:01,062
+00:00:59,867 --> 00:01:01,467
 viele Metall
 dieses Magnetfeld.
 
 29
-00:01:01,400 --> 00:01:03,400
+00:01:01,947 --> 00:01:03,927
 Ein Detektor bemerkt
 die Veränderung und
 
 30
-00:01:03,400 --> 00:01:04,662
+00:01:03,927 --> 00:01:05,147
 meldet dem Steuerkasten:
 
 31
-00:01:05,100 --> 00:01:06,162
+00:01:05,607 --> 00:01:06,407
 Hier wartet jemand!
 
 32
-00:01:06,550 --> 00:01:08,800
+00:01:07,167 --> 00:01:09,207
 Und die Ampel plant
 eine Grünphase ein.
 
 33
-00:01:09,688 --> 00:01:11,038
+00:01:09,900 --> 00:01:11,840
 Damit zur Auflösung.
 
 34
-00:01:11,425 --> 00:01:13,650
+00:01:12,580 --> 00:01:14,640
 Richtig ist C, die
 Drahtschleife.
 
 35
-00:01:14,025 --> 00:01:16,387
+00:01:15,340 --> 00:01:17,380
 Fachleute nennen sie
 Induktionsschleife.
 
 36
-00:01:16,725 --> 00:01:18,875
+00:01:18,340 --> 00:01:20,400
 Eine Waage gibt es
 nicht, und es kommt
 
 37
-00:01:18,875 --> 00:01:20,825
+00:01:20,400 --> 00:01:22,580
 auch nicht aufs Gewicht
 an, sondern aufs
 
 38
-00:01:20,825 --> 00:01:23,987
+00:01:22,580 --> 00:01:24,933
 Metall. Und was ist
 mit Motorrädern?
 
 39
-00:01:24,325 --> 00:01:26,437
+00:01:25,533 --> 00:01:27,593
 Auch die erkennen
 Induktionsschleifen in
 
 40
-00:01:26,437 --> 00:01:28,887
+00:01:27,593 --> 00:01:29,953
 der Regel. Wichtig
 ist aber, dass du
 
 41
-00:01:28,887 --> 00:01:31,412
+00:01:29,953 --> 00:01:32,093
 richtig über der Schleife
 stehst, also nah
 
 42
-00:01:31,412 --> 00:01:32,350
+00:01:32,093 --> 00:01:33,033
 an der Haltelinie.
 
 43
-00:01:32,687 --> 00:01:35,062
+00:01:33,173 --> 00:01:35,213
 Und nicht jedes lange
 Rot heißt, dass die
 
 44
-00:01:35,062 --> 00:01:36,337
+00:01:35,213 --> 00:01:36,393
 Ampel dich übersehen hat.
 
 45
-00:01:36,675 --> 00:01:38,712
+00:01:37,233 --> 00:01:39,133
 Oft hat das Schaltprogramm
 gerade einfach
 
 46
-00:01:38,712 --> 00:01:41,112
+00:01:39,133 --> 00:01:41,573
 noch keine Freigabe
 vorgesehen, oder eine
 
 47
-00:01:41,112 --> 00:01:42,325
+00:01:41,573 --> 00:01:42,593
 andere Richtung ist dran.
 
 48
-00:01:43,183 --> 00:01:44,608
+00:01:43,367 --> 00:01:45,227
 Und jetzt zur großen Frage:
 
 49
-00:01:45,021 --> 00:01:46,771
+00:01:46,227 --> 00:01:47,987
 Bringt der Knopf an
 der Fußgängerampel
 
 50
-00:01:46,771 --> 00:01:47,758
+00:01:47,987 --> 00:01:48,707
 überhaupt etwas?
 
 51
-00:01:48,146 --> 00:01:49,246
+00:01:49,867 --> 00:01:50,667
 Es kommt drauf an.
 
 52
-00:01:49,583 --> 00:01:51,946
+00:01:51,687 --> 00:01:53,807
 Bei sogenannten
 Bedarfsampeln entscheidet
 
 53
-00:01:51,946 --> 00:01:52,871
+00:01:53,807 --> 00:01:54,527
 dein Knopfdruck.
 
 54
-00:01:53,208 --> 00:01:55,383
+00:01:55,667 --> 00:01:57,487
 Ohne ihn weiß die
 Ampel gar nicht, dass
 
 55
-00:01:55,383 --> 00:01:56,221
+00:01:57,487 --> 00:01:58,187
 jemand wartet.
 
 56
-00:01:56,608 --> 00:01:58,921
+00:01:58,667 --> 00:02:00,787
 Das gibt es oft an
 ruhigeren Straßen oder
 
 57
-00:01:58,921 --> 00:02:01,446
+00:02:00,787 --> 00:02:03,947
 nachts. An großen
 Kreuzungen läuft die
 
 58
-00:02:01,446 --> 00:02:03,158
+00:02:03,947 --> 00:02:05,747
 Ampel dagegen oft
 in einem festen
 
 59
-00:02:03,158 --> 00:02:06,283
+00:02:05,747 --> 00:02:09,147
 Rhythmus. Dann kommt
 Grün so oder so, ganz
 
 60
-00:02:06,283 --> 00:02:07,583
+00:02:09,147 --> 00:02:10,207
 egal, ob du drückst.
 
 61
-00:02:08,417 --> 00:02:10,917
+00:02:10,967 --> 00:02:14,387
 Jetzt du. Stimmt oder Mythos?
 
 62
-00:02:11,304 --> 00:02:13,954
+00:02:15,047 --> 00:02:18,427
 Erstens: Wer mehrmals
 drückt, bekommt
 
 63
-00:02:13,954 --> 00:02:14,754
+00:02:18,427 --> 00:02:19,167
 schneller Grün.
 
 64
-00:02:16,761 --> 00:02:19,136
+00:02:21,063 --> 00:02:24,363
 Mythos. Sobald
 dein Wunsch einmal
 
 65
-00:02:19,136 --> 00:02:21,398
+00:02:24,363 --> 00:02:26,743
 registriert ist, bringt
 weiteres Drücken
 
 66
-00:02:21,398 --> 00:02:24,708
+00:02:26,743 --> 00:02:30,227
 nichts. Und manchmal
 sind die Knöpfe sogar
 
 67
-00:02:24,708 --> 00:02:27,552
+00:02:30,227 --> 00:02:33,647
 nur Deko. In New York
 funktionierten 2004
 
 68
-00:02:27,552 --> 00:02:31,933
+00:02:33,647 --> 00:02:37,907
 nur noch rund 750 von
 3.250 Tastern, die
 
 69
-00:02:31,933 --> 00:02:33,296
+00:02:37,907 --> 00:02:39,207
 anderen blieben
 einfach hängen.
 
 70
-00:02:33,671 --> 00:02:34,571
+00:02:39,967 --> 00:02:40,707
 Studien zeigen:
 
 71
-00:02:35,058 --> 00:02:37,533
+00:02:41,147 --> 00:02:43,367
 Wer drücken darf,
 wartet geduldiger, auch
 
 72
-00:02:37,533 --> 00:02:38,958
+00:02:43,367 --> 00:02:44,607
 wenn der Knopf gar nichts tut.
 
 73
-00:02:39,296 --> 00:02:41,233
+00:02:45,407 --> 00:02:47,467
 Und auch in Stuttgart
 hat das Tiefbauamt
 
 74
-00:02:41,233 --> 00:02:43,496
+00:02:47,467 --> 00:02:49,927
 zugegeben, dass an
 einer Straße etliche
 
 75
-00:02:43,496 --> 00:02:45,471
+00:02:49,927 --> 00:02:51,807
 Taster keinerlei
 Beschleunigung bringen.
 
 76
-00:02:46,317 --> 00:02:48,729
+00:02:52,667 --> 00:02:54,887
 Und der kleine,
 versteckte Knopf unten am
 
 77
-00:02:48,729 --> 00:02:51,292
+00:02:54,887 --> 00:02:57,567
 Kasten? Der ist vor
 allem für blinde und
 
 78
-00:02:51,292 --> 00:02:52,604
+00:02:57,567 --> 00:02:58,767
 sehbehinderte Menschen da.
 
 79
-00:02:52,942 --> 00:02:54,904
+00:02:59,467 --> 00:03:01,427
 Er schaltet zum
 Beispiel ein Tonsignal
 
 80
-00:02:54,917 --> 00:02:57,267
+00:03:01,427 --> 00:03:03,587
 oder eine Vibration
 ein, damit sie wissen,
 
 81
-00:02:57,442 --> 00:02:58,304
+00:03:03,587 --> 00:03:04,447
 wann Grün ist.
 
 82
-00:02:58,642 --> 00:03:01,104
+00:03:05,367 --> 00:03:07,507
 Oft zeigt ein tastbarer
 Pfeil zusätzlich,
 
 83
-00:03:01,467 --> 00:03:03,017
+00:03:07,787 --> 00:03:09,207
 in welche Richtung
 es über die Straße
 
 84
-00:03:03,017 --> 00:03:06,092
+00:03:09,207 --> 00:03:11,887
 geht. Also: diesen
 Knopf nur drücken, wenn
 
 85
-00:03:06,092 --> 00:03:07,292
+00:03:11,887 --> 00:03:12,947
 du die Signale brauchst.
 
 86
-00:03:08,188 --> 00:03:10,550
+00:03:13,600 --> 00:03:16,460
 Zweitens: Der
 versteckte Knopf unten
 
 87
-00:03:10,550 --> 00:03:12,388
+00:03:16,880 --> 00:03:18,560
 schaltet die Ampel
 sofort auf Grün.
 
 88
-00:03:14,382 --> 00:03:17,445
+00:03:20,576 --> 00:03:23,596
 Mythos. Er ist für
 die Signale da, nicht
 
 89
-00:03:17,445 --> 00:03:18,695
+00:03:23,596 --> 00:03:24,696
 für einen Sofort-Schalter.
 
 90
-00:03:19,683 --> 00:03:20,583
+00:03:25,400 --> 00:03:26,400
 Kleiner Bonus:
 
 91
-00:03:20,908 --> 00:03:22,521
+00:03:27,080 --> 00:03:28,700
 Wie lange ist eigentlich Gelb?
 
 92
-00:03:22,908 --> 00:03:24,171
+00:03:29,280 --> 00:03:30,460
 Das hängt vom Tempo ab.
 
 93
-00:03:24,508 --> 00:03:26,746
+00:03:31,140 --> 00:03:33,360
 Bei erlaubten 50
 Kilometern pro Stunde
 
 94
-00:03:26,746 --> 00:03:29,033
+00:03:33,360 --> 00:03:35,940
 sind es drei
 Sekunden, bei 60 vier
 
 95
-00:03:29,033 --> 00:03:31,271
+00:03:35,900 --> 00:03:38,240
 Sekunden und bei
 70 fünf Sekunden.
 
 96
-00:03:31,608 --> 00:03:33,871
+00:03:38,860 --> 00:03:40,700
 Je schneller man fahren
 darf, desto länger
 
 97
-00:03:33,871 --> 00:03:36,058
+00:03:40,700 --> 00:03:42,740
 bleibt Gelb, damit man
 noch sicher bremsen
 
 98
-00:03:36,058 --> 00:03:39,233
+00:03:42,740 --> 00:03:46,207
 kann. Zum Schluss eine
 kleine Zeitreise.
 
 99
-00:03:39,571 --> 00:03:43,283
+00:03:48,167 --> 00:03:50,787
 1868 leuchtete in
 London die erste Ampel
 
 100
-00:03:43,283 --> 00:03:44,983
+00:03:50,787 --> 00:03:52,487
 der Welt, betrieben mit Gas.
 
 101
-00:03:45,321 --> 00:03:47,308
+00:03:53,087 --> 00:03:54,747
 Wenige Wochen später
 explodiert eine
 
 102
-00:03:47,308 --> 00:03:49,571
+00:03:54,747 --> 00:03:56,987
 Gasleitung, ein
 Polizist wird verletzt,
 
 103
-00:03:49,946 --> 00:03:51,933
+00:03:56,987 --> 00:03:59,187
 und die Ampel wird für
 immer abgeschaltet.
 
 104
-00:03:52,271 --> 00:03:55,671
+00:03:59,667 --> 00:04:02,687
 In Berlin steht ab
 1924 ein Ampelturm auf
 
 105
-00:03:55,671 --> 00:03:56,796
+00:04:02,687 --> 00:04:03,647
 dem Potsdamer Platz.
 
 106
-00:03:57,133 --> 00:03:59,271
+00:04:04,367 --> 00:04:06,207
 Darin sitzt ein Polizist
 und schaltet die
 
 107
-00:03:59,271 --> 00:04:00,258
+00:04:06,207 --> 00:04:06,987
 Lichter per Hebel.
 
 108
-00:04:00,596 --> 00:04:03,883
+00:04:07,387 --> 00:04:10,407
 Ab 1926 wird von dort
 aus sogar Berlins
 
 109
-00:04:03,883 --> 00:04:05,421
+00:04:10,407 --> 00:04:11,867
 erste Grüne Welle gesteuert.
 
 110
-00:04:06,283 --> 00:04:08,321
+00:04:12,700 --> 00:04:15,040
 Und weißt du, wie
 viel Zeit du im Leben
 
 111
-00:04:08,321 --> 00:04:09,858
+00:04:15,040 --> 00:04:16,600
 vor roten Ampeln verbringst?
 
 112
-00:04:10,196 --> 00:04:12,446
+00:04:17,220 --> 00:04:19,160
 Im Durchschnitt sind
 es rund 14 Tage.
 
 113
-00:04:12,783 --> 00:04:14,071
+00:04:19,760 --> 00:04:20,680
 Zwei ganze Wochen!
 
 114
-00:04:14,917 --> 00:04:15,767
+00:04:21,467 --> 00:04:22,527
 Und drittens:
 
 115
-00:04:16,204 --> 00:04:18,242
+00:04:23,367 --> 00:04:25,587
 Nach ein paar Minuten
 Dauerrot darf man
 
 116
-00:04:18,242 --> 00:04:19,054
+00:04:25,587 --> 00:04:26,267
 einfach fahren.
 
 117
-00:04:21,053 --> 00:04:24,240
+00:04:28,251 --> 00:04:30,971
 Mythos. Eine feste
 Wartezeit, nach der man
 
 118
-00:04:24,240 --> 00:04:25,990
+00:04:30,971 --> 00:04:32,231
 fahren darf, gibt es nicht.
 
 119
-00:04:26,328 --> 00:04:28,153
+00:04:32,671 --> 00:04:34,371
 Über Rot zu fahren
 ist fast immer
 
 120
-00:04:28,153 --> 00:04:31,354
+00:04:34,371 --> 00:04:37,953
 verboten. Drei Tipps
 für die nächste rote
 
 121
-00:04:31,354 --> 00:04:34,592
+00:04:37,953 --> 00:04:41,633
 Ampel. Eins: Halte mit
 dem Auto nah an der
 
 122
-00:04:34,592 --> 00:04:36,517
+00:04:42,143 --> 00:04:43,553
 Haltelinie, damit
 die Schleife dich
 
 123
-00:04:36,517 --> 00:04:37,829
+00:04:43,553 --> 00:04:45,123
 erkennt. Zwei:
 
 124
-00:04:38,179 --> 00:04:40,242
+00:04:45,913 --> 00:04:47,973
 Zu Fuß den großen
 Knopf einmal drücken,
 
 125
-00:04:40,367 --> 00:04:41,792
+00:04:48,133 --> 00:04:49,513
 das reicht. Drei:
 
 126
-00:04:42,104 --> 00:04:44,079
+00:04:50,153 --> 00:04:52,233
 Den Knopf unten nur
 nutzen, wenn du die
 
 127
-00:04:44,079 --> 00:04:45,429
+00:04:52,233 --> 00:04:53,593
 Signale wirklich brauchst.
 
 128
-00:04:46,283 --> 00:04:48,671
+00:04:54,267 --> 00:04:57,627
 Also: Die Ampel spürt
 dein Auto über eine
 
 129
-00:04:48,671 --> 00:04:50,746
+00:04:57,627 --> 00:05:00,087
 Drahtschleife im
 Asphalt, ein Programm im
 
 130
-00:04:50,746 --> 00:04:52,621
+00:05:00,087 --> 00:05:01,927
 Steuerkasten entscheidet,
 wann du dran
 
 131
-00:04:52,621 --> 00:04:54,721
+00:05:01,927 --> 00:05:04,327
 bist, und der Knopf
 hilft manchmal sehr
 
 132
-00:04:54,733 --> 00:04:56,146
+00:05:04,327 --> 00:05:06,147
 und manchmal nur
 deiner Geduld.
 
 133
-00:04:56,983 --> 00:04:58,983
+00:05:06,967 --> 00:05:08,867
 Wenn du wissen willst,
 wie andere Dinge
 
 134
-00:04:58,983 --> 00:05:00,483
+00:05:08,867 --> 00:05:10,427
 aus deinem Alltag
 funktionieren:
 
 135
-00:05:01,046 --> 00:05:03,533
+00:05:10,847 --> 00:05:12,947
 abonnieren. Alle zwei
 Tage durchschauen
 
 136
-00:05:03,533 --> 00:05:04,908
+00:05:12,947 --> 00:05:14,027
 wir zusammen ein neues.
 
 137
-00:05:05,246 --> 00:05:06,808
+00:05:14,687 --> 00:05:16,207
 Bis dann, euer Lupo!
