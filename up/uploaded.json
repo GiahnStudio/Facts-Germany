@@ -1,1 +1,56 @@
-{}
+{
+ "pfandautomat:main": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "pfandautomat:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "pfandautomat:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "ampel:main": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "ampel:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "ampel:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "aufzug:main": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "aufzug:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ },
+ "aufzug:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false,
+  "voice": "Florian (Ersatz)"
+ }
+}
