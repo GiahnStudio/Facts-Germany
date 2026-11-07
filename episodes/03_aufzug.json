@@ -1,101 +1,471 @@
 {
  "slug": "aufzug",
  "voice": "de-DE-Chirp3-HD-Rasalgethi",
- "date": "2026-11-13",
+ "date": "2026-11-11",
  "time": "17:00",
  "title": "Warum stürzt ein Aufzug nicht ab, wenn das Seil reißt?",
  "tags": "aufzug, wie funktioniert ein aufzug, aufzug seil reißt, fangvorrichtung, aufzug absturz, elisha otis, gegengewicht aufzug, aufzug tüv, aufzug notruf, wie funktioniert das, durchschaut",
  "pin": "Hast du im Aufzug schon mal ein mulmiges Gefühl gehabt? 👇 Und was soll Lupo als Nächstes durchschauen?",
  "desc": "Was passiert eigentlich, wenn im Aufzug das Seil reißt? Lupo schaut in den Schacht: wofür das Gegengewicht da ist, wie der Geschwindigkeitsbegrenzer merkt, dass etwas nicht stimmt, wie die Fangvorrichtung die Kabine an den Schienen festkrallt – und wie ein Mann 1854 vor Publikum sein eigenes Seil durchhacken ließ.\n\nKapitel\n{kapitel}\n\nQuellen\n- Fangvorrichtung und Geschwindigkeitsbegrenzer (TU Wien): https://repositum.tuwien.at/handle/20.500.12708/183118\n- Technische Regeln für Aufzüge: Fangvorrichtung, Geschwindigkeitsbegrenzer, Puffer: https://umwelt-online.de/recht/t_regeln/tra/1300/50.htm\n- Otis' Vorführung 1854 (Guinness World Records): https://www.guinnessworldrecords.com/world-records/72451-first-safety-elevator-lift\n- Seil mit der Axt durchtrennt (ASME): https://www.asme.org/topics-resources/content/elisha-graves-otis\n- Prüfungen alle zwei Jahre, Notruf-Pflicht (TÜV SÜD): https://www.tuvsud.com/de-de/indust-re/betriebssicherheitsverordnung-info/betriebssicherheitsverordnung-aufzug\n- Notruf seit 2021 Pflicht (TÜV-Verband): https://www.presseportal.de/pm/65031/4774406\n- Mängelstatistik 2025, 723.270 geprüfte Aufzüge (PC-WELT zum TÜV-Report): https://www.pcwelt.de/article/3094112/aufzug-des-todes-tuev-legte-aufzuege-wegen-gefahr-fur-leib-und-leben-still.html\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#aufzug #wiefunktioniertdas #durchschaut",
  "thumbs": {
-  "A": {"big": "Das Seil reißt – und dann?", "chip": "SO STOPPT DER AUFZUG", "mood": "wow", "icon": "warn"},
-  "B": {"big": "Er ließ sein Seil durchhacken", "chip": "NEW YORK 1854", "stamp": "UND ÜBERLEBTE", "stamp_color": "green", "mood": "cheer", "icon": "person"}
+  "A": {
+   "big": "Das Seil reißt – und dann?",
+   "chip": "SO STOPPT DER AUFZUG",
+   "mood": "wow",
+   "icon": "warn"
+  },
+  "B": {
+   "big": "Er ließ sein Seil durchhacken",
+   "chip": "NEW YORK 1854",
+   "stamp": "UND ÜBERLEBTE",
+   "stamp_color": "green",
+   "mood": "cheer",
+   "icon": "person"
+  }
  },
  "scenes": [
-  {"type": "title", "chapter": "Intro", "text": "Was passiert, wenn das Seil reißt?", "size": 96,
-   "sub": "Die Tür geht zu, der Boden unter dir hängt an Seilen.", "sub_at": "Tür",
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Was passiert, wenn das Seil reißt?",
+   "size": 96,
+   "sub": "Die Tür geht zu, der Boden unter dir hängt an Seilen.",
+   "sub_at": "Tür",
    "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Aufzug. Die Tür geht zu, und der Boden unter dir hängt an Seilen. Aber was passiert eigentlich, wenn so ein Seil reißt? Stürzt der Aufzug dann ab?",
-   "lupo": {"bubbles": [{"text": "Schluck…", "at": "reißt"}]}},
-  {"type": "chips", "title": "Heute schauen wir in den Schacht",
-   "items": [{"text": "Das Gegengewicht", "at": "Gegengewicht"}, {"text": "Die Notbremse", "at": "Notbremse"}, {"text": "Ein Mann mit Axt", "at": "Axt"}, {"text": "Wer prüft das?", "at": "prüft"}],
-   "say": "Heute schauen wir in den Schacht: Wofür das Gegengewicht da ist, wie die Notbremse funktioniert, warum ein Mann vor Publikum sein eigenes Seil mit der Axt durchhacken ließ, und wer das alles prüft."},
-  {"type": "quiz", "chapter": "Die Quizfrage", "kicker": "KURZE FRAGE", "question": "Was passiert, wenn bei einem modernen Aufzug das Tragseil reißt?", "size": 58,
-   "options": [{"text": "Er stürzt bis ganz nach unten", "at": "A"}, {"text": "Eine Notbremse krallt sich an den Schienen fest", "at": "B"}, {"text": "Ein Fallschirm geht auf", "at": "C"}],
-   "say": "Kurze Frage vorab. Was passiert, wenn bei einem modernen Aufzug das Tragseil reißt? A: Er stürzt bis ganz nach unten. B: Eine Notbremse krallt sich an den Schienen fest. C: Ein Fallschirm geht auf. Schreib deinen Tipp in die Kommentare.", "pause": 0.8},
-  {"type": "fact", "chapter": "Das Gegengewicht", "icon": "server", "label": "DER TRICK MIT DEM GEWICHT", "headline": "Ein Aufzug ist eine Wippe", "size": 82,
-   "lines": [{"text": "Auf der anderen Seite des Seils hängt ein schweres Gegengewicht.", "at": "Gegengewicht"}, {"text": "Fährt die Kabine hoch, fährt das Gewicht runter.", "at": "runter"}, {"text": "So muss der Motor viel weniger heben.", "at": "Motor"}],
-   "say": "Fangen wir oben an. Ein Seilaufzug funktioniert ein bisschen wie eine Wippe. Das Seil läuft über eine Scheibe, und auf der anderen Seite hängt ein schweres Gegengewicht. Fährt die Kabine hoch, fährt das Gewicht runter. So muss der Motor nicht die ganze Kabine heben, sondern nur den Unterschied."},
-  {"type": "aufzug", "chapter": "Wenn das Seil reißt", "title": "Was im Schacht passiert", "move_at": "Kabine", "cut_at": "reißt", "governor_at": "Geschwindigkeitsbegrenzer", "grip_at": "Fangvorrichtung",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Schluck…",
+      "at": "reißt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in den Schacht",
+   "items": [
+    {
+     "text": "Das Gegengewicht",
+     "at": "Gegengewicht"
+    },
+    {
+     "text": "Die Notbremse",
+     "at": "Notbremse"
+    },
+    {
+     "text": "Ein Mann mit Axt",
+     "at": "Axt"
+    },
+    {
+     "text": "Wer prüft das?",
+     "at": "prüft"
+    }
+   ],
+   "say": "Heute schauen wir in den Schacht: Wofür das Gegengewicht da ist, wie die Notbremse funktioniert, warum ein Mann vor Publikum sein eigenes Seil mit der Axt durchhacken ließ, und wer das alles prüft."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Was passiert, wenn bei einem modernen Aufzug das Tragseil reißt?",
+   "size": 58,
+   "options": [
+    {
+     "text": "Er stürzt bis ganz nach unten",
+     "at": "A"
+    },
+    {
+     "text": "Eine Notbremse krallt sich an den Schienen fest",
+     "at": "B"
+    },
+    {
+     "text": "Ein Fallschirm geht auf",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Was passiert, wenn bei einem modernen Aufzug das Tragseil reißt? A: Er stürzt bis ganz nach unten. B: Eine Notbremse krallt sich an den Schienen fest. C: Ein Fallschirm geht auf. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Gegengewicht",
+   "icon": "server",
+   "label": "DER TRICK MIT DEM GEWICHT",
+   "headline": "Ein Aufzug ist eine Wippe",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Auf der anderen Seite des Seils hängt ein schweres Gegengewicht.",
+     "at": "Gegengewicht"
+    },
+    {
+     "text": "Fährt die Kabine hoch, fährt das Gewicht runter.",
+     "at": "runter"
+    },
+    {
+     "text": "So muss der Motor viel weniger heben.",
+     "at": "Motor"
+    }
+   ],
+   "say": "Fangen wir oben an. Ein Seilaufzug funktioniert ein bisschen wie eine Wippe. Das Seil läuft über eine Scheibe, und auf der anderen Seite hängt ein schweres Gegengewicht. Fährt die Kabine hoch, fährt das Gewicht runter. So muss der Motor nicht die ganze Kabine heben, sondern nur den Unterschied."
+  },
+  {
+   "type": "aufzug",
+   "chapter": "Wenn das Seil reißt",
+   "title": "Was im Schacht passiert",
+   "move_at": "Kabine",
+   "cut_at": "reißt",
+   "governor_at": "Geschwindigkeitsbegrenzer",
+   "grip_at": "Fangvorrichtung",
    "say": "Und jetzt der Ernstfall. Hier fährt unsere Kabine nach oben. Stell dir vor, das Seil reißt. Die Kabine wird schneller und schneller. Genau das merkt der Geschwindigkeitsbegrenzer, ein Rad mit eigenem Seil, das sich mit der Kabine mitdreht. Wird es zu schnell, blockiert er. Und dadurch löst er die Fangvorrichtung aus. Keile an der Kabine pressen sich gegen die Führungsschienen, und die Kabine bleibt stehen.",
-   "lupo": {"bubbles": [{"text": "AAAH!", "at": "schneller"}, {"text": "Puh!", "at": "stehen"}]}},
-  {"type": "quiz", "chapter": "Die Auflösung", "kicker": "AUFLÖSUNG", "question": "Was passiert, wenn das Tragseil reißt?", "size": 60, "answer": "B", "reveal_at": "Richtig",
-   "options": ["Er stürzt bis ganz nach unten", "Eine Notbremse krallt sich an den Schienen fest", "Ein Fallschirm geht auf"],
-   "say": "Damit zur Auflösung. Richtig ist B. Die Fangvorrichtung krallt sich an den Schienen fest. Einen Fallschirm gibt es natürlich nicht."},
-  {"type": "fact", "chapter": "Ganz ohne Strom", "icon": "chip", "label": "MECHANIK STATT ELEKTRONIK", "headline": "Die Notbremse braucht keinen Strom", "size": 76,
-   "lines": [{"text": "Sie wird rein mechanisch ausgelöst.", "at": "mechanisch"}, {"text": "Auch bei Stromausfall funktioniert sie.", "at": "Stromausfall"}, {"text": "Ganz unten warten noch Puffer.", "at": "Puffer"}],
-   "say": "Das Clevere daran: Diese Notbremse wird rein mechanisch ausgelöst. Sie braucht keinen Strom und funktioniert deshalb auch bei einem Stromausfall. Und ganz unten im Schacht warten zusätzlich noch Puffer, die einen Aufprall abfedern."},
-  {"type": "story", "chapter": "Der Mann mit der Axt", "title": "New York, 1854",
-   "steps": [{"date": "Damals", "text": "Aufzüge gelten als gefährlich. Seile reißen, Menschen fahren lieber nicht mit.", "at": "gefährlich"},
-             {"date": "1854", "text": "Elisha Otis steht auf seiner Plattform hoch über dem Publikum.", "at": "Otis"},
-             {"date": "Zack", "text": "Er lässt das Seil mit einer Axt durchtrennen.", "at": "Axt"},
-             {"date": "Ergebnis", "text": "Die Plattform sackt nur ein paar Zentimeter ab – und hält.", "at": "Zentimeter"}],
-   "stamp": "ÜBERLEBT", "stamp_color": "green", "stamp_at": "hält",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "AAAH!",
+      "at": "schneller"
+     },
+     {
+      "text": "Puh!",
+      "at": "stehen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Was passiert, wenn das Tragseil reißt?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Er stürzt bis ganz nach unten",
+    "Eine Notbremse krallt sich an den Schienen fest",
+    "Ein Fallschirm geht auf"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Die Fangvorrichtung krallt sich an den Schienen fest. Einen Fallschirm gibt es natürlich nicht."
+  },
+  {
+   "type": "fact",
+   "chapter": "Ganz ohne Strom",
+   "icon": "chip",
+   "label": "MECHANIK STATT ELEKTRONIK",
+   "headline": "Die Notbremse braucht keinen Strom",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Sie wird rein mechanisch ausgelöst.",
+     "at": "mechanisch"
+    },
+    {
+     "text": "Auch bei Stromausfall funktioniert sie.",
+     "at": "Stromausfall"
+    },
+    {
+     "text": "Ganz unten warten noch Puffer.",
+     "at": "Puffer"
+    }
+   ],
+   "say": "Das Clevere daran: Diese Notbremse wird rein mechanisch ausgelöst. Sie braucht keinen Strom und funktioniert deshalb auch bei einem Stromausfall. Und ganz unten im Schacht warten zusätzlich noch Puffer, die einen Aufprall abfedern."
+  },
+  {
+   "type": "story",
+   "chapter": "Der Mann mit der Axt",
+   "title": "New York, 1854",
+   "steps": [
+    {
+     "date": "Damals",
+     "text": "Aufzüge gelten als gefährlich. Seile reißen, Menschen fahren lieber nicht mit.",
+     "at": "gefährlich"
+    },
+    {
+     "date": "1854",
+     "text": "Elisha Otis steht auf seiner Plattform hoch über dem Publikum.",
+     "at": "Otis"
+    },
+    {
+     "date": "Zack",
+     "text": "Er lässt das Seil mit einer Axt durchtrennen.",
+     "at": "Axt"
+    },
+    {
+     "date": "Ergebnis",
+     "text": "Die Plattform sackt nur ein paar Zentimeter ab – und hält.",
+     "at": "Zentimeter"
+    }
+   ],
+   "stamp": "ÜBERLEBT",
+   "stamp_color": "green",
+   "stamp_at": "hält",
    "say": "Die Idee ist übrigens über 170 Jahre alt. Mitte des 19. Jahrhunderts gelten Aufzüge als gefährlich, denn Seile können reißen. 1854 steht Elisha Otis auf einer Ausstellung in New York auf seiner Plattform, hoch über dem Publikum. Dann lässt er das Seil mit einer Axt durchtrennen. Die Plattform sackt nur ein paar Zentimeter ab, und dann hält sie. Seine Fangvorrichtung hat funktioniert.",
-   "lupo": {"bubbles": [{"text": "Mutig!", "at": "Axt"}]}},
-  {"type": "bignum", "chapter": "Wer passt auf?", "title": "Aufzüge werden streng geprüft",
-   "items": [{"num": "723.270", "label": "geprüfte Aufzüge in Deutschland 2025", "at": "geprüft"}, {"num": "2 Jahre", "label": "spätestens bis zur nächsten Hauptprüfung", "size": 120, "at": "Hauptprüfung"}],
-   "say": "Und wer passt heute auf, dass das alles funktioniert? In Deutschland wurden allein 2025 über 723.000 Aufzüge von unabhängigen Prüfstellen wie dem TÜV geprüft. Jeder Aufzug muss spätestens alle zwei Jahre zur Hauptprüfung, und dazwischen gibt es noch eine Zwischenprüfung."},
-  {"type": "fact", "icon": "warn", "label": "TÜV-REPORT 2025", "headline": "Rund 3.000 Aufzüge stillgelegt", "size": 80,
-   "lines": [{"text": "Bei 0,8 Prozent fanden Prüfer gefährliche Mängel.", "at": "gefährliche"}, {"text": "Typisch: verschlissene Seile, kaputter Notruf, defekte Türschlösser.", "at": "Typisch"}],
-   "say": "Und die Prüfer finden auch etwas. Bei 0,8 Prozent der Aufzüge stellten sie 2025 gefährliche Mängel fest, rund 3.000 Anlagen mussten stillgelegt werden. Typische Probleme: verschlissene Tragseile, ausgefallene Notrufe oder defekte Türverriegelungen. Genau dafür gibt es die Prüfungen."},
-  {"type": "case", "chapter": "Stimmt oder Mythos?", "kicker": "STIMMT ODER MYTHOS?", "icon": "warn", "label": "Behauptung 1", "text": "Reißt das Seil, stürzt der Aufzug ungebremst ab.",
-   "verdict": "MYTHOS", "verdict_color": "red", "verdict_at": "Mythos. Dafür",
-   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Reißt das Seil, stürzt der Aufzug ungebremst ab. ... Mythos. Dafür gibt es Geschwindigkeitsbegrenzer und Fangvorrichtung.", "pause": 0.6},
-  {"type": "case", "kicker": "STIMMT ODER MYTHOS?", "icon": "bell", "label": "Behauptung 2", "text": "In jedem Aufzug muss ein Notruf rund um die Uhr erreichbar sein.",
-   "verdict": "STIMMT", "verdict_color": "green", "verdict_at": "Stimmt",
-   "say": "Zweitens: In jedem Aufzug muss ein Notruf rund um die Uhr erreichbar sein. ... Stimmt. Seit 2021 müssen alle Aufzüge in Deutschland ein Zwei-Wege-Notrufsystem haben, über das ein Notdienst ständig erreichbar ist.", "pause": 0.6},
-  {"type": "case", "kicker": "STIMMT ODER MYTHOS?", "icon": "person", "label": "Behauptung 3", "text": "Elisha Otis hat den Aufzug erfunden.",
-   "verdict": "MYTHOS", "verdict_color": "red", "verdict_at": "Mythos. Aufzüge",
-   "say": "Und drittens: Elisha Otis hat den Aufzug erfunden. ... Mythos. Aufzüge gab es schon vorher. Otis hat sie aber sicher gemacht, und das war der eigentliche Durchbruch.", "pause": 0.6,
-   "lupo": {"bubbles": [{"text": "Fangfrage!", "at": "vorher"}]}},
-  {"type": "list", "chapter": "3 Tipps", "title": "3 Tipps für deine nächste Aufzugfahrt",
-   "items": [{"text": "Auf die Prüfplakette schauen: Sie zeigt die nächste Prüfung", "icon": "calendar", "at": "Eins"}, {"text": "Bleibst du stecken: Notrufknopf drücken und ruhig bleiben", "icon": "bell", "at": "Zwei"}, {"text": "Nie selbst die Tür aufstemmen oder herausklettern", "icon": "warn", "at": "Drei"}],
-   "say": "Drei Tipps für deine nächste Aufzugfahrt. Eins: Schau auf die Prüfplakette, sie zeigt, wann die nächste Prüfung fällig ist. Zwei: Wenn du stecken bleibst, drück den Notrufknopf und bleib ruhig. Drei: Versuche nie, selbst die Tür aufzustemmen oder herauszuklettern, sondern warte auf die Profis."},
-  {"type": "title", "chapter": "Fazit", "kicker": "FAZIT", "text": "Gegengewicht, Begrenzer, Fangvorrichtung.", "size": 86,
-   "sub": "Ein Aufzug ist auf den Ernstfall vorbereitet.", "sub_at": "Ernstfall",
-   "say": "Also: Ein Gegengewicht macht die Arbeit leicht, ein Geschwindigkeitsbegrenzer passt auf, und die Fangvorrichtung krallt sich im Notfall an den Schienen fest. Ein Aufzug ist auf den Ernstfall vorbereitet."},
-  {"type": "outro", "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.", "button": "ABONNIEREN", "button_at": "abonnieren",
-   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!", "pause": 1.5}
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Mutig!",
+      "at": "Axt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "bignum",
+   "chapter": "Wer passt auf?",
+   "title": "Aufzüge werden streng geprüft",
+   "items": [
+    {
+     "num": "723.270",
+     "label": "geprüfte Aufzüge in Deutschland 2025",
+     "at": "geprüft"
+    },
+    {
+     "num": "2 Jahre",
+     "label": "spätestens bis zur nächsten Hauptprüfung",
+     "size": 120,
+     "at": "Hauptprüfung"
+    }
+   ],
+   "say": "Und wer passt heute auf, dass das alles funktioniert? In Deutschland wurden allein 2025 über 723.000 Aufzüge von unabhängigen Prüfstellen wie dem TÜV geprüft. Jeder Aufzug muss spätestens alle zwei Jahre zur Hauptprüfung, und dazwischen gibt es noch eine Zwischenprüfung."
+  },
+  {
+   "type": "fact",
+   "icon": "warn",
+   "label": "TÜV-REPORT 2025",
+   "headline": "Rund 3.000 Aufzüge stillgelegt",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Bei 0,8 Prozent fanden Prüfer gefährliche Mängel.",
+     "at": "gefährliche"
+    },
+    {
+     "text": "Typisch: verschlissene Seile, kaputter Notruf, defekte Türschlösser.",
+     "at": "Typisch"
+    }
+   ],
+   "say": "Und die Prüfer finden auch etwas. Bei 0,8 Prozent der Aufzüge stellten sie 2025 gefährliche Mängel fest, rund 3.000 Anlagen mussten stillgelegt werden. Typische Probleme: verschlissene Tragseile, ausgefallene Notrufe oder defekte Türverriegelungen. Genau dafür gibt es die Prüfungen."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 1",
+   "text": "Reißt das Seil, stürzt der Aufzug ungebremst ab.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Dafür",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Reißt das Seil, stürzt der Aufzug ungebremst ab. ... Mythos. Dafür gibt es Geschwindigkeitsbegrenzer und Fangvorrichtung.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "bell",
+   "label": "Behauptung 2",
+   "text": "In jedem Aufzug muss ein Notruf rund um die Uhr erreichbar sein.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Zweitens: In jedem Aufzug muss ein Notruf rund um die Uhr erreichbar sein. ... Stimmt. Seit 2021 müssen alle Aufzüge in Deutschland ein Zwei-Wege-Notrufsystem haben, über das ein Notdienst ständig erreichbar ist.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "person",
+   "label": "Behauptung 3",
+   "text": "Elisha Otis hat den Aufzug erfunden.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Aufzüge",
+   "say": "Und drittens: Elisha Otis hat den Aufzug erfunden. ... Mythos. Aufzüge gab es schon vorher. Otis hat sie aber sicher gemacht, und das war der eigentliche Durchbruch.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Fangfrage!",
+      "at": "vorher"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für deine nächste Aufzugfahrt",
+   "items": [
+    {
+     "text": "Auf die Prüfplakette schauen: Sie zeigt die nächste Prüfung",
+     "icon": "calendar",
+     "at": "Eins"
+    },
+    {
+     "text": "Bleibst du stecken: Notrufknopf drücken und ruhig bleiben",
+     "icon": "bell",
+     "at": "Zwei"
+    },
+    {
+     "text": "Nie selbst die Tür aufstemmen oder herausklettern",
+     "icon": "warn",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für deine nächste Aufzugfahrt. Eins: Schau auf die Prüfplakette, sie zeigt, wann die nächste Prüfung fällig ist. Zwei: Wenn du stecken bleibst, drück den Notrufknopf und bleib ruhig. Drei: Versuche nie, selbst die Tür aufzustemmen oder herauszuklettern, sondern warte auf die Profis."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Gegengewicht, Begrenzer, Fangvorrichtung.",
+   "size": 86,
+   "sub": "Ein Aufzug ist auf den Ernstfall vorbereitet.",
+   "sub_at": "Ernstfall",
+   "say": "Also: Ein Gegengewicht macht die Arbeit leicht, ein Geschwindigkeitsbegrenzer passt auf, und die Fangvorrichtung krallt sich im Notfall an den Schienen fest. Ein Aufzug ist auf den Ernstfall vorbereitet."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
  ],
  "shorts": [
-  {"slug": "seil_reisst", "title": "Das passiert, wenn im Aufzug das Seil reißt #shorts", "date": "2026-11-13", "time": "12:00",
+  {
+   "slug": "seil_reisst",
+   "title": "Das passiert, wenn im Aufzug das Seil reißt #shorts",
+   "date": "2026-11-11",
+   "time": "12:00",
    "scenes": [
-    {"type": "title", "text": "Das Aufzugseil reißt. Was jetzt?", "size": 88,
+    {
+     "type": "title",
+     "text": "Das Aufzugseil reißt. Was jetzt?",
+     "size": 88,
      "say": "Stell dir vor, im Aufzug reißt das Seil. Was passiert jetzt?",
-     "lupo": {"bubbles": [{"text": "Oh nein!", "at": "reißt"}]}},
-    {"type": "flow", "title": "Die Notbremse", "items": [{"icon": "warn", "text": "Kabine wird zu schnell", "at": "schnell"}, {"icon": "chip", "text": "Begrenzer blockiert", "at": "blockiert"}, {"icon": "press", "text": "Keile krallen sich an die Schienen", "at": "Keile"}],
-     "say": "Die Kabine wird zu schnell. Der Geschwindigkeitsbegrenzer merkt das und blockiert. Dadurch pressen sich Keile gegen die Schienen, und die Kabine bleibt stehen."},
-    {"type": "fact", "icon": "chip", "label": "OHNE STROM", "headline": "Funktioniert sogar bei Stromausfall", "size": 70,
-     "lines": [{"text": "Die Fangvorrichtung wird rein mechanisch ausgelöst.", "at": "mechanisch"}],
-     "say": "Und das funktioniert sogar bei Stromausfall, denn die Fangvorrichtung wird rein mechanisch ausgelöst."},
-    {"type": "outro", "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.", "button": "FOLGEN",
-     "say": "Folge Durchschaut für mehr Alltagstechnik.", "pause": 1.0}
-   ]},
-  {"slug": "otis_axt", "title": "Er ließ sein eigenes Aufzugseil durchhacken #shorts", "date": "2026-11-14", "time": "12:00",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Oh nein!",
+        "at": "reißt"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "title": "Die Notbremse",
+     "items": [
+      {
+       "icon": "warn",
+       "text": "Kabine wird zu schnell",
+       "at": "schnell"
+      },
+      {
+       "icon": "chip",
+       "text": "Begrenzer blockiert",
+       "at": "blockiert"
+      },
+      {
+       "icon": "press",
+       "text": "Keile krallen sich an die Schienen",
+       "at": "Keile"
+      }
+     ],
+     "say": "Die Kabine wird zu schnell. Der Geschwindigkeitsbegrenzer merkt das und blockiert. Dadurch pressen sich Keile gegen die Schienen, und die Kabine bleibt stehen."
+    },
+    {
+     "type": "fact",
+     "icon": "chip",
+     "label": "OHNE STROM",
+     "headline": "Funktioniert sogar bei Stromausfall",
+     "size": 70,
+     "lines": [
+      {
+       "text": "Die Fangvorrichtung wird rein mechanisch ausgelöst.",
+       "at": "mechanisch"
+      }
+     ],
+     "say": "Und das funktioniert sogar bei Stromausfall, denn die Fangvorrichtung wird rein mechanisch ausgelöst."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "otis_axt",
+   "title": "Er ließ sein eigenes Aufzugseil durchhacken #shorts",
+   "date": "2026-11-12",
+   "time": "12:00",
    "scenes": [
-    {"type": "title", "text": "Er ließ sein eigenes Seil durchhacken.", "size": 86, "stamp": "UND ÜBERLEBTE", "stamp_color": "green", "stamp_at": "überlebte",
-     "say": "Dieser Mann ließ vor Publikum sein eigenes Aufzugseil durchhacken. Und überlebte."},
-    {"type": "story", "title": "New York, 1854",
-     "steps": [{"date": "1854", "text": "Elisha Otis steht hoch oben auf seiner Plattform.", "at": "Otis"},
-               {"date": "Zack", "text": "Das Seil wird mit einer Axt durchtrennt.", "at": "Axt"},
-               {"date": "Ergebnis", "text": "Die Plattform sackt nur ein paar Zentimeter ab.", "at": "Zentimeter"}],
+    {
+     "type": "title",
+     "text": "Er ließ sein eigenes Seil durchhacken.",
+     "size": 86,
+     "stamp": "UND ÜBERLEBTE",
+     "stamp_color": "green",
+     "stamp_at": "überlebte",
+     "say": "Dieser Mann ließ vor Publikum sein eigenes Aufzugseil durchhacken. Und überlebte."
+    },
+    {
+     "type": "story",
+     "title": "New York, 1854",
+     "steps": [
+      {
+       "date": "1854",
+       "text": "Elisha Otis steht hoch oben auf seiner Plattform.",
+       "at": "Otis"
+      },
+      {
+       "date": "Zack",
+       "text": "Das Seil wird mit einer Axt durchtrennt.",
+       "at": "Axt"
+      },
+      {
+       "date": "Ergebnis",
+       "text": "Die Plattform sackt nur ein paar Zentimeter ab.",
+       "at": "Zentimeter"
+      }
+     ],
      "say": "1854 steht Elisha Otis in New York hoch oben auf seiner Plattform. Dann wird das Seil mit einer Axt durchtrennt. Die Plattform sackt nur ein paar Zentimeter ab, und hält.",
-     "lupo": {"bubbles": [{"text": "Wahnsinn!", "at": "Axt"}]}},
-    {"type": "fact", "icon": "chip", "label": "BIS HEUTE", "headline": "Seine Idee steckt in jedem Aufzug", "size": 70,
-     "lines": [{"text": "Die Fangvorrichtung krallt sich an den Schienen fest.", "at": "festkrallt"}],
-     "say": "Seine Idee steckt bis heute in Aufzügen: eine Fangvorrichtung, die sich an den Schienen festkrallt."},
-    {"type": "outro", "sub": "Ganzes Video auf dem Kanal.", "button": "FOLGEN",
-     "say": "Wie das genau funktioniert, siehst du im ganzen Video auf dem Kanal.", "pause": 1.0}
-   ]}
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Wahnsinn!",
+        "at": "Axt"
+       }
+      ]
+     }
+    },
+    {
+     "type": "fact",
+     "icon": "chip",
+     "label": "BIS HEUTE",
+     "headline": "Seine Idee steckt in jedem Aufzug",
+     "size": 70,
+     "lines": [
+      {
+       "text": "Die Fangvorrichtung krallt sich an den Schienen fest.",
+       "at": "festkrallt"
+      }
+     ],
+     "say": "Seine Idee steckt bis heute in Aufzügen: eine Fangvorrichtung, die sich an den Schienen festkrallt."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie das genau funktioniert, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
  ]
 }
