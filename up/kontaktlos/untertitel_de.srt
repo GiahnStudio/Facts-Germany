@@ -1,0 +1,560 @@
+1
+00:00:00,000 --> 00:00:02,440
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,440 --> 00:00:03,940
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,720 --> 00:00:06,580
+Heute: kontaktlos bezahlen.
+
+4
+00:00:07,040 --> 00:00:09,300
+Du hältst die Karte
+kurz ans Terminal, es
+
+5
+00:00:09,300 --> 00:00:10,240
+piept, fertig.
+
+6
+00:00:11,160 --> 00:00:12,720
+Kein Stecken, kein Kabel.
+
+7
+00:00:13,160 --> 00:00:15,100
+Und in der Karte
+steckt nicht mal eine
+
+8
+00:00:15,100 --> 00:00:16,580
+Batterie. Wie soll das gehen?
+
+9
+00:00:17,333 --> 00:00:19,913
+Heute schauen wir uns
+an, woher die Karte
+
+10
+00:00:19,913 --> 00:00:22,173
+ihren Strom bekommt,
+was der einmalige
+
+11
+00:00:22,173 --> 00:00:24,173
+Code macht, wie
+die 50-Euro-Regel
+
+12
+00:00:24,553 --> 00:00:26,593
+funktioniert, und ob
+dich wirklich jemand
+
+13
+00:00:26,593 --> 00:00:27,773
+im Gedränge abbuchen kann.
+
+14
+00:00:28,500 --> 00:00:30,380
+Kurze Frage vorab.
+
+15
+00:00:31,100 --> 00:00:32,840
+Wie nah musst du die
+Karte ans Terminal
+
+16
+00:00:32,840 --> 00:00:36,213
+halten? A: etwa
+vier Zentimeter.
+
+17
+00:00:36,500 --> 00:00:38,433
+B: etwa einen Meter.
+
+18
+00:00:38,640 --> 00:00:40,320
+C: etwa zehn Meter.
+
+19
+00:00:40,360 --> 00:00:42,600
+Schreib deinen Tipp
+in die Kommentare.
+
+20
+00:00:43,833 --> 00:00:45,493
+Und kontaktlos ist
+längst normal.
+
+21
+00:00:46,033 --> 00:00:49,253
+2025 wurden laut
+Bundesbank zum ersten Mal
+
+22
+00:00:49,253 --> 00:00:51,633
+mehr Einkäufe bargeldlos
+bezahlt als bar,
+
+23
+00:00:51,973 --> 00:00:53,533
+nämlich 55 Prozent.
+
+24
+00:00:54,933 --> 00:00:57,393
+Und schon jede zehnte
+Zahlung lief übers
+
+25
+00:00:57,393 --> 00:00:59,653
+Handy oder eine andere
+mobile Methode.
+
+26
+00:01:00,400 --> 00:01:02,600
+Das Geheimnis heißt NFC,
+
+27
+00:01:02,820 --> 00:01:03,960
+Nahfeldkommunikation.
+
+28
+00:01:04,700 --> 00:01:07,220
+Das Terminal baut ein
+Magnetfeld auf, das
+
+29
+00:01:07,220 --> 00:01:10,320
+13,56 Millionen Mal
+pro Sekunde schwingt.
+
+30
+00:01:11,120 --> 00:01:13,320
+In deiner Karte ist
+rundherum eine dünne
+
+31
+00:01:13,320 --> 00:01:14,320
+Antenne eingebaut.
+
+32
+00:01:14,860 --> 00:01:17,260
+Kommt sie in das Feld,
+entsteht darin eine
+
+33
+00:01:17,260 --> 00:01:18,100
+kleine Spannung.
+
+34
+00:01:18,880 --> 00:01:20,880
+Und die reicht, um
+den Chip aufzuwecken.
+
+35
+00:01:21,420 --> 00:01:23,320
+Die Karte braucht
+also keine eigene
+
+36
+00:01:23,320 --> 00:01:26,600
+Batterie. Und das
+passiert beim Piep.
+
+37
+00:01:27,220 --> 00:01:28,760
+Die Karte wacht im Feld auf.
+
+38
+00:01:29,540 --> 00:01:31,420
+Das Terminal schickt
+ihr den Betrag und
+
+39
+00:01:31,420 --> 00:01:32,180
+eine Anfrage.
+
+40
+00:01:33,180 --> 00:01:35,260
+Der Chip antwortet
+mit einem einmaligen
+
+41
+00:01:35,260 --> 00:01:37,460
+Code, der nur für
+genau diese Zahlung
+
+42
+00:01:37,460 --> 00:01:39,740
+gilt. Das Terminal
+reicht alles an die
+
+43
+00:01:39,740 --> 00:01:42,100
+Bank weiter, die Bank
+prüft und gibt frei.
+
+44
+00:01:42,980 --> 00:01:44,180
+Piep, bezahlt.
+
+45
+00:01:44,940 --> 00:01:46,264
+Und das in
+Sekundenbruchteilen.
+
+46
+00:01:47,167 --> 00:01:48,967
+Jetzt zur Quizfrage.
+
+47
+00:01:49,827 --> 00:01:50,687
+Richtig ist A.
+
+48
+00:01:51,767 --> 00:01:53,467
+An der Kasse
+funktioniert es nur auf
+
+49
+00:01:53,467 --> 00:01:55,747
+wenige Zentimeter,
+meistens unter vier.
+
+50
+00:01:56,587 --> 00:01:59,027
+Das Magnetfeld wird
+mit jedem Zentimeter
+
+51
+00:01:59,027 --> 00:02:00,127
+Abstand schnell schwächer.
+
+52
+00:02:00,867 --> 00:02:04,067
+Dieser einmalige Code
+ist der eigentliche
+
+53
+00:02:04,067 --> 00:02:06,967
+Trick. Für jede Zahlung
+rechnet der Chip
+
+54
+00:02:06,967 --> 00:02:07,927
+einen neuen aus.
+
+55
+00:02:08,827 --> 00:02:11,047
+Würde jemand ihn
+abfangen, könnte er damit
+
+56
+00:02:11,047 --> 00:02:11,867
+nichts anfangen.
+
+57
+00:02:12,567 --> 00:02:14,327
+Für die nächste
+Zahlung wäre er schon
+
+58
+00:02:14,327 --> 00:02:17,293
+wertlos. Und was
+ist der Unterschied
+
+59
+00:02:17,293 --> 00:02:18,473
+zwischen Karte und Handy?
+
+60
+00:02:19,293 --> 00:02:21,273
+Mit der Karte kannst
+du bis 50 Euro
+
+61
+00:02:21,273 --> 00:02:22,733
+meistens ohne PIN zahlen.
+
+62
+00:02:23,533 --> 00:02:25,733
+Aber spätestens nach
+fünf Zahlungen oder
+
+63
+00:02:25,733 --> 00:02:28,433
+150 Euro will das
+Terminal wieder die PIN
+
+64
+00:02:28,433 --> 00:02:30,553
+sehen. Das schützt
+dich, falls die Karte
+
+65
+00:02:30,553 --> 00:02:31,253
+geklaut wird.
+
+66
+00:02:32,193 --> 00:02:33,993
+Beim Handy gibst du
+jede Zahlung mit
+
+67
+00:02:33,993 --> 00:02:35,813
+Gesicht, Finger
+oder Code frei.
+
+68
+00:02:36,433 --> 00:02:37,993
+Und es überträgt gar
+nicht deine echte
+
+69
+00:02:37,993 --> 00:02:39,873
+Kartennummer, sondern
+eine Ersatznummer,
+
+70
+00:02:40,133 --> 00:02:41,273
+einen sogenannten Token.
+
+71
+00:02:42,133 --> 00:02:44,733
+Übrigens war die Grenze
+nicht immer bei 50
+
+72
+00:02:44,733 --> 00:02:47,533
+Euro. Früher ging es
+mit der Girocard nur
+
+73
+00:02:47,533 --> 00:02:49,293
+bis 25 Euro ohne PIN.
+
+74
+00:02:50,213 --> 00:02:53,033
+Dann kam 2020 Corona,
+und weniger Leute
+
+75
+00:02:53,033 --> 00:02:54,673
+sollten das Tastenfeld
+am Terminal
+
+76
+00:02:54,673 --> 00:02:56,593
+anfassen. Am 15.
+
+77
+00:02:56,813 --> 00:02:59,533
+April 2020 heben die
+Banken die Grenze
+
+78
+00:02:59,533 --> 00:03:01,013
+deshalb auf 50 Euro an.
+
+79
+00:03:01,767 --> 00:03:03,587
+Zeit für Stimmt oder Mythos.
+
+80
+00:03:04,287 --> 00:03:05,347
+Behauptung eins:
+
+81
+00:03:05,527 --> 00:03:07,087
+Hältst du die Karte
+länger ans Terminal,
+
+82
+00:03:07,427 --> 00:03:08,547
+wird doppelt abgebucht.
+
+83
+00:03:10,303 --> 00:03:13,403
+Mythos. Jede Zahlung
+muss an der Kasse
+
+84
+00:03:13,403 --> 00:03:14,603
+einzeln gestartet werden.
+
+85
+00:03:15,303 --> 00:03:17,143
+Egal wie lange du
+die Karte hinhältst.
+
+86
+00:03:18,940 --> 00:03:20,110
+Behauptung zwei:
+
+87
+00:03:20,300 --> 00:03:21,900
+Hältst du das ganze
+Portemonnaie mit
+
+88
+00:03:21,900 --> 00:03:24,060
+mehreren Karten hin,
+bricht die Zahlung
+
+89
+00:03:24,060 --> 00:03:29,244
+ab. Stimmt. Erkennt
+das Terminal mehrere
+
+90
+00:03:29,244 --> 00:03:31,364
+Karten, bricht es
+ab, damit nicht die
+
+91
+00:03:31,364 --> 00:03:32,124
+falsche bezahlt.
+
+92
+00:03:33,033 --> 00:03:34,613
+Behauptung drei:
+
+93
+00:03:34,933 --> 00:03:37,073
+Diebe können dich im
+Gedränge ganz einfach
+
+94
+00:03:37,073 --> 00:03:40,221
+abbuchen. Mythos.
+
+95
+00:03:40,601 --> 00:03:42,201
+Technisch ist das
+zwar nicht ganz
+
+96
+00:03:42,201 --> 00:03:42,901
+ausgeschlossen.
+
+97
+00:03:43,861 --> 00:03:46,261
+Aber das Gerät müsste
+wenige Zentimeter an
+
+98
+00:03:46,261 --> 00:03:48,001
+deine Karte, es
+ginge nur um kleine
+
+99
+00:03:48,001 --> 00:03:50,021
+Beträge, und das Geld
+landet auf einem
+
+100
+00:03:50,021 --> 00:03:51,941
+Konto, das sich
+zurückverfolgen lässt.
+
+101
+00:03:53,001 --> 00:03:55,141
+Laut Experten ist
+Taschendiebstahl das
+
+102
+00:03:55,141 --> 00:03:56,301
+viel größere Risiko.
+
+103
+00:03:57,543 --> 00:03:59,553
+Drei Tipps. Eins:
+
+104
+00:04:00,033 --> 00:04:01,933
+Halt nur die eine Karte
+ans Terminal, mit
+
+105
+00:04:01,933 --> 00:04:02,733
+der du zahlen willst.
+
+106
+00:04:03,513 --> 00:04:06,233
+Zwei: Wenn das Terminal
+auch unter 50 Euro
+
+107
+00:04:06,233 --> 00:04:07,773
+nach der PIN fragt,
+ist das normal.
+
+108
+00:04:08,413 --> 00:04:09,733
+Das ist die
+Sicherheitsabfrage.
+
+109
+00:04:10,503 --> 00:04:12,893
+Drei: Schau ab und zu
+auf deine Umsätze.
+
+110
+00:04:13,433 --> 00:04:15,073
+Dann fällt dir eine
+falsche Abbuchung
+
+111
+00:04:15,073 --> 00:04:17,527
+sofort auf. Also:
+
+112
+00:04:17,887 --> 00:04:20,287
+Das Terminal baut ein
+Feld auf, das weckt
+
+113
+00:04:20,287 --> 00:04:22,287
+den Chip in deiner
+Karte, und der schickt
+
+114
+00:04:22,287 --> 00:04:24,627
+einen Code, der nur
+ein einziges Mal gilt.
+
+115
+00:04:25,407 --> 00:04:27,767
+Der Strom kommt vom
+Terminal, und der Code
+
+116
+00:04:27,767 --> 00:04:28,487
+gilt nur einmal.
+
+117
+00:04:29,367 --> 00:04:31,267
+Wenn du wissen willst,
+wie andere Dinge
+
+118
+00:04:31,267 --> 00:04:32,827
+aus deinem Alltag
+funktionieren:
+
+119
+00:04:33,247 --> 00:04:35,347
+abonnieren. Alle zwei
+Tage durchschauen
+
+120
+00:04:35,347 --> 00:04:36,427
+wir zusammen ein neues.
+
+121
+00:04:37,087 --> 00:04:38,607
+Bis dann, euer Lupo!

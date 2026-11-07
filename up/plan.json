@@ -133,5 +133,32 @@
     "duration": 27.1
    }
   ]
+ },
+ {
+  "title": "Wie funktioniert kontaktlos bezahlen? (Und kann man dich im Vorbeigehen abbuchen?)",
+  "date": "2026-11-17",
+  "time": "17:00",
+  "tags": "kontaktlos bezahlen, nfc, wie funktioniert kontaktlos bezahlen, girocard kontaktlos, apple pay, google pay, token, pin 50 euro, nfc sicherheit, wie funktioniert das, durchschaut",
+  "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "kontaktlos",
+  "file": "kontaktlos_video.mp4",
+  "desc": "Karte kurz ans Terminal, Piep, bezahlt. Aber woher hat die Karte ihren Strom, was wird da eigentlich gefunkt – und kann dich jemand im Gedränge abbuchen? Lupo schaut sich an, wie kontaktloses Bezahlen funktioniert: das Funkfeld des Terminals, der einmalige Code, die 50-Euro-Regel und warum beim Handy deine echte Kartennummer gar nicht an der Kasse ankommt.\n\nKapitel\n0:00 Intro\n0:28 Die Quizfrage\n0:43 Bargeld verliert\n1:00 Strom aus dem Nichts\n1:24 Was beim Piep passiert\n1:47 Die Auflösung\n2:00 Der einmalige Code\n2:15 Karte oder Handy?\n2:42 Die 50-Euro-Grenze\n3:01 Stimmt oder Mythos?\n3:57 3 Tipps\n4:16 Fazit\n\nQuellen\n- NFC mit 13,56 MHz, ca. 4 cm Reichweite, Karte bekommt Strom per Induktion, keine Batterie (kreditkartenheld): https://kreditkartenheld.com/ratgeber/nfc-erklaert/\n- Reichweite am Kassenterminal unter 4 cm, Karte verändert nur das Feld (IT Finanzmagazin): https://www.it-finanzmagazin.de/nfc-risiko-technisches-halbwissen-63303/\n- Neuer Authentifizierungscode für jede Transaktion (ComputerWeekly): https://www.computerweekly.com/de/definition/NFC-Near-Field-Communication\n- 50 Euro ohne PIN seit 15. April 2020, PIN spätestens nach fünf Zahlungen oder 150 Euro (Deutsche Kreditwirtschaft, über VÖB): https://www.voeb.de/fileadmin/Dateien/Presse/News/Pressemitteilungen_PDFs/PM_DK_Start_Umsetzung_Anhebung_Limit_150420.pdf\n- Vorher lag das Limit bei 25 Euro (netzwelt): https://www.netzwelt.de/news/177420-kontaktloses-bezahlen-ohne-pin-banken-heben-limit.html\n- Kein Bezahlen im Vorbeigehen, nie zwei Abbuchungen beim längeren Hinhalten, Abbruch bei mehreren Karten (OLB-Informationsblatt): https://internet.olb.de:443/-/media/images/internet/dokumente/informationsblatt-debit-und-kreditkarte-mit-kontaktlos-funktion.pdf\n- Apple Pay und Google Pay übertragen eine virtuelle Kartennummer (Token), Händler erfahren die echte Nummer nicht (t-online): https://www.t-online.de/digital/smartphone/id_84962202/smartphone-statt-bargeld-apple-pay-und-google-pay-im-test.html\n- 2025 erstmals 55 % der Einkäufe bargeldlos, 45 % bar, 10 % mobil (Deutsche Bundesbank): https://www.bundesbank.de/de/presse/pressemitteilungen/zahlungsverhalten-in-deutschland-2025-964736\n- Abbuchen im Gedränge technisch möglich, aber unwahrscheinlich (GIGA): https://www.giga.de/tech/kreditkarten-schutzhuelle-gegen-datenklau-braucht-man-das-wirklich--01KBMR5GF80QB0KKXJAPKHBRFQ\n\n#durchschaut #kontaktlos #wissen",
+  "duration": 280.3,
+  "shorts": [
+   {
+    "file": "short_1_karte_ohne_batterie.mp4",
+    "title": "Woher hat deine Bankkarte Strom? #shorts",
+    "date": "2026-11-17",
+    "time": "12:00",
+    "duration": 29.1
+   },
+   {
+    "file": "short_2_pin_regel.mp4",
+    "title": "Warum fragt das Terminal manchmal nach der PIN? #shorts",
+    "date": "2026-11-18",
+    "time": "12:00",
+    "duration": 28.2
+   }
+  ]
  }
 ]
