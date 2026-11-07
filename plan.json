@@ -1,12 +1,13 @@
 [
  {
   "ep": "001-the-stonecutter",
-  "date": "2026-11-07",
+  "date": null,
   "time": "18:00",
-  "status": "scheduled",
+  "status": "error",
   "networks": [
    "tiktok"
   ],
-  "metricool_uuid": "7775548879619900613"
+  "metricool_uuid": "7775548879619900613",
+  "note": "TikTok was disconnected \u2013 neu einplanen, sobald TikTok verbunden ist"
  }
 ]

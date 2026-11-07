@@ -50,7 +50,7 @@ Dieser Branch (`tales-in-ink` im Repo GiahnStudio/Facts-Germany) ist ein eigener
 
 ## Einplanen in Metricool
 
-- `getBrandSettings` meldet bei dieser Marke fälschlich „doesn't have any social network connected“, obwohl TikTok verbunden ist — **ignorieren** und trotzdem einplanen (am 07.11.2026 so getestet: Post wurde angenommen, Status PENDING). Nur wenn `createScheduledPost` selbst einen Fehler liefert, GIAHN die Meldung schicken. Liefert getBrandSettings dagegen die alte Marke 7714006, ist der Connector mit dem falschen Konto verbunden → nichts einplanen, GIAHN melden.
+- Vorher `getBrandSettings`: Meldet es „doesn't have any social network connected“ oder fehlt `tiktokData`, ist TikTok in Marke 7942950 **nicht** verbunden (die Meldung ist korrekt — am 07.11. scheiterte deshalb der erste Post mit „TikTok was disconnected“). Dann nichts einplanen, GIAHN bitten, TikTok hier zu verbinden: https://app.metricool.com/brands/connections?blogId=7942950 (angemeldet als ininktales@gmail.com). Liefert getBrandSettings die alte Marke 7714006, ist der Connector mit dem falschen Konto verbunden → nichts einplanen, GIAHN melden.
 - Richtige Marke: `blogId` **7942950** (Konto ininktales@gmail.com). TikTok `who.has.more1` nie verwenden.
 - **Vorerst nur TikTok** (GIAHNs Entscheidung, Metricool-Gratistarif): `providers` = nur tiktok, nur `tiktokData`. Instagram/YouTube erst einplanen, wenn GIAHN das freigibt und diese Zeile hier geändert ist. Fehlende Netze also NICHT als Problem melden.
 - Ein Post pro Folge, täglich **18:00 Europe/Madrid**, nächster freier Tag (Plan in `plan.json` + `getScheduledPosts` prüfen; nie zwei Folgen am selben Tag). Die zwei alten „Who has more“-Entwürfe (#whohasmore) nie anfassen.
