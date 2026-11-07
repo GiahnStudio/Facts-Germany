@@ -58,5 +58,80 @@
   "uploaded": "2026-11-07",
   "thumb": false,
   "pinned": false
+ },
+ "strichcode:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "strichcode:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "strichcode:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "kontaktlos:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "kontaktlos:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "kontaktlos:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "wasserhahn:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "wasserhahn:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "wasserhahn:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "rolltreppe:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "rolltreppe:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "rolltreppe:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "kuehlschrank:main": {
+  "uploaded": "2026-11-07",
+  "thumb": true,
+  "pinned": false
+ },
+ "kuehlschrank:s1": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
+ },
+ "kuehlschrank:s2": {
+  "uploaded": "2026-11-07",
+  "thumb": false,
+  "pinned": false
  }
 }

@@ -48,6 +48,8 @@ Kanalstimme, nicht ändern. Wortzeiten kommen aus faster-whisper; der Abgleich S
 Fehlt der Schlüssel, rendert die Action mit einer Ersatzstimme ("Kein GOOGLE_TTS_KEY" im Log) – dann GIAHN Bescheid geben.
 
 ## Hochladen auf YouTube (Kanal "Durchschaut", @DurchschautDE)
+
+> **Wichtig:** Das Claude-Fenster auf GIAHNs PC muss sichtbar sein (nicht minimiert/verdeckt). Bei `document.visibilityState==='hidden'` öffnen Menüs/Dialoge nicht und Uploads hängen → abbrechen und im Bericht melden.
 Läuft über YouTube Studio im eingebauten Browser auf GIAHNs PC (Konto ist dort angemeldet; im Kontowechsler den Kanal "Durchschaut" wählen).
 Keine API-Uploads (Videos aus nicht verifizierten API-Projekten bleiben privat).
 1. `git pull`, offene Einträge finden: alles aus `up/plan.json` (Hauptvideo + 2 Shorts je Folge), was nicht in `up/uploaded.json` steht
