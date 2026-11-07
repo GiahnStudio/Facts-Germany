@@ -2,8 +2,9 @@
 
 Kanal von GIAHN (Antworten an ihn immer auf **Deutsch**). Die Videos selbst sind auf **Englisch**.
 Ein Short pro Tag (9:16, 1080×1920, 45–75 s): eine Fabel / Parabel, am Ende eine Moral als gedrucktes Schild.
-Plattformen: TikTok, Instagram (Reel), YouTube (Short) — alle über **Metricool** (eine Marke, `blogId` 7714006,
-früher „Who has more?“). Zeitzone der Marke: Europe/Madrid (= Berliner Zeit).
+Plattformen: TikTok, Instagram (Reel), YouTube (Short) — alle über **Metricool**, Konto **inktails@gmail.com**.
+Die `blogId` nie raten: per `getBrandSettings` die Marke nehmen, in der der Tales-in-Ink-TikTok verbunden ist
+(nie die alte Marke 7714006 „Who has more?“ von giahnstudio@gmail.com). Zeitzone: die der Marke (Berliner Zeit).
 
 Dieser Branch (`tales-in-ink` im Repo GiahnStudio/Facts-Germany) ist ein eigener, verwaister Branch. Klonen immer nur ihn:
 `git clone --depth 1 --branch tales-in-ink --single-branch https://github.com/GiahnStudio/facts-germany tii`
@@ -49,7 +50,8 @@ Dieser Branch (`tales-in-ink` im Repo GiahnStudio/Facts-Germany) ist ein eigener
 
 ## Einplanen in Metricool
 
-- Vorher `getBrandSettings`: In `networksData` müssen **tiktok** (neuer Account, **nicht** `who.has.more1`), **instagram** und **youtube** verbunden sein. Fehlt etwas: nur für die verbundenen Netze einplanen, die fehlenden GIAHN melden. Ist noch `who.has.more1` verbunden: **gar nichts** einplanen, GIAHN melden.
+- Vorher `getBrandSettings`: Liefert es nur die alte Marke 7714006 (giahnstudio, „Who has more?“) oder einen Fehler „no social network connected“, ist der Metricool-Connector noch mit dem alten Konto verbunden → **nichts einplanen**, GIAHN bitten, den Metricool-Connector in den Claude-Einstellungen mit inktails@gmail.com neu zu verbinden.
+- In der richtigen Marke: für alle verbundenen Netze aus tiktok / instagram / youtube einplanen; fehlende Netze GIAHN melden. TikTok `who.has.more1` nie verwenden.
 - Ein Post pro Folge, täglich **18:00 Europe/Madrid**, nächster freier Tag (Plan in `plan.json` + `getScheduledPosts` prüfen; nie zwei Folgen am selben Tag). Die zwei alten „Who has more“-Entwürfe (#whohasmore) nie anfassen.
 - `createScheduledPost` mit `media` = Raw-GitHub-URL aus `out/`, `providers` = tiktok, instagram, youtube, `text` = caption,
   `tiktokData` {privacyOption PUBLIC_TO_EVERYONE, title, isAigc true}, `instagramData` {type REEL, showReelOnFeed true, isAiGenerated true},
