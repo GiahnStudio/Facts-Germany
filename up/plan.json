@@ -106,5 +106,32 @@
     "duration": 25.8
    }
   ]
+ },
+ {
+  "title": "Was steckt im Strichcode? (Und woher kennt die Kasse den Preis?)",
+  "date": "2026-11-15",
+  "time": "17:00",
+  "tags": "strichcode, barcode, ean code, wie funktioniert ein barcode, supermarktkasse, scannerkasse, prüfziffer, gs1, barcode erfindung, woodland silver, wie funktioniert das, durchschaut",
+  "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "strichcode",
+  "file": "strichcode_video.mp4",
+  "desc": "Piep – und der Preis steht auf dem Display. Aber was verraten die schwarzen Striche eigentlich? Lupo schaut sich den Strichcode an: was die 13 Ziffern bedeuten, wie der Scanner Striche in Zahlen verwandelt, warum der Preis gar nicht im Code steht, wie die letzte Ziffer Tippfehler entlarvt – und wie alles mit Linien im Sand begann.\n\nKapitel\n0:00 Intro\n0:26 Die Quizfrage\n0:40 Überall Strichcodes\n0:49 Die 13 Ziffern\n1:08 Wie der Scanner liest\n1:27 Die Auflösung\n1:40 Warum der Preis nicht drinsteht\n1:54 Die geheime letzte Ziffer\n2:14 Linien im Sand\n2:49 Der erste Piep\n3:08 Stimmt oder Mythos?\n3:52 3 Dinge zum Ausprobieren\n4:14 Fazit\n\nQuellen\n- Erster Scan 26.6.1974 (Wrigley's, Marsh-Supermarkt Ohio), Woodland/Silver 1948/1952, EAN-13 seit 1976, erstes Produkt in Deutschland 1.7.1977, erste Scannerkasse Augsburg 1977, Beep von IBM, über 1 Mrd. Produkte, über 10 Mrd. Scans pro Tag, Fehlerquote ca. 1 zu 6 Mrd. (GS1 Germany, Zahlen, Daten, Fakten): https://orders.gs1.de/fileadmin/gs1/newsroom/Presseservice/zahlen-Daten-Fakten-Barcode-gs1-germany.pdf\n- Scanner beleuchtet mit rotem Licht, Barcode enthält meist nicht den Preis, Kasse holt ihn aus einer Datenbank (Spektrum der Wissenschaft): https://www.spektrum.de/magazin/wissenschaft-im-alltag-barcode-lesegeraete/827960\n- Aufbau der EAN, Präfix zeigt die GS1-Organisation, nicht das Herkunftsland, Berechnung der Prüfziffer: https://wisepim.com/de/guides/was-ist-eine-ean-nummer\n- Präfix 4 sagt nichts über den Herstellungsort (echo24 mit codecheck.info): https://www.echo24.de/verbraucher/gtin-irrglaube-barcode-einkaufen-supermarkt-produkt-verbraucher-ean-nummer-strichcode-93162685.html\n- Idee im Sand von Miami Beach, Patent 1949 eingereicht und 1952 erteilt (wissen.de): https://www.wissen.de/wie-der-barcode-unseren-alltag-eroberte\n- Verkauf des Patents für 15.000 Dollar (Berliner Zeitung): https://www.berliner-zeitung.de/article/70-jahre-strichcode-barcode-die-idee-von-norman-joseph-woodland-entstand-am-strand-271573\n- Erster Scan durch Kassiererin Sharon Buchanan (Tagesspiegel): https://www.tagesspiegel.de/wissen/heute-vor-49-jahren-wie-ein-zehnerpack-kaugummi-unseren-alltag-revolutionierte-10036966.html\n\n#durchschaut #strichcode #wissen",
+  "duration": 277.7,
+  "shorts": [
+   {
+    "file": "short_1_preis_im_code.mp4",
+    "title": "Steht der Preis im Strichcode? #shorts",
+    "date": "2026-11-15",
+    "time": "12:00",
+    "duration": 28.0
+   },
+   {
+    "file": "short_2_linien_im_sand.mp4",
+    "title": "Der Strichcode wurde im Sand erfunden #shorts",
+    "date": "2026-11-16",
+    "time": "12:00",
+    "duration": 27.1
+   }
+  ]
  }
 ]

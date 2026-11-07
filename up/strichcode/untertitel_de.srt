@@ -1,0 +1,571 @@
+1
+00:00:00,000 --> 00:00:02,620
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,620 --> 00:00:04,040
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,780 --> 00:00:06,200
+Heute: der Strichcode.
+
+4
+00:00:07,000 --> 00:00:09,320
+Du legst deine Sachen
+aufs Band, es macht
+
+5
+00:00:09,320 --> 00:00:11,520
+Piep, und zack, steht
+der Preis auf dem
+
+6
+00:00:11,520 --> 00:00:13,740
+Display. Aber was
+steckt eigentlich in
+
+7
+00:00:13,740 --> 00:00:14,740
+diesen schwarzen Strichen?
+
+8
+00:00:15,533 --> 00:00:18,173
+Heute schauen wir
+uns an, was die 13
+
+9
+00:00:18,173 --> 00:00:20,193
+Ziffern bedeuten,
+wie der Scanner aus
+
+10
+00:00:20,426 --> 00:00:22,073
+Strichen Zahlen
+macht, was die letzte
+
+11
+00:00:22,073 --> 00:00:24,253
+Ziffer kann, und wie
+alles mit ein paar
+
+12
+00:00:24,253 --> 00:00:25,453
+Linien im Sand anfing.
+
+13
+00:00:26,200 --> 00:00:28,020
+Kurze Frage vorab.
+
+14
+00:00:28,680 --> 00:00:30,400
+Was steht im Strichcode
+einer Packung
+
+15
+00:00:30,400 --> 00:00:32,460
+Nudeln? A: der Preis.
+
+16
+00:00:33,020 --> 00:00:34,600
+B: eine Nummer
+für das Produkt.
+
+17
+00:00:35,120 --> 00:00:37,000
+C: das Haltbarkeitsdatum.
+
+18
+00:00:37,330 --> 00:00:38,820
+Schreib deinen Tipp
+in die Kommentare.
+
+19
+00:00:40,067 --> 00:00:41,627
+Strichcodes sind
+wirklich überall.
+
+20
+00:00:42,207 --> 00:00:44,207
+Mehr als eine Milliarde
+Produkte tragen so
+
+21
+00:00:44,207 --> 00:00:46,647
+einen Code. Und
+weltweit wird jeden Tag
+
+22
+00:00:46,647 --> 00:00:48,727
+mehr als zehn Milliarden
+Mal gescannt.
+
+23
+00:00:49,200 --> 00:00:51,520
+Unter den Strichen
+stehen meistens 13
+
+24
+00:00:51,520 --> 00:00:54,160
+Ziffern. Die ersten
+zeigen, welche
+
+25
+00:00:54,160 --> 00:00:56,100
+Vergabestelle die
+Nummer verteilt hat.
+
+26
+00:00:56,560 --> 00:00:59,460
+400 bis 440 steht
+zum Beispiel für
+
+27
+00:00:59,460 --> 00:01:01,540
+Deutschland. Danach
+kommt die Nummer der
+
+28
+00:01:01,540 --> 00:01:03,580
+Firma und die Nummer
+des Artikels.
+
+29
+00:01:03,900 --> 00:01:05,920
+Und ganz am Ende steht
+eine Prüfziffer.
+
+30
+00:01:06,220 --> 00:01:07,340
+Zu der kommen wir gleich.
+
+31
+00:01:08,067 --> 00:01:09,227
+Und so liest der Scanner.
+
+32
+00:01:09,847 --> 00:01:11,327
+Er schickt rotes
+Licht auf den Code.
+
+33
+00:01:11,887 --> 00:01:13,767
+Schwarz schluckt das
+Licht, Weiß wirft es
+
+34
+00:01:13,767 --> 00:01:16,407
+zurück. Ein Sensor
+misst dieses Muster aus
+
+35
+00:01:16,407 --> 00:01:18,327
+hell und dunkel,
+und die Breite der
+
+36
+00:01:18,327 --> 00:01:19,527
+Striche wird zu Ziffern.
+
+37
+00:01:20,387 --> 00:01:22,167
+Die Kasse sucht diese
+Nummer dann in ihrer
+
+38
+00:01:22,167 --> 00:01:24,247
+Datenbank und schickt
+den Preis aufs
+
+39
+00:01:24,247 --> 00:01:26,407
+Display. Das alles
+dauert nur einen
+
+40
+00:01:26,407 --> 00:01:27,067
+Wimpernschlag.
+
+41
+00:01:27,900 --> 00:01:30,300
+Und damit ist die
+Quizfrage gelöst.
+
+42
+00:01:30,720 --> 00:01:31,560
+Richtig ist B.
+
+43
+00:01:32,060 --> 00:01:34,240
+Im Strichcode steht
+nur eine Nummer für
+
+44
+00:01:34,240 --> 00:01:36,720
+das Produkt. Den
+Preis legt der Laden
+
+45
+00:01:36,720 --> 00:01:39,080
+selbst fest, und er
+steht in der Datenbank
+
+46
+00:01:39,080 --> 00:01:42,347
+der Kasse. Das ist
+ziemlich schlau.
+
+47
+00:01:42,687 --> 00:01:44,907
+Wenn der Laden einen
+Preis ändert, ändert
+
+48
+00:01:44,907 --> 00:01:46,287
+er ihn nur in seinem System.
+
+49
+00:01:46,747 --> 00:01:48,667
+Auf der Packung muss
+nichts neu gedruckt
+
+50
+00:01:48,667 --> 00:01:51,747
+werden. Und jeder Laden
+kann für dieselbe
+
+51
+00:01:51,747 --> 00:01:53,427
+Packung seinen
+eigenen Preis nehmen.
+
+52
+00:01:54,233 --> 00:01:55,933
+Jetzt zur letzten Ziffer.
+
+53
+00:01:56,753 --> 00:01:58,693
+Sie wird aus den
+ersten zwölf Ziffern
+
+54
+00:01:58,693 --> 00:02:01,013
+berechnet. Die Kasse
+rechnet beim Scannen
+
+55
+00:02:01,013 --> 00:02:03,553
+nach. Hat sie auch nur
+eine Ziffer falsch
+
+56
+00:02:03,553 --> 00:02:05,293
+gelesen, passt die
+Rechnung nicht.
+
+57
+00:02:05,733 --> 00:02:07,653
+Dann piept es nicht,
+und es wird einfach
+
+58
+00:02:07,653 --> 00:02:08,763
+nochmal gescannt.
+
+59
+00:02:09,213 --> 00:02:11,853
+Laut GS1 passiert ein
+Lesefehler nur etwa
+
+60
+00:02:11,853 --> 00:02:13,513
+einmal in sechs
+Milliarden Scans.
+
+61
+00:02:14,333 --> 00:02:15,553
+Und wie kam es dazu?
+
+62
+00:02:16,613 --> 00:02:18,133
+Ende der Vierzigerjahre
+will ein
+
+63
+00:02:18,133 --> 00:02:20,153
+Supermarktchef in
+den USA, dass das
+
+64
+00:02:20,153 --> 00:02:21,213
+Kassieren schneller geht.
+
+65
+00:02:22,013 --> 00:02:24,053
+Der Ingenieur Joseph
+Woodland grübelt
+
+66
+00:02:24,053 --> 00:02:26,113
+darüber nach, während
+er in Miami am
+
+67
+00:02:26,113 --> 00:02:26,673
+Strand sitzt.
+
+68
+00:02:27,313 --> 00:02:29,513
+Er denkt an Morsezeichen,
+zieht mit den
+
+69
+00:02:29,753 --> 00:02:31,373
+Fingern Linien
+durch den Sand, und
+
+70
+00:02:31,373 --> 00:02:32,673
+plötzlich ist die Idee da:
+
+71
+00:02:33,033 --> 00:02:35,173
+dicke und dünne Striche
+statt Punkte und
+
+72
+00:02:35,173 --> 00:02:39,033
+Striche. 1952 bekommt
+er zusammen mit
+
+73
+00:02:39,033 --> 00:02:40,473
+Bernard Silver das Patent.
+
+74
+00:02:41,133 --> 00:02:42,453
+Reich werden die beiden nicht.
+
+75
+00:02:42,813 --> 00:02:44,893
+Sie verkaufen es
+für 15.000 Dollar.
+
+76
+00:02:45,613 --> 00:02:47,593
+Und es dauert noch
+Jahrzehnte, bis es die
+
+77
+00:02:47,593 --> 00:02:48,733
+passenden Scanner gibt.
+
+78
+00:02:49,500 --> 00:02:54,260
+Am 26. Juni 1974 ist
+es dann so weit.
+
+79
+00:02:54,440 --> 00:02:56,800
+In einem Supermarkt
+in Ohio wird zum
+
+80
+00:02:56,800 --> 00:02:58,600
+allerersten Mal ein
+Strichcode an der
+
+81
+00:02:58,600 --> 00:02:59,770
+Kasse gescannt.
+
+82
+00:03:00,280 --> 00:03:02,400
+Und zwar auf einer
+Zehnerpackung Kaugummi.
+
+83
+00:03:03,060 --> 00:03:04,260
+In Deutschland steht die erste
+
+84
+00:03:04,260 --> 00:03:07,380
+Scannerkasse 1977 in
+einem Supermarkt in
+
+85
+00:03:07,380 --> 00:03:10,340
+Augsburg. Zeit für
+Stimmt oder Mythos.
+
+86
+00:03:10,980 --> 00:03:12,080
+Behauptung eins:
+
+87
+00:03:12,220 --> 00:03:14,200
+Beginnt der Strichcode
+mit einer Vier,
+
+88
+00:03:14,300 --> 00:03:15,620
+wurde das Produkt
+in Deutschland
+
+89
+00:03:15,620 --> 00:03:18,584
+hergestellt. Mythos.
+
+90
+00:03:19,164 --> 00:03:20,924
+Die ersten Ziffern
+zeigen nur, wo die
+
+91
+00:03:20,924 --> 00:03:22,304
+Firma ihre Nummer
+bekommen hat.
+
+92
+00:03:22,824 --> 00:03:24,804
+Wo das Produkt gemacht
+wurde, verraten sie
+
+93
+00:03:24,804 --> 00:03:27,537
+nicht. Behauptung zwei:
+
+94
+00:03:27,827 --> 00:03:30,007
+Der typische Piep-Ton
+an der Kasse stammt
+
+95
+00:03:30,007 --> 00:03:33,351
+von IBM. Stimmt.
+
+96
+00:03:34,111 --> 00:03:37,471
+Laut GS1 hat IBM seine
+Scannerkassen mit
+
+97
+00:03:37,471 --> 00:03:39,351
+genau diesem Ton ausgestattet.
+
+98
+00:03:41,400 --> 00:03:42,490
+Behauptung drei:
+
+99
+00:03:42,660 --> 00:03:44,060
+Im Strichcode steht der Preis.
+
+100
+00:03:46,188 --> 00:03:48,588
+Mythos. Das hast du
+ja schon im Quiz
+
+101
+00:03:48,588 --> 00:03:51,188
+gelernt. Der Preis
+kommt aus der Datenbank
+
+102
+00:03:51,188 --> 00:03:54,187
+der Kasse. Drei Dinge
+zum Ausprobieren.
+
+103
+00:03:54,967 --> 00:03:57,187
+Eins: Schau beim
+nächsten Einkauf, mit
+
+104
+00:03:57,187 --> 00:03:58,607
+welchen Ziffern
+deine Lebensmittel
+
+105
+00:03:58,607 --> 00:03:59,914
+anfangen. Zwei:
+
+106
+00:04:00,340 --> 00:04:01,827
+Dreh mal ein Buch um.
+
+107
+00:04:02,687 --> 00:04:06,867
+Dort beginnt der Code
+mit 978 oder 979.
+
+108
+00:04:07,827 --> 00:04:10,367
+Drei: Wenn ein Code
+nicht piept, zieh die
+
+109
+00:04:10,367 --> 00:04:11,067
+Packung glatt.
+
+110
+00:04:11,587 --> 00:04:13,407
+Knicke und Falten
+machen es dem Scanner
+
+111
+00:04:13,407 --> 00:04:15,140
+schwer. Also:
+
+112
+00:04:15,660 --> 00:04:17,660
+Der Scanner liest mit
+Licht die Striche,
+
+113
+00:04:17,960 --> 00:04:19,960
+macht daraus eine
+Nummer, prüft sie mit
+
+114
+00:04:19,960 --> 00:04:22,020
+der letzten Ziffer,
+und die Kasse sucht
+
+115
+00:04:22,020 --> 00:04:22,680
+dazu den Preis.
+
+116
+00:04:23,240 --> 00:04:25,340
+Der Preis wohnt also
+in der Kasse, nicht
+
+117
+00:04:25,340 --> 00:04:26,000
+auf der Packung.
+
+118
+00:04:26,733 --> 00:04:28,633
+Wenn du wissen willst,
+wie andere Dinge
+
+119
+00:04:28,633 --> 00:04:30,193
+aus deinem Alltag
+funktionieren:
+
+120
+00:04:30,613 --> 00:04:32,713
+abonnieren. Alle zwei
+Tage durchschauen
+
+121
+00:04:32,713 --> 00:04:33,793
+wir zusammen ein neues.
+
+122
+00:04:34,453 --> 00:04:35,973
+Bis dann, euer Lupo!
