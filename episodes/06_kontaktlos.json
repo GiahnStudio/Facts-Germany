@@ -1,0 +1,500 @@
+{
+ "slug": "kontaktlos",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-17",
+ "time": "17:00",
+ "title": "Wie funktioniert kontaktlos bezahlen? (Und kann man dich im Vorbeigehen abbuchen?)",
+ "tags": "kontaktlos bezahlen, nfc, wie funktioniert kontaktlos bezahlen, girocard kontaktlos, apple pay, google pay, token, pin 50 euro, nfc sicherheit, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Karte kurz ans Terminal, Piep, bezahlt. Aber woher hat die Karte ihren Strom, was wird da eigentlich gefunkt – und kann dich jemand im Gedränge abbuchen? Lupo schaut sich an, wie kontaktloses Bezahlen funktioniert: das Funkfeld des Terminals, der einmalige Code, die 50-Euro-Regel und warum beim Handy deine echte Kartennummer gar nicht an der Kasse ankommt.\n\nKapitel\n{kapitel}\n\nQuellen\n- NFC mit 13,56 MHz, ca. 4 cm Reichweite, Karte bekommt Strom per Induktion, keine Batterie (kreditkartenheld): https://kreditkartenheld.com/ratgeber/nfc-erklaert/\n- Reichweite am Kassenterminal unter 4 cm, Karte verändert nur das Feld (IT Finanzmagazin): https://www.it-finanzmagazin.de/nfc-risiko-technisches-halbwissen-63303/\n- Neuer Authentifizierungscode für jede Transaktion (ComputerWeekly): https://www.computerweekly.com/de/definition/NFC-Near-Field-Communication\n- 50 Euro ohne PIN seit 15. April 2020, PIN spätestens nach fünf Zahlungen oder 150 Euro (Deutsche Kreditwirtschaft, über VÖB): https://www.voeb.de/fileadmin/Dateien/Presse/News/Pressemitteilungen_PDFs/PM_DK_Start_Umsetzung_Anhebung_Limit_150420.pdf\n- Vorher lag das Limit bei 25 Euro (netzwelt): https://www.netzwelt.de/news/177420-kontaktloses-bezahlen-ohne-pin-banken-heben-limit.html\n- Kein Bezahlen im Vorbeigehen, nie zwei Abbuchungen beim längeren Hinhalten, Abbruch bei mehreren Karten (OLB-Informationsblatt): https://internet.olb.de:443/-/media/images/internet/dokumente/informationsblatt-debit-und-kreditkarte-mit-kontaktlos-funktion.pdf\n- Apple Pay und Google Pay übertragen eine virtuelle Kartennummer (Token), Händler erfahren die echte Nummer nicht (t-online): https://www.t-online.de/digital/smartphone/id_84962202/smartphone-statt-bargeld-apple-pay-und-google-pay-im-test.html\n- 2025 erstmals 55 % der Einkäufe bargeldlos, 45 % bar, 10 % mobil (Deutsche Bundesbank): https://www.bundesbank.de/de/presse/pressemitteilungen/zahlungsverhalten-in-deutschland-2025-964736\n- Abbuchen im Gedränge technisch möglich, aber unwahrscheinlich (GIGA): https://www.giga.de/tech/kreditkarten-schutzhuelle-gegen-datenklau-braucht-man-das-wirklich--01KBMR5GF80QB0KKXJAPKHBRFQ\n\n#durchschaut #kontaktlos #wissen",
+ "thumbs": {
+  "A": {
+   "big": "Woher hat die Karte Strom?",
+   "chip": "SO FUNKTIONIERT KONTAKTLOS",
+   "mood": "wow",
+   "icon": "chip"
+  },
+  "B": {
+   "big": "Abbuchen im Vorbeigehen?",
+   "chip": "STIMMT DAS?",
+   "stamp": "CHECK",
+   "stamp_color": "red",
+   "mood": "think",
+   "icon": "warn"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Karte hin, Piep, bezahlt. Aber wie?",
+   "size": 92,
+   "sub": "Kein Stecken, kein Kabel, keine Batterie.",
+   "sub_at": "Batterie",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: kontaktlos bezahlen. Du hältst die Karte kurz ans Terminal, es piept, fertig. Kein Stecken, kein Kabel. Und in der Karte steckt nicht mal eine Batterie. Wie soll das gehen?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Zauberei?",
+      "at": "Batterie"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir rein",
+   "items": [
+    {
+     "text": "Strom aus dem Nichts",
+     "at": "Strom"
+    },
+    {
+     "text": "Der einmalige Code",
+     "at": "Code"
+    },
+    {
+     "text": "Die 50-Euro-Regel",
+     "at": "Regel"
+    },
+    {
+     "text": "Abbuchen im Gedränge?",
+     "at": "Gedränge"
+    }
+   ],
+   "say": "Heute schauen wir uns an, woher die Karte ihren Strom bekommt, was der einmalige Code macht, wie die 50-Euro-Regel funktioniert, und ob dich wirklich jemand im Gedränge abbuchen kann."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie nah muss die Karte ans Terminal?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Etwa 4 Zentimeter",
+     "at": "A"
+    },
+    {
+     "text": "Etwa 1 Meter",
+     "at": "B"
+    },
+    {
+     "text": "Etwa 10 Meter",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie nah musst du die Karte ans Terminal halten? A: etwa vier Zentimeter. B: etwa einen Meter. C: etwa zehn Meter. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Bargeld verliert",
+   "title": "Wie Deutschland 2025 bezahlt hat",
+   "items": [
+    {
+     "num": "55 %",
+     "label": "der Einkäufe bargeldlos",
+     "color": "green",
+     "at": "bargeldlos"
+    },
+    {
+     "num": "10 %",
+     "label": "mit dem Handy oder der Uhr",
+     "at": "Handy"
+    }
+   ],
+   "say": "Und kontaktlos ist längst normal. 2025 wurden laut Bundesbank zum ersten Mal mehr Einkäufe bargeldlos bezahlt als bar, nämlich 55 Prozent. Und schon jede zehnte Zahlung lief übers Handy oder eine andere mobile Methode.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Tschüss, Kleingeld!",
+      "at": "bar"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Strom aus dem Nichts",
+   "icon": "chip",
+   "label": "FUNK MIT 13,56 MEGAHERTZ",
+   "headline": "Strom kommt vom Terminal",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Das Terminal baut ein Magnetfeld auf.",
+     "at": "Magnetfeld"
+    },
+    {
+     "text": "Die Antenne in der Karte fängt es ein – das erzeugt Strom.",
+     "at": "Antenne"
+    },
+    {
+     "text": "Der reicht, um den kleinen Chip aufzuwecken.",
+     "at": "aufzuwecken"
+    }
+   ],
+   "say": "Das Geheimnis heißt NFC, Nahfeldkommunikation. Das Terminal baut ein Magnetfeld auf, das 13,56 Millionen Mal pro Sekunde schwingt. In deiner Karte ist rundherum eine dünne Antenne eingebaut. Kommt sie in das Feld, entsteht darin eine kleine Spannung. Und die reicht, um den Chip aufzuwecken. Die Karte braucht also keine eigene Batterie.",
+   "lupo": {
+    "events": [
+     {
+      "mood": "wow",
+      "at": "Chip",
+      "dur": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "flow",
+   "chapter": "Was beim Piep passiert",
+   "title": "Was beim Piep passiert",
+   "items": [
+    {
+     "icon": "chip",
+     "text": "Karte wacht im Feld auf",
+     "at": "wacht"
+    },
+    {
+     "icon": "server",
+     "text": "Terminal schickt Betrag und Frage",
+     "at": "Betrag"
+    },
+    {
+     "icon": "barcode",
+     "text": "Chip antwortet mit einmaligem Code",
+     "at": "einmaligen"
+    },
+    {
+     "icon": "shop",
+     "text": "Bank prüft und gibt frei",
+     "at": "prüft"
+    },
+    {
+     "icon": "bell",
+     "text": "Piep: bezahlt",
+     "at": "bezahlt"
+    }
+   ],
+   "say": "Und das passiert beim Piep. Die Karte wacht im Feld auf. Das Terminal schickt ihr den Betrag und eine Anfrage. Der Chip antwortet mit einem einmaligen Code, der nur für genau diese Zahlung gilt. Das Terminal reicht alles an die Bank weiter, die Bank prüft und gibt frei. Piep, bezahlt. Und das in Sekundenbruchteilen.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Schnell!",
+      "at": "Sekundenbruchteilen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie nah muss die Karte ans Terminal?",
+   "size": 60,
+   "answer": "A",
+   "reveal_at": "Richtig",
+   "options": [
+    "Etwa 4 Zentimeter",
+    "Etwa 1 Meter",
+    "Etwa 10 Meter"
+   ],
+   "say": "Jetzt zur Quizfrage. Richtig ist A. An der Kasse funktioniert es nur auf wenige Zentimeter, meistens unter vier. Das Magnetfeld wird mit jedem Zentimeter Abstand schnell schwächer."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der einmalige Code",
+   "icon": "warn",
+   "label": "KOPIEREN BRINGT NICHTS",
+   "headline": "Jeder Code gilt nur einmal",
+   "size": 78,
+   "lines": [
+    {
+     "text": "Für jede Zahlung rechnet der Chip einen neuen Code aus.",
+     "at": "neuen"
+    },
+    {
+     "text": "Ein abgefangener Code ist danach wertlos.",
+     "at": "wertlos"
+    }
+   ],
+   "say": "Dieser einmalige Code ist der eigentliche Trick. Für jede Zahlung rechnet der Chip einen neuen aus. Würde jemand ihn abfangen, könnte er damit nichts anfangen. Für die nächste Zahlung wäre er schon wertlos.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Pech gehabt!",
+      "at": "wertlos"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Karte oder Handy?",
+   "title": "Karte oder Handy – was ist anders?",
+   "items": [
+    {
+     "icon": "chip",
+     "label": "KARTE",
+     "title": "Bis 50 € oft ohne PIN",
+     "text": "Spätestens nach fünf Zahlungen oder 150 Euro will das Terminal wieder die PIN.",
+     "color": "yellow",
+     "at": "Karte"
+    },
+    {
+     "icon": "person",
+     "label": "HANDY & UHR",
+     "title": "Freigabe per Gesicht oder Finger",
+     "text": "Statt der echten Kartennummer wird eine Ersatznummer übertragen, ein sogenannter Token.",
+     "color": "green",
+     "at": "Handy"
+    }
+   ],
+   "say": "Und was ist der Unterschied zwischen Karte und Handy? Mit der Karte kannst du bis 50 Euro meistens ohne PIN zahlen. Aber spätestens nach fünf Zahlungen oder 150 Euro will das Terminal wieder die PIN sehen. Das schützt dich, falls die Karte geklaut wird. Beim Handy gibst du jede Zahlung mit Gesicht, Finger oder Code frei. Und es überträgt gar nicht deine echte Kartennummer, sondern eine Ersatznummer, einen sogenannten Token."
+  },
+  {
+   "type": "story",
+   "chapter": "Die 50-Euro-Grenze",
+   "title": "Wie die 50-Euro-Grenze kam",
+   "steps": [
+    {
+     "date": "Früher",
+     "text": "Ohne PIN ging es nur bis 25 Euro.",
+     "at": "25"
+    },
+    {
+     "date": "2020",
+     "text": "Corona: Weniger Leute sollen das Tastenfeld anfassen.",
+     "at": "Tastenfeld"
+    },
+    {
+     "date": "15.4.2020",
+     "text": "Die Banken heben die Grenze auf 50 Euro an.",
+     "at": "heben"
+    }
+   ],
+   "say": "Übrigens war die Grenze nicht immer bei 50 Euro. Früher ging es mit der Girocard nur bis 25 Euro ohne PIN. Dann kam 2020 Corona, und weniger Leute sollten das Tastenfeld am Terminal anfassen. Am 15. April 2020 heben die Banken die Grenze deshalb auf 50 Euro an.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Doppelt so viel!",
+      "at": "50"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "chip",
+   "label": "Behauptung 1",
+   "text": "Hältst du die Karte länger dran, wird doppelt abgebucht.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Jede",
+   "pause": 0.6,
+   "say": "Zeit für Stimmt oder Mythos. Behauptung eins: Hältst du die Karte länger ans Terminal, wird doppelt abgebucht. ... Mythos. Jede Zahlung muss an der Kasse einzeln gestartet werden. Egal wie lange du die Karte hinhältst."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "crate",
+   "label": "Behauptung 2",
+   "text": "Mehrere Karten im Portemonnaie? Dann bricht die Zahlung ab.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "pause": 0.6,
+   "say": "Behauptung zwei: Hältst du das ganze Portemonnaie mit mehreren Karten hin, bricht die Zahlung ab. ... Stimmt. Erkennt das Terminal mehrere Karten, bricht es ab, damit nicht die falsche bezahlt."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 3",
+   "text": "Diebe können dich im Gedränge ganz einfach abbuchen.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Technisch",
+   "pause": 0.6,
+   "say": "Behauptung drei: Diebe können dich im Gedränge ganz einfach abbuchen. ... Mythos. Technisch ist das zwar nicht ganz ausgeschlossen. Aber das Gerät müsste wenige Zentimeter an deine Karte, es ginge nur um kleine Beträge, und das Geld landet auf einem Konto, das sich zurückverfolgen lässt. Laut Experten ist Taschendiebstahl das viel größere Risiko.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Puh!",
+      "at": "Experten"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps fürs kontaktlose Bezahlen",
+   "items": [
+    {
+     "text": "Nur eine Karte ans Terminal halten",
+     "icon": "chip",
+     "at": "Eins"
+    },
+    {
+     "text": "PIN-Abfrage unter 50 € ist normal",
+     "icon": "warn",
+     "at": "Zwei"
+    },
+    {
+     "text": "Konto ab und zu checken",
+     "icon": "receipt",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps. Eins: Halt nur die eine Karte ans Terminal, mit der du zahlen willst. Zwei: Wenn das Terminal auch unter 50 Euro nach der PIN fragt, ist das normal. Das ist die Sicherheitsabfrage. Drei: Schau ab und zu auf deine Umsätze. Dann fällt dir eine falsche Abbuchung sofort auf."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Feld an, Chip wach, Code raus.",
+   "size": 92,
+   "sub": "Der Strom kommt vom Terminal, der Code gilt nur einmal.",
+   "sub_at": "einmal",
+   "say": "Also: Das Terminal baut ein Feld auf, das weckt den Chip in deiner Karte, und der schickt einen Code, der nur ein einziges Mal gilt. Der Strom kommt vom Terminal, und der Code gilt nur einmal."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "karte_ohne_batterie",
+   "title": "Woher hat deine Bankkarte Strom? #shorts",
+   "date": "2026-11-17",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Woher bekommt deine Bankkarte beim Bezahlen Strom?",
+     "size": 56,
+     "options": [
+      {
+       "text": "Aus einer Mini-Batterie",
+       "at": "A"
+      },
+      {
+       "text": "Vom Terminal",
+       "at": "B"
+      },
+      {
+       "text": "Aus deiner Körperwärme",
+       "at": "C"
+      }
+     ],
+     "say": "Woher bekommt deine Bankkarte beim kontaktlosen Bezahlen ihren Strom? A: aus einer Mini-Batterie. B: vom Terminal. C: aus deiner Körperwärme.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "Körperwärme"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Aus einer Mini-Batterie",
+      "Vom Terminal",
+      "Aus deiner Körperwärme"
+     ],
+     "say": "Richtig ist B. Vom Terminal."
+    },
+    {
+     "type": "fact",
+     "icon": "chip",
+     "label": "STROM PER FUNK",
+     "headline": "Das Magnetfeld erzeugt Strom in der Antenne",
+     "size": 62,
+     "lines": [
+      {
+       "text": "Genug, um den Chip zu wecken.",
+       "at": "wecken"
+      }
+     ],
+     "say": "Das Terminal baut ein Magnetfeld auf. In der Karte steckt eine dünne Antenne, und im Feld entsteht darin eine kleine Spannung. Genug, um den Chip zu wecken."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "pin_regel",
+   "title": "Warum fragt das Terminal manchmal nach der PIN? #shorts",
+   "date": "2026-11-18",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum will das Terminal manchmal doch die PIN?",
+     "size": 82,
+     "say": "Du zahlst nur fünf Euro, und trotzdem will das Terminal deine PIN. Warum?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hä?",
+        "at": "PIN"
+       }
+      ]
+     }
+    },
+    {
+     "type": "fact",
+     "icon": "warn",
+     "label": "DIE SICHERHEITSREGEL",
+     "headline": "Spätestens nach 5 Zahlungen oder 150 €",
+     "size": 64,
+     "lines": [
+      {
+       "text": "Dann ist die PIN wieder dran.",
+       "at": "wieder"
+      }
+     ],
+     "say": "Das ist eine Sicherheitsregel. Ohne PIN geht es bis 50 Euro. Aber spätestens nach fünf Zahlungen oder 150 Euro will das Terminal wieder die PIN. So kann ein Dieb mit deiner Karte nicht unbegrenzt einkaufen.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Schlau!",
+        "at": "Dieb"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Woher die Karte ihren Strom bekommt, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

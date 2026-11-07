@@ -1,0 +1,501 @@
+{
+ "slug": "kuehlschrank",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-23",
+ "time": "17:00",
+ "title": "Wie funktioniert ein Kühlschrank? (Er macht gar keine Kälte!)",
+ "tags": "kühlschrank, wie funktioniert ein kühlschrank, kältemittel, kompressor, verdampfer, verflüssiger, kühlschrank rückseite warm, kühlschrank 7 grad, carl von linde, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Innen kalt, hinten warm – und manchmal brummt er. Aber wie macht ein Kühlschrank eigentlich Kälte? Die Antwort: gar nicht. Lupo zeigt, wie ein Kältemittel die Wärme aus deinem Kühlschrank herausträgt, warum die Rückseite warm wird, wieso 7 Grad völlig reichen – und was Bierbrauer mit der Erfindung zu tun haben.\n\nKapitel\n{kapitel}\n\nQuellen\n- Kältemittel verdampft im Verdampfer und nimmt Wärme auf, Kompressor verdichtet, Kondensator auf der Rückseite gibt Wärme ab, Thermostat schaltet, Isobutan (R600a) (Vattenfall): https://www.vattenfall.de/infowelt-energie/strom-ratgeber/wie-funktioniert-ein-kuehlschrank\n- Kapillarrohr senkt den Druck, Verflüssiger auf der Rückseite (t-online): https://www.t-online.de/leben/alltagswissen/id_100476996/wie-funktioniert-ein-kuehlschrank-einfach-erklaert.html\n- Ein offener Kühlschrank kann einen Raum nicht kühlen (GIGA): https://www.giga.de/ratgeber/specials/wie-funktioniert-ein-kuehlschrank-na-so-hier/\n- 7 Grad reichen, jedes Grad kälter etwa 6 % mehr Strom, Speisen erst abkühlen lassen, Tür nur kurz öffnen (futurezone mit Verbraucherzentrale): https://futurezone.at/amp/digital-life/kuehlschrank-fehler-tipps-energie-sparen/402516262\n- Abstand zur Wand, Eis im Gefrierfach erhöht den Verbrauch (homeandsmart): https://www.homeandsmart.de/kuehlschrank-verbrauch-senken-5-checks-40192a-0002-581809\n- Linde, Patent 1877 mit Ammoniak, Gesellschaft für Linde's Eismaschinen 1879, Kunden zuerst Brauereien (Deutsches Patent- und Markenamt): https://dpma.de/docs/postergalerieneu/01_kuehlschrank.pdf\n- Bayerns Brauer brauchten jährlich etwa 56.000 Tonnen Eis, Spaten-Brauerei als erster Großkunde (München Wiki): https://www.muenchenwiki.de/wiki/Carl_Linde\n\n#durchschaut #kühlschrank #wissen",
+ "thumbs": {
+  "A": {
+   "big": "Er macht gar keine Kälte!",
+   "chip": "SO FUNKTIONIERT DER KÜHLSCHRANK",
+   "mood": "wow",
+   "icon": "drop"
+  },
+  "B": {
+   "big": "Erfunden fürs Bier",
+   "chip": "1877",
+   "stamp": "PROST",
+   "stamp_color": "green",
+   "mood": "cheer",
+   "icon": "factory"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie macht der Kühlschrank Kälte?",
+   "size": 92,
+   "sub": "Spoiler: gar nicht.",
+   "sub_at": "Spoiler",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Kühlschrank. Innen ist es kalt, hinten wird er warm, und manchmal brummt er leise vor sich hin. Aber wie macht er eigentlich Kälte? Spoiler: gar nicht.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Hä?!",
+      "at": "Spoiler"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir rein",
+   "items": [
+    {
+     "text": "Der Wärme-Transporter",
+     "at": "Transporter"
+    },
+    {
+     "text": "Die warme Rückseite",
+     "at": "Rückseite"
+    },
+    {
+     "text": "Die richtige Temperatur",
+     "at": "Temperatur"
+    },
+    {
+     "text": "Eis für Bier",
+     "at": "Bier"
+    }
+   ],
+   "say": "Heute schauen wir uns den unsichtbaren Wärme-Transporter an, die warme Rückseite, die richtige Temperatur für deinen Kühlschrank, und was das Ganze mit Bier zu tun hat."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Was macht ein Kühlschrank eigentlich?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Er erzeugt Kälte",
+     "at": "A"
+    },
+    {
+     "text": "Er bringt die Wärme nach draußen",
+     "at": "B"
+    },
+    {
+     "text": "Er bläst kalte Luft von außen rein",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Was macht ein Kühlschrank eigentlich? A: Er erzeugt Kälte. B: Er bringt die Wärme nach draußen. C: Er bläst kalte Luft von außen rein. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Wärme-Transporter",
+   "icon": "drop",
+   "label": "DAS KÄLTEMITTEL",
+   "headline": "Verdampfen schluckt Wärme",
+   "size": 76,
+   "lines": [
+    {
+     "text": "In den Rohren fließt ein Kältemittel, heute meist Isobutan.",
+     "at": "Isobutan"
+    },
+    {
+     "text": "Beim Verdampfen schluckt es Wärme.",
+     "at": "schluckt"
+    },
+    {
+     "text": "Wie Schweiß, der auf deiner Haut verdunstet.",
+     "at": "Schweiß"
+    }
+   ],
+   "say": "Der Trick steckt in den Rohren. Darin fließt ein Kältemittel, heute meistens Isobutan. Es verdampft schon bei sehr niedrigen Temperaturen. Und wenn eine Flüssigkeit verdampft, schluckt sie Wärme. Das kennst du von dir selbst: Wenn Schweiß auf deiner Haut verdunstet, wird dir kühler.",
+   "lupo": {
+    "events": [
+     {
+      "mood": "wow",
+      "at": "Schweiß",
+      "dur": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "flow",
+   "chapter": "Der Kreislauf",
+   "title": "Der Kreislauf im Kühlschrank",
+   "items": [
+    {
+     "icon": "drop",
+     "text": "Innen: Kältemittel verdampft und schluckt Wärme",
+     "at": "Verdampfer"
+    },
+    {
+     "icon": "machine",
+     "text": "Kompressor drückt das Gas zusammen",
+     "at": "Kompressor"
+    },
+    {
+     "icon": "flame",
+     "text": "Hinten: Es wird heiß und gibt Wärme ab",
+     "at": "Rückseite"
+    },
+    {
+     "icon": "chip",
+     "text": "Ein dünnes Rohr senkt den Druck",
+     "at": "Rohr"
+    },
+    {
+     "icon": "recycle",
+     "text": "Und alles beginnt von vorn",
+     "at": "vorn"
+    }
+   ],
+   "say": "Und so läuft der Kreislauf. Innen, im sogenannten Verdampfer, verdampft das Kältemittel und schluckt dabei die Wärme aus deinem Essen. Dann saugt der Kompressor das Gas an und drückt es zusammen. Dabei wird es richtig heiß. Auf der Rückseite gibt es diese Wärme an die Küchenluft ab und wird wieder flüssig. Danach fließt es durch ein ganz dünnes Rohr, das den Druck senkt. Und alles beginnt von vorn.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Rundherum!",
+      "at": "vorn"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Was macht ein Kühlschrank eigentlich?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Er erzeugt Kälte",
+    "Er bringt die Wärme nach draußen",
+    "Er bläst kalte Luft von außen rein"
+   ],
+   "say": "Und damit ist die Quizfrage gelöst. Richtig ist B. Ein Kühlschrank macht keine Kälte. Er pumpt die Wärme von innen nach außen. Was übrig bleibt, fühlt sich für uns kalt an."
+  },
+  {
+   "type": "fact",
+   "chapter": "Die warme Rückseite",
+   "icon": "flame",
+   "label": "HINTEN WIRD'S WARM",
+   "headline": "Die Wärme landet in der Küche",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Die schwarzen Rohre hinten heißen Verflüssiger.",
+     "at": "Verflüssiger"
+    },
+    {
+     "text": "Deshalb braucht der Kühlschrank Platz zur Wand.",
+     "at": "Platz"
+    }
+   ],
+   "say": "Deshalb wird die Rückseite warm. Die schwarzen Rohre dort heißen Verflüssiger. Durch sie gibt der Kühlschrank die Wärme aus deinem Essen an die Küche ab. Darum braucht er auch etwas Platz zur Wand. Steht er zu eng, staut sich die Wärme, und er muss länger arbeiten."
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum er brummt",
+   "icon": "bell",
+   "label": "DAS BRUMMEN",
+   "headline": "An, aus, an, aus",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Ein Thermostat misst die Temperatur.",
+     "at": "Thermostat"
+    },
+    {
+     "text": "Zu warm? Kompressor an. Kalt genug? Kompressor aus.",
+     "at": "genug"
+    }
+   ],
+   "say": "Und warum brummt er manchmal und dann wieder nicht? Ein Thermostat misst die Temperatur innen. Wird es zu warm, schaltet es den Kompressor ein, und du hörst das Brummen. Ist es kalt genug, schaltet es ihn wieder aus.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Brumm brumm!",
+      "at": "Brummen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "bignum",
+   "chapter": "Die richtige Temperatur",
+   "title": "Wie kalt muss es sein?",
+   "items": [
+    {
+     "num": "7 °C",
+     "label": "reichen laut Verbraucherzentrale",
+     "color": "green",
+     "at": "Grad"
+    },
+    {
+     "num": "+6 %",
+     "label": "Strom für jedes Grad kälter",
+     "at": "Prozent"
+    }
+   ],
+   "say": "Und wie kalt muss dein Kühlschrank sein? Laut Verbraucherzentrale reichen sieben Grad völlig aus. Viele stellen ihn kälter. Aber jedes Grad weniger kostet ungefähr sechs Prozent mehr Strom.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Geld gespart!",
+      "at": "Strom"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Eis für Bier",
+   "title": "Erfunden für die Brauereien",
+   "steps": [
+    {
+     "date": "Früher",
+     "text": "Brauereien kühlen ihr Bier mit riesigen Mengen Eis.",
+     "at": "Mengen"
+    },
+    {
+     "date": "Bayern",
+     "text": "Allein dort brauchen Brauer rund 56.000 Tonnen Eis im Jahr.",
+     "at": "Tonnen"
+    },
+    {
+     "date": "1877",
+     "text": "Carl Linde bekommt das Patent für seine Kältemaschine.",
+     "at": "Linde"
+    },
+    {
+     "date": "Danach",
+     "text": "Erst Brauereien, Jahrzehnte später die Küchen.",
+     "at": "Küchen"
+    }
+   ],
+   "stamp": "PROST!",
+   "stamp_color": "green",
+   "stamp_at": "Küchen",
+   "say": "Und woher kommt die Idee? Im 19. Jahrhundert brauchen Brauereien Kälte für ihr Bier. Sie kühlen dafür mit riesigen Mengen Eis. Allein in Bayern brauchen die Brauer rund 56.000 Tonnen Eis im Jahr. Der Ingenieur Carl Linde aus München baut deshalb eine Kältemaschine. 1877 bekommt er das Patent, und zu den ersten Kunden gehören Brauereien. Bis daraus kleine Kühlschränke für die Küchen werden, dauert es noch Jahrzehnte.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Bier zuerst!",
+      "at": "Brauereien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "door",
+   "label": "Behauptung 1",
+   "text": "Mit offener Kühlschranktür kann man im Sommer die Küche kühlen.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "pause": 0.6,
+   "say": "Zeit für Stimmt oder Mythos. Behauptung eins: Mit offener Kühlschranktür kann man im Sommer die Küche kühlen. ... Mythos. Die Wärme, die er vorne herausholt, gibt er hinten wieder an die Küche ab. Dazu kommt noch die Wärme vom Motor. Die Küche wird also sogar wärmer."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "flame",
+   "label": "Behauptung 2",
+   "text": "Dass die Rückseite warm wird, ist ganz normal.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "pause": 0.6,
+   "say": "Behauptung zwei: Dass die Rückseite warm wird, ist ganz normal. ... Stimmt. Genau dort gibt der Kühlschrank die Wärme ab, die er innen eingesammelt hat."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 3",
+   "text": "Je kälter der Kühlschrank, desto besser.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Sieben",
+   "pause": 0.6,
+   "say": "Behauptung drei: Je kälter der Kühlschrank eingestellt ist, desto besser. ... Mythos. Sieben Grad reichen laut Verbraucherzentrale. Kälter kostet nur mehr Strom.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Zu kalt!",
+      "at": "kälter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für deinen Kühlschrank",
+   "items": [
+    {
+     "text": "Auf etwa 7 Grad einstellen",
+     "icon": "drop",
+     "at": "Eins"
+    },
+    {
+     "text": "Warmes Essen erst abkühlen lassen",
+     "icon": "flame",
+     "at": "Zwei"
+    },
+    {
+     "text": "Etwas Abstand zur Wand lassen",
+     "icon": "door",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für deinen Kühlschrank. Eins: Stell ihn auf etwa sieben Grad. Zwei: Lass warmes Essen erst abkühlen, bevor es reinkommt, sonst muss er viel mehr arbeiten. Drei: Lass hinten etwas Abstand zur Wand, damit die Wärme weg kann."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Keine Kälte – nur weggetragene Wärme.",
+   "size": 88,
+   "sub": "Innen eingesammelt, hinten abgegeben.",
+   "sub_at": "abgegeben",
+   "say": "Also: Ein Kühlschrank macht keine Kälte. Das Kältemittel sammelt die Wärme innen ein, der Kompressor drückt sie zusammen, und hinten wird sie an die Küche abgegeben."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "keine_kaelte",
+   "title": "Dein Kühlschrank macht gar keine Kälte #shorts",
+   "date": "2026-11-23",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Was macht ein Kühlschrank eigentlich?",
+     "size": 60,
+     "options": [
+      {
+       "text": "Er erzeugt Kälte",
+       "at": "A"
+      },
+      {
+       "text": "Er bringt die Wärme nach draußen",
+       "at": "B"
+      },
+      {
+       "text": "Er bläst kalte Luft rein",
+       "at": "C"
+      }
+     ],
+     "say": "Was macht ein Kühlschrank eigentlich? A: Er erzeugt Kälte. B: Er bringt die Wärme nach draußen. C: Er bläst kalte Luft rein.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "rein"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Er erzeugt Kälte",
+      "Er bringt die Wärme nach draußen",
+      "Er bläst kalte Luft rein"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "fact",
+     "icon": "flame",
+     "label": "WÄRME-TRANSPORT",
+     "headline": "Innen eingesammelt, hinten abgegeben",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Darum wird die Rückseite warm.",
+       "at": "Rückseite"
+      }
+     ],
+     "say": "Ein Kältemittel sammelt innen die Wärme ein und gibt sie hinten an die Küche ab. Darum wird die Rückseite warm."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "offene_tuer",
+   "title": "Kühlt eine offene Kühlschranktür die Küche? #shorts",
+   "date": "2026-11-24",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Kühlschrank auf – wird die Küche kühler?",
+     "size": 84,
+     "say": "Es ist heiß. Kannst du einfach die Kühlschranktür aufmachen und die Küche kühlen?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Gute Idee?",
+        "at": "kühlen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "case",
+     "kicker": "STIMMT ODER MYTHOS?",
+     "icon": "door",
+     "label": "Behauptung",
+     "text": "Offene Kühlschranktür kühlt die Küche.",
+     "verdict": "MYTHOS",
+     "verdict_color": "red",
+     "verdict_at": "Mythos. Die",
+     "pause": 0.6,
+     "say": "Mythos. Die Wärme, die er vorne rausholt, gibt er hinten wieder an die Küche ab. Plus die Wärme vom Motor. Die Küche wird also sogar wärmer.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Oh nein!",
+        "at": "wärmer"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie der Kühlschrank wirklich funktioniert, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

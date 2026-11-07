@@ -1,0 +1,551 @@
+{
+ "slug": "strichcode",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-15",
+ "time": "17:00",
+ "title": "Was steckt im Strichcode? (Und woher kennt die Kasse den Preis?)",
+ "tags": "strichcode, barcode, ean code, wie funktioniert ein barcode, supermarktkasse, scannerkasse, prüfziffer, gs1, barcode erfindung, woodland silver, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Piep – und der Preis steht auf dem Display. Aber was verraten die schwarzen Striche eigentlich? Lupo schaut sich den Strichcode an: was die 13 Ziffern bedeuten, wie der Scanner Striche in Zahlen verwandelt, warum der Preis gar nicht im Code steht, wie die letzte Ziffer Tippfehler entlarvt – und wie alles mit Linien im Sand begann.\n\nKapitel\n{kapitel}\n\nQuellen\n- Erster Scan 26.6.1974 (Wrigley's, Marsh-Supermarkt Ohio), Woodland/Silver 1948/1952, EAN-13 seit 1976, erstes Produkt in Deutschland 1.7.1977, erste Scannerkasse Augsburg 1977, Beep von IBM, über 1 Mrd. Produkte, über 10 Mrd. Scans pro Tag, Fehlerquote ca. 1 zu 6 Mrd. (GS1 Germany, Zahlen, Daten, Fakten): https://orders.gs1.de/fileadmin/gs1/newsroom/Presseservice/zahlen-Daten-Fakten-Barcode-gs1-germany.pdf\n- Scanner beleuchtet mit rotem Licht, Barcode enthält meist nicht den Preis, Kasse holt ihn aus einer Datenbank (Spektrum der Wissenschaft): https://www.spektrum.de/magazin/wissenschaft-im-alltag-barcode-lesegeraete/827960\n- Aufbau der EAN, Präfix zeigt die GS1-Organisation, nicht das Herkunftsland, Berechnung der Prüfziffer: https://wisepim.com/de/guides/was-ist-eine-ean-nummer\n- Präfix 4 sagt nichts über den Herstellungsort (echo24 mit codecheck.info): https://www.echo24.de/verbraucher/gtin-irrglaube-barcode-einkaufen-supermarkt-produkt-verbraucher-ean-nummer-strichcode-93162685.html\n- Idee im Sand von Miami Beach, Patent 1949 eingereicht und 1952 erteilt (wissen.de): https://www.wissen.de/wie-der-barcode-unseren-alltag-eroberte\n- Verkauf des Patents für 15.000 Dollar (Berliner Zeitung): https://www.berliner-zeitung.de/article/70-jahre-strichcode-barcode-die-idee-von-norman-joseph-woodland-entstand-am-strand-271573\n- Erster Scan durch Kassiererin Sharon Buchanan (Tagesspiegel): https://www.tagesspiegel.de/wissen/heute-vor-49-jahren-wie-ein-zehnerpack-kaugummi-unseren-alltag-revolutionierte-10036966.html\n\n#durchschaut #strichcode #wissen",
+ "thumbs": {
+  "A": {
+   "big": "Was steckt im Strichcode?",
+   "chip": "SO LIEST DIE KASSE",
+   "mood": "wow",
+   "icon": "barcode"
+  },
+  "B": {
+   "big": "Der Preis steht da gar nicht drin!",
+   "chip": "PIEP!",
+   "stamp": "MYTHOS",
+   "stamp_color": "red",
+   "mood": "point",
+   "icon": "receipt"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Was steckt in den schwarzen Strichen?",
+   "size": 92,
+   "sub": "Piep – und die Kasse weiß Bescheid.",
+   "sub_at": "Piep",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Strichcode. Du legst deine Sachen aufs Band, es macht Piep, und zack, steht der Preis auf dem Display. Aber was steckt eigentlich in diesen schwarzen Strichen?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Piep!",
+      "at": "Piep"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir rein",
+   "items": [
+    {
+     "text": "Die 13 Ziffern",
+     "at": "Ziffern"
+    },
+    {
+     "text": "Wie der Scanner liest",
+     "at": "Scanner"
+    },
+    {
+     "text": "Die geheime letzte Ziffer",
+     "at": "letzte"
+    },
+    {
+     "text": "Linien im Sand",
+     "at": "Sand"
+    }
+   ],
+   "say": "Heute schauen wir uns an, was die 13 Ziffern bedeuten, wie der Scanner aus Strichen Zahlen macht, was die letzte Ziffer kann, und wie alles mit ein paar Linien im Sand anfing."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Was steht im Strichcode einer Packung Nudeln?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Der Preis",
+     "at": "A"
+    },
+    {
+     "text": "Eine Nummer für das Produkt",
+     "at": "B"
+    },
+    {
+     "text": "Das Haltbarkeitsdatum",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Was steht im Strichcode einer Packung Nudeln? A: der Preis. B: eine Nummer für das Produkt. C: das Haltbarkeitsdatum. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Überall Strichcodes",
+   "title": "Strichcodes sind überall",
+   "items": [
+    {
+     "num": "1 Mrd.",
+     "label": "Produkte tragen einen Strichcode",
+     "color": "green",
+     "at": "Milliarde"
+    },
+    {
+     "num": "10 Mrd.",
+     "label": "Scans – jeden Tag",
+     "at": "Tag"
+    }
+   ],
+   "say": "Strichcodes sind wirklich überall. Mehr als eine Milliarde Produkte tragen so einen Code. Und weltweit wird jeden Tag mehr als zehn Milliarden Mal gescannt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Piep-Piep-Piep!",
+      "at": "zehn"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Die 13 Ziffern",
+   "icon": "barcode",
+   "label": "EAN-13",
+   "headline": "13 Ziffern, vier Teile",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Am Anfang: die Vergabestelle – 400 bis 440 steht für Deutschland.",
+     "at": "Vergabestelle"
+    },
+    {
+     "text": "Dann: die Nummer der Firma und die Nummer des Artikels.",
+     "at": "Firma"
+    },
+    {
+     "text": "Ganz am Ende: eine Prüfziffer.",
+     "at": "Prüfziffer"
+    }
+   ],
+   "say": "Unter den Strichen stehen meistens 13 Ziffern. Die ersten zeigen, welche Vergabestelle die Nummer verteilt hat. 400 bis 440 steht zum Beispiel für Deutschland. Danach kommt die Nummer der Firma und die Nummer des Artikels. Und ganz am Ende steht eine Prüfziffer. Zu der kommen wir gleich."
+  },
+  {
+   "type": "flow",
+   "chapter": "Wie der Scanner liest",
+   "title": "Vom Strich zum Preis",
+   "items": [
+    {
+     "icon": "eye",
+     "text": "Rotes Licht trifft den Code",
+     "at": "Licht"
+    },
+    {
+     "icon": "barcode",
+     "text": "Schwarz schluckt, Weiß wirft zurück",
+     "at": "Schwarz"
+    },
+    {
+     "icon": "chip",
+     "text": "Aus hell und dunkel werden Ziffern",
+     "at": "Ziffern"
+    },
+    {
+     "icon": "server",
+     "text": "Die Kasse sucht die Nummer",
+     "at": "Datenbank"
+    },
+    {
+     "icon": "receipt",
+     "text": "Preis aufs Display",
+     "at": "Display"
+    }
+   ],
+   "say": "Und so liest der Scanner. Er schickt rotes Licht auf den Code. Schwarz schluckt das Licht, Weiß wirft es zurück. Ein Sensor misst dieses Muster aus hell und dunkel, und die Breite der Striche wird zu Ziffern. Die Kasse sucht diese Nummer dann in ihrer Datenbank und schickt den Preis aufs Display. Das alles dauert nur einen Wimpernschlag.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Blitzschnell!",
+      "at": "Wimpernschlag"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Was steht im Strichcode einer Packung Nudeln?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Der Preis",
+    "Eine Nummer für das Produkt",
+    "Das Haltbarkeitsdatum"
+   ],
+   "say": "Und damit ist die Quizfrage gelöst. Richtig ist B. Im Strichcode steht nur eine Nummer für das Produkt. Den Preis legt der Laden selbst fest, und er steht in der Datenbank der Kasse."
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum der Preis nicht drinsteht",
+   "icon": "shop",
+   "label": "SCHLAU GELÖST",
+   "headline": "Neuer Preis? Gleicher Code!",
+   "size": 78,
+   "lines": [
+    {
+     "text": "Der Laden ändert den Preis nur in seinem System.",
+     "at": "System"
+    },
+    {
+     "text": "Auf der Packung muss nichts neu gedruckt werden.",
+     "at": "Packung"
+    },
+    {
+     "text": "Jeder Laden kann seinen eigenen Preis nehmen.",
+     "at": "eigenen"
+    }
+   ],
+   "say": "Das ist ziemlich schlau. Wenn der Laden einen Preis ändert, ändert er ihn nur in seinem System. Auf der Packung muss nichts neu gedruckt werden. Und jeder Laden kann für dieselbe Packung seinen eigenen Preis nehmen.",
+   "lupo": {
+    "events": [
+     {
+      "mood": "wow",
+      "at": "schlau",
+      "dur": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Die geheime letzte Ziffer",
+   "icon": "chip",
+   "label": "DIE PRÜFZIFFER",
+   "headline": "Die letzte Ziffer prüft alles",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Sie wird aus den ersten 12 Ziffern berechnet.",
+     "at": "berechnet"
+    },
+    {
+     "text": "Ist eine Ziffer falsch gelesen, passt die Rechnung nicht.",
+     "at": "Rechnung"
+    },
+    {
+     "text": "Dann piept es nicht – und es wird nochmal gescannt.",
+     "at": "nochmal"
+    }
+   ],
+   "say": "Jetzt zur letzten Ziffer. Sie wird aus den ersten zwölf Ziffern berechnet. Die Kasse rechnet beim Scannen nach. Hat sie auch nur eine Ziffer falsch gelesen, passt die Rechnung nicht. Dann piept es nicht, und es wird einfach nochmal gescannt. Laut GS1 passiert ein Lesefehler nur etwa einmal in sechs Milliarden Scans.",
+   "lupo": {
+    "events": [
+     {
+      "mood": "wow",
+      "at": "falsch",
+      "dur": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Linien im Sand",
+   "title": "Erfunden am Strand",
+   "steps": [
+    {
+     "date": "1948",
+     "text": "Ein Supermarktchef will, dass das Kassieren schneller geht.",
+     "at": "Supermarktchef"
+    },
+    {
+     "date": "Miami",
+     "text": "Joseph Woodland zieht am Strand Linien in den Sand – wie Morsezeichen.",
+     "at": "Strand"
+    },
+    {
+     "date": "1952",
+     "text": "Er und Bernard Silver bekommen das Patent.",
+     "at": "Patent"
+    },
+    {
+     "date": "Danach",
+     "text": "Sie verkaufen es für 15.000 Dollar.",
+     "at": "Dollar"
+    }
+   ],
+   "stamp": "IM SAND ERFUNDEN",
+   "stamp_color": "green",
+   "stamp_at": "Scanner",
+   "say": "Und wie kam es dazu? Ende der Vierzigerjahre will ein Supermarktchef in den USA, dass das Kassieren schneller geht. Der Ingenieur Joseph Woodland grübelt darüber nach, während er in Miami am Strand sitzt. Er denkt an Morsezeichen, zieht mit den Fingern Linien durch den Sand, und plötzlich ist die Idee da: dicke und dünne Striche statt Punkte und Striche. 1952 bekommt er zusammen mit Bernard Silver das Patent. Reich werden die beiden nicht. Sie verkaufen es für 15.000 Dollar. Und es dauert noch Jahrzehnte, bis es die passenden Scanner gibt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Strandidee!",
+      "at": "Sand"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Der erste Piep",
+   "title": "Der allererste Piep",
+   "steps": [
+    {
+     "date": "26.6.1974",
+     "text": "Ohio, USA: Der erste Strichcode wird an einer Kasse gescannt.",
+     "at": "Ohio"
+    },
+    {
+     "date": "Was?",
+     "text": "Eine Zehnerpackung Kaugummi.",
+     "at": "Kaugummi"
+    },
+    {
+     "date": "1977",
+     "text": "Deutschland: Die erste Scannerkasse steht in Augsburg.",
+     "at": "Augsburg"
+    }
+   ],
+   "say": "Am 26. Juni 1974 ist es dann so weit. In einem Supermarkt in Ohio wird zum allerersten Mal ein Strichcode an der Kasse gescannt. Und zwar auf einer Zehnerpackung Kaugummi. In Deutschland steht die erste Scannerkasse 1977 in einem Supermarkt in Augsburg.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Kaugummi!",
+      "at": "Kaugummi"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "barcode",
+   "label": "Behauptung 1",
+   "text": "Beginnt der Code mit 4, wurde das Produkt in Deutschland hergestellt.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "pause": 0.6,
+   "say": "Zeit für Stimmt oder Mythos. Behauptung eins: Beginnt der Strichcode mit einer Vier, wurde das Produkt in Deutschland hergestellt. ... Mythos. Die ersten Ziffern zeigen nur, wo die Firma ihre Nummer bekommen hat. Wo das Produkt gemacht wurde, verraten sie nicht."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "bell",
+   "label": "Behauptung 2",
+   "text": "Der typische Piep-Ton an der Kasse stammt von IBM.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "pause": 0.6,
+   "say": "Behauptung zwei: Der typische Piep-Ton an der Kasse stammt von IBM. ... Stimmt. Laut GS1 hat IBM seine Scannerkassen mit genau diesem Ton ausgestattet."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "receipt",
+   "label": "Behauptung 3",
+   "text": "Im Strichcode steht der Preis.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Das",
+   "pause": 0.6,
+   "say": "Behauptung drei: Im Strichcode steht der Preis. ... Mythos. Das hast du ja schon im Quiz gelernt. Der Preis kommt aus der Datenbank der Kasse.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Wusste ich!",
+      "at": "Quiz"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Dinge zum Ausprobieren",
+   "title": "3 Dinge zum Ausprobieren",
+   "items": [
+    {
+     "text": "Schau, mit welchen Ziffern deine Lebensmittel anfangen",
+     "icon": "barcode",
+     "at": "Eins"
+    },
+    {
+     "text": "Bücher beginnen mit 978 oder 979",
+     "icon": "receipt",
+     "at": "Zwei"
+    },
+    {
+     "text": "Zerknitterter Code? Glatt ziehen hilft",
+     "icon": "eye",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Dinge zum Ausprobieren. Eins: Schau beim nächsten Einkauf, mit welchen Ziffern deine Lebensmittel anfangen. Zwei: Dreh mal ein Buch um. Dort beginnt der Code mit 978 oder 979. Drei: Wenn ein Code nicht piept, zieh die Packung glatt. Knicke und Falten machen es dem Scanner schwer."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Striche, Licht, Nummer.",
+   "size": 96,
+   "sub": "Der Preis wohnt in der Kasse, nicht auf der Packung.",
+   "sub_at": "Packung",
+   "say": "Also: Der Scanner liest mit Licht die Striche, macht daraus eine Nummer, prüft sie mit der letzten Ziffer, und die Kasse sucht dazu den Preis. Der Preis wohnt also in der Kasse, nicht auf der Packung."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "preis_im_code",
+   "title": "Steht der Preis im Strichcode? #shorts",
+   "date": "2026-11-15",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Was steht im Strichcode einer Packung?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Der Preis",
+       "at": "A"
+      },
+      {
+       "text": "Eine Produktnummer",
+       "at": "B"
+      },
+      {
+       "text": "Das Haltbarkeitsdatum",
+       "at": "C"
+      }
+     ],
+     "say": "Was steht eigentlich im Strichcode einer Packung? A: der Preis. B: eine Produktnummer. C: das Haltbarkeitsdatum.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "Haltbarkeitsdatum"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Der Preis",
+      "Eine Produktnummer",
+      "Das Haltbarkeitsdatum"
+     ],
+     "say": "Richtig ist B. Nur eine Nummer."
+    },
+    {
+     "type": "fact",
+     "icon": "server",
+     "label": "DER PREIS WOHNT IN DER KASSE",
+     "headline": "Die Kasse sucht die Nummer in ihrer Datenbank",
+     "size": 62,
+     "lines": [
+      {
+       "text": "Neuer Preis? Nur im System ändern.",
+       "at": "System"
+      }
+     ],
+     "say": "Die Kasse sucht diese Nummer in ihrer Datenbank und holt sich den Preis. Will der Laden ihn ändern, macht er das nur im System. Auf der Packung bleibt alles gleich."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "linien_im_sand",
+   "title": "Der Strichcode wurde im Sand erfunden #shorts",
+   "date": "2026-11-16",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Der Strichcode wurde am Strand erfunden",
+     "size": 84,
+     "say": "Wusstest du, dass der Strichcode am Strand erfunden wurde?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Echt?",
+        "at": "Strand"
+       }
+      ]
+     }
+    },
+    {
+     "type": "story",
+     "title": "Linien im Sand",
+     "steps": [
+      {
+       "date": "Miami",
+       "text": "Joseph Woodland denkt an Morsezeichen.",
+       "at": "Morsezeichen"
+      },
+      {
+       "date": "Idee",
+       "text": "Er zieht Linien in den Sand: dick und dünn.",
+       "at": "Linien"
+      },
+      {
+       "date": "1974",
+       "text": "Erster Scan: eine Packung Kaugummi.",
+       "at": "Kaugummi"
+      }
+     ],
+     "say": "Joseph Woodland sitzt in Miami am Strand und denkt an Morsezeichen. Er zieht mit den Fingern Linien durch den Sand, dicke und dünne, und hat die Idee. 1974 wird dann zum ersten Mal ein Strichcode gescannt, auf einer Packung Kaugummi.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Genial!",
+        "at": "Idee"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Was die 13 Ziffern bedeuten, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

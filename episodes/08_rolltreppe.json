@@ -1,0 +1,500 @@
+{
+ "slug": "rolltreppe",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-21",
+ "time": "17:00",
+ "title": "Wie funktioniert eine Rolltreppe? (Und warum ist der Handlauf schneller?)",
+ "tags": "rolltreppe, fahrtreppe, wie funktioniert eine rolltreppe, handlauf schneller, rolltreppe stufen, rolltreppe bürsten, rolltreppe rillen, harrods rolltreppe, jesse reno, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du stellst dich drauf und wirst nach oben gefahren. Aber wohin verschwinden die Stufen am Ende, warum ist der Handlauf ein bisschen schneller als du und wofür sind die Bürsten an der Seite? Lupo schaut unter die Rolltreppe – und erzählt, warum ein Londoner Kaufhaus nach der ersten Fahrt Brandy ausschenkte.\n\nKapitel\n{kapitel}\n\nQuellen\n- Stufenkette über Führungsschienen, Motor an einem Umlenkpunkt, Stufen werden am Ende flach, Kammplatten, 0,5 m/s, rund 9.000 Personen pro Stunde rechnerisch, Handlauf max. 2 % schneller und nie langsamer, erste Rolltreppe Deutschlands 1898 in Leipzig (Baunetz Wissen): https://www.baunetzwissen.de/treppen/fachwissen/treppenarten/fahrtreppen-3382145\n- Handlauf absichtlich schneller, Abschaltung wenn er langsamer läuft, Rillen gegen Rutschen, Bürsten gegen Einklemmen und kein Schuhputzer, max. 0,75 m/s (SRF Kassensturz mit Schindler): https://www.srf.ch/sendungen/kassensturz-espresso/wozu-dienen-eigentlich-rolltreppen-buersten\n- 0,5 m/s entspricht 1,8 km/h (ORF Wien): https://wien.orf.at/m/v2/news/stories/2764132/index.html\n- Untere Stufen bilden ein Gegengewicht (wandernundmehr): https://www.wandernundmehr.at/faq/konnen-rolltreppen-in-beide-richtungen-fahren\n- Jesse Reno, Coney Island 1896, 75.000 Fahrgäste in zwei Wochen (6sqft): https://6sqft.com/?p=114273\n- Harrods 1898, Riechsalz und Cognac nach der Fahrt (Deutsches Museum, Kultur & Technik 4/1989): https://www.deutsches-museum.de/assets/Verlag/Download/Kultur_und_Technik/1989/Kultur_Technik_1989_Heft4.pdf\n\n#durchschaut #rolltreppe #wissen",
+ "thumbs": {
+  "A": {
+   "big": "Wohin verschwinden die Stufen?",
+   "chip": "SO FUNKTIONIERT DIE ROLLTREPPE",
+   "mood": "wow",
+   "icon": "machine"
+  },
+  "B": {
+   "big": "Der Handlauf ist schneller!",
+   "chip": "ABSICHT!",
+   "stamp": "STIMMT",
+   "stamp_color": "green",
+   "mood": "point",
+   "icon": "person"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wohin verschwinden die Stufen?",
+   "size": 96,
+   "sub": "Draufstellen, hochfahren – aber wie?",
+   "sub_at": "hochfahren",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: die Rolltreppe. Du stellst dich drauf und lässt dich hochfahren. Aber oben verschwinden die Stufen einfach im Boden. Wohin eigentlich?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Verschluckt?",
+      "at": "Boden"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir drunter",
+   "items": [
+    {
+     "text": "Die Stufen-Kette",
+     "at": "Kette"
+    },
+    {
+     "text": "Der schnelle Handlauf",
+     "at": "Handlauf"
+    },
+    {
+     "text": "Rillen und Bürsten",
+     "at": "Bürsten"
+    },
+    {
+     "text": "Brandy für die Kunden",
+     "at": "Brandy"
+    }
+   ],
+   "say": "Heute schauen wir unter die Treppe. Auf die lange Kette, die alles bewegt, auf den Handlauf, der ein bisschen schneller ist als du, auf die Rillen und Bürsten, und auf ein Kaufhaus, das nach der ersten Fahrt Brandy ausgeschenkt hat."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Was passiert mit den Stufen, wenn sie oben im Boden verschwinden?",
+   "size": 56,
+   "options": [
+    {
+     "text": "Sie werden zusammengeklappt gelagert",
+     "at": "A"
+    },
+    {
+     "text": "Sie fahren unten zurück",
+     "at": "B"
+    },
+    {
+     "text": "Sie werden zu einem Fließband",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Was passiert mit den Stufen, wenn sie oben im Boden verschwinden? A: Sie werden zusammengeklappt gelagert. B: Sie fahren unten zurück. C: Sie werden zu einem Fließband. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Die großen Zahlen",
+   "title": "Eine Rolltreppe schafft viel",
+   "items": [
+    {
+     "num": "1,8 km/h",
+     "label": "so schnell fährt eine Kaufhaus-Rolltreppe",
+     "color": "green",
+     "at": "Kilometern"
+    },
+    {
+     "num": "9.000",
+     "label": "Menschen pro Stunde – theoretisch",
+     "at": "Stunde"
+    }
+   ],
+   "say": "Erst mal die Zahlen. Eine Rolltreppe im Kaufhaus fährt meistens mit 1,8 Kilometern pro Stunde. Das ist gemütlich. Aber weil ständig neue Stufen kommen, schafft eine breite Treppe rechnerisch bis zu 9.000 Menschen pro Stunde. In der Praxis plant man mit etwa zwei Dritteln davon."
+  },
+  {
+   "type": "flow",
+   "chapter": "Die Stufen-Kette",
+   "title": "So läuft die Rolltreppe",
+   "items": [
+    {
+     "icon": "machine",
+     "text": "Oben treibt ein Motor alles an",
+     "at": "Motor"
+    },
+    {
+     "icon": "crate",
+     "text": "Eine endlose Kette zieht die Stufen",
+     "at": "Kette"
+    },
+    {
+     "icon": "eye",
+     "text": "Rollen laufen auf Schienen",
+     "at": "Schienen"
+    },
+    {
+     "icon": "person",
+     "text": "In der Mitte: Treppe, an den Enden: flach",
+     "at": "flach"
+    },
+    {
+     "icon": "recycle",
+     "text": "Unten fahren sie kopfüber zurück",
+     "at": "kopfüber"
+    }
+   ],
+   "say": "So läuft eine Rolltreppe. An einem Ende sitzt ein Motor. Er zieht eine endlose Kette, an der alle Stufen hängen. Jede Stufe hat Rollen, und die laufen auf Schienen. Die Schienen sind so gebogen, dass sich die Stufen in der Mitte zur Treppe aufstellen und an den Enden ganz flach werden. Und unten, wo du nicht hinschaust, fahren sie kopfüber zurück zum Anfang.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Kopfüber!",
+      "at": "kopfüber"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Was passiert mit den Stufen, wenn sie oben im Boden verschwinden?",
+   "size": 56,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Sie werden zusammengeklappt gelagert",
+    "Sie fahren unten zurück",
+    "Sie werden zu einem Fließband"
+   ],
+   "say": "Und damit zur Quizfrage. Richtig ist B. Die Stufen fahren unter der Treppe zurück. Eine Rolltreppe ist also ein riesiger Kreis aus Stufen. Die Stufen, die unten zurückfahren, sind dabei sogar ein Gegengewicht zu denen, die gerade hochfahren.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Ein Stufen-Karussell!",
+      "at": "Kreis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Der schnelle Handlauf",
+   "icon": "person",
+   "label": "KEIN FEHLER",
+   "headline": "Absichtlich etwas schneller",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Bis zu 2 Prozent schneller – aber nie langsamer.",
+     "at": "Prozent"
+    },
+    {
+     "text": "Wäre er langsamer, würde er dich nach hinten ziehen.",
+     "at": "hinten"
+    },
+    {
+     "text": "Wird er langsamer, schaltet die Treppe ab.",
+     "at": "schaltet"
+    }
+   ],
+   "say": "Ist dir schon mal aufgefallen, dass deine Hand am Handlauf langsam nach vorne wandert? Das ist Absicht. Der Handlauf darf bis zu zwei Prozent schneller sein als die Stufen, aber nie langsamer. Wäre er langsamer, würde er dich nach hinten ziehen, und du könntest stürzen. Und wird er doch einmal langsamer, schaltet die Treppe automatisch ab.",
+   "lupo": {
+    "events": [
+     {
+      "mood": "wow",
+      "at": "Absicht",
+      "dur": 1.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Rillen und Bürsten",
+   "title": "Kleine Details, großer Zweck",
+   "items": [
+    {
+     "icon": "eye",
+     "label": "RILLEN",
+     "title": "Greifen in den Kamm",
+     "text": "Die Rillen machen die Stufen rutschfest und passen genau in die gezackte Kammplatte am Ende.",
+     "color": "green",
+     "at": "Rillen"
+    },
+    {
+     "icon": "warn",
+     "label": "BÜRSTEN",
+     "title": "Halten Abstand",
+     "text": "Sie halten Füße und Schnürsenkel vom Spalt an der Seite fern.",
+     "color": "yellow",
+     "at": "Bürsten"
+    }
+   ],
+   "say": "Auch die kleinen Details haben einen Zweck. Die Rillen in den Stufen machen sie rutschfest. Und am Ende greifen sie genau in eine gezackte Platte, den sogenannten Kamm. So bleibt dort kaum ein Spalt, in dem etwas hängen bleiben könnte. Die Bürsten an der Seite halten deine Füße und Schnürsenkel vom schmalen Spalt zwischen Stufe und Wand fern."
+  },
+  {
+   "type": "story",
+   "chapter": "Brandy für die Kunden",
+   "title": "Die ersten Rolltreppen",
+   "steps": [
+    {
+     "date": "1896",
+     "text": "Coney Island, USA: Jesse Reno baut eine fahrende Rampe als Attraktion.",
+     "at": "Reno"
+    },
+    {
+     "date": "2 Wochen",
+     "text": "75.000 Menschen fahren mit.",
+     "at": "75.000"
+    },
+    {
+     "date": "1898",
+     "text": "London: Das Kaufhaus Harrods baut eine ein.",
+     "at": "Harrods"
+    },
+    {
+     "date": "Oben",
+     "text": "Wer sich erschrocken hat, bekommt Riechsalz oder Cognac.",
+     "at": "Cognac"
+    }
+   ],
+   "stamp": "PROST!",
+   "stamp_color": "green",
+   "stamp_at": "Leipzig",
+   "say": "Und wie fing alles an? 1896 baut der Ingenieur Jesse Reno in einem Vergnügungspark auf Coney Island eine fahrende Rampe, eher ein schräges Band als eine Treppe. In nur zwei Wochen fahren 75.000 Menschen damit. 1898 baut das Londoner Kaufhaus Harrods eine ein. Und weil die Fahrt für viele so aufregend war, gab es oben Riechsalz für die Damen und Cognac für die Herren. Ungefähr zur selben Zeit fährt in Leipzig die erste Rolltreppe Deutschlands.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Auf den Schreck!",
+      "at": "Cognac"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "person",
+   "label": "Behauptung 1",
+   "text": "Der Handlauf läuft schneller als die Stufen.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "pause": 0.6,
+   "say": "Zeit für Stimmt oder Mythos. Behauptung eins: Der Handlauf läuft schneller als die Stufen. ... Stimmt. Ein kleines bisschen, damit er dich nie nach hinten zieht."
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "wash",
+   "label": "Behauptung 2",
+   "text": "Die Bürsten an der Seite sind zum Schuheputzen da.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "pause": 0.6,
+   "say": "Behauptung zwei: Die Bürsten an der Seite sind zum Schuheputzen da. ... Mythos. Die Bürsten sollen verhindern, dass dein Fuß zu nah an den Spalt kommt. Bitte nicht dran entlangschrubben.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Ups…",
+      "at": "entlangschrubben"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "machine",
+   "label": "Behauptung 3",
+   "text": "Jede Rolltreppe hat einen Not-Halt-Knopf.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. An",
+   "pause": 0.6,
+   "say": "Behauptung drei: Jede Rolltreppe hat einen Not-Halt-Knopf. ... Stimmt. An jedem Ein- und Ausstieg muss ein gut sichtbarer Not-Halt-Taster sein. Das schreibt die Norm vor. Schau beim nächsten Mal, wo er ist.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Gut zu wissen!",
+      "at": "Norm"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für die Rolltreppe",
+   "items": [
+    {
+     "text": "Am Handlauf festhalten",
+     "icon": "person",
+     "at": "Eins"
+    },
+    {
+     "text": "Füße weg vom Rand und von den Bürsten",
+     "icon": "warn",
+     "at": "Zwei"
+    },
+    {
+     "text": "Lange Schals und Schnürsenkel im Blick behalten",
+     "icon": "eye",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für die Rolltreppe. Eins: Halt dich am Handlauf fest. Zwei: Stell dich in die Mitte der Stufe, weg vom Rand und von den Bürsten. Drei: Behalte lange Schals und offene Schnürsenkel im Blick, damit sich nichts verfängt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Festhalten!",
+      "at": "Handlauf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Ein großer Kreis aus Stufen.",
+   "size": 92,
+   "sub": "Oben verschwinden sie, unten fahren sie zurück.",
+   "sub_at": "zurück",
+   "say": "Also: Eine Rolltreppe ist ein großer Kreis aus Stufen an einer Kette. Schienen stellen sie zur Treppe auf und machen sie an den Enden flach. Oben verschwinden sie, und unten fahren sie zurück."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "handlauf",
+   "title": "Warum ist der Handlauf schneller als die Rolltreppe? #shorts",
+   "date": "2026-11-21",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Warum ist der Handlauf schneller als die Stufen?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Ein Fehler beim Einbau",
+       "at": "A"
+      },
+      {
+       "text": "Damit er dich nicht nach hinten zieht",
+       "at": "B"
+      },
+      {
+       "text": "Er nutzt sich ab",
+       "at": "C"
+      }
+     ],
+     "say": "Warum läuft der Handlauf an der Rolltreppe schneller als die Stufen? A: ein Fehler beim Einbau. B: damit er dich nicht nach hinten zieht. C: Er nutzt sich ab.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "ab"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Ein Fehler beim Einbau",
+      "Damit er dich nicht nach hinten zieht",
+      "Er nutzt sich ab"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "fact",
+     "icon": "person",
+     "label": "ABSICHT",
+     "headline": "Bis zu 2 % schneller – nie langsamer",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Wird er langsamer, schaltet die Treppe ab.",
+       "at": "schaltet"
+      }
+     ],
+     "say": "Der Handlauf darf bis zu zwei Prozent schneller sein, aber nie langsamer. Sonst würde er dich nach hinten ziehen. Und wird er doch langsamer, schaltet die Treppe ab."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "brandy",
+   "title": "Nach der ersten Rolltreppe gab es Cognac #shorts",
+   "date": "2026-11-22",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Nach der Rolltreppe gab es erst mal Cognac",
+     "size": 84,
+     "say": "Wusstest du, dass es nach einer der ersten Rolltreppen erst mal Cognac gab?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Echt?",
+        "at": "Cognac"
+       }
+      ]
+     }
+    },
+    {
+     "type": "story",
+     "title": "London, 1898",
+     "steps": [
+      {
+       "date": "1898",
+       "text": "Das Kaufhaus Harrods baut eine Rolltreppe ein.",
+       "at": "Harrods"
+      },
+      {
+       "date": "Oben",
+       "text": "Riechsalz für die Damen, Cognac für die Herren.",
+       "at": "Riechsalz"
+      }
+     ],
+     "say": "1898 baut das Londoner Kaufhaus Harrods eine Rolltreppe ein. Die Fahrt war für viele so aufregend, dass oben jemand wartete: mit Riechsalz für die Damen und einem Cognac für die Herren.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Prost!",
+        "at": "Herren"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wohin die Stufen oben verschwinden, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
