@@ -214,5 +214,32 @@
     "duration": 23.5
    }
   ]
+ },
+ {
+  "title": "Wie funktioniert ein Kühlschrank? (Er macht gar keine Kälte!)",
+  "date": "2026-11-23",
+  "time": "17:00",
+  "tags": "kühlschrank, wie funktioniert ein kühlschrank, kältemittel, kompressor, verdampfer, verflüssiger, kühlschrank rückseite warm, kühlschrank 7 grad, carl von linde, wie funktioniert das, durchschaut",
+  "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "kuehlschrank",
+  "file": "kuehlschrank_video.mp4",
+  "desc": "Innen kalt, hinten warm – und manchmal brummt er. Aber wie macht ein Kühlschrank eigentlich Kälte? Die Antwort: gar nicht. Lupo zeigt, wie ein Kältemittel die Wärme aus deinem Kühlschrank herausträgt, warum die Rückseite warm wird, wieso 7 Grad völlig reichen – und was Bierbrauer mit der Erfindung zu tun haben.\n\nKapitel\n0:00 Intro\n0:24 Die Quizfrage\n0:41 Der Wärme-Transporter\n0:59 Der Kreislauf\n1:23 Die Auflösung\n1:34 Die warme Rückseite\n1:50 Warum er brummt\n2:03 Die richtige Temperatur\n2:16 Eis für Bier\n2:45 Stimmt oder Mythos?\n3:30 3 Tipps\n3:45 Fazit\n\nQuellen\n- Kältemittel verdampft im Verdampfer und nimmt Wärme auf, Kompressor verdichtet, Kondensator auf der Rückseite gibt Wärme ab, Thermostat schaltet, Isobutan (R600a) (Vattenfall): https://www.vattenfall.de/infowelt-energie/strom-ratgeber/wie-funktioniert-ein-kuehlschrank\n- Kapillarrohr senkt den Druck, Verflüssiger auf der Rückseite (t-online): https://www.t-online.de/leben/alltagswissen/id_100476996/wie-funktioniert-ein-kuehlschrank-einfach-erklaert.html\n- Ein offener Kühlschrank kann einen Raum nicht kühlen (GIGA): https://www.giga.de/ratgeber/specials/wie-funktioniert-ein-kuehlschrank-na-so-hier/\n- 7 Grad reichen, jedes Grad kälter etwa 6 % mehr Strom, Speisen erst abkühlen lassen, Tür nur kurz öffnen (futurezone mit Verbraucherzentrale): https://futurezone.at/amp/digital-life/kuehlschrank-fehler-tipps-energie-sparen/402516262\n- Abstand zur Wand, Eis im Gefrierfach erhöht den Verbrauch (homeandsmart): https://www.homeandsmart.de/kuehlschrank-verbrauch-senken-5-checks-40192a-0002-581809\n- Linde, Patent 1877 mit Ammoniak, Gesellschaft für Linde's Eismaschinen 1879, Kunden zuerst Brauereien (Deutsches Patent- und Markenamt): https://dpma.de/docs/postergalerieneu/01_kuehlschrank.pdf\n- Bayerns Brauer brauchten jährlich etwa 56.000 Tonnen Eis, Spaten-Brauerei als erster Großkunde (München Wiki): https://www.muenchenwiki.de/wiki/Carl_Linde\n\n#durchschaut #kühlschrank #wissen",
+  "duration": 247.2,
+  "shorts": [
+   {
+    "file": "short_1_keine_kaelte.mp4",
+    "title": "Dein Kühlschrank macht gar keine Kälte #shorts",
+    "date": "2026-11-23",
+    "time": "12:00",
+    "duration": 25.3
+   },
+   {
+    "file": "short_2_offene_tuer.mp4",
+    "title": "Kühlt eine offene Kühlschranktür die Küche? #shorts",
+    "date": "2026-11-24",
+    "time": "12:00",
+    "duration": 21.7
+   }
+  ]
  }
 ]
