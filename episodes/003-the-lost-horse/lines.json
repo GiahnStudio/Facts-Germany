@@ -1,0 +1,12 @@
+[
+ {"id":"L01","text":"An old farmer's only horse ran away.","voice":"bm_george","speed":0.95},
+ {"id":"L02","text":"\"What bad luck,\" said the neighbors. The farmer said, \"Maybe.\"","voice":"bm_george","speed":0.95},
+ {"id":"L03","text":"Days later, the horse came home, leading a wild stallion.","voice":"bm_george","speed":0.95},
+ {"id":"L04","text":"\"What good luck!\" said the neighbors. \"Maybe,\" said the farmer.","voice":"bm_george","speed":0.95},
+ {"id":"L05","text":"His son tried to ride the wild horse. He fell, and broke his leg.","voice":"bm_george","speed":0.95},
+ {"id":"L06","text":"\"What bad luck.\" \"Maybe.\"","voice":"bm_george","speed":0.88},
+ {"id":"L07","text":"Then soldiers came, taking every young man to war.","voice":"bm_george","speed":0.92},
+ {"id":"L08","text":"Every young man, except one with a broken leg.","voice":"bm_george","speed":0.9},
+ {"id":"L09","text":"Good luck? Bad luck?","voice":"bm_george","speed":0.85},
+ {"id":"L10","text":"Who knows what today will turn into.","voice":"bm_george","speed":0.85}
+]

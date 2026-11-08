@@ -14,7 +14,17 @@
   "ep": "002-the-frog-in-the-well",
   "date": null,
   "time": null,
-  "status": "rendered",
+  "status": "manual",
+  "networks": [],
+  "metricool_uuid": null,
+  "note": "von GIAHN selbst auf TikTok hochgeladen (08.11.)"
+ },
+ {
+  "ep": "003-the-lost-horse",
+  "date": null,
+  "time": null,
+  "status": "manual",
+  "note": "von GIAHN selbst auf TikTok hochgeladen (08.11.)",
   "networks": [],
   "metricool_uuid": null
  }

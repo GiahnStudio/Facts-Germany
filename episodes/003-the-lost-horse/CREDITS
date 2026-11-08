@@ -1,0 +1,11 @@
+The Lost Horse — asset sources & licences
+
+Story       "The Old Man Who Lost His Horse" (塞翁失馬), classical Chinese parable from the Huainanzi (public domain), retold in original words.
+Artwork     Drawn procedurally in code (print.js, nature.js, traveler.js, figures.js, views.js). Original compositions.
+            Print engine, nature and traveller rig adapted from the Lemo-Opuscar library (github.com/lemomo-ai/lemo-opuscar), MIT License.
+Music       Original score (music/score.py). Shamisen = physical model (core/audio/pluck.py).
+            Shakuhachi from samples "flute" (VSCO 2 CE, Versilian Studios, CC0 1.0) and "recorder" (VCSL, CC0 1.0).
+            Taiko / hyoshigi = synthesis + samples from VCSL (CC0 1.0) and FreePats world percussion (CC0 1.0).
+Sound FX    Synthesized in code (mix.py + core/audio/sfx.py). No recordings.
+Voice       Kokoro TTS v1.0 (kokoro-onnx), Apache-2.0 — voice bm_george.
+Fonts       Shippori Mincho (FONTDASU), Yuji Syuku (Kinuta Font Factory) — Google Fonts, SIL Open Font License 1.1 (subsets in fonts/).
