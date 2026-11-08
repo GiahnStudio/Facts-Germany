@@ -11,3 +11,4 @@ episodes/*/music/score.wav
 episodes/*/music/stems/
 episodes/*/music/score.json
 __pycache__/
+episodes/*/film.js

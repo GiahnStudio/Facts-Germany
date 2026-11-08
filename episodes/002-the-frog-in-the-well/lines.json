@@ -1,0 +1,13 @@
+[
+ {"id":"L01","text":"A frog lived at the bottom of a well.","voice":"bm_george","speed":0.95},
+ {"id":"L02","text":"Above him, one small circle of sky.","voice":"bm_george","speed":0.92},
+ {"id":"L03","text":"\"That is the whole sky,\" he said. \"I have seen all of it.\"","voice":"bm_george","speed":0.95},
+ {"id":"L04","text":"One day, a sea turtle looked down.","voice":"bm_george","speed":0.95},
+ {"id":"L05","text":"\"Come up,\" said the turtle. \"The sky is far bigger.\"","voice":"bm_george","speed":0.95},
+ {"id":"L06","text":"The frog laughed. \"Bigger than my sky? Impossible.\"","voice":"bm_george","speed":0.95},
+ {"id":"L07","text":"So the turtle told him of the sea.","voice":"bm_george","speed":0.92},
+ {"id":"L08","text":"Wider than a thousand wells. Deeper than mountains are tall.","voice":"bm_george","speed":0.9},
+ {"id":"L09","text":"The frog said nothing. Then, for the first time, he climbed.","voice":"bm_george","speed":0.9},
+ {"id":"L10","text":"And the sky had no edge at all.","voice":"bm_george","speed":0.85},
+ {"id":"L11","text":"Your sky is only as big as your well.","voice":"bm_george","speed":0.85}
+]
