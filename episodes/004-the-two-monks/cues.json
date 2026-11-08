@@ -1,0 +1,52 @@
+[
+ {
+  "t0": 0.3,
+  "t1": 3.67,
+  "text": "Two monks came to a river, swollen with rain."
+ },
+ {
+  "t0": 3.75,
+  "t1": 7.47,
+  "text": "A young woman stood on the bank. She could not cross."
+ },
+ {
+  "t0": 7.55,
+  "t1": 10.92,
+  "text": "The monks had sworn never to touch a woman."
+ },
+ {
+  "t0": 11.0,
+  "t1": 15.17,
+  "text": "But the old monk lifted her onto his back, and waded in."
+ },
+ {
+  "t0": 15.25,
+  "t1": 19.92,
+  "text": "On the far side, he set her down. She bowed, and was gone."
+ },
+ {
+  "t0": 20.0,
+  "t1": 24.22,
+  "text": "The monks walked on. For hours, the young one said nothing."
+ },
+ {
+  "t0": 24.3,
+  "t1": 27.72,
+  "text": "But his anger grew heavier with every step."
+ },
+ {
+  "t0": 27.8,
+  "t1": 32.23,
+  "text": "At nightfall, he burst out: \"How could you carry that woman?\""
+ },
+ {
+  "t0": 32.5,
+  "t1": 36.32,
+  "text": "The old monk smiled. \"I put her down at the river.\""
+ },
+ {
+  "t0": 36.4,
+  "t1": 39.03,
+  "text": "\"Why are you still carrying her?\""
+ }
+]

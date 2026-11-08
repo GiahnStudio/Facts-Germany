@@ -3,7 +3,7 @@
 import { clamp, lerp, TAU } from '/core/lib.js';
 import { PAL, smooth, poly } from './print.js';
 
-const INK = PAL.sumi, KIMONO = '#2c4a70', KIMONO_D = '#1f3656', GAITER = '#1d2c44', BUNDLE = '#a9b48c', PATE = '#c5ccc8';
+const INK = PAL.sumi, KIMONO0 = '#2c4a70', KIMONO_D0 = '#1f3656', KIMONO = KIMONO0, KIMONO_D = KIMONO_D0, GAITER = '#1d2c44', BUNDLE = '#a9b48c', PATE = '#c5ccc8';
 function shape(x, pts, fill, lw, closed = true, sm = true) {
   x.beginPath(); sm ? smooth(x, pts, closed) : poly(x, pts);
   if (fill) { x.fillStyle = fill; x.fill(); }
@@ -63,9 +63,23 @@ export function traveler(x, px, py, s, o = {}) {
   x.restore();
 }
 
+// Optional looks (all default off, older episodes unchanged): robe/robeD (garment colours), sash, noBundle, noPattern,
+// kesa (monk's stole colour, worn diagonally), beard (white chin wisps under the hat), woman (hatOff head with a bun), stoop (extra forward lean)
+function headWoman(x, lw) {
+  shape(x, [[-7.2, -86], [-6.4, -91], [-2, -94], [4, -94.5], [7.2, -91], [7.6, -85], [5.2, -79.5], [1, -77.8], [-3.2, -78], [-5, -80], [-6.8, -81.2], [-6, -83.2], [-7.6, -85]], PAL.skin, lw * .8, true, false);
+  // hair: black mass from the brow to the nape, a large bun at the back, a red comb
+  shape(x, [[-6.6, -89.5], [-4, -95.4], [2, -97.2], [7.6, -94], [10.4, -88], [9.6, -82], [6, -80.6], [4, -84.5], [3.6, -88.6], [0, -90.6], [-4, -90.4]], INK, 0, true, true);
+  shape(x, [[3, -97.5], [7.5, -101.5], [13, -100], [14, -94.5], [10, -91.5], [5.5, -93]], INK, 0, true, true);
+  shape(x, [[6.5, -100.2], [12.5, -103.6], [13.4, -102], [7.4, -98.6]], PAL.beni, lw * .4, true, false);
+  x.lineWidth = lw * .45; x.strokeStyle = INK;
+  x.beginPath(); x.moveTo(-5.6, -87.8); x.quadraticCurveTo(-4, -88.6, -2.4, -88.2); x.stroke();
+  x.beginPath(); x.moveTo(-5.4, -85.6); x.quadraticCurveTo(-4.2, -84.8, -2.9, -85.6); x.stroke();      // lowered eye
+  x.fillStyle = PAL.beni; x.fillRect(-6.2, -81.4, 2.2, 1.1);                                              // red lip
+}
 function side(x, lw, o) {
   const walk = o.mode === 'walk', ph = (o.ph || 0) * TAU, tw = o.t || 0;
-  const bob = walk ? -Math.abs(Math.sin(ph)) * 1.4 + .7 : 0, lean = walk ? -.1 : (o.lean || 0);
+  const KIMONO = o.robe || KIMONO0, KIMONO_D = o.robeD || KIMONO_D0;
+  const bob = walk ? -Math.abs(Math.sin(ph)) * 1.4 + .7 : 0, lean = (walk ? -.1 : (o.lean || 0)) - (o.stoop || 0);
   const hip = [1.5, -40 + bob];
   // gait: legs in antiphase
   const gait = p => {
@@ -85,8 +99,10 @@ function side(x, lw, o) {
   const st = walk ? Math.sin(ph) * .07 : 0;
   if (!o.noStaff) { x.save(); x.translate(-13.5, -58); x.rotate(-.1 + st); shape(x, [[-1.3, -28], [1.3, -28], [1.3, 58], [-1.3, 58]], PAL.woodL, lw * .8, true, false); x.restore(); }
   // bundle (slung diagonally, knotted at the chest)
+  if (!o.noBundle) {
   shape(x, [[3, -75], [13, -77.5], [19, -70], [18.5, -60], [12, -54], [4, -57]], BUNDLE, lw);
   x.strokeStyle = '#6f7a58'; x.lineWidth = lw * .5; [[9, -70], [14, -64], [11, -59]].forEach(([a, b]) => { x.beginPath(); x.arc(a, b, 2, .3, 5.4); x.stroke(); });
+  }
   // pointed corner of the back panel tucked into the sash
   shape(x, [[5, -49], [10.5, -47], [11.5, -36], [7, -38.5]], KIMONO_D, lw, true, false);
   // upper body + hem
@@ -96,11 +112,14 @@ function side(x, lw, o) {
   x.beginPath(); x.moveTo(-5.5, -74); x.quadraticCurveTo(-3, -62, -8.6, -50); x.stroke();
   x.beginPath(); x.moveTo(-2, -47); x.quadraticCurveTo(-3, -40, -4.5, -34.5); x.moveTo(4, -47); x.quadraticCurveTo(4, -41, 3.5, -34.5); x.stroke();
   // igeta-gasuri (井桁絣, small white cross ikat pattern) on the garment
+  if (!o.noPattern) {
   x.strokeStyle = 'rgba(236,228,206,.85)'; x.lineWidth = lw * .35;
   [[-4, -68], [2, -65], [5, -58], [-3, -58], [1, -43], [-6, -40], [6, -40]].forEach(([a, b]) => { x.beginPath(); x.moveTo(a - 1.2, b); x.lineTo(a + 1.2, b); x.moveTo(a, b - 1.2); x.lineTo(a, b + 1.2); x.stroke(); });
+  }
   shape(x, [[-7, -75], [-3.5, -76], [-5.6, -69.5]], PAL.white, lw * .5, true, false);   // white under-collar
-  shape(x, [[-9.2, -53], [9, -54], [9.2, -49], [-9.3, -48]], PAL.ochre, lw * .7, true, false); // sash
-  shape(x, [[-8, -71], [-4.4, -72], [-5.4, -67.4], [-8.6, -67.2]], BUNDLE, lw * .5, true, false); // bundle knot
+  if (o.kesa) shape(x, [[-6.5, -75.5], [-2.5, -76.5], [9, -52], [8.8, -44], [3, -46]], o.kesa, lw * .7, true, false);   // kesa stole over the shoulder
+  shape(x, [[-9.2, -53], [9, -54], [9.2, -49], [-9.3, -48]], o.sash || PAL.ochre, lw * .7, true, false); // sash
+  if (!o.noBundle) shape(x, [[-8, -71], [-4.4, -72], [-5.4, -67.4], [-8.6, -67.2]], BUNDLE, lw * .5, true, false); // bundle knot
   // mino
   if (o.mino) {
     const mp = [[-10, -79], [4, -81], [14, -74], [19, -54], [17, -38], [5, -36], [-6, -37], [-12, -41], [-12, -62]];
@@ -116,18 +135,27 @@ function side(x, lw, o) {
   x.fillStyle = PAL.skin; x.beginPath(); hold ? x.arc(-18.5, -86.5, 2.2, 0, TAU) : x.arc(-13.5, -52 + sw * .6, 2.3, 0, TAU); x.fill(); x.lineWidth = lw * .55; x.strokeStyle = INK; x.stroke();
   // head: only the lower half of the face shows under the hat
   const tilt = o.tilt ?? 0;
-  if (o.hatOff) headSide(x, lw);
+  if (o.hatOff) o.woman ? headWoman(x, lw) : headSide(x, lw);
   else {
     shape(x, [[-6.6, -84], [-6.4, -81], [-7.2, -80.4], [-5.6, -78], [-2, -76.8], [3, -78], [4.5, -83]], PAL.skin, lw * .75, true, false);
-    x.lineWidth = lw * .45; x.strokeStyle = INK; x.beginPath(); x.moveTo(-5.4, -79.2); x.lineTo(-3.8, -79.4); x.stroke();
+    x.lineWidth = lw * .45; x.strokeStyle = INK; x.beginPath();
+    if (o.smile) { x.moveTo(-5.8, -79.6); x.quadraticCurveTo(-4.6, -78.4, -3.4, -79.6); } else if (o.shout) { x.ellipse(-4.6, -79.2, 1.3, 1.1, 0, 0, TAU); } else { x.moveTo(-5.4, -79.2); x.lineTo(-3.8, -79.4); }
+    x.stroke();
+    if (o.beard) { x.strokeStyle = PAL.white; x.lineWidth = lw * .7; for (const [a, b] of [[-5.8, 4], [-3.6, 5.4], [-1.4, 4.6]]) { x.beginPath(); x.moveTo(a, -77.6); x.quadraticCurveTo(a - .6, -77.6 + b * .6, a + .4, -77.6 + b); x.stroke(); } }
     kasa(x, -1, -84, tilt, lw);
   }
   x.restore();
   leg(x, hip, kF, aF, lw, false);
+  if (o.long) {   // long robe / kimono over the legs (o.long = how far down: 1 = to the ankle)
+    const yb = lerp(-34, -2.5, o.long), sp = walk ? Math.sin(ph) * 4 : 0, cx = hip[0] + (walk ? -1.5 : 0);
+    shape(x, [[cx - 9.5, -46 + bob], [cx + 9, -47 + bob], [cx + 10 - sp * .3, yb], [cx + 1, yb + 1], [cx - 11 - sp * .5, yb]], KIMONO, lw, true, false);
+    x.strokeStyle = INK; x.lineWidth = lw * .5; x.beginPath(); x.moveTo(cx - 3, -44 + bob); x.quadraticCurveTo(cx - 4, (yb - 44) / 2, cx - 4 - sp * .3, yb); x.stroke();
+  }
 }
 
 function sit(x, lw, o) {
   // seated on a bench: seat height = y -40; facing left
+  const KIMONO = o.robe || KIMONO0;
   const breath = Math.sin((o.t || 0) * 2.2) * .5;
   leg(x, [2, -40], [-15, -41.5], [-14, -2], lw, true, -1);
   leg(x, [-2, -38.5], [-19, -39.5], [-19.5, -1.5], lw, false, -1);
@@ -137,18 +165,20 @@ function sit(x, lw, o) {
   x.save(); x.translate(0, breath);
   shape(x, [[-6, -78], [5, -80], [10, -68], [11, -51], [-6.5, -50.5], [-8.5, -63]], KIMONO, lw);
   x.strokeStyle = 'rgba(236,228,206,.85)'; x.lineWidth = lw * .35;
-  [[-2, -70], [4, -66], [6, -58], [-3, -59], [-12, -40], [0, -41]].forEach(([a, b]) => { x.beginPath(); x.moveTo(a - 1.2, b); x.lineTo(a + 1.2, b); x.moveTo(a, b - 1.2); x.lineTo(a, b + 1.2); x.stroke(); });
-  shape(x, [[-7, -54], [11, -55], [11, -50], [-6.5, -49.5]], PAL.ochre, lw * .7, true, false);
+  if (!o.noPattern) [[-2, -70], [4, -66], [6, -58], [-3, -59], [-12, -40], [0, -41]].forEach(([a, b]) => { x.beginPath(); x.moveTo(a - 1.2, b); x.lineTo(a + 1.2, b); x.moveTo(a, b - 1.2); x.lineTo(a, b + 1.2); x.stroke(); });
+  shape(x, [[-7, -54], [11, -55], [11, -50], [-6.5, -49.5]], o.sash || PAL.ochre, lw * .7, true, false);
   shape(x, [[-5.5, -78.5], [-1.8, -79.5], [-4.2, -72]], PAL.white, lw * .5, true, false);
   // both hands holding the tea bowl
   const lift = o.cup ?? 0, cy = lerp(-56, -74, lift), cx = lerp(-15, -11.5, lift);
   shape(x, [[-2, -77], [-10, -68], [cx - 3, cy + 5], [cx + 4, cy + 7.5], [0, -63], [5, -73]], KIMONO, lw);
   x.fillStyle = PAL.skin; x.beginPath(); x.arc(cx + .5, cy + 2.4, 2.4, 0, TAU); x.fill(); x.lineWidth = lw * .55; x.strokeStyle = INK; x.stroke();
+  if (!o.noCup) {
   shape(x, [[cx - 5.5, cy - 4.4], [cx + 3.5, cy - 4.4], [cx + 2.4, cy + 1.2], [cx - 4.4, cy + 1.2]], '#6b5a42', lw * .6, true, false);
   x.fillStyle = PAL.white; x.fillRect(cx - 4.6, cy - 4.2, 7.6, 1.1);
+  }
   // head: tilted back slightly while drinking
   x.save(); x.translate(0, -78); x.rotate(lerp(0, -.14, lift)); x.translate(0, 78);
-  headSide(x, lw);
+  o.woman ? headWoman(x, lw) : headSide(x, lw);
   x.restore();
   x.restore();
 }

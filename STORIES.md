@@ -11,7 +11,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Waiting by the Tree Stump — auf Glück warten statt arbeiten
 - Pulling the Sprouts — Ungeduld zerstört Wachstum
 - Empty Your Cup (Zen) — wer voll ist, kann nichts lernen
-- The Two Monks and the River (Zen) — Lass los, was du trägst
 - "Is That So?" (Hakuin, Zen) — Gelassenheit gegenüber dem Urteil anderer
 - The Wind and the Sun (Aesop, Japan) — Sanftheit statt Gewalt
 - The Tiger and the Mouse (Aesop: Lion and Mouse) — auch die Kleinen können helfen
@@ -26,6 +25,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 004 The Two Monks and the River (Zen) — Moral: Put down what you carry.
 - 003 The Lost Horse (Huainanzi) — Moral: Good luck, bad luck — who knows?
 - 002 The Frog in the Well (Zhuangzi) — Moral: Your sky is only as big as your well.
 - 001 The Stonecutter (japanisches Volksmärchen) — Moral: Peace begins with who you are.
