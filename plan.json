@@ -27,5 +27,15 @@
   "note": "von GIAHN selbst auf TikTok hochgeladen (08.11.)",
   "networks": [],
   "metricool_uuid": null
+ },
+ {
+  "ep": "004-the-two-monks",
+  "date": "2026-11-09",
+  "time": "18:00",
+  "status": "scheduled",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": "5851031012581789551"
  }
 ]
