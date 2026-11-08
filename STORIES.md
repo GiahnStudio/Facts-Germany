@@ -9,7 +9,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Old Man and the Demons' Dance (Kobutori Jiisan) — Nachahmen aus Gier
 - Urashima Taro — Zeit, die man nicht zurückbekommt
 - The Lost Horse (Sai Weng) — Glück oder Unglück? Wer weiß.
-- The Frog in the Well — der Himmel ist größer als dein Brunnen
 - Waiting by the Tree Stump — auf Glück warten statt arbeiten
 - Pulling the Sprouts — Ungeduld zerstört Wachstum
 - Empty Your Cup (Zen) — wer voll ist, kann nichts lernen
@@ -28,4 +27,5 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 002 The Frog in the Well (Zhuangzi) — Moral: Your sky is only as big as your well.
 - 001 The Stonecutter (japanisches Volksmärchen) — Moral: Peace begins with who you are.
