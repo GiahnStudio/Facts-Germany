@@ -15,7 +15,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Wind and the Sun (Aesop, Japan) — Sanftheit statt Gewalt
 - The Tiger and the Mouse (Aesop: Lion and Mouse) — auch die Kleinen können helfen
 - The Hen That Laid Golden Eggs (Aesop) — Gier zerstört die Quelle
-- The Crow and the Water Jar (Aesop) — Geduld und Einfallsreichtum
 - The Cicada and the Ant (Aesop) — vorsorgen
 - The Fox and the Persimmons (Aesop: Fox and Grapes) — Ausreden
 - The Dog on the Bridge (Aesop) — Gier nach dem Spiegelbild
@@ -25,6 +24,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 005 The Crow and the Water Jar (Aesop, Japan) — Moral: Little by little, the water rises.
 - 004 The Two Monks and the River (Zen) — Moral: Put down what you carry.
 - 003 The Lost Horse (Huainanzi) — Moral: Good luck, bad luck — who knows?
 - 002 The Frog in the Well (Zhuangzi) — Moral: Your sky is only as big as your well.

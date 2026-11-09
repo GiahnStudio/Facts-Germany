@@ -1,0 +1,52 @@
+[
+ {
+  "t0": 0.3,
+  "t1": 3.74,
+  "text": "No rain had fallen for forty days."
+ },
+ {
+  "t0": 3.85,
+  "t1": 7.49,
+  "text": "The fields cracked. The streams ran dry."
+ },
+ {
+  "t0": 7.6,
+  "t1": 11.24,
+  "text": "A thirsty crow found an old water jar."
+ },
+ {
+  "t0": 11.35,
+  "t1": 15.44,
+  "text": "There was water inside, but far too deep to reach."
+ },
+ {
+  "t0": 15.55,
+  "t1": 20.14,
+  "text": "She pushed. It would not tip. She pecked. It would not break."
+ },
+ {
+  "t0": 20.25,
+  "t1": 23.16,
+  "text": "Then she looked down at the pebbles."
+ },
+ {
+  "t0": 23.25,
+  "t1": 26.87,
+  "text": "One stone. Then another. Then another."
+ },
+ {
+  "t0": 26.95,
+  "t1": 31.37,
+  "text": "The sun burned. Her wings ached. She kept going."
+ },
+ {
+  "t0": 32.3,
+  "t1": 35.32,
+  "text": "And slowly, the water rose."
+ },
+ {
+  "t0": 35.4,
+  "t1": 38.19,
+  "text": "Until at last, she drank."
+ }
+]
