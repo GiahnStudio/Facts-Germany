@@ -37,5 +37,15 @@
    "tiktok"
   ],
   "metricool_uuid": "5851031012581789551"
+ },
+ {
+  "ep": "005-the-crow-and-the-jar",
+  "date": "2026-11-10",
+  "time": "18:00",
+  "status": "scheduled",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": "3297185875905036322"
  }
 ]
