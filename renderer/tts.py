@@ -147,16 +147,42 @@ def _google_chirp(text, voice, mp3):
     open(mp3, "wb").write(base64.b64decode(data["audioContent"]))
 
 
+def _elevenlabs(text, voice, mp3):
+    """ElevenLabs per REST. voice = "eleven:<voice_id>" oder "eleven:<voice_id>:<model_id>"."""
+    import urllib.request
+    parts = voice.split(":")
+    vid = parts[1]
+    model = parts[2] if len(parts) > 2 else os.environ.get("ELEVEN_MODEL", "eleven_multilingual_v2")
+    body = {"text": text.replace(" ... ", " … "), "model_id": model, "language_code": "de",
+            "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.3, "use_speaker_boost": True}}
+    if model == "eleven_multilingual_v2":
+        body.pop("language_code")
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format=mp3_44100_128",
+        data=json.dumps(body).encode(), headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"],
+                                                  "Content-Type": "application/json", "Accept": "audio/mpeg"})
+    with urllib.request.urlopen(req, timeout=180) as r, open(mp3, "wb") as f:
+        f.write(r.read())
+
+
 def synth(text, voice, rate="+0%"):
     """Google Chirp 3 HD (Name enthält 'Chirp3-HD'): Wortzeiten per Spracherkennung, die auch prüft,
     ob jedes Wort gesprochen wurde.
     HD-Stimmen (Name enthält ':DragonHD') über Azure, sonst edge-tts.
     Wortzeiten für HD: aus edge-tts (gleiche Sprecherin, Standardmodell) auf die HD-Aufnahme gestreckt."""
-    if "Chirp3-HD" in voice:
+    if voice.startswith("eleven:"):
+        if not os.environ.get("ELEVENLABS_API_KEY"):
+            raise RuntimeError("Kein ELEVENLABS_API_KEY – ElevenLabs-Test nicht möglich")
+        gen = _elevenlabs
+    elif "Chirp3-HD" in voice:
         if not os.environ.get("GOOGLE_TTS_KEY"):
             fb = os.environ.get("FALLBACK_VOICE", "de-DE-FlorianMultilingualNeural")
             print(f"   ! Kein GOOGLE_TTS_KEY – nutze {fb} als Ersatz")
             return _synth_edge(text, fb, rate)
+        gen = _google_chirp
+    else:
+        gen = None
+    if gen:
         os.makedirs(CACHE, exist_ok=True)
         key = hashlib.sha1(f"{voice}|{text}".encode()).hexdigest()[:16]
         mp3 = os.path.join(CACHE, key + ".mp3")
@@ -166,13 +192,15 @@ def synth(text, voice, rate="+0%"):
             _wav_from_mp3(mp3, wav)
             return wav, _duration(wav), json.load(open(meta))["words"]
         best = None
-        for attempt in range(3):
+        # ElevenLabs kostet Credits pro Zeichen -> nur bei sehr schlechtem Abgleich neu erzeugen
+        tries, good = (2, 0.70) if gen is _elevenlabs else (3, 0.85)
+        for attempt in range(tries):
             for k in range(4):
                 try:
-                    _google_chirp(text, voice, mp3)
+                    gen(text, voice, mp3)
                     break
                 except Exception as e:
-                    print("Google-TTS-Fehler, neuer Versuch:", e)
+                    print("TTS-Fehler, neuer Versuch:", e)
                     import time
                     time.sleep(3 + k * 5)
             _wav_from_mp3(mp3, wav)
@@ -185,7 +213,7 @@ def synth(text, voice, rate="+0%"):
             print(f"   Abgleich Skript/Aufnahme: {ratio:.0%}")
             if best is None or ratio > best[1]:
                 best = (open(mp3, "rb").read(), ratio, words)
-            if ratio >= 0.85:
+            if ratio >= good:
                 break
         if best and best[1] > ratio:
             open(mp3, "wb").write(best[0])
