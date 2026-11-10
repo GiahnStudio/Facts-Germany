@@ -1,5 +1,8 @@
 name: Stimmen-Test ElevenLabs
 on:
+  push:
+    branches: [durchschaut]
+    paths: ['voice_test/eleven_go.txt']
   workflow_dispatch:
     inputs:
       voice_id:
@@ -45,7 +48,12 @@ jobs:
           python - <<PY
           import json
           p='voice_test/eleven_kuehlschrank.json'; d=json.load(open(p))
-          d['voice']='eleven:${{ github.event.inputs.voice_id }}:${{ github.event.inputs.model }}'
+          vid='${{ github.event.inputs.voice_id }}'; model='${{ github.event.inputs.model }}'
+          if not vid:  # Start per Push: Zeile 1 = Voice-ID, Zeile 2 = Modell
+              ls=[l.strip() for l in open('voice_test/eleven_go.txt') if l.strip() and not l.startswith('#')]
+              vid=ls[0]; model=ls[1] if len(ls)>1 else 'eleven_multilingual_v2'
+          d['voice']=f'eleven:{vid}:{model or "eleven_multilingual_v2"}'
+          print('Stimme:', d['voice'])
           json.dump(d,open('/tmp/eleven_ep.json','w'),ensure_ascii=False)
           PY
           python renderer/build.py /tmp/eleven_ep.json --only main
