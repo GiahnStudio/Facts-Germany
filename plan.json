@@ -32,11 +32,12 @@
   "ep": "004-the-two-monks",
   "date": "2026-11-09",
   "time": "18:00",
-  "status": "scheduled",
+  "status": "published",
   "networks": [
    "tiktok"
   ],
-  "metricool_uuid": "5851031012581789551"
+  "metricool_uuid": "5851031012581789551",
+  "tiktok_id": "7706218653758393622"
  },
  {
   "ep": "005-the-crow-and-the-jar",

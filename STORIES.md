@@ -8,7 +8,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Old Man Who Made Trees Bloom (Hanasaka Jiisan) — Güte vs. Neid
 - The Old Man and the Demons' Dance (Kobutori Jiisan) — Nachahmen aus Gier
 - Urashima Taro — Zeit, die man nicht zurückbekommt
-- Waiting by the Tree Stump — auf Glück warten statt arbeiten
 - Pulling the Sprouts — Ungeduld zerstört Wachstum
 - Empty Your Cup (Zen) — wer voll ist, kann nichts lernen
 - "Is That So?" (Hakuin, Zen) — Gelassenheit gegenüber dem Urteil anderer
@@ -24,6 +23,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 006 The Farmer and the Tree Stump (Han Feizi, Japan) — Moral: Luck visits once. Work feeds you every day.
 - 005 The Crow and the Water Jar (Aesop, Japan) — Moral: Little by little, the water rises.
 - 004 The Two Monks and the River (Zen) — Moral: Put down what you carry.
 - 003 The Lost Horse (Huainanzi) — Moral: Good luck, bad luck — who knows?
