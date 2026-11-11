@@ -1,0 +1,119 @@
+{
+ "clip": "f1fe8730-95bb-4a4f-a9c8-aa5985532b07",
+ "start": 10.29,
+ "dur": 77.71,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.89
+  },
+  {
+   "id": "L02",
+   "t0": 5.97,
+   "t1": 11.06
+  },
+  {
+   "id": "L03",
+   "t0": 11.14,
+   "t1": 17.5
+  },
+  {
+   "id": "L04",
+   "t0": 21.62,
+   "t1": 26.47
+  },
+  {
+   "id": "L05",
+   "t0": 26.55,
+   "t1": 31.91
+  },
+  {
+   "id": "L06",
+   "t0": 31.99,
+   "t1": 36.5
+  },
+  {
+   "id": "L07",
+   "t0": 36.51,
+   "t1": 41.62
+  },
+  {
+   "id": "L08",
+   "t0": 41.9,
+   "t1": 46.73
+  },
+  {
+   "id": "L09",
+   "t0": 46.81,
+   "t1": 52.17
+  },
+  {
+   "id": "L10",
+   "t0": 52.19,
+   "t1": 56.64
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.89,
+   "text": "An old potter had one bowl he loved above the rest"
+  },
+  {
+   "id": "L02",
+   "t0": 5.97,
+   "t1": 11.06,
+   "text": "One rainy morning his apprentice carried it across"
+  },
+  {
+   "id": "L03",
+   "t0": 11.14,
+   "t1": 17.5,
+   "text": "He slipped on a wet stone, and the bowl was lost"
+  },
+  {
+   "id": "L04",
+   "t0": 21.62,
+   "t1": 26.47,
+   "text": "Forgive me, master, I will throw the pieces away"
+  },
+  {
+   "id": "L05",
+   "t0": 26.55,
+   "t1": 31.91,
+   "text": "But the old man knelt and gathered every piece that day"
+  },
+  {
+   "id": "L06",
+   "t0": 31.99,
+   "t1": 36.5,
+   "text": "Day after day he joined them, with lacquer and with gold"
+  },
+  {
+   "id": "L07",
+   "t0": 36.51,
+   "t1": 41.62,
+   "text": "Why mend it, asked the boy, it will never be the same"
+  },
+  {
+   "id": "L08",
+   "t0": 41.9,
+   "t1": 46.73,
+   "text": "No, said the potter, it will be more beautiful"
+  },
+  {
+   "id": "L09",
+   "t0": 46.81,
+   "t1": 52.17,
+   "text": "And he poured from it for every dearest guest who came"
+  },
+  {
+   "id": "L10",
+   "t0": 52.19,
+   "t1": 56.64,
+   "text": "Your cracks are not your end, mend them in gold"
+  }
+ ]
+}

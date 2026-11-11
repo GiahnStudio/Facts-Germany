@@ -1,0 +1,16 @@
+{
+  "title": "Fable 07 - The Golden Crack",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["An old potter had one bowl he loved above the rest"] },
+    { "id": "L02", "lines": ["One rainy morning his apprentice carried it across"] },
+    { "id": "L03", "lines": ["He slipped on a wet stone, and the bowl was lost"] },
+    { "id": "L04", "tag": "Verse 2", "lines": ["Forgive me, master, I will throw the pieces away"] },
+    { "id": "L05", "lines": ["But the old man knelt and gathered every piece that day"] },
+    { "id": "L06", "lines": ["Day after day he joined them, with lacquer and with gold"] },
+    { "id": "L07", "tag": "Chorus", "lines": ["Why mend it, asked the boy, it will never be the same"] },
+    { "id": "L08", "lines": ["No, said the potter, it will be more beautiful"] },
+    { "id": "L09", "lines": ["And he poured from it for every dearest guest who came"] },
+    { "id": "L10", "tag": "Outro", "lines": ["Your cracks are not your end, mend them in gold"] }
+  ]
+}

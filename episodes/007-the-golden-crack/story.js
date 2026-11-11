@@ -1,7 +1,7 @@
 // The Golden Crack (an original fable about kintsugi, 金継ぎ, set in old Japan) — timeline.
 // Sheets: 0 the garden in rain · 1 the workshop (days pass) · 2 the mended bowl, close (the gold block) · 3 the garden after rain (alternate impression of 0)
 export const CFG = {
-  DUR: 45.0,
+  DUR: 49.2,
   TAG: 'Tales in Ink · Fable 07',
   SERIES: '墨話',
   HOOK: { lines: ['He broke his master’s bowl.', 'Now what?'], t: [0, 3.2] },
@@ -23,7 +23,7 @@ export const CFG = {
   DAYS: [21.7, 25.7],
   MA: [29.85, 30.65],
   MORAL: { wash: [39.4, 40.0], t: 39.9, sealT: 44.05, seal: '金', big: ['Your cracks are', 'not your end.'], small: ['Mend them in gold.'] },
-  LOOP: { cut: 44.5 },
+  LOOP: { cut: 48.7 },
   CAM: [
     { t: 0, s: 0, x: 540, y: 960, z: 1 },
     { t: 4.6, s: 0, x: 540, y: 990, z: 1.05 },

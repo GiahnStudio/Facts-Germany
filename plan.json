@@ -68,6 +68,16 @@
   "networks": [
    "tiktok"
   ],
-  "metricool_uuid": "-2611103503943643309"
+  "metricool_uuid": "-2611103503943643309",
+  "note": "gesungene Suno-Fassung (out/007-the-golden-crack-song.mp4), ersetzt die Sprecher-Fassung"
+ },
+ {
+  "ep": "008-the-wind-and-the-sun",
+  "date": null,
+  "time": null,
+  "status": "rendered",
+  "networks": [],
+  "metricool_uuid": null,
+  "note": "gesungene Suno-Fassung, von GIAHN freigegeben; nächsten freien Tag einplanen"
  }
 ]

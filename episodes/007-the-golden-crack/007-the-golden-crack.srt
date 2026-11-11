@@ -1,39 +1,39 @@
 1
-00:00:00,300 --> 00:00:04,920
-An old potter had one tea bowl he loved above all others.
+00:00:00,300 --> 00:00:05,890
+An old potter had one bowl he loved above the rest
 
 2
-00:00:05,000 --> 00:00:09,470
-One rainy morning, his apprentice carried it across the garden,
+00:00:05,970 --> 00:00:11,060
+One rainy morning his apprentice carried it across
 
 3
-00:00:09,550 --> 00:00:13,120
-slipped on a wet stone, and the bowl shattered.
+00:00:11,140 --> 00:00:17,900
+He slipped on a wet stone, and the bowl was lost
 
 4
-00:00:13,200 --> 00:00:17,670
-"Forgive me, master! I will throw it away and make you a new one."
+00:00:21,620 --> 00:00:26,470
+Forgive me, master, I will throw the pieces away
 
 5
-00:00:17,750 --> 00:00:21,470
-But the old potter knelt and gathered every piece.
+00:00:26,550 --> 00:00:31,910
+But the old man knelt and gathered every piece that day
 
 6
-00:00:21,550 --> 00:00:25,820
-Day after day, he joined them with lacquer and with gold.
+00:00:31,990 --> 00:00:36,430
+Day after day he joined them, with lacquer and with gold
 
 7
-00:00:25,900 --> 00:00:30,310
-"Why mend it?" the boy asked. "It will never be the same."
+00:00:36,510 --> 00:00:41,820
+Why mend it, asked the boy, it will never be the same
 
 8
-00:00:30,900 --> 00:00:34,820
-"No," said the potter. "It will be more beautiful."
+00:00:41,900 --> 00:00:46,730
+No, said the potter, it will be more beautiful
 
 9
-00:00:34,900 --> 00:00:39,880
-And from then on, it was the bowl he poured for his dearest guests.
+00:00:46,810 --> 00:00:52,110
+And he poured from it for every dearest guest who came
 
 10
-00:00:40,300 --> 00:00:44,530
-Your cracks are not your end. Mend them in gold.
+00:00:52,190 --> 00:00:57,040
+Your cracks are not your end, mend them in gold

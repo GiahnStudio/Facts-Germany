@@ -21,7 +21,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
-- 008 The Wind and the Sun (Aesop, Japan) — gesungene Suno-Fassung, fertig, wartet auf GIAHNs Freigabe (nicht automatisch einplanen). Moral: Gentleness opens what force keeps shut.
+- 008 The Wind and the Sun (Aesop, Japan) — gesungene Suno-Fassung. Moral: Gentleness opens what force keeps shut.
 - 007 The Golden Crack (Original, Kintsugi) — Moral: Your cracks are not your end. Mend them in gold.
 - 006 The Farmer and the Tree Stump (Han Feizi, Japan) — Moral: Luck visits once. Work feeds you every day.
 - 005 The Crow and the Water Jar (Aesop, Japan) — Moral: Little by little, the water rises.

@@ -8,7 +8,7 @@ import json, re, sys, os
 ep = sys.argv[1]; S = os.path.join(ep, 'song')
 W = json.load(open(os.path.join(S, 'aligned_raw.json'))); L = json.load(open(os.path.join(S, 'lyrics.json'))); clip = json.load(open(os.path.join(S, 'clip.json')))
 clean = lambda w: re.sub(r'\[[^\]]*\]?|^[^\[]*\]', '', w.replace('|', ' ')).strip()
-words = [(clean(w), a, b) for w, a, b in W]; words = [x for x in words if x[0]]
+words = [(clean(w), a, min(b, a + 2.2)) for w, a, b in W]; words = [x for x in words if x[0]]   # a held last word may include an instrumental break: cap it
 START = max(0.0, words[0][1] - 0.3)
 norm = lambda t: re.sub(r'[^a-z ]', '', t.lower()).split()
 i, lines, sections, bad = 0, [], [], []
