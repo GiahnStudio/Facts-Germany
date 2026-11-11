@@ -4,6 +4,9 @@
 //   DUR, PRINT[sheet] = [4 block times] (≤ 0 → already printed at t=0), CAM = keyframes, CART[sheet] = [slipIn, sealIn],
 //   CARTTXT[sheet], SEALS[sheet], SUB_SEAL, HOOK {lines, t:[a,b]}, MORAL {wash:[a,b], t, seal, sealT, big:[..], small:[..], char},
 //   LOOP {cut} (cut back to the opening framing for a seamless loop), VO {id: t}, NO_SUB [ids], TAG, extraEvents(add)
+// SUNG VERSION (standard since Fable 07): if the episode has song/song.json ({start, dur, sections:[{id,t0,t1}], lines:[{id,t0,t1,text}]}, made by
+//   tools/song_timing.py from Suno's word timestamps), the picture keeps the narration clock of story.js and is warped onto the song:
+//   every narration block [VO[id], VO[id] + dur] is stretched onto the sung block of the same id; subtitles come from the song lines.
 import { clamp, lerp, seg, ss, eio, hash } from '/core/lib.js';
 import { W, H, FR, PAL, TX, mk, buildTextures, inkify, stampLayer, stampFn, drawSeal, cartouche, sealCanvas } from './print.js';
 
@@ -21,11 +24,22 @@ export async function run(CFG, VIEWS) {
   await document.fonts.load('400 40px Yuji', (CFG.CARTTXT || []).join('') + (CFG.SEALS || []).join('') + (CFG.SUB_SEAL || '') + (CFG.MORAL?.seal || ''));
   await document.fonts.load('500 40px Shippori', 'Aa'); await document.fonts.load('700 40px Shippori', 'Aa');
   buildTextures();
-  const NS = VIEWS.length, SLOT = i => (NS - 1 - i) * SW, DUR = CFG.DUR;
+  const NS = VIEWS.length, SLOT = i => (NS - 1 - i) * SW;
+  // —— song time ↔ picture time ——
+  const SONG = QS.has('nosong') ? null : await J('song/song.json');
+  let toOrig = T => T, toNew = t => t, DUR = CFG.DUR;
+  if (SONG) {
+    const A = [];
+    for (const [id, t0] of Object.entries(CFG.VO)) { const sc = SONG.sections.find(x => x.id === id); if (sc) A.push([sc.t0, t0], [sc.t1, t0 + (DURS[id] ?? 2.5)]); }
+    A.sort((a, b) => a[0] - b[0]); for (let i = 1; i < A.length; i++) if (A[i][1] < A[i - 1][1]) A[i][1] = A[i - 1][1];
+    const map = (v, j) => { const n = A.length - 1; if (v <= A[0][j]) return A[0][j ^ 1] - (A[0][j] - v); if (v >= A[n][j]) return A[n][j ^ 1] + (v - A[n][j]); let i = 0; while (i < n - 1 && v > A[i + 1][j]) i++; return A[i][j ^ 1] + (A[i + 1][j ^ 1] - A[i][j ^ 1]) * (v - A[i][j]) / ((A[i + 1][j] - A[i][j]) || 1); };
+    toOrig = T => map(T, 0); toNew = t => map(t, 1); DUR = +Math.min(SONG.dur, toNew(CFG.DUR)).toFixed(2);
+  }
 
   // —— subtitles ——
-  const SUBS = Object.entries(CFG.VO).filter(([id]) => !(CFG.NO_SUB || []).includes(id)).map(([id, t0]) => { const d = DURS[id] ?? (LINE[id]?.text.length || 30) * .065; return { id, t0, t1: t0 + Math.max(1.8, d + .6), text: LINE[id]?.text || '' }; });
+  let SUBS = Object.entries(CFG.VO).filter(([id]) => !(CFG.NO_SUB || []).includes(id)).map(([id, t0]) => { const d = DURS[id] ?? (LINE[id]?.text.length || 30) * .065; return { id, t0, t1: t0 + Math.max(1.8, d + .6), text: LINE[id]?.text || '' }; });
   SUBS.forEach((s, i) => { if (SUBS[i + 1] && s.t1 > SUBS[i + 1].t0 - .08) s.t1 = SUBS[i + 1].t0 - .08; });
+  if (SONG) { SUBS = SONG.lines.filter(l => !(CFG.NO_SUB || []).includes(l.id)).map(l => ({ id: l.id, t0: l.t0, t1: Math.max(l.t1 + .4, l.t0 + 1.6), text: l.text })); SUBS.forEach((s, i) => { if (SUBS[i + 1] && s.t1 > SUBS[i + 1].t0 - .08) s.t1 = SUBS[i + 1].t0 - .08; }); }
 
   // —— colour block cache ——
   const cache = new Map();
@@ -154,7 +168,7 @@ export async function run(CFG, VIEWS) {
     ctx.restore();
   }
 
-  function renderFrame(t, nosub) {
+  function renderFrame(t, nosub, ts = t) {
     ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
     ctx.fillStyle = '#161a22'; ctx.fillRect(0, 0, W, H);
     const tc = CFG.LOOP && t >= CFG.LOOP.cut ? 0 : t;          // loop frame = the opening frame
@@ -166,26 +180,27 @@ export async function run(CFG, VIEWS) {
       const Mi = [M[0], M[1], M[2], M[3], M[4] + M[0] * x0, M[5] + M[1] * x0];
       drawSheet(i, tc, Mi);
     }
-    if (!nosub && !(CFG.LOOP && t >= CFG.LOOP.cut)) subtitle(t);
+    if (!nosub && !(CFG.LOOP && t >= CFG.LOOP.cut)) subtitle(ts);
     moral(t); hook(t);
   }
-  const render = t => renderFrame(t, NOSUB);
+  const render = T => renderFrame(toOrig(T), NOSUB, T);       // T = film time (song time in the sung version)
 
   // —— events ——
   function events() {
-    const ev = [], add = (type, t, o = {}) => { if (t >= 0 && t < DUR) ev.push({ t: +t.toFixed(3), type, ...o }); };
+    const ev = [], add = (type, t, o = {}) => { if (t >= 0 && t < CFG.DUR) ev.push({ t: +t.toFixed(3), type, ...o }); };
     for (const [id, t0] of Object.entries(CFG.VO)) add('vo', t0, { id });
     CFG.PRINT.forEach(list => list.forEach((t, k) => { if (t > 0) { add('block', t - .1, { v: .55 + k * .1 }); add('baren', t, { d: .32, v: .75 }); } }));
     (CFG.CART || []).forEach(([a, b], i) => { if (CFG.PRINT[i][0] > 0) { add('slip', a, { v: .45 }); add('seal', b, { v: .85 }); } });
     for (let i = 1; i < K.length; i++) if (!K[i].cut && K[i].s !== K[i - 1].s) add('scroll', K[i - 1].t, { d: K[i].t - K[i - 1].t, v: .8 });
     if (CFG.MORAL) { add('slip', CFG.MORAL.t, { v: .6 }); add('seal', CFG.MORAL.sealT, { v: 1.2 }); }
     CFG.extraEvents?.(add);
+    if (SONG) return ev.filter(e => e.type !== 'vo').map(e => ({ ...e, t: +Math.max(0, toNew(e.t)).toFixed(3) })).concat([{ t: 0, type: 'song' }]).sort((a, b) => a.t - b.t);
     return ev.sort((a, b) => a.t - b.t);
   }
 
   window.render = render; window.DUR = DUR; window.EV = events(); window.SUBS = SUBS;
-  window.TEXTS = t => {
-    const out = [];
+  window.TEXTS = T => {
+    const out = [], t = toOrig(T);
     if (CFG.HOOK && (t < CFG.HOOK.t[1] || (CFG.LOOP && t >= CFG.LOOP.cut))) out.push({ id: 'hook', text: CFG.HOOK.lines.join(' '), x0: 60, y0: 250, x1: 1020, y1: 300 + 46 + CFG.HOOK.lines.length * 76 });
     if (CFG.MORAL && t >= CFG.MORAL.t + .4 && !(CFG.LOOP && t >= CFG.LOOP.cut)) out.push({ id: 'moral', text: 'THE MORAL ' + CFG.MORAL.big.join(' ') + ' ' + (CFG.MORAL.small || []).join(' '), x0: 100, y0: 600, x1: 980, y1: 1200 });
     return out;

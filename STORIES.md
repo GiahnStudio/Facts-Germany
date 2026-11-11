@@ -11,7 +11,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Pulling the Sprouts — Ungeduld zerstört Wachstum
 - Empty Your Cup (Zen) — wer voll ist, kann nichts lernen
 - "Is That So?" (Hakuin, Zen) — Gelassenheit gegenüber dem Urteil anderer
-- The Wind and the Sun (Aesop, Japan) — Sanftheit statt Gewalt
 - The Tiger and the Mouse (Aesop: Lion and Mouse) — auch die Kleinen können helfen
 - The Hen That Laid Golden Eggs (Aesop) — Gier zerstört die Quelle
 - The Cicada and the Ant (Aesop) — vorsorgen
@@ -22,6 +21,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 008 The Wind and the Sun (Aesop, Japan) — IN ARBEIT als gesungene Suno-Fassung (siehe episodes/008-the-wind-and-the-sun/STATUS.md); nicht neu vergeben, nicht einplanen
 - 007 The Golden Crack (Original, Kintsugi) — Moral: Your cracks are not your end. Mend them in gold.
 - 006 The Farmer and the Tree Stump (Han Feizi, Japan) — Moral: Luck visits once. Work feeds you every day.
 - 005 The Crow and the Water Jar (Aesop, Japan) — Moral: Little by little, the water rises.

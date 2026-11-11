@@ -1,0 +1,16 @@
+{
+  "title": "Fable 07 - The Wind and the Sun",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["The North Wind and the Sun once argued who was strong"] },
+    { "id": "L02", "lines": ["Below, a traveler in a cloak came walking along"] },
+    { "id": "L03", "lines": ["Who takes his cloak away, said the Wind, has won"] },
+    { "id": "L04", "tag": "Verse 2", "lines": ["The Wind blew hard, the pines bent low, the dust went flying"] },
+    { "id": "L05", "lines": ["But the man held on tighter, the harder it was trying"] },
+    { "id": "L06", "lines": ["And the Wind gave up"] },
+    { "id": "L07", "tag": "Chorus", "lines": ["Then the Sun came out and simply shone"] },
+    { "id": "L08", "lines": ["The road grew warm, he wiped his brow"] },
+    { "id": "L09", "lines": ["And took the cloak off on his own"] },
+    { "id": "L10", "tag": "Outro", "lines": ["Gentleness opens what force keeps shut"] }
+  ]
+}
