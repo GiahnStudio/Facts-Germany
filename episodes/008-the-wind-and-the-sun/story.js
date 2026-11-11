@@ -2,7 +2,7 @@
 // Sheets: 0 the road, calm morning · 1 the same road in the gale (alternate impression) · 2 the same road in warm sunlight (alternate impression)
 export const CFG = {
   DUR: 41.5,
-  TAG: 'Tales in Ink · Fable 07',
+  TAG: 'Tales in Ink · Fable 08',
   SERIES: '墨話',
   HOOK: { lines: ['Wind against Sun.', 'Who is stronger?'], t: [0, 3.2] },
   PRINT: [
