@@ -1,0 +1,119 @@
+{
+ "clip": "4f9735d6-4159-4839-b1f8-59e4a86cfe1b",
+ "start": 11.213,
+ "dur": 70.91,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 6.064
+  },
+  {
+   "id": "L02",
+   "t0": 6.144,
+   "t1": 10.792
+  },
+  {
+   "id": "L03",
+   "t0": 10.865,
+   "t1": 17.041
+  },
+  {
+   "id": "L04",
+   "t0": 17.934,
+   "t1": 22.674
+  },
+  {
+   "id": "L05",
+   "t0": 22.754,
+   "t1": 28.207
+  },
+  {
+   "id": "L06",
+   "t0": 28.287,
+   "t1": 33.482
+  },
+  {
+   "id": "L07",
+   "t0": 33.619,
+   "t1": 38.376
+  },
+  {
+   "id": "L08",
+   "t0": 38.612,
+   "t1": 44.029
+  },
+  {
+   "id": "L09",
+   "t0": 44.105,
+   "t1": 50.958
+  },
+  {
+   "id": "L10",
+   "t0": 51.246,
+   "t1": 55.082
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 6.064,
+   "text": "A farmer hoed his field one early morning in the spring"
+  },
+  {
+   "id": "L02",
+   "t0": 6.144,
+   "t1": 10.792,
+   "text": "Out of the grass a hare came racing on the wing"
+  },
+  {
+   "id": "L03",
+   "t0": 10.865,
+   "t1": 17.041,
+   "text": "It hit an old tree stump and then it lay still"
+  },
+  {
+   "id": "L04",
+   "t0": 17.934,
+   "t1": 22.674,
+   "text": "Dinner for free, he laughed, why should I work at all"
+  },
+  {
+   "id": "L05",
+   "t0": 22.754,
+   "t1": 28.207,
+   "text": "He laid his hoe down by the stump and waited for the call"
+  },
+  {
+   "id": "L06",
+   "t0": 28.287,
+   "t1": 33.482,
+   "text": "Days went by, the weeds grew tall"
+  },
+  {
+   "id": "L07",
+   "t0": 33.619,
+   "t1": 38.376,
+   "text": "Weeks went by, no hare at all"
+  },
+  {
+   "id": "L08",
+   "t0": 38.612,
+   "t1": 44.029,
+   "text": "By autumn his field was wild, his rice bowl empty too"
+  },
+  {
+   "id": "L09",
+   "t0": 44.105,
+   "t1": 50.958,
+   "text": "His neighbors carried home their rice, he waited, as fools do"
+  },
+  {
+   "id": "L10",
+   "t0": 51.246,
+   "t1": 55.082,
+   "text": "Luck visits once, but work will feed you every day"
+  }
+ ]
+}

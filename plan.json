@@ -58,7 +58,8 @@
   "networks": [
    "tiktok"
   ],
-  "metricool_uuid": "-6435056283945646444"
+  "metricool_uuid": "-6435056283945646444",
+  "note": "gesungene Suno-Fassung (out/006-the-tree-stump-song.mp4), ersetzt die Sprecher-Fassung"
  },
  {
   "ep": "007-the-golden-crack",

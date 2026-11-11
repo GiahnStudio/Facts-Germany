@@ -1,7 +1,7 @@
 // The Farmer and the Tree Stump (守株待兎, Han Feizi, moved to old Japan) — timeline.
 // Sheets: 0 the field in spring · 1 at the stump, summer · 2 the same view in autumn (alternate impression) · 3 the field at harvest (alternate impression of 0)
 export const CFG = {
-  DUR: 42.0,
+  DUR: 47.0,
   TAG: 'Tales in Ink · Fable 06',
   SERIES: '墨話',
   HOOK: { lines: ['Dinner ran into his stump.', 'Why work ever again?'], t: [0, 3.2] },
@@ -21,7 +21,7 @@ export const CFG = {
   DAYS: [19.5, 22.3], WEEKS: [22.4, 24.9],
   MA: [24.9, 25.7],
   MORAL: { wash: [35.6, 36.2], t: 36.1, sealT: 40.3, seal: '田', big: ['Luck visits once.', 'Work feeds you daily.'], small: ['Don’t wait by the stump.'] },
-  LOOP: { cut: 41.5 },
+  LOOP: { cut: 46.5 },
   CAM: [
     { t: 0, s: 0, x: 540, y: 960, z: 1 },
     { t: 3.4, s: 0, x: 540, y: 980, z: 1.04 },

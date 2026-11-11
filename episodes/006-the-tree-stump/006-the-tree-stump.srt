@@ -1,39 +1,39 @@
 1
-00:00:00,300 --> 00:00:04,120
-A farmer was hoeing his field one spring morning.
+00:00:00,300 --> 00:00:06,060
+A farmer hoed his field one early morning in the spring
 
 2
-00:00:04,200 --> 00:00:07,020
-Out of the grass, a hare came racing,
+00:00:06,144 --> 00:00:10,790
+Out of the grass a hare came racing on the wing
 
 3
-00:00:07,100 --> 00:00:11,010
-ran straight into an old tree stump, and fell still.
+00:00:10,865 --> 00:00:17,440
+It hit an old tree stump and then it lay still
 
 4
-00:00:11,300 --> 00:00:15,220
-"Dinner, for free!" the farmer laughed. "Why work at all?"
+00:00:17,934 --> 00:00:22,670
+Dinner for free, he laughed, why should I work at all
 
 5
-00:00:15,300 --> 00:00:19,520
-He put down his hoe, sat by the stump, and waited.
+00:00:22,754 --> 00:00:28,210
+He laid his hoe down by the stump and waited for the call
 
 6
-00:00:19,600 --> 00:00:22,420
-Days passed. The weeds grew.
+00:00:28,287 --> 00:00:33,540
+Days went by, the weeds grew tall
 
 7
-00:00:22,500 --> 00:00:25,420
-Weeks passed. No hare came.
+00:00:33,619 --> 00:00:38,530
+Weeks went by, no hare at all
 
 8
-00:00:26,200 --> 00:00:31,070
-By autumn, his field was wild, and his bowl was empty.
+00:00:38,612 --> 00:00:44,020
+By autumn his field was wild, his rice bowl empty too
 
 9
-00:00:31,200 --> 00:00:35,530
-His neighbors carried home their rice. He was still waiting.
+00:00:44,105 --> 00:00:51,170
+His neighbors carried home their rice, he waited, as fools do
 
 10
-00:00:36,500 --> 00:00:40,410
-Luck visits once. Work feeds you every day.
+00:00:51,246 --> 00:00:55,480
+Luck visits once, but work will feed you every day

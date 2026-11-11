@@ -1,52 +1,52 @@
 [
  {
   "t0": 0.3,
-  "t1": 4.12,
-  "text": "A farmer was hoeing his field one spring morning."
+  "t1": 6.06,
+  "text": "A farmer hoed his field one early morning in the spring"
  },
  {
-  "t0": 4.2,
-  "t1": 7.02,
-  "text": "Out of the grass, a hare came racing,"
+  "t0": 6.144,
+  "t1": 10.79,
+  "text": "Out of the grass a hare came racing on the wing"
  },
  {
-  "t0": 7.1,
-  "t1": 11.01,
-  "text": "ran straight into an old tree stump, and fell still."
+  "t0": 10.865,
+  "t1": 17.44,
+  "text": "It hit an old tree stump and then it lay still"
  },
  {
-  "t0": 11.3,
-  "t1": 15.22,
-  "text": "\"Dinner, for free!\" the farmer laughed. \"Why work at all?\""
+  "t0": 17.934,
+  "t1": 22.67,
+  "text": "Dinner for free, he laughed, why should I work at all"
  },
  {
-  "t0": 15.3,
-  "t1": 19.52,
-  "text": "He put down his hoe, sat by the stump, and waited."
+  "t0": 22.754,
+  "t1": 28.21,
+  "text": "He laid his hoe down by the stump and waited for the call"
  },
  {
-  "t0": 19.6,
-  "t1": 22.42,
-  "text": "Days passed. The weeds grew."
+  "t0": 28.287,
+  "t1": 33.54,
+  "text": "Days went by, the weeds grew tall"
  },
  {
-  "t0": 22.5,
-  "t1": 25.42,
-  "text": "Weeks passed. No hare came."
+  "t0": 33.619,
+  "t1": 38.53,
+  "text": "Weeks went by, no hare at all"
  },
  {
-  "t0": 26.2,
-  "t1": 31.07,
-  "text": "By autumn, his field was wild, and his bowl was empty."
+  "t0": 38.612,
+  "t1": 44.02,
+  "text": "By autumn his field was wild, his rice bowl empty too"
  },
  {
-  "t0": 31.2,
-  "t1": 35.53,
-  "text": "His neighbors carried home their rice. He was still waiting."
+  "t0": 44.105,
+  "t1": 51.17,
+  "text": "His neighbors carried home their rice, he waited, as fools do"
  },
  {
-  "t0": 36.5,
-  "t1": 40.41,
-  "text": "Luck visits once. Work feeds you every day."
+  "t0": 51.246,
+  "t1": 55.48,
+  "text": "Luck visits once, but work will feed you every day"
  }
 ]

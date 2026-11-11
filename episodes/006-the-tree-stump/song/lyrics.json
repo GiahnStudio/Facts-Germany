@@ -1,0 +1,16 @@
+{
+  "title": "Tales 006 - The Tree Stump",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["A farmer hoed his field one early morning in the spring"] },
+    { "id": "L02", "lines": ["Out of the grass a hare came racing on the wing"] },
+    { "id": "L03", "lines": ["It hit an old tree stump and then it lay still"] },
+    { "id": "L04", "tag": "Verse 2", "lines": ["Dinner for free, he laughed, why should I work at all"] },
+    { "id": "L05", "lines": ["He laid his hoe down by the stump and waited for the call"] },
+    { "id": "L06", "lines": ["Days went by, the weeds grew tall"] },
+    { "id": "L07", "lines": ["Weeks went by, no hare at all"] },
+    { "id": "L08", "tag": "Chorus", "lines": ["By autumn his field was wild, his rice bowl empty too"] },
+    { "id": "L09", "lines": ["His neighbors carried home their rice, he waited, as fools do"] },
+    { "id": "L10", "tag": "Outro", "lines": ["Luck visits once, but work will feed you every day"] }
+  ]
+}
