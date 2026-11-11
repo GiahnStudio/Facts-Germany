@@ -59,5 +59,15 @@
    "tiktok"
   ],
   "metricool_uuid": "-6435056283945646444"
+ },
+ {
+  "ep": "007-the-golden-crack",
+  "date": "2026-11-12",
+  "time": "18:00",
+  "status": "scheduled",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": "-2611103503943643309"
  }
 ]
