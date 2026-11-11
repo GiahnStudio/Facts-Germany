@@ -1,0 +1,119 @@
+{
+ "clip": "b716c6f9-27b6-4b82-bcbf-444f26c70e99",
+ "start": 10.789,
+ "dur": 69.21,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.538
+  },
+  {
+   "id": "L02",
+   "t0": 5.587,
+   "t1": 10.86
+  },
+  {
+   "id": "L03",
+   "t0": 10.965,
+   "t1": 17.674
+  },
+  {
+   "id": "L04",
+   "t0": 17.68,
+   "t1": 22.74
+  },
+  {
+   "id": "L05",
+   "t0": 22.807,
+   "t1": 27.994
+  },
+  {
+   "id": "L06",
+   "t0": 28.064,
+   "t1": 32.934
+  },
+  {
+   "id": "L07",
+   "t0": 32.957,
+   "t1": 38.651
+  },
+  {
+   "id": "L08",
+   "t0": 38.712,
+   "t1": 43.755
+  },
+  {
+   "id": "L09",
+   "t0": 43.845,
+   "t1": 50.6
+  },
+  {
+   "id": "L10",
+   "t0": 50.635,
+   "t1": 54.731
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.538,
+   "text": "The North Wind and the Sun once argued who was strong"
+  },
+  {
+   "id": "L02",
+   "t0": 5.587,
+   "t1": 10.86,
+   "text": "Below, a traveler in a cloak came walking along"
+  },
+  {
+   "id": "L03",
+   "t0": 10.965,
+   "t1": 17.674,
+   "text": "Who takes his cloak away, said the Wind, has won"
+  },
+  {
+   "id": "L04",
+   "t0": 17.68,
+   "t1": 22.74,
+   "text": "The Wind blew hard, the pines bent low, the dust went flying"
+  },
+  {
+   "id": "L05",
+   "t0": 22.807,
+   "t1": 27.994,
+   "text": "But the man held on tighter, the harder it was trying"
+  },
+  {
+   "id": "L06",
+   "t0": 28.064,
+   "t1": 32.934,
+   "text": "And the Wind gave up"
+  },
+  {
+   "id": "L07",
+   "t0": 32.957,
+   "t1": 38.651,
+   "text": "Then the Sun came out and simply shone"
+  },
+  {
+   "id": "L08",
+   "t0": 38.712,
+   "t1": 43.755,
+   "text": "The road grew warm, he wiped his brow"
+  },
+  {
+   "id": "L09",
+   "t0": 43.845,
+   "t1": 50.6,
+   "text": "And took the cloak off on his own"
+  },
+  {
+   "id": "L10",
+   "t0": 50.635,
+   "t1": 54.731,
+   "text": "Gentleness opens what force keeps shut"
+  }
+ ]
+}

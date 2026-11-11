@@ -1,0 +1,39 @@
+1
+00:00:00,300 --> 00:00:05,510
+The North Wind and the Sun once argued who was strong
+
+2
+00:00:05,587 --> 00:00:10,880
+Below, a traveler in a cloak came walking along
+
+3
+00:00:10,965 --> 00:00:17,600
+Who takes his cloak away, said the Wind, has won
+
+4
+00:00:17,680 --> 00:00:22,730
+The Wind blew hard, the pines bent low, the dust went flying
+
+5
+00:00:22,807 --> 00:00:27,980
+But the man held on tighter, the harder it was trying
+
+6
+00:00:28,064 --> 00:00:32,880
+And the Wind gave up
+
+7
+00:00:32,957 --> 00:00:38,630
+Then the Sun came out and simply shone
+
+8
+00:00:38,712 --> 00:00:43,770
+The road grew warm, he wiped his brow
+
+9
+00:00:43,845 --> 00:00:50,550
+And took the cloak off on his own
+
+10
+00:00:50,635 --> 00:00:55,130
+Gentleness opens what force keeps shut

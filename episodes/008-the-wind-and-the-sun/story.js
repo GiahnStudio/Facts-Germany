@@ -1,7 +1,7 @@
 // The Wind and the Sun (Aesop, moved to an old Japanese mountain road) — timeline (narration clock; the film runs on the song, see engine/film.js).
 // Sheets: 0 the road, calm morning · 1 the same road in the gale (alternate impression) · 2 the same road in warm sunlight (alternate impression)
 export const CFG = {
-  DUR: 41.5,
+  DUR: 46.2,
   TAG: 'Tales in Ink · Fable 08',
   SERIES: '墨話',
   HOOK: { lines: ['Wind against Sun.', 'Who is stronger?'], t: [0, 3.2] },
@@ -20,7 +20,7 @@ export const CFG = {
   SHINE: 25.7, WIPE: 30.6, OFF: 33.3,
   MA: [22.1, 22.9],
   MORAL: { wash: [35.5, 36.1], t: 36.0, sealT: 39.8, seal: '陽', big: ['Gentleness opens', 'what force keeps shut.'], small: ['Warmth wins where wind fails.'] },
-  LOOP: { cut: 41.0 },
+  LOOP: { cut: 45.7 },
   CAM: [
     { t: 0, s: 0, x: 540, y: 960, z: 1 },
     { t: 3.2, s: 0, x: 540, y: 900, z: 1.05 },
