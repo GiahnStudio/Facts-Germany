@@ -18,11 +18,11 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Fox and the Persimmons (Aesop: Fox and Grapes) — Ausreden
 - The Dog on the Bridge (Aesop) — Gier nach dem Spiegelbild
 - The Boy Who Cried Tiger (Aesop) — Vertrauen verspielt man nur einmal
-- Original: The Cracked Bowl (Kintsugi) — Brüche machen dich wertvoller
 - Original: The Lantern Maker and the Moth — Licht, das man verschenkt
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 007 The Golden Crack (Original, Kintsugi) — Moral: Your cracks are not your end. Mend them in gold.
 - 006 The Farmer and the Tree Stump (Han Feizi, Japan) — Moral: Luck visits once. Work feeds you every day.
 - 005 The Crow and the Water Jar (Aesop, Japan) — Moral: Little by little, the water rises.
 - 004 The Two Monks and the River (Zen) — Moral: Put down what you carry.
