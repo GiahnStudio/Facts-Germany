@@ -189,7 +189,7 @@ function moral(t) {
     x.fillStyle = PAL.sumi; x.textAlign = 'center'; x.textBaseline = 'middle';
     x.font = '500 28px Shippori'; x.fillText('T H E   M O R A L', W / 2, y0 + 37);
     x.font = '700 76px Shippori'; x.fillText('Peace begins', W / 2, y0 + 190); x.fillText('with who you are.', W / 2, y0 + 285);
-    x.font = '500 34px Shippori'; x.fillStyle = PAL.sumiL; x.fillText('Whatever you become,', W / 2, y0 + 395); x.fillText('something will seem greater.', W / 2, y0 + 440);
+    x.font = '500 34px Shippori'; x.fillStyle = PAL.sumiL; x.fillText('Whatever you become,', W / 2, y0 + 395); x.fillText('something stands greater still.', W / 2, y0 + 440);
   }, p, [0, -14]);
   drawSeal(ctx, '己', W / 2, 1290, 110, clamp((t - T.moralSeal) / .3), { seed: 44, rot: -.02 });
   ctx.restore();
@@ -256,7 +256,7 @@ window.render = render; window.DUR = FDUR; window.EV = events(); window.SUBS = S
 window.TEXTS = T => {
   const out = [], t = toOrig(T);
   if (t >= T.title[0] + .3 && t < T.title[1]) out.push({ id: 'title', text: 'The Stonecutter A TALE WITH A MORAL', x0: 110, y0: 150, x1: 870, y1: 340 });
-  if (t >= T.moral + .4) out.push({ id: 'moral', text: 'THE MORAL Peace begins with who you are. Whatever you become, something will seem greater.', x0: 120, y0: 640, x1: 960, y1: 1160 });
+  if (t >= T.moral + .4) out.push({ id: 'moral', text: 'THE MORAL Peace begins with who you are. Whatever you become, something stands greater still.', x0: 120, y0: 640, x1: 960, y1: 1160 });
   return out;
 };
 render(parseFloat(QS.get('t') ?? '9'));

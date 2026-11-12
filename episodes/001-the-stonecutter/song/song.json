@@ -1,207 +1,207 @@
 {
- "clip": "278939e4-1166-41d0-9d29-7e1f1bd9b9ba",
- "start": 10.18,
- "dur": 102.14,
+ "clip": "94fb5ef6-dc2d-49b3-9376-b2a15162e566",
+ "start": 9.98,
+ "dur": 76.62,
  "sections": [
   {
    "id": "L01",
    "t0": 0.3,
-   "t1": 7.56
+   "t1": 5.6
   },
   {
    "id": "L02",
-   "t0": 7.65,
-   "t1": 10.15
+   "t0": 5.68,
+   "t1": 10.52
   },
   {
    "id": "L03",
-   "t0": 10.23,
-   "t1": 14.22
+   "t0": 10.6,
+   "t1": 15.18
   },
   {
    "id": "L04",
-   "t0": 14.24,
-   "t1": 17.28
+   "t0": 15.22,
+   "t1": 20.82
   },
   {
    "id": "L05",
-   "t0": 17.3,
-   "t1": 19.74
+   "t0": 20.96,
+   "t1": 23.47
   },
   {
    "id": "L06",
-   "t0": 19.98,
-   "t1": 21.95
+   "t0": 23.54,
+   "t1": 26.21
   },
   {
    "id": "L07",
-   "t0": 22.1,
-   "t1": 26.49
+   "t0": 26.29,
+   "t1": 28.61
   },
   {
    "id": "L08",
-   "t0": 26.55,
-   "t1": 31.07
+   "t0": 28.68,
+   "t1": 31.23
   },
   {
    "id": "L09",
-   "t0": 31.14,
-   "t1": 36.54
+   "t0": 31.31,
+   "t1": 36.25
   },
   {
    "id": "L10",
-   "t0": 36.55,
-   "t1": 41.41
+   "t0": 36.38,
+   "t1": 39.19
   },
   {
    "id": "L11",
-   "t0": 41.49,
-   "t1": 46.34
+   "t0": 39.23,
+   "t1": 41.93
   },
   {
    "id": "L12",
-   "t0": 46.79,
-   "t1": 50.37
+   "t0": 42.02,
+   "t1": 44.11
   },
   {
    "id": "L13",
-   "t0": 50.45,
-   "t1": 54.42
+   "t0": 44.22,
+   "t1": 49.22
   },
   {
    "id": "L14",
-   "t0": 57.89,
-   "t1": 63.08
+   "t0": 49.29,
+   "t1": 52.02
   },
   {
    "id": "L15",
-   "t0": 63.16,
-   "t1": 65.47
+   "t0": 52.07,
+   "t1": 54.45
   },
   {
    "id": "L16",
-   "t0": 65.53,
-   "t1": 67.91
+   "t0": 54.51,
+   "t1": 59.41
   },
   {
    "id": "L17",
-   "t0": 67.96,
-   "t1": 73.0
+   "t0": 59.69,
+   "t1": 65.07
   },
   {
    "id": "L18",
-   "t0": 73.08,
-   "t1": 77.92
+   "t0": 65.15,
+   "t1": 70.46
   }
  ],
  "lines": [
   {
    "id": "L01",
    "t0": 0.3,
-   "t1": 7.56,
-   "text": "There once was a stonecutter who wished to be the mightiest of all"
+   "t1": 5.6,
+   "text": "There once was a stonecutter who wished to be great"
   },
   {
    "id": "L02",
-   "t0": 7.65,
-   "t1": 10.15,
-   "text": "One day a rich lord passed him by"
+   "t0": 5.68,
+   "t1": 10.52,
+   "text": "A lord passed him by in his silk and his state"
   },
   {
    "id": "L03",
-   "t0": 10.23,
-   "t1": 14.22,
-   "text": "If only I were him, he sighed"
+   "t0": 10.6,
+   "t1": 15.18,
+   "text": "Oh, if I were him, he sighed at the gate"
   },
   {
    "id": "L04",
-   "t0": 14.24,
-   "t1": 17.28,
-   "text": "And so he was"
+   "t0": 15.22,
+   "t1": 20.82,
+   "text": "And so it was, by the turn of fate"
   },
   {
    "id": "L05",
-   "t0": 17.3,
-   "t1": 19.74,
-   "text": "But the sun beat down even on lords"
+   "t0": 20.96,
+   "t1": 23.47,
+   "text": "But the sun beat down on the lord all day"
   },
   {
    "id": "L06",
-   "t0": 19.98,
-   "t1": 21.95,
-   "text": "I want to be the sun"
+   "t0": 23.54,
+   "t1": 26.21,
+   "text": "Then let me be the sun, he heard himself say"
   },
   {
    "id": "L07",
-   "t0": 22.1,
-   "t1": 26.49,
-   "text": "So he became the sun and scorched the earth below"
+   "t0": 26.29,
+   "t1": 28.61,
+   "text": "He burned as the sun and the earth turned dry"
   },
   {
    "id": "L08",
-   "t0": 26.55,
-   "t1": 31.07,
-   "text": "Until a cloud covered him"
+   "t0": 28.68,
+   "t1": 31.23,
+   "text": "Till a cloud rolled over and covered the sky"
   },
   {
    "id": "L09",
-   "t0": 31.14,
-   "t1": 36.54,
-   "text": "Then let me be the cloud"
+   "t0": 31.31,
+   "t1": 36.25,
+   "text": "Then let me be the cloud, was his cry"
   },
   {
    "id": "L10",
-   "t0": 36.55,
-   "t1": 41.41,
-   "text": "He rained and rained and flooded all the land"
+   "t0": 36.38,
+   "t1": 39.19,
+   "text": "He rained and he rained till the rivers ran wide"
   },
   {
    "id": "L11",
-   "t0": 41.49,
-   "t1": 46.34,
-   "text": "But one thing did not move"
+   "t0": 39.23,
+   "t1": 41.93,
+   "text": "But one thing stood still on the mountainside"
   },
   {
    "id": "L12",
-   "t0": 46.79,
-   "t1": 50.37,
-   "text": "Let me be the mountain"
+   "t0": 42.02,
+   "t1": 44.11,
+   "text": "Let me be the mountain, he cried"
   },
   {
    "id": "L13",
-   "t0": 50.45,
-   "t1": 54.42,
-   "text": "Now he was mighty, unmoving"
+   "t0": 44.22,
+   "t1": 49.22,
+   "text": "Now mighty, unmoving, he stood in his pride"
   },
   {
    "id": "L14",
-   "t0": 57.89,
-   "t1": 63.08,
-   "text": "Until he felt something at his feet"
+   "t0": 49.29,
+   "t1": 52.02,
+   "text": "Then he felt a tap, tap, tap at his feet"
   },
   {
    "id": "L15",
-   "t0": 63.16,
-   "t1": 65.47,
-   "text": "A stonecutter"
+   "t0": 52.07,
+   "t1": 54.45,
+   "text": "A stonecutter's chisel, steady and neat"
   },
   {
    "id": "L16",
-   "t0": 65.53,
-   "t1": 67.91,
-   "text": "Let me be myself, he whispered"
+   "t0": 54.51,
+   "t1": 59.41,
+   "text": "Let me be myself, he whispered, complete"
   },
   {
    "id": "L17",
-   "t0": 67.96,
-   "t1": 73.0,
-   "text": "Whatever you become, something will seem greater"
+   "t0": 59.69,
+   "t1": 65.07,
+   "text": "Whatever you become, something stands greater still"
   },
   {
    "id": "L18",
-   "t0": 73.08,
-   "t1": 77.92,
-   "text": "Peace begins with who you are"
+   "t0": 65.15,
+   "t1": 70.46,
+   "text": "Peace begins with who you are, and always will"
   }
  ]
 }
