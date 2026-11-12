@@ -3,7 +3,7 @@
 Kanal von GIAHN (Antworten an ihn immer auf **Deutsch**). Die Videos selbst sind auf **Englisch**.
 Ein Short pro Tag (9:16, 1080×1920, **61–66 s**, nie unter 61 s: TikTok-Monetarisierung): eine Fabel / Parabel als **gesungener Song (Suno)**, am Ende eine Moral als gedrucktes Schild.
 **Seit 11.11.2026 (GIAHNs Entscheidung, ab Folge 007): jede Folge ist ein gesungener Suno-Song, das Bild wird auf den Gesang getimt — siehe Abschnitt „Der Song“.**
-Plattformen: TikTok, Instagram (Reel), YouTube (Short) — alle über **Metricool**, Konto **ininktales@gmail.com**.
+Plattformen: TikTok über **Metricool** (Konto **ininktales@gmail.com**); YouTube direkt über YouTube Studio (Kanal „Ink in tales“, siehe Abschnitt „YouTube“). Instagram vorerst nicht.
 Die `blogId` nie raten: per `getBrandSettings` die Marke nehmen, in der der Tales-in-Ink-TikTok verbunden ist
 (nie die alte Marke 7714006 „Who has more?“ von giahnstudio@gmail.com). Zeitzone: die der Marke (Berliner Zeit).
 
@@ -74,7 +74,7 @@ Der fertige Film läuft auf dem Song: `engine/film.js` streckt jeden Sprecher-Bl
 
 - Vorher `getBrandSettings`: Meldet es „doesn't have any social network connected“ oder fehlt `tiktokData`, ist TikTok in Marke 7942950 **nicht** verbunden (die Meldung ist korrekt — am 07.11. scheiterte deshalb der erste Post mit „TikTok was disconnected“). Dann nichts einplanen, GIAHN bitten, TikTok hier zu verbinden: https://app.metricool.com/brands/connections?blogId=7942950 (angemeldet als ininktales@gmail.com). Liefert getBrandSettings die alte Marke 7714006, ist der Connector mit dem falschen Konto verbunden → nichts einplanen, GIAHN melden.
 - Richtige Marke: `blogId` **7942950** (Konto ininktales@gmail.com). TikTok `who.has.more1` nie verwenden.
-- **Vorerst nur TikTok** (GIAHNs Entscheidung, Metricool-Gratistarif): `providers` = nur tiktok, nur `tiktokData`. Instagram/YouTube erst einplanen, wenn GIAHN das freigibt und diese Zeile hier geändert ist. Fehlende Netze also NICHT als Problem melden.
+- **Vorerst nur TikTok** (GIAHNs Entscheidung, Metricool-Gratistarif): `providers` = nur tiktok, nur `tiktokData`. Instagram erst einplanen (YouTube läuft NICHT über Metricool, sondern direkt, siehe „YouTube“), wenn GIAHN das freigibt und diese Zeile hier geändert ist. Fehlende Netze also NICHT als Problem melden.
 - **Metricool-Gratistarif: max. 20 veröffentlichte Posts pro Kalendermonat.** Vor dem Einplanen zählen (veröffentlicht + eingeplant im Monat des Termins). Ist der Monat voll, auf den 1. des Folgemonats ausweichen und GIAHN das einmal kurz sagen.
 - Folgen mit `status: "manual"` in plan.json hat GIAHN selbst hochgeladen — nie einplanen.
 - Ein Post pro Folge, täglich **18:00 Europe/Berlin**, nächster freier Tag (Plan in `plan.json` + `getScheduledPosts` prüfen; nie zwei Folgen am selben Tag). Die zwei alten „Who has more“-Entwürfe (#whohasmore) nie anfassen.
