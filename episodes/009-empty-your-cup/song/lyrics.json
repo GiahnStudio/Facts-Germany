@@ -1,0 +1,18 @@
+{
+  "title": "Tales 009 - Empty Your Cup",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["A scholar climbed the mountain to an old master's door"] },
+    { "id": "L02", "lines": ["Teach me Zen, he said, though I have read it all before"] },
+    { "id": "L03", "lines": ["He talked and talked of everything he knew"] },
+    { "id": "L04", "lines": ["The master only smiled and set the tea to brew"] },
+    { "id": "L05", "tag": "Verse 2", "lines": ["He filled the scholar's cup up to the brim"] },
+    { "id": "L06", "lines": ["And kept on pouring, over the rim"] },
+    { "id": "L07", "lines": ["It ran across the table and down onto the floor"] },
+    { "id": "L08", "lines": ["Stop, the scholar cried, it cannot hold any more"] },
+    { "id": "L09", "tag": "Chorus", "lines": ["You are like this cup, the old man said"] },
+    { "id": "L10", "lines": ["Full to the brim with the thoughts in your head"] },
+    { "id": "L11", "lines": ["Nothing new can enter, nothing can begin"] },
+    { "id": "L12", "lines": ["Empty your cup, and let the world pour in"] }
+  ]
+}

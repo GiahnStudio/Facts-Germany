@@ -1,0 +1,14 @@
+[
+ {"id":"L01","text":"A proud scholar climbed the mountain to an old master's door.","voice":"bm_george","speed":0.92},
+ {"id":"L02","text":"\"Teach me Zen,\" he said, \"though I have read it all before.\"","voice":"bm_george","speed":0.92},
+ {"id":"L03","text":"He talked and talked of everything he knew.","voice":"bm_george","speed":0.92},
+ {"id":"L04","text":"The master only smiled, and set the tea to brew.","voice":"bm_george","speed":0.9},
+ {"id":"L05","text":"He filled the scholar's cup up to the brim,","voice":"bm_george","speed":0.9},
+ {"id":"L06","text":"and kept on pouring, over the rim.","voice":"bm_george","speed":0.9},
+ {"id":"L07","text":"It ran across the table and down onto the floor.","voice":"bm_george","speed":0.9},
+ {"id":"L08","text":"\"Stop!\" the scholar cried. \"It cannot hold any more!\"","voice":"bm_george","speed":0.9},
+ {"id":"L09","text":"\"You are like this cup,\" the old man said,","voice":"bm_george","speed":0.88},
+ {"id":"L10","text":"\"full to the brim with the thoughts in your head.","voice":"bm_george","speed":0.88},
+ {"id":"L11","text":"Nothing new can enter. Nothing can begin.\"","voice":"bm_george","speed":0.88},
+ {"id":"L12","text":"Empty your cup, and let the world pour in.","voice":"bm_george","speed":0.86}
+]

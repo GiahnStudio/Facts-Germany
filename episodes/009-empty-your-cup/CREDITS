@@ -1,0 +1,9 @@
+Empty Your Cup — asset sources & licences
+
+Story       "Empty your cup", a traditional Zen teaching story (public domain), retold in original words.
+Artwork     Drawn procedurally in code (print.js, nature.js, traveler.js, views.js). Original compositions.
+            Print engine, nature and traveller rig adapted from the Lemo-Opuscar library (github.com/lemomo-ai/lemo-opuscar), MIT License.
+Song        Original lyrics (song/lyrics.json); music and vocal generated with Suno (GIAHN's account), clip 107d9476-cf66-498e-9cd2-9990ada05ceb.
+Sound FX    Synthesized in code (mix.py + core/audio/sfx.py). No recordings.
+Voice       Kokoro TTS v1.0 (kokoro-onnx), Apache-2.0 — voice bm_george (picture clock only, not in the mix).
+Fonts       Shippori Mincho (FONTDASU), Yuji Syuku (Kinuta Font Factory) — Google Fonts, SIL Open Font License 1.1 (subsets in fonts/).

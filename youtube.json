@@ -40,5 +40,12 @@
   "status": "queued",
   "date": null,
   "url": null
+ },
+ {
+  "ep": "009-empty-your-cup",
+  "file": "out/009-empty-your-cup.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
  }
 ]

@@ -83,5 +83,14 @@
   ],
   "metricool_uuid": "-7646597223301887930",
   "note": "gesungene Suno-Fassung"
+ },
+ {
+  "ep": "009-empty-your-cup",
+  "date": null,
+  "time": null,
+  "status": "rendered",
+  "networks": [],
+  "metricool_uuid": null,
+  "note": "gesungene Suno-Fassung"
  }
 ]

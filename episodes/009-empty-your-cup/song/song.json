@@ -1,0 +1,141 @@
+{
+ "clip": "107d9476-cf66-498e-9cd2-9990ada05ceb",
+ "start": 12.78,
+ "dur": 87.98,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.162
+  },
+  {
+   "id": "L02",
+   "t0": 5.227,
+   "t1": 10.698
+  },
+  {
+   "id": "L03",
+   "t0": 10.778,
+   "t1": 15.912
+  },
+  {
+   "id": "L04",
+   "t0": 15.981,
+   "t1": 21.748
+  },
+  {
+   "id": "L05",
+   "t0": 21.761,
+   "t1": 27.453
+  },
+  {
+   "id": "L06",
+   "t0": 27.701,
+   "t1": 32.719
+  },
+  {
+   "id": "L07",
+   "t0": 32.799,
+   "t1": 37.552
+  },
+  {
+   "id": "L08",
+   "t0": 37.647,
+   "t1": 42.907
+  },
+  {
+   "id": "L09",
+   "t0": 42.926,
+   "t1": 48.664
+  },
+  {
+   "id": "L10",
+   "t0": 48.836,
+   "t1": 53.267
+  },
+  {
+   "id": "L11",
+   "t0": 53.362,
+   "t1": 59.456
+  },
+  {
+   "id": "L12",
+   "t0": 59.562,
+   "t1": 63.321
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.162,
+   "text": "A scholar climbed the mountain to an old master's door"
+  },
+  {
+   "id": "L02",
+   "t0": 5.227,
+   "t1": 10.698,
+   "text": "Teach me Zen, he said, though I have read it all before"
+  },
+  {
+   "id": "L03",
+   "t0": 10.778,
+   "t1": 15.912,
+   "text": "He talked and talked of everything he knew"
+  },
+  {
+   "id": "L04",
+   "t0": 15.981,
+   "t1": 21.748,
+   "text": "The master only smiled and set the tea to brew"
+  },
+  {
+   "id": "L05",
+   "t0": 21.761,
+   "t1": 27.453,
+   "text": "He filled the scholar's cup up to the brim"
+  },
+  {
+   "id": "L06",
+   "t0": 27.701,
+   "t1": 32.719,
+   "text": "And kept on pouring, over the rim"
+  },
+  {
+   "id": "L07",
+   "t0": 32.799,
+   "t1": 37.552,
+   "text": "It ran across the table and down onto the floor"
+  },
+  {
+   "id": "L08",
+   "t0": 37.647,
+   "t1": 42.907,
+   "text": "Stop, the scholar cried, it cannot hold any more"
+  },
+  {
+   "id": "L09",
+   "t0": 42.926,
+   "t1": 48.664,
+   "text": "You are like this cup, the old man said"
+  },
+  {
+   "id": "L10",
+   "t0": 48.836,
+   "t1": 53.267,
+   "text": "Full to the brim with the thoughts in your head"
+  },
+  {
+   "id": "L11",
+   "t0": 53.362,
+   "t1": 59.456,
+   "text": "Nothing new can enter, nothing can begin"
+  },
+  {
+   "id": "L12",
+   "t0": 59.562,
+   "t1": 63.321,
+   "text": "Empty your cup, and let the world pour in"
+  }
+ ]
+}
