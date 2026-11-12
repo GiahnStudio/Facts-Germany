@@ -1,0 +1,44 @@
+[
+ {
+  "ep": "001-the-stonecutter",
+  "file": "out/001-the-stonecutter-song.mp4",
+  "status": "published",
+  "date": "2026-11-12",
+  "url": "https://youtube.com/shorts/hOM8B1DkFNE"
+ },
+ {
+  "ep": "002-the-frog-in-the-well",
+  "file": "out/002-the-frog-in-the-well-song.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
+ },
+ {
+  "ep": "003-the-lost-horse",
+  "file": "out/003-the-lost-horse-song.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
+ },
+ {
+  "ep": "006-the-tree-stump",
+  "file": "out/006-the-tree-stump-song.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
+ },
+ {
+  "ep": "007-the-golden-crack",
+  "file": "out/007-the-golden-crack-song.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
+ },
+ {
+  "ep": "008-the-wind-and-the-sun",
+  "file": "out/008-the-wind-and-the-sun.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
+ }
+]

@@ -81,8 +81,29 @@ Der fertige Film läuft auf dem Song: `engine/film.js` streckt jeden Sprecher-Bl
 - `createScheduledPost` mit `media` = Raw-GitHub-URL aus `out/`, `providers` = (später) tiktok, instagram, youtube, `text` = caption,
   `tiktokData` {privacyOption PUBLIC_TO_EVERYONE, title, isAigc true}, `instagramData` {type REEL, showReelOnFeed true, isAiGenerated true},
   `youtubeData` {title, type short, privacy public, madeForKids false, category FILM_ANIMATION, tags, isAiGeneratedContent false}. Kein Thumbnail-Feld.
-- Danach `plan.json` ergänzen (`status: "scheduled"`, `metricool_uuid`). Metricool speichert das Video selbst; `out/`-Dateien von Folgen, die schon veröffentlicht sind und älter als 3 Tage, löschen (Repo klein halten).
+- Danach `plan.json` ergänzen (`status: "scheduled"`, `metricool_uuid`). Metricool speichert das Video selbst. `out/`-Dateien erst löschen, wenn die Folge auf TikTok veröffentlicht UND in `youtube.json` `published` ist und beides älter als 3 Tage ist (YouTube lädt aus `out/`).
 - Posts mit Status ERROR (`getScheduledPosts`, Tales-in-Ink-Posts) → nichts Neues einplanen, GIAHN die Fehlermeldung schicken.
+
+## YouTube (seit 12.11.2026, GIAHNs Auftrag: vollautomatisch öffentlich, täglich eine Folge)
+
+Kanal **„Ink in tales“** (@Inkintales), Studio-ID `UCl0pz6Um260UiR9I2c1ARbw`. Dasselbe Google-Konto hat auch GIAHN STUDIO, Durchschaut, Aufgerechnet, THE ENGRAVED BESTIARY, Blaupause Erfindungen — dort nie hochladen.
+Nur **gesungene** Fassungen auf YouTube (nie Sprecher-Fassungen; 004 und 005 gibt es nur gesprochen → bleiben draußen, bis GIAHN eine Song-Fassung will).
+Liste: `youtube.json` `[{ep, file, status: queued|published, date, url}]`. Neue Song-Folgen hinten mit `queued` anhängen (`file` = Upload-Kopie in `out/`).
+
+Pro Lauf **höchstens eine** Folge hochladen: die erste mit `queued`, und nur wenn heute (Europe/Berlin) noch keine Folge `published` wurde.
+1. Eingebauter Browser (Skill built-in-browser lesen). `https://studio.youtube.com/channel/UCl0pz6Um260UiR9I2c1ARbw/videos/upload?d=ud` öffnen. Prüfen, dass „Ink in tales“ aktiv ist (Seitentext/`#entity-name`); sonst `https://www.youtube.com/account` → Eintrag „Ink in tales“ anklicken → zurück zu Studio.
+2. Datei einspeisen (öffentlich lesbar, CORS ok):
+   ```js
+   await new Promise(r => setTimeout(r, 4000));
+   const b = await (await fetch('https://raw.githubusercontent.com/GiahnStudio/facts-germany/tales-in-ink/<file>')).blob();
+   const input = document.querySelector('input[type=file]'); const dt = new DataTransfer();
+   dt.items.add(new File([b], 'Tales NNN - Title.mp4', { type: 'video/mp4' })); input.files = dt.files;
+   input.dispatchEvent(new Event('change', { bubbles: true })); b.size
+   ```
+3. Titel-Feld (erstes `#textbox`) anklicken, Strg+A, `meta.json.title` tippen; Beschreibung (zweites `#textbox`) anklicken und tippen: `caption` aus meta.json, dabei `#talesinink` durch `#inkintales` ersetzen und vor den Hashtags den Satz „Which fable should I print next? Tell me in the comments.“ einfügen.
+4. Per JS: `document.querySelector('tp-yt-paper-radio-button[name=VIDEO_MADE_FOR_KIDS_NOT_MFK]').click()` (aria-checked prüfen), dann 3× `#next-button` (je 2,5 s Pause), `#privacy-radios tp-yt-paper-radio-button[name=PUBLIC]` klicken, `#done-button` („Veröffentlichen“) klicken. Shorts-Link aus dem Dialog lesen (`youtube.com/shorts/…`), „Schließen“.
+5. `youtube.json`: `status: published`, `date`, `url`; committen (`[skip ci]`), pushen.
+- Weiterleitung auf accounts.google.com (Passwort) → nie ein Passwort tippen, GIAHN bitten, sich im Browser-Fenster anzumelden. „Tägliches Upload-Limit“ → morgen weiter. PC/Browser nicht erreichbar → nichts hochladen, GIAHN kurz melden.
 
 ## Puffer
 
