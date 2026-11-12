@@ -2,136 +2,163 @@
   "pfandautomat:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": true
+    "pinned": true,
+    "playlist": true
   },
   "pfandautomat:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "pfandautomat:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "ampel:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": true
+    "pinned": true,
+    "playlist": true
   },
   "ampel:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "ampel:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "aufzug:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": true,
+    "playlist": true
   },
   "aufzug:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "aufzug:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "mikrowelle:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "mikrowelle:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "mikrowelle:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "strichcode:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "strichcode:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "strichcode:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kontaktlos:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kontaktlos:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kontaktlos:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "wasserhahn:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "wasserhahn:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "wasserhahn:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "rolltreppe:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "rolltreppe:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "rolltreppe:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kuehlschrank:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kuehlschrank:s1": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   },
   "kuehlschrank:s2": {
     "uploaded": "2026-11-07",
     "thumb": false,
-    "pinned": false
+    "pinned": false,
+    "playlist": true
   }
 }
