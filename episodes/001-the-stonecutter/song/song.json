@@ -1,0 +1,207 @@
+{
+ "clip": "278939e4-1166-41d0-9d29-7e1f1bd9b9ba",
+ "start": 10.18,
+ "dur": 102.14,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 7.56
+  },
+  {
+   "id": "L02",
+   "t0": 7.65,
+   "t1": 10.15
+  },
+  {
+   "id": "L03",
+   "t0": 10.23,
+   "t1": 14.22
+  },
+  {
+   "id": "L04",
+   "t0": 14.24,
+   "t1": 17.28
+  },
+  {
+   "id": "L05",
+   "t0": 17.3,
+   "t1": 19.74
+  },
+  {
+   "id": "L06",
+   "t0": 19.98,
+   "t1": 21.95
+  },
+  {
+   "id": "L07",
+   "t0": 22.1,
+   "t1": 26.49
+  },
+  {
+   "id": "L08",
+   "t0": 26.55,
+   "t1": 31.07
+  },
+  {
+   "id": "L09",
+   "t0": 31.14,
+   "t1": 36.54
+  },
+  {
+   "id": "L10",
+   "t0": 36.55,
+   "t1": 41.41
+  },
+  {
+   "id": "L11",
+   "t0": 41.49,
+   "t1": 46.34
+  },
+  {
+   "id": "L12",
+   "t0": 46.79,
+   "t1": 50.37
+  },
+  {
+   "id": "L13",
+   "t0": 50.45,
+   "t1": 54.42
+  },
+  {
+   "id": "L14",
+   "t0": 57.89,
+   "t1": 63.08
+  },
+  {
+   "id": "L15",
+   "t0": 63.16,
+   "t1": 65.47
+  },
+  {
+   "id": "L16",
+   "t0": 65.53,
+   "t1": 67.91
+  },
+  {
+   "id": "L17",
+   "t0": 67.96,
+   "t1": 73.0
+  },
+  {
+   "id": "L18",
+   "t0": 73.08,
+   "t1": 77.92
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 7.56,
+   "text": "There once was a stonecutter who wished to be the mightiest of all"
+  },
+  {
+   "id": "L02",
+   "t0": 7.65,
+   "t1": 10.15,
+   "text": "One day a rich lord passed him by"
+  },
+  {
+   "id": "L03",
+   "t0": 10.23,
+   "t1": 14.22,
+   "text": "If only I were him, he sighed"
+  },
+  {
+   "id": "L04",
+   "t0": 14.24,
+   "t1": 17.28,
+   "text": "And so he was"
+  },
+  {
+   "id": "L05",
+   "t0": 17.3,
+   "t1": 19.74,
+   "text": "But the sun beat down even on lords"
+  },
+  {
+   "id": "L06",
+   "t0": 19.98,
+   "t1": 21.95,
+   "text": "I want to be the sun"
+  },
+  {
+   "id": "L07",
+   "t0": 22.1,
+   "t1": 26.49,
+   "text": "So he became the sun and scorched the earth below"
+  },
+  {
+   "id": "L08",
+   "t0": 26.55,
+   "t1": 31.07,
+   "text": "Until a cloud covered him"
+  },
+  {
+   "id": "L09",
+   "t0": 31.14,
+   "t1": 36.54,
+   "text": "Then let me be the cloud"
+  },
+  {
+   "id": "L10",
+   "t0": 36.55,
+   "t1": 41.41,
+   "text": "He rained and rained and flooded all the land"
+  },
+  {
+   "id": "L11",
+   "t0": 41.49,
+   "t1": 46.34,
+   "text": "But one thing did not move"
+  },
+  {
+   "id": "L12",
+   "t0": 46.79,
+   "t1": 50.37,
+   "text": "Let me be the mountain"
+  },
+  {
+   "id": "L13",
+   "t0": 50.45,
+   "t1": 54.42,
+   "text": "Now he was mighty, unmoving"
+  },
+  {
+   "id": "L14",
+   "t0": 57.89,
+   "t1": 63.08,
+   "text": "Until he felt something at his feet"
+  },
+  {
+   "id": "L15",
+   "t0": 63.16,
+   "t1": 65.47,
+   "text": "A stonecutter"
+  },
+  {
+   "id": "L16",
+   "t0": 65.53,
+   "t1": 67.91,
+   "text": "Let me be myself, he whispered"
+  },
+  {
+   "id": "L17",
+   "t0": 67.96,
+   "t1": 73.0,
+   "text": "Whatever you become, something will seem greater"
+  },
+  {
+   "id": "L18",
+   "t0": 73.08,
+   "t1": 77.92,
+   "text": "Peace begins with who you are"
+  }
+ ]
+}

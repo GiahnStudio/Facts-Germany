@@ -1,6 +1,6 @@
 // The Frog in the Well — timeline (single source of truth). Sheets: 0 well · 1 sea · 2 the climb (cut-away) · 3 the open sky
 export const CFG = {
-  DUR: 44.0,
+  DUR: 45.0,
   TAG: 'Tales in Ink · Fable 02',
   SERIES: '墨話',
   HOOK: { lines: ['He thought he had seen', 'the whole sky.'], t: [0, 3.0] },
@@ -17,7 +17,7 @@ export const CFG = {
   VO: { L01: 0.3, L02: 3.3, L03: 6.4, L04: 10.6, L05: 13.1, L06: 16.8, L07: 21.0, L08: 23.9, L09: 29.0, L10: 35.0, L11: 39.0 },
   NO_SUB: ['L11'],
   MORAL: { wash: [38.2, 38.9], t: 38.7, sealT: 41.4, seal: '井', big: ['Your sky is only', 'as big as your well.'], small: ['Climb out.'] },
-  LOOP: { cut: 43.45 },
+  LOOP: { cut: 44.45 },
   CAM: [
     { t: 0, s: 0, x: 540, y: 960, z: 1 },
     { t: 2.6, s: 0, x: 540, y: 1000, z: 1.12 },

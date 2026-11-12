@@ -13,3 +13,4 @@ episodes/*/music/score.json
 __pycache__/
 episodes/*/film.js
 episodes/*/song/song.wav
+episodes/*/song/song_full.wav

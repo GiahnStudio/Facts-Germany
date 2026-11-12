@@ -18,6 +18,19 @@ buildTextures();
 // —— Subtitles ——
 export const SUBS = Object.entries(VO).filter(([id]) => !NO_SUB.includes(id)).map(([id, t0]) => { const d = DURS[id] ?? (LINE[id]?.text.length || 30) * .065; return { id, t0, t1: t0 + Math.max(1.8, d + .6), text: LINE[id]?.text || '' }; });
 SUBS.forEach((s, i) => { if (SUBS[i + 1] && s.t1 > SUBS[i + 1].t0 - .08) s.t1 = SUBS[i + 1].t0 - .08; });
+// —— Song mode (like engine/film.js): narration blocks warped onto the sung blocks ——
+const SONG = QS.has('nosong') ? null : await J('song/song.json');
+let toOrig = x => x, toNew = x => x, FDUR = DUR;
+if (SONG) {
+  const A = [];
+  for (const [id, t0] of Object.entries(VO)) { const sc = SONG.sections.find(x => x.id === id); if (sc) A.push([sc.t0, t0], [sc.t1, t0 + (DURS[id] ?? 2.5)]); }
+  A.sort((a, b) => a[0] - b[0]); for (let i = 1; i < A.length; i++) if (A[i][1] < A[i - 1][1]) A[i][1] = A[i - 1][1];
+  const map = (v, j) => { const n = A.length - 1; if (v <= A[0][j]) return A[0][j ^ 1] - (A[0][j] - v); if (v >= A[n][j]) return A[n][j ^ 1] + (v - A[n][j]); let i = 0; while (i < n - 1 && v > A[i + 1][j]) i++; return A[i][j ^ 1] + (A[i + 1][j ^ 1] - A[i][j ^ 1]) * (v - A[i][j]) / ((A[i + 1][j] - A[i][j]) || 1); };
+  toOrig = x => map(x, 0); toNew = x => map(x, 1); FDUR = +Math.min(SONG.dur, toNew(DUR)).toFixed(2);
+  SUBS.length = 0;
+  SONG.lines.filter(l => !NO_SUB.includes(l.id)).forEach(l => SUBS.push({ id: l.id, t0: l.t0, t1: Math.max(l.t1 + .4, l.t0 + 1.6), text: l.text }));
+  SUBS.forEach((s, i) => { if (SUBS[i + 1] && s.t1 > SUBS[i + 1].t0 - .08) s.t1 = SUBS[i + 1].t0 - .08; });
+}
 
 // —— Colour block cache ——
 const REG = [[0, 0], [2.2, -1.3], [-1.8, 1.9], [1.5, 2.2]];
@@ -183,11 +196,11 @@ function moral(t) {
 }
 function endFade(t) { const a = ss(seg(t, ...T.end)) * .0; if (a <= 0) return; }
 
-function render(t) {
+function render(T) {
   if (QS.has('poster')) return poster();
-  renderFrame(t, NOSUB);
+  renderFrame(toOrig(T), NOSUB, T);
 }
-function renderFrame(t, nosub) {
+function renderFrame(t, nosub, ts = t) {
   ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
   ctx.fillStyle = '#161a22'; ctx.fillRect(0, 0, W, H);
   const cam = camera(t), M = camMatrix(cam);
@@ -200,7 +213,7 @@ function renderFrame(t, nosub) {
     const Mi = [M[0], M[1], M[2], M[3], M[4] + M[0] * x0, M[5] + M[1] * x0];
     drawSheet(i, t, Mi);
   }
-  if (!nosub) subtitle(t);
+  if (!nosub) subtitle(ts);
   moral(t);
 }
 function poster() {
@@ -235,12 +248,13 @@ function events() {
   add('gust', T.cloudIn[0], { v: 1 }); add('thunder', 26.0, { v: .9 }); add('thunder', 32.4, { v: 1.1 });
   add('rise', T.flood[0], { d: T.flood[1] - T.flood[0] }); add('spill', T.spill[0], { d: T.spill[1] - T.spill[0] });
   add('bell', T.cut5 + .05, { v: 1 });
+  if (SONG) return ev.filter(e => e.type !== 'vo').map(e => ({ ...e, t: +Math.max(0, toNew(e.t)).toFixed(3) })).concat([{ t: 0, type: 'song' }]).sort((a, b) => a.t - b.t);
   return ev.sort((a, b) => a.t - b.t);
 }
 
-window.render = render; window.DUR = DUR; window.EV = events(); window.SUBS = SUBS;
-window.TEXTS = t => {
-  const out = [];
+window.render = render; window.DUR = FDUR; window.EV = events(); window.SUBS = SUBS;
+window.TEXTS = T => {
+  const out = [], t = toOrig(T);
   if (t >= T.title[0] + .3 && t < T.title[1]) out.push({ id: 'title', text: 'The Stonecutter A TALE WITH A MORAL', x0: 110, y0: 150, x1: 870, y1: 340 });
   if (t >= T.moral + .4) out.push({ id: 'moral', text: 'THE MORAL Peace begins with who you are. Whatever you become, something will seem greater.', x0: 120, y0: 640, x1: 960, y1: 1160 });
   return out;

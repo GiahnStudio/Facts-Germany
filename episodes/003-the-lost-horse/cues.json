@@ -1,52 +1,52 @@
 [
  {
   "t0": 0.3,
-  "t1": 3.52,
-  "text": "An old farmer's only horse ran away."
+  "t1": 5.6,
+  "text": "An old farmer's only horse ran away one day"
  },
  {
-  "t0": 3.6,
-  "t1": 8.06,
-  "text": "\"What bad luck,\" said the neighbors. The farmer said, \"Maybe.\""
+  "t0": 5.68,
+  "t1": 11.1,
+  "text": "What bad luck, the neighbors said, but maybe, he would say"
  },
  {
-  "t0": 8.6,
-  "t1": 12.82,
-  "text": "Days later, the horse came home, leading a wild stallion."
+  "t0": 11.18,
+  "t1": 16.01,
+  "text": "Days later the horse came home and brought a wild stallion"
  },
  {
-  "t0": 12.9,
-  "t1": 17.34,
-  "text": "\"What good luck!\" said the neighbors. \"Maybe,\" said the farmer."
+  "t0": 16.09,
+  "t1": 21.53,
+  "text": "What good luck, the neighbors cried, and maybe, said the old man"
  },
  {
-  "t0": 17.7,
-  "t1": 22.62,
-  "text": "His son tried to ride the wild horse. He fell, and broke his leg."
+  "t0": 21.61,
+  "t1": 26.45,
+  "text": "His son tried to ride the wild horse, he fell and broke his leg"
  },
  {
-  "t0": 22.7,
-  "t1": 25.37,
-  "text": "\"What bad luck.\" \"Maybe.\""
+  "t0": 26.53,
+  "t1": 31.98,
+  "text": "What bad luck, they said again, and maybe, he said"
  },
  {
-  "t0": 25.8,
-  "t1": 29.72,
-  "text": "Then soldiers came, taking every young man to war."
+  "t0": 32.06,
+  "t1": 37.21,
+  "text": "Then soldiers came and took the young men off to war"
  },
  {
-  "t0": 29.8,
-  "t1": 33.95,
-  "text": "Every young man, except one with a broken leg."
+  "t0": 37.29,
+  "t1": 42.21,
+  "text": "Every young man but the one with the broken leg"
  },
  {
-  "t0": 34.3,
-  "t1": 36.61,
-  "text": "Good luck? Bad luck?"
+  "t0": 42.29,
+  "t1": 47.58,
+  "text": "Good luck or bad luck"
  },
  {
-  "t0": 37.3,
-  "t1": 40.9,
-  "text": "Who knows what today will turn into."
+  "t0": 47.66,
+  "t1": 51.06,
+  "text": "Who knows what today will turn into"
  }
 ]

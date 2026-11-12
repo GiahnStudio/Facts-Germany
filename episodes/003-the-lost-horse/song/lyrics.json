@@ -1,0 +1,70 @@
+{
+ "title": "Tales 003 - The Lost Horse",
+ "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+ "sections": [
+  {
+   "id": "L01",
+   "tag": "Verse 1",
+   "lines": [
+    "An old farmer's only horse ran away one day"
+   ]
+  },
+  {
+   "id": "L02",
+   "lines": [
+    "What bad luck, the neighbors said, but maybe, he would say"
+   ]
+  },
+  {
+   "id": "L03",
+   "lines": [
+    "Days later the horse came home and brought a wild stallion"
+   ]
+  },
+  {
+   "id": "L04",
+   "lines": [
+    "What good luck, the neighbors cried, and maybe, said the old man"
+   ]
+  },
+  {
+   "id": "L05",
+   "tag": "Verse 2",
+   "lines": [
+    "His son tried to ride the wild horse, he fell and broke his leg"
+   ]
+  },
+  {
+   "id": "L06",
+   "lines": [
+    "What bad luck, they said again, and maybe, he said"
+   ]
+  },
+  {
+   "id": "L07",
+   "tag": "Chorus",
+   "lines": [
+    "Then soldiers came and took the young men off to war"
+   ]
+  },
+  {
+   "id": "L08",
+   "lines": [
+    "Every young man but the one with the broken leg"
+   ]
+  },
+  {
+   "id": "L09",
+   "lines": [
+    "Good luck or bad luck"
+   ]
+  },
+  {
+   "id": "L10",
+   "tag": "Outro",
+   "lines": [
+    "Who knows what today will turn into"
+   ]
+  }
+ ]
+}

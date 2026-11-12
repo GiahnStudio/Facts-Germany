@@ -1,6 +1,6 @@
 // The Lost Horse (塞翁失馬) — timeline. Sheets: 0 farm in autumn · 1 the same farm in spring (alternate impression) · 2 the fall · 3 the soldiers
 export const CFG = {
-  DUR: 41.5,
+  DUR: 51.0,
   TAG: 'Tales in Ink · Fable 03',
   SERIES: '墨話',
   HOOK: { lines: ['His only horse ran away.', 'Bad luck?'], t: [0, 3.2] },
@@ -17,7 +17,7 @@ export const CFG = {
   VO: { L01: 0.3, L02: 3.6, L03: 8.6, L04: 12.9, L05: 17.7, L06: 22.7, L07: 25.8, L08: 29.8, L09: 34.3, L10: 37.3 },
   NO_SUB: ['L10'],
   MORAL: { wash: [36.4, 37.0], t: 36.9, sealT: 39.6, seal: '翁', big: ['Good luck, bad luck —', 'who knows?'], small: ['Wait before you judge the day.'] },
-  LOOP: { cut: 41.0 },
+  LOOP: { cut: 50.5 },
   CAM: [
     { t: 0, s: 0, x: 540, y: 960, z: 1 },
     { t: 3.4, s: 0, x: 520, y: 1000, z: 1.08 },

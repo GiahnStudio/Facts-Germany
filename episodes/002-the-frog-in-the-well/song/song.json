@@ -1,0 +1,130 @@
+{
+ "clip": "03c61d08-fb6c-4879-9fb8-ff89c35eb926",
+ "start": 10.81,
+ "dur": 75.75,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.52
+  },
+  {
+   "id": "L02",
+   "t0": 5.62,
+   "t1": 11.27
+  },
+  {
+   "id": "L03",
+   "t0": 11.34,
+   "t1": 15.77
+  },
+  {
+   "id": "L04",
+   "t0": 15.77,
+   "t1": 20.96
+  },
+  {
+   "id": "L05",
+   "t0": 21.02,
+   "t1": 26.09
+  },
+  {
+   "id": "L06",
+   "t0": 26.12,
+   "t1": 33.16
+  },
+  {
+   "id": "L07",
+   "t0": 33.47,
+   "t1": 37.99
+  },
+  {
+   "id": "L08",
+   "t0": 38.29,
+   "t1": 44.16
+  },
+  {
+   "id": "L09",
+   "t0": 44.19,
+   "t1": 49.26
+  },
+  {
+   "id": "L10",
+   "t0": 49.33,
+   "t1": 54.43
+  },
+  {
+   "id": "L11",
+   "t0": 54.46,
+   "t1": 58.98
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.52,
+   "text": "A frog lived at the bottom of a well so deep"
+  },
+  {
+   "id": "L02",
+   "t0": 5.62,
+   "t1": 11.27,
+   "text": "Above him just one circle of the sky to keep"
+  },
+  {
+   "id": "L03",
+   "t0": 11.34,
+   "t1": 15.77,
+   "text": "That is the whole sky, he said, I have seen it all"
+  },
+  {
+   "id": "L04",
+   "t0": 15.77,
+   "t1": 20.96,
+   "text": "One day a sea turtle looked down the wall"
+  },
+  {
+   "id": "L05",
+   "t0": 21.02,
+   "t1": 26.09,
+   "text": "Come up, said the turtle, the sky is far bigger"
+  },
+  {
+   "id": "L06",
+   "t0": 26.12,
+   "t1": 33.16,
+   "text": "The frog just laughed, bigger than my sky, impossible"
+  },
+  {
+   "id": "L07",
+   "t0": 33.47,
+   "t1": 37.99,
+   "text": "So the turtle told him of the sea"
+  },
+  {
+   "id": "L08",
+   "t0": 38.29,
+   "t1": 44.16,
+   "text": "Wider than a thousand wells, deeper than the mountains are tall"
+  },
+  {
+   "id": "L09",
+   "t0": 44.19,
+   "t1": 49.26,
+   "text": "The frog said nothing, then for the first time he climbed"
+  },
+  {
+   "id": "L10",
+   "t0": 49.33,
+   "t1": 54.43,
+   "text": "And the sky had no edge at all"
+  },
+  {
+   "id": "L11",
+   "t0": 54.46,
+   "t1": 58.98,
+   "text": "Your sky is only as big as your well"
+  }
+ ]
+}

@@ -1,39 +1,39 @@
 1
-00:00:00,300 --> 00:00:03,520
-An old farmer's only horse ran away.
+00:00:00,300 --> 00:00:05,600
+An old farmer's only horse ran away one day
 
 2
-00:00:03,600 --> 00:00:08,060
-"What bad luck," said the neighbors. The farmer said, "Maybe."
+00:00:05,680 --> 00:00:11,100
+What bad luck, the neighbors said, but maybe, he would say
 
 3
-00:00:08,600 --> 00:00:12,820
-Days later, the horse came home, leading a wild stallion.
+00:00:11,180 --> 00:00:16,010
+Days later the horse came home and brought a wild stallion
 
 4
-00:00:12,900 --> 00:00:17,340
-"What good luck!" said the neighbors. "Maybe," said the farmer.
+00:00:16,090 --> 00:00:21,530
+What good luck, the neighbors cried, and maybe, said the old man
 
 5
-00:00:17,700 --> 00:00:22,620
-His son tried to ride the wild horse. He fell, and broke his leg.
+00:00:21,610 --> 00:00:26,450
+His son tried to ride the wild horse, he fell and broke his leg
 
 6
-00:00:22,700 --> 00:00:25,370
-"What bad luck." "Maybe."
+00:00:26,530 --> 00:00:31,980
+What bad luck, they said again, and maybe, he said
 
 7
-00:00:25,800 --> 00:00:29,720
-Then soldiers came, taking every young man to war.
+00:00:32,060 --> 00:00:37,210
+Then soldiers came and took the young men off to war
 
 8
-00:00:29,800 --> 00:00:33,950
-Every young man, except one with a broken leg.
+00:00:37,290 --> 00:00:42,210
+Every young man but the one with the broken leg
 
 9
-00:00:34,300 --> 00:00:36,610
-Good luck? Bad luck?
+00:00:42,290 --> 00:00:47,580
+Good luck or bad luck
 
 10
-00:00:37,300 --> 00:00:40,900
-Who knows what today will turn into.
+00:00:47,660 --> 00:00:51,060
+Who knows what today will turn into

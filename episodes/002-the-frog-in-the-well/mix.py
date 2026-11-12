@@ -165,22 +165,34 @@ for e in E['ev']:
     elif ty == 'amb':
         a = amb(e['w'], e['d']); a = fade(a, .4, .4); add(ab, a, t, .09 if e['w'] == 'rain' else .2, 0)
 
-vm = compress(vo[:, 0] * 1.414, .2, 3, .004, .1); vo = np.stack([vm, vm], 1) / 1.414
-room = np.zeros_like(vo); dl = int(.023 * SR); room[dl:] = vo[:-dl] * .12; vo = vo + lp(room, 3000)
-mu, _ = sf.read(os.path.join(HERE, 'music/score.wav'))
-if mu.ndim == 1: mu = np.stack([mu, mu], 1)
-mu = np.pad(mu[:N], ((0, max(0, N - len(mu[:N]))), (0, 0)))
-duck = np.ones(N)
-for id_, (t0, d) in VOICE.items():
-    a, b = int((t0 - .25) * SR), int((t0 + d + .3) * SR); duck[a:b] = np.minimum(duck[a:b], .4)
-duck = uniform_filter1d(duck, int(.25 * SR))
-mu *= duck[:, None]; ab *= np.sqrt(duck)[:, None]
-MIX = mu * 1.7 + vo * 1.3 + fx * 1.0 + ab * 1.0
-# the ma on the mountain: ambience out, only voice and the taps
-MA = E.get('ma') or [0, 0]
-a, b = int(MA[0] * SR), int(MA[1] * SR); ab_cut = np.ones(N); ab_cut[a:b] = 0; ab_cut = uniform_filter1d(ab_cut, int(.4 * SR))
-MIX = MIX - ab * (1 - ab_cut)[:, None]
-k = int((DUR - .25) * SR); MIX[k:] *= np.linspace(1, 0, N - k)[:, None]   # tiny tail fade only: the film loops
+SONG = any(e['type'] == 'song' for e in E['ev'])
+if SONG:
+    # sung version: the Suno song carries voice and music; block/print noises and ambience stay quietly underneath
+    sj = json.load(open(os.path.join(HERE, 'song', 'song.json')))
+    mu, sr = sf.read(os.path.join(HERE, 'song', 'song.wav'))
+    if mu.ndim == 1: mu = np.stack([mu, mu], 1)
+    if sr != SR: mu = resample_poly(mu, SR, sr, axis=0)
+    i0 = int(sj.get('start', 0) * SR); mu = mu[i0:i0 + N]; mu = np.pad(mu, ((0, N - len(mu)), (0, 0)))
+    mu = mu * (.9 / (np.abs(mu).max() + 1e-9))
+    MIX = mu * 1.0 + fx * .5 + ab * .45
+    k = int((DUR - .8) * SR); MIX[k:] *= np.linspace(1, 0, N - k)[:, None]
+else:
+    vm = compress(vo[:, 0] * 1.414, .2, 3, .004, .1); vo = np.stack([vm, vm], 1) / 1.414
+    room = np.zeros_like(vo); dl = int(.023 * SR); room[dl:] = vo[:-dl] * .12; vo = vo + lp(room, 3000)
+    mu, _ = sf.read(os.path.join(HERE, 'music/score.wav'))
+    if mu.ndim == 1: mu = np.stack([mu, mu], 1)
+    mu = np.pad(mu[:N], ((0, max(0, N - len(mu[:N]))), (0, 0)))
+    duck = np.ones(N)
+    for id_, (t0, d) in VOICE.items():
+        a, b = int((t0 - .25) * SR), int((t0 + d + .3) * SR); duck[a:b] = np.minimum(duck[a:b], .4)
+    duck = uniform_filter1d(duck, int(.25 * SR))
+    mu *= duck[:, None]; ab *= np.sqrt(duck)[:, None]
+    MIX = mu * 1.7 + vo * 1.3 + fx * 1.0 + ab * 1.0
+    # the ma on the mountain: ambience out, only voice and the taps
+    MA = E.get('ma') or [0, 0]
+    a, b = int(MA[0] * SR), int(MA[1] * SR); ab_cut = np.ones(N); ab_cut[a:b] = 0; ab_cut = uniform_filter1d(ab_cut, int(.4 * SR))
+    MIX = MIX - ab * (1 - ab_cut)[:, None]
+    k = int((DUR - .25) * SR); MIX[k:] *= np.linspace(1, 0, N - k)[:, None]   # tiny tail fade only: the film loops
 MIX = limit(MIX, .92)
 sf.write(os.path.join(HERE, 'mix.wav'), MIX.astype(np.float32), SR)
 def db(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-9)
