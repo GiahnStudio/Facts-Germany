@@ -86,11 +86,13 @@
  },
  {
   "ep": "009-empty-your-cup",
-  "date": null,
-  "time": null,
-  "status": "rendered",
-  "networks": [],
-  "metricool_uuid": null,
+  "date": "2026-11-14",
+  "time": "18:00",
+  "status": "scheduled",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": "5365265180867447348",
   "note": "gesungene Suno-Fassung"
  }
 ]
