@@ -3,7 +3,7 @@
 Kanal von GIAHN (Antworten an ihn immer auf **Deutsch**). Die Videos selbst sind auf **Englisch**.
 Ein Short pro Tag (9:16, 1080×1920, **61–66 s**, nie unter 61 s: TikTok-Monetarisierung): eine Fabel / Parabel als **gesungener Song (Suno)**, am Ende eine Moral als gedrucktes Schild.
 **Seit 11.11.2026 (GIAHNs Entscheidung, ab Folge 007): jede Folge ist ein gesungener Suno-Song, das Bild wird auf den Gesang getimt — siehe Abschnitt „Der Song“.**
-Plattformen: TikTok über **Metricool** (Konto **ininktales@gmail.com**); YouTube direkt über YouTube Studio (Kanal „Ink in tales“, siehe Abschnitt „YouTube“). Instagram vorerst nicht.
+Plattformen: TikTok über **Metricool** (Konto **ininktales@gmail.com**); YouTube direkt über YouTube Studio (Kanal „Tales in Ink“, siehe Abschnitt „YouTube“). Instagram vorerst nicht.
 Die `blogId` nie raten: per `getBrandSettings` die Marke nehmen, in der der Tales-in-Ink-TikTok verbunden ist
 (nie die alte Marke 7714006 „Who has more?“ von giahnstudio@gmail.com). Zeitzone: die der Marke (Berliner Zeit).
 
@@ -86,12 +86,12 @@ Der fertige Film läuft auf dem Song: `engine/film.js` streckt jeden Sprecher-Bl
 
 ## YouTube (seit 12.11.2026, GIAHNs Auftrag: vollautomatisch öffentlich, täglich eine Folge)
 
-Kanal **„Ink in tales“** (@Inkintales), Studio-ID `UCl0pz6Um260UiR9I2c1ARbw`. Dasselbe Google-Konto hat auch GIAHN STUDIO, Durchschaut, Aufgerechnet, THE ENGRAVED BESTIARY, Blaupause Erfindungen — dort nie hochladen.
+Kanal **„Tales in Ink“** (Handle @Inkintales, falls GIAHN es nicht ändert), Studio-ID `UCl0pz6Um260UiR9I2c1ARbw`. Dasselbe Google-Konto hat auch GIAHN STUDIO, Durchschaut, Aufgerechnet, THE ENGRAVED BESTIARY, Blaupause Erfindungen — dort nie hochladen.
 Nur **gesungene** Fassungen auf YouTube (nie Sprecher-Fassungen; 004 und 005 gibt es nur gesprochen → bleiben draußen, bis GIAHN eine Song-Fassung will).
 Liste: `youtube.json` `[{ep, file, status: queued|published, date, url}]`. Neue Song-Folgen hinten mit `queued` anhängen (`file` = Upload-Kopie in `out/`).
 
 Pro Lauf **höchstens eine** Folge hochladen: die erste mit `queued`, und nur wenn heute (Europe/Berlin) noch keine Folge `published` wurde.
-1. Eingebauter Browser (Skill built-in-browser lesen). `https://studio.youtube.com/channel/UCl0pz6Um260UiR9I2c1ARbw/videos/upload?d=ud` öffnen. Prüfen, dass „Ink in tales“ aktiv ist (Seitentext/`#entity-name`); sonst `https://www.youtube.com/account` → Eintrag „Ink in tales“ anklicken → zurück zu Studio.
+1. Eingebauter Browser (Skill built-in-browser lesen). `https://studio.youtube.com/channel/UCl0pz6Um260UiR9I2c1ARbw/videos/upload?d=ud` öffnen. Prüfen, dass „Tales in Ink“ aktiv ist (Seitentext/`#entity-name`); sonst `https://www.youtube.com/account` → Eintrag „Tales in Ink“ anklicken → zurück zu Studio.
 2. Datei einspeisen (öffentlich lesbar, CORS ok):
    ```js
    await new Promise(r => setTimeout(r, 4000));
@@ -100,7 +100,7 @@ Pro Lauf **höchstens eine** Folge hochladen: die erste mit `queued`, und nur we
    dt.items.add(new File([b], 'Tales NNN - Title.mp4', { type: 'video/mp4' })); input.files = dt.files;
    input.dispatchEvent(new Event('change', { bubbles: true })); b.size
    ```
-3. Titel-Feld (erstes `#textbox`) anklicken, Strg+A, `meta.json.title` tippen; Beschreibung (zweites `#textbox`) anklicken und tippen: `caption` aus meta.json, dabei `#talesinink` durch `#inkintales` ersetzen und vor den Hashtags den Satz „Which fable should I print next? Tell me in the comments.“ einfügen.
+3. Titel-Feld (erstes `#textbox`) anklicken, Strg+A, `meta.json.title` tippen; Beschreibung (zweites `#textbox`) anklicken und tippen: `caption` aus meta.json und vor den Hashtags den Satz „Which fable should I print next? Tell me in the comments.“ einfügen.
 4. Per JS: `document.querySelector('tp-yt-paper-radio-button[name=VIDEO_MADE_FOR_KIDS_NOT_MFK]').click()` (aria-checked prüfen), dann 3× `#next-button` (je 2,5 s Pause), `#privacy-radios tp-yt-paper-radio-button[name=PUBLIC]` klicken, `#done-button` („Veröffentlichen“) klicken. Shorts-Link aus dem Dialog lesen (`youtube.com/shorts/…`), „Schließen“.
 5. `youtube.json`: `status: published`, `date`, `url`; committen (`[skip ci]`), pushen.
 - Weiterleitung auf accounts.google.com (Passwort) → nie ein Passwort tippen, GIAHN bitten, sich im Browser-Fenster anzumelden. „Tägliches Upload-Limit“ → morgen weiter. PC/Browser nicht erreichbar → nichts hochladen, GIAHN kurz melden.
