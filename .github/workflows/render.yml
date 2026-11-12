@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: '22', cache: 'npm', cache-dependency-path: remotion/package-lock.json}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - run: pip install -q edge-tts pillow numpy faster-whisper
+      - run: pip install -q edge-tts pillow numpy scipy faster-whisper
       - run: npm ci --no-audit --no-fund
         working-directory: remotion
       - run: npx remotion browser ensure

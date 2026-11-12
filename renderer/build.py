@@ -184,6 +184,12 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
     total = sum(s["dur"] for s in scenes_out)
     props = {"fps": FPS, "width": W, "height": H, "totalFrames": total, "captions": captions,
              "scenes": scenes_out, "slug": slug, "music": "music/lofi.mp3"}
+    if spec.get("music") == "score":
+        # eigene Filmmusik passend zur Zeitleiste (renderer/score.py) statt Lo-Fi-Loop
+        import score
+        rel = f"ep/{slug}/{tag}_score.mp3"
+        score.write(score.compose(props), os.path.join(REMOTION, "public", rel))
+        props.update({"music": rel, "musicLoop": False, "musicVolume": spec.get("music_volume", 0.11)})
     props_path = os.path.join(epdir, f"{tag}_props.json")
     json.dump(props, open(props_path, "w"), ensure_ascii=False)
     print(f"   {os.path.basename(out_mp4)}: {len(scs)} Szenen, {total / FPS:.1f}s")

@@ -11,7 +11,7 @@ for (const [w, f] of [["500", "Medium"], ["600", "SemiBold"], ["700", "Bold"], [
 }
 
 export type SceneData = { type: string; start: number; dur: number; adur: number; audio: string; words: [number, number, string][]; chapter?: string; [k: string]: any };
-export type VideoProps = { fps: number; width: number; height: number; totalFrames: number; captions: boolean; scenes: SceneData[]; slug: string; music?: string };
+export type VideoProps = { fps: number; width: number; height: number; totalFrames: number; captions: boolean; scenes: SceneData[]; slug: string; music?: string; musicLoop?: boolean; musicVolume?: number };
 
 const Background: React.FC = () => {
   const f = useCurrentFrame();
@@ -126,7 +126,7 @@ const Captions: React.FC<{ scenes: SceneData[]; fps: number; W: number }> = ({ s
   );
 };
 
-export const Video: React.FC<VideoProps> = ({ scenes, fps, width, height, captions, music }) => {
+export const Video: React.FC<VideoProps> = ({ scenes, fps, width, height, captions, music, musicLoop, musicVolume }) => {
   const v = height > width;
   return (
     <AbsoluteFill style={{ background: C.bg }}>
@@ -139,7 +139,7 @@ export const Video: React.FC<VideoProps> = ({ scenes, fps, width, height, captio
       <Logo v={v} />
       <Host scenes={scenes} v={v} W={width} H={height} />
       {captions && <Captions scenes={scenes} fps={fps} W={width} />}
-      {music && <Audio src={staticFile(music)} loop volume={0.07} />}
+      {music && <Audio src={staticFile(music)} loop={musicLoop !== false} volume={musicVolume ?? 0.07} />}
     </AbsoluteFill>
   );
 };
