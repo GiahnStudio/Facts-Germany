@@ -1,0 +1,18 @@
+{
+  "title": "Tales 010 - Pulling the Sprouts",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["A farmer planted rice in rows so green"] },
+    { "id": "L02", "lines": ["The finest little sprouts he'd ever seen"] },
+    { "id": "L03", "lines": ["Each morning he would kneel to check their height"] },
+    { "id": "L04", "lines": ["Too slow, too slow, he grumbled day and night"] },
+    { "id": "L05", "tag": "Verse 2", "lines": ["So out into the moonlit field he strayed"] },
+    { "id": "L06", "lines": ["And tugged them all up higher, blade by blade"] },
+    { "id": "L07", "lines": ["I helped our rice grow taller, he told his son"] },
+    { "id": "L08", "lines": ["The boy ran out to see what he had done"] },
+    { "id": "L09", "tag": "Chorus", "lines": ["Every single sprout lay withered, pale and dry"] },
+    { "id": "L10", "lines": ["Their roots torn loose beneath the morning sky"] },
+    { "id": "L11", "lines": ["Give it water, give it light, and take it slow"] },
+    { "id": "L12", "tag": "Outro", "lines": ["You cannot hurry what must grow"] }
+  ]
+}

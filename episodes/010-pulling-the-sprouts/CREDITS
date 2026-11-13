@@ -1,0 +1,9 @@
+Pulling the Sprouts — asset sources & licences
+
+Story       The impatient farmer who "helped" his sprouts grow (揠苗助長), classical Chinese parable from the Mencius (public domain), moved to old Japan and retold in original words.
+Artwork     Drawn procedurally in code (print.js, nature.js, traveler.js, views.js). Original compositions.
+            Print engine, nature and traveller rig adapted from the Lemo-Opuscar library (github.com/lemomo-ai/lemo-opuscar), MIT License.
+Song        Original lyrics (song/lyrics.json); sung and arranged with Suno (clip id in song/clip.json).
+Sound FX    Synthesized in code (mix.py + core/audio/sfx.py). No recordings.
+Voice       Kokoro TTS v1.0 (kokoro-onnx), Apache-2.0 — voice bm_george (picture clock only, not audible in the sung version).
+Fonts       Shippori Mincho (FONTDASU), Yuji Syuku (Kinuta Font Factory) — Google Fonts, SIL Open Font License 1.1 (subsets in fonts/).

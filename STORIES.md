@@ -8,7 +8,6 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Old Man Who Made Trees Bloom (Hanasaka Jiisan) — Güte vs. Neid
 - The Old Man and the Demons' Dance (Kobutori Jiisan) — Nachahmen aus Gier
 - Urashima Taro — Zeit, die man nicht zurückbekommt
-- Pulling the Sprouts — Ungeduld zerstört Wachstum
 - "Is That So?" (Hakuin, Zen) — Gelassenheit gegenüber dem Urteil anderer
 - The Tiger and the Mouse (Aesop: Lion and Mouse) — auch die Kleinen können helfen
 - The Hen That Laid Golden Eggs (Aesop) — Gier zerstört die Quelle
@@ -20,6 +19,7 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 010 Pulling the Sprouts (Mencius, Japan) — gesungene Suno-Fassung. Moral: You cannot hurry what must grow.
 - 009 Empty Your Cup (Zen) — gesungene Suno-Fassung. Moral: Empty your cup, and let the world pour in.
 - 008 The Wind and the Sun (Aesop, Japan) — gesungene Suno-Fassung. Moral: Gentleness opens what force keeps shut.
 - 007 The Golden Crack (Original, Kintsugi) — Moral: Your cracks are not your end. Mend them in gold.

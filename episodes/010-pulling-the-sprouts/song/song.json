@@ -1,0 +1,141 @@
+{
+ "clip": "36834da8-06cd-4c40-9fa6-d9e98bd3207d",
+ "start": 13.613,
+ "dur": 99.19,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.571
+  },
+  {
+   "id": "L02",
+   "t0": 5.617,
+   "t1": 10.703
+  },
+  {
+   "id": "L03",
+   "t0": 10.783,
+   "t1": 14.75
+  },
+  {
+   "id": "L04",
+   "t0": 14.83,
+   "t1": 21.325
+  },
+  {
+   "id": "L05",
+   "t0": 21.354,
+   "t1": 26.704
+  },
+  {
+   "id": "L06",
+   "t0": 26.784,
+   "t1": 31.32
+  },
+  {
+   "id": "L07",
+   "t0": 31.581,
+   "t1": 37.193
+  },
+  {
+   "id": "L08",
+   "t0": 37.247,
+   "t1": 42.773
+  },
+  {
+   "id": "L09",
+   "t0": 42.921,
+   "t1": 47.779
+  },
+  {
+   "id": "L10",
+   "t0": 47.839,
+   "t1": 52.763
+  },
+  {
+   "id": "L11",
+   "t0": 52.819,
+   "t1": 59.022
+  },
+  {
+   "id": "L12",
+   "t0": 59.05,
+   "t1": 62.789
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.571,
+   "text": "A farmer planted rice in rows so green"
+  },
+  {
+   "id": "L02",
+   "t0": 5.617,
+   "t1": 10.703,
+   "text": "The finest little sprouts he'd ever seen"
+  },
+  {
+   "id": "L03",
+   "t0": 10.783,
+   "t1": 14.75,
+   "text": "Each morning he would kneel to check their height"
+  },
+  {
+   "id": "L04",
+   "t0": 14.83,
+   "t1": 21.325,
+   "text": "Too slow, too slow, he grumbled day and night"
+  },
+  {
+   "id": "L05",
+   "t0": 21.354,
+   "t1": 26.704,
+   "text": "So out into the moonlit field he strayed"
+  },
+  {
+   "id": "L06",
+   "t0": 26.784,
+   "t1": 31.32,
+   "text": "And tugged them all up higher, blade by blade"
+  },
+  {
+   "id": "L07",
+   "t0": 31.581,
+   "t1": 37.193,
+   "text": "I helped our rice grow taller, he told his son"
+  },
+  {
+   "id": "L08",
+   "t0": 37.247,
+   "t1": 42.773,
+   "text": "The boy ran out to see what he had done"
+  },
+  {
+   "id": "L09",
+   "t0": 42.921,
+   "t1": 47.779,
+   "text": "Every single sprout lay withered, pale and dry"
+  },
+  {
+   "id": "L10",
+   "t0": 47.839,
+   "t1": 52.763,
+   "text": "Their roots torn loose beneath the morning sky"
+  },
+  {
+   "id": "L11",
+   "t0": 52.819,
+   "t1": 59.022,
+   "text": "Give it water, give it light, and take it slow"
+  },
+  {
+   "id": "L12",
+   "t0": 59.05,
+   "t1": 62.789,
+   "text": "You cannot hurry what must grow"
+  }
+ ]
+}

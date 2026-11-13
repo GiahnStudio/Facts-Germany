@@ -47,5 +47,12 @@
   "status": "queued",
   "date": null,
   "url": null
+ },
+ {
+  "ep": "010-pulling-the-sprouts",
+  "file": "out/010-pulling-the-sprouts.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
  }
 ]

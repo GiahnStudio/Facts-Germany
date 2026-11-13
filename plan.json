@@ -95,5 +95,16 @@
   ],
   "metricool_uuid": "5365265180867447348",
   "note": "gesungene Suno-Fassung"
+ },
+ {
+  "ep": "010-pulling-the-sprouts",
+  "date": null,
+  "time": null,
+  "status": "rendered",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": null,
+  "note": "gesungene Suno-Fassung"
  }
 ]
