@@ -66,12 +66,13 @@
   "ep": "007-the-golden-crack",
   "date": "2026-11-12",
   "time": "18:00",
-  "status": "scheduled",
+  "status": "published",
   "networks": [
    "tiktok"
   ],
   "metricool_uuid": "-2611103503943643309",
-  "note": "gesungene Suno-Fassung (out/007-the-golden-crack-song.mp4), ersetzt die Sprecher-Fassung"
+  "note": "gesungene Suno-Fassung (out/007-the-golden-crack-song.mp4), ersetzt die Sprecher-Fassung",
+  "tiktok_id": "7707331832869801219"
  },
  {
   "ep": "008-the-wind-and-the-sun",
