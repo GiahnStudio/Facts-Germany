@@ -1,0 +1,568 @@
+{
+ "slug": "toilette",
+ "voice": "files",
+ "date": "2026-11-25",
+ "time": "17:00",
+ "title": "Wie funktioniert eigentlich die Toilettenspülung? (Das passiert im Spülkasten)",
+ "tags": "toilettenspülung, wie funktioniert eine toilettenspülung, spülkasten, spülkasten funktion, füllventil, schwimmer, spartaste, geruchsverschluss, siphon toilette, warum steht wasser im klo, wie funktioniert das, durchschaut",
+ "pin": "Große oder kleine Taste – welche drückst du öfter? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Ein Druck auf die Taste, es rauscht, und alles ist weg. Aber was passiert eigentlich im Spülkasten? Lupo schaut hinein: wie Ablaufventil, Füllventil und Schwimmer zusammenarbeiten, warum es zwei Tasten gibt, warum unten in der Schüssel immer Wasser steht – und wie ein Patent von 1775 dafür sorgt, dass es im Bad nicht stinkt.\n\nKapitel\n{kapitel}\n\nQuellen\n- 126 Liter Trinkwasser pro Person und Tag, 27 % für die Toilettenspülung (Umweltbundesamt): https://www.umweltbundesamt.de/daten/private-haushalte-konsum/wohnen/wassernutzung-privater-haushalte\n- Aufbau des Spülkastens: Ablaufventil, Füllventil, Schwimmer, Überlauf (Hausjournal): https://www.hausjournal.net/spuelkasten-aufbau\n- Spülmengen 6 l / 3 l ab Werk, einstellbar (Geberit, Datenblatt AP-Spülkasten AP140): https://documents.pdod.de/geberit/gedb_art_140300101_2026.pdf\n- Ältere Spülkästen 9 bis 12 Liter (megabad Magazin): https://www.megabad.com/magazin/?p=15764\n- Spülung nicht vorzeitig stoppen, Feuchttücher, Ablagerungen in Kanälen (Berliner Wasserbetriebe/BDEW bei t-online): https://www.t-online.de/heim-garten/haushaltstipps/id_88741522/toilette-vorsicht-die-wasserspartaste-kann-zu-verstopftem-abfluss-fuehren.html\n- Geruchsverschluss: stehendes Wasser im gebogenen Rohr, Pflicht an jeder Ablaufstelle (Baunetz Wissen): https://www.baunetzwissen.de/glossar/g/geruchsverschluss-2459121\n- Harington 1596, Cummings Patent 1775 (Spektrum der Wissenschaft): https://www.spektrum.de/news/erfindung-der-toilette-das-erste-klo-das-nicht-stank/2249556\n- Kanalnetz 608.000 km, 8.891 Kläranlagen, 97 % angeschlossen (BDEW, Abwasserdaten Deutschland 2023, Zahlen 2019): https://bdew.de/media/documents/WEB_bdew_broschuere_abwasserdaten_2023_28032024.pdf\n- Grauwasser und Regenwasser für die Toilettenspülung, Hamburg Jenfelder Au (ZDFheute): https://www.zdfheute.de/wissen/wasser-sparen-trinkwasser-toilette-grauwasser-100.html\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#toilette #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Was passiert, wenn du spülst?",
+   "chip": "BLICK IN DEN SPÜLKASTEN",
+   "mood": "wow",
+   "icon": "toilet"
+  },
+  "B": {
+   "big": "Darum stinkt dein Klo nicht",
+   "chip": "DER TRICK VON 1775",
+   "stamp": "GENIAL",
+   "stamp_color": "green",
+   "mood": "cheer",
+   "icon": "drop"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Was passiert, wenn du spülst?",
+   "size": 96,
+   "sub": "Ein Druck auf die Taste, es rauscht, und alles ist weg.",
+   "sub_at": "rauscht",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: die Toilettenspülung. Ein Druck auf die Taste, es rauscht, und alles ist weg. Und ein paar Sekunden später ist der Kasten schon wieder voll. Aber woher weiß er eigentlich, wann er aufhören muss?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Ähm… Lupo?",
+      "at": "Toilettenspülung"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in den Spülkasten",
+   "items": [
+    {
+     "text": "Die zwei Ventile",
+     "at": "Ventile"
+    },
+    {
+     "text": "Ein schwimmender Helfer",
+     "at": "Schwimmer"
+    },
+    {
+     "text": "Der Trick gegen Gestank",
+     "at": "Gestank"
+    },
+    {
+     "text": "Ein Patent von 1775",
+     "at": "Patent"
+    }
+   ],
+   "say": "Heute schauen wir in den Spülkasten: auf die zwei Ventile, die alles steuern, auf einen kleinen Schwimmer, auf den Trick gegen Gestank, und auf ein Patent von 1775."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie viel Wasser fließt bei der großen Spülung eines modernen Spülkastens?",
+   "size": 56,
+   "options": [
+    {
+     "text": "Etwa 1 Liter",
+     "at": "A"
+    },
+    {
+     "text": "Etwa 6 Liter",
+     "at": "B"
+    },
+    {
+     "text": "Etwa 20 Liter",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie viel Wasser fließt bei der großen Spülung eines modernen Spülkastens? A: etwa ein Liter. B: etwa sechs Liter. C: etwa zwanzig Liter. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Ein Viertel fürs Klo",
+   "title": "So viel Wasser geht durchs Klo",
+   "items": [
+    {
+     "num": "126 Liter",
+     "label": "Trinkwasser pro Person und Tag (2022)",
+     "at": "Trinkwasser"
+    },
+    {
+     "num": "27 %",
+     "label": "davon für die Toilettenspülung",
+     "color": "green",
+     "at": "Toilettenspülung"
+    }
+   ],
+   "say": "Und Wasser geht da einiges durch. Jeder Mensch in Deutschland verbraucht im Schnitt 126 Liter Trinkwasser am Tag. Davon landen 27 Prozent in der Toilettenspülung. Das ist mehr als ein Viertel, nur fürs Klo.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "So viel?!",
+      "at": "Viertel"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Im Spülkasten",
+   "icon": "toilet",
+   "label": "DER SPÜLKASTEN",
+   "headline": "Zwei Ventile, ein Schwimmer",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Das Ablaufventil lässt Wasser in die Schüssel.",
+     "at": "Ablaufventil"
+    },
+    {
+     "text": "Das Füllventil lässt frisches Wasser nach.",
+     "at": "Füllventil"
+    },
+    {
+     "text": "Der Schwimmer sagt dem Füllventil, wann Schluss ist.",
+     "at": "Schwimmer"
+    }
+   ],
+   "say": "Ein Spülkasten ist im Inneren erstaunlich einfach. Unten sitzt das Ablaufventil, das lässt das Wasser in die Schüssel. Seitlich sitzt das Füllventil, das lässt frisches Wasser aus der Leitung nach. Und dazwischen gibt es einen Schwimmer, der dem Füllventil sagt, wann Schluss ist."
+  },
+  {
+   "type": "spuelung",
+   "chapter": "Was beim Spülen passiert",
+   "title": "Was beim Spülen passiert",
+   "press_at": "Taste",
+   "flush_at": "Schüssel",
+   "fill_at": "Füllventil",
+   "seal_at": "Bogen",
+   "say": "Schauen wir zu. Du drückst die Taste. Ein Hebel hebt das Ablaufventil an, und das ganze Wasser im Kasten schießt durch das Rohr in die Schüssel. Der Wasserstand sinkt, und mit ihm sinkt der Schwimmer. Dadurch öffnet sich das Füllventil, und frisches Wasser strömt nach. Das Ablaufventil fällt wieder zu, der Kasten füllt sich, der Schwimmer steigt mit, und wenn er oben ist, schließt er das Füllventil. Und unten im Bogen bleibt ein bisschen Wasser stehen.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Platsch!",
+      "at": "schießt"
+     },
+     {
+      "text": "Clever!",
+      "at": "schließt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie viel Wasser fließt bei der großen Spülung?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Etwa 1 Liter",
+    "Etwa 6 Liter",
+    "Etwa 20 Liter"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Bei modernen Spülkästen ist die große Spülung meist auf sechs Liter eingestellt. Ältere Spülkästen ohne Spartaste brauchen dagegen oft neun Liter und mehr."
+  },
+  {
+   "type": "split",
+   "chapter": "Zwei Tasten",
+   "title": "Warum es zwei Tasten gibt",
+   "items": [
+    {
+     "icon": "drop",
+     "label": "GROSSE TASTE",
+     "title": "Etwa 6 Liter",
+     "text": "Für alles, was richtig weggespült werden muss.",
+     "color": "amber",
+     "at": "große"
+    },
+    {
+     "icon": "drop",
+     "label": "KLEINE TASTE",
+     "title": "Etwa 3 Liter",
+     "text": "Für das kleine Geschäft. Spart Wasser.",
+     "color": "green",
+     "at": "kleine"
+    }
+   ],
+   "say": "Und deshalb haben viele Spülkästen zwei Tasten. Die große Taste spült ab Werk meist sechs Liter. Die kleine Taste nur etwa drei Liter, das reicht fürs kleine Geschäft und spart Wasser."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Trick gegen Gestank",
+   "icon": "drop",
+   "label": "DER GERUCHSVERSCHLUSS",
+   "headline": "Wasser als Tür zum Kanal",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Im gebogenen Rohr bleibt immer Wasser stehen.",
+     "at": "gebogenen"
+    },
+    {
+     "text": "Es sperrt die Gase aus dem Kanal aus.",
+     "at": "Kanal"
+    },
+    {
+     "text": "Jeder Abfluss braucht so eine Sperre.",
+     "at": "Abfluss"
+    }
+   ],
+   "say": "Jetzt zu dem Wasser im Bogen. Das ist kein Rest, das ist Absicht. Im gebogenen Rohr unter der Schüssel bleibt immer etwas Wasser stehen. Es wirkt wie eine Tür und sperrt die Gase aus dem Kanal aus. Deshalb stinkt es im Bad nicht nach Abwasser. Und so eine Sperre braucht nicht nur das Klo, sondern grundsätzlich jeder Abfluss im Haus.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Puh, zum Glück!",
+      "at": "stinkt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Ein Patent von 1775",
+   "title": "Die Erfindung, die nicht stank",
+   "steps": [
+    {
+     "date": "1596",
+     "text": "John Harington baut eine Toilette mit Spülung – für sich und Königin Elisabeth I.",
+     "at": "Harington"
+    },
+    {
+     "date": "Problem",
+     "text": "Ohne Wassersperre können Gerüche zurück ins Haus ziehen.",
+     "at": "Wassersperre"
+    },
+    {
+     "date": "1775",
+     "text": "Alexander Cumming bekommt ein Patent auf ein S-förmiges Rohr.",
+     "at": "Cumming"
+    },
+    {
+     "date": "Bis heute",
+     "text": "Das stehende Wasser im Bogen hält Gerüche fern.",
+     "at": "heute"
+    }
+   ],
+   "stamp": "PATENTIERT",
+   "stamp_color": "green",
+   "stamp_at": "Patent",
+   "say": "Die Idee ist übrigens älter, als du denkst. Schon 1596 baute John Harington eine Toilette mit Spülung, eine für sich, eine für Königin Elisabeth die Erste. Aber ohne Wassersperre konnten Gerüche aus dem Rohr zurück ins Haus ziehen. Fast 200 Jahre später, 1775, bekam der Schotte Alexander Cumming ein Patent auf ein S-förmig gebogenes Rohr unter der Schüssel. Und genau dieses stehende Wasser im Bogen hält bis heute die Gerüche fern.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Endlich!",
+      "at": "S-förmig"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Wenn es ständig rauscht",
+   "icon": "warn",
+   "label": "TYPISCHES PROBLEM",
+   "headline": "Der Kasten läuft nach",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Das Füllventil schließt nicht richtig …",
+     "at": "Füllventil"
+    },
+    {
+     "text": "… oder das Ablaufventil ist nicht mehr dicht.",
+     "at": "dicht"
+    },
+    {
+     "text": "Dann rinnt Wasser ständig in die Schüssel.",
+     "at": "ständig"
+    }
+   ],
+   "say": "Und wenn es ständig leise rauscht? Dann schließt meistens das Füllventil nicht richtig, oder das Ablaufventil ist nicht mehr dicht. Damit der Kasten trotzdem nicht überläuft, gibt es einen Überlauf, der das Wasser in die Schüssel leitet. Dann rinnt aber ständig Wasser durch, ein Fall für die Reparatur."
+  },
+  {
+   "type": "bignum",
+   "chapter": "Wohin das Wasser fließt",
+   "title": "Nach dem Spülen geht die Reise weiter",
+   "items": [
+    {
+     "num": "608.000 km",
+     "label": "öffentliches Kanalnetz in Deutschland",
+     "size": 120,
+     "at": "Kanalnetz"
+    },
+    {
+     "num": "8.891",
+     "label": "öffentliche Kläranlagen",
+     "color": "green",
+     "at": "Kläranlagen"
+    }
+   ],
+   "say": "Und wohin fließt das alles? Über das Abflussrohr in die Kanalisation. Das öffentliche Kanalnetz in Deutschland ist rund 608.000 Kilometer lang, und rund 97 Prozent der Menschen sind daran angeschlossen. Am Ende landet das Abwasser in einer von 8.891 öffentlichen Kläranlagen, wo es gereinigt wird.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Was für eine Reise!",
+      "at": "Kläranlagen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "drop",
+   "label": "Behauptung 1",
+   "text": "Je weniger Wasser beim Spülen, desto besser für die Rohre.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Fließt",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Je weniger Wasser beim Spülen, desto besser für die Rohre. ... Mythos. Fließt zu wenig Wasser, bleiben Papier und Schmutz in den Rohren und Kanälen liegen. Die Berliner Wasserbetriebe raten deshalb davon ab, die Spülung vorzeitig zu stoppen.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "toilet",
+   "label": "Behauptung 2",
+   "text": "Das Wasser unten in der Schüssel steht da mit Absicht.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Zweitens: Das Wasser unten in der Schüssel steht da mit Absicht. ... Stimmt. Es ist der Geruchsverschluss, der die Gase aus dem Kanal aussperrt.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 3",
+   "text": "Die Spültoilette wurde erst im 20. Jahrhundert erfunden.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "say": "Und drittens: Die Spültoilette wurde erst im 20. Jahrhundert erfunden. ... Mythos. Die erste Spültoilette baute John Harington schon 1596, das Patent auf den Geruchsverschluss kam 1775.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Viel älter!",
+      "at": "1596"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Die Zukunft",
+   "icon": "recycle",
+   "label": "DIE ZUKUNFT",
+   "headline": "Spülen ohne Trinkwasser?",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Regenwasser oder aufbereitetes Duschwasser kann spülen.",
+     "at": "Regenwasser"
+    },
+    {
+     "text": "Dafür braucht es aber ein zweites Leitungsnetz.",
+     "at": "zweites"
+    },
+    {
+     "text": "In Hamburg wird das schon im Alltag getestet.",
+     "at": "Hamburg"
+    }
+   ],
+   "say": "Und die Zukunft? Eigentlich ist es verrückt, dass wir mit bestem Trinkwasser spülen. Regenwasser oder aufbereitetes Duschwasser, sogenanntes Grauwasser, könnte das auch. Dafür braucht ein Haus aber ein zweites Leitungsnetz, Filter und Pumpen. In einem Neubauviertel in Hamburg wird so etwas schon im Alltag ausprobiert."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps fürs stille Örtchen",
+   "items": [
+    {
+     "text": "Kleine Taste fürs kleine Geschäft, aber nie die Spülung vorzeitig stoppen",
+     "icon": "drop",
+     "at": "Eins"
+    },
+    {
+     "text": "Feuchttücher gehören nicht ins Klo, sondern in den Müll",
+     "icon": "warn",
+     "at": "Zwei"
+    },
+    {
+     "text": "Rauscht es ständig? Dann ist ein Ventil undicht",
+     "icon": "bell",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps fürs stille Örtchen. Eins: Nimm die kleine Taste fürs kleine Geschäft, aber stopp die Spülung nicht vorzeitig. Zwei: Feuchttücher gehören nicht ins Klo, sondern in den Müll, denn sie können Rohre verstopfen. Drei: Wenn es ständig rauscht, ist meist ein Ventil undicht, und dann läuft dauernd Wasser durch.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Merken!",
+      "at": "Müll"
+     }
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Zwei Ventile, ein Schwimmer, ein Bogen.",
+   "size": 86,
+   "sub": "Ein einfacher Trick, der seit Jahrhunderten funktioniert.",
+   "sub_at": "Trick",
+   "say": "Also: Das Ablaufventil lässt das Wasser raus, das Füllventil lässt es wieder rein, der Schwimmer sagt, wann Schluss ist, und das Wasser im Bogen hält den Gestank fern. Ein einfacher Trick, der seit Jahrhunderten funktioniert."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "sechs_liter",
+   "title": "Wie viel Wasser spült dein Klo weg? #shorts",
+   "date": "2026-11-25",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie viel Wasser fließt bei der großen Spülung?",
+     "size": 56,
+     "options": [
+      {
+       "text": "Etwa 1 Liter",
+       "at": "A"
+      },
+      {
+       "text": "Etwa 6 Liter",
+       "at": "B"
+      },
+      {
+       "text": "Etwa 20 Liter",
+       "at": "C"
+      }
+     ],
+     "say": "Wie viel Wasser fließt bei der großen Spülung? A: etwa ein Liter. B: etwa sechs Liter. C: etwa zwanzig Liter.",
+     "pause": 2.5
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Wie viel Wasser fließt bei der großen Spülung?",
+     "size": 56,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Etwa 1 Liter",
+      "Etwa 6 Liter",
+      "Etwa 20 Liter"
+     ],
+     "say": "Richtig ist B. Moderne Spülkästen sind meist auf sechs Liter eingestellt, die kleine Taste spült nur etwa drei.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Gewusst?",
+        "at": "drei"
+       }
+      ]
+     }
+    },
+    {
+     "type": "fact",
+     "icon": "drop",
+     "label": "ZUM VERGLEICH",
+     "headline": "Ältere Spülkästen: oft 9 Liter und mehr",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Über ein Viertel unseres Trinkwassers geht durchs Klo.",
+       "at": "Viertel"
+      }
+     ],
+     "say": "Ältere Spülkästen brauchen oft neun Liter und mehr. Und insgesamt geht über ein Viertel unseres Trinkwassers durchs Klo."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "warum_stinkt_es_nicht",
+   "title": "Warum stinkt dein Klo eigentlich nicht? #shorts",
+   "date": "2026-11-26",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum stinkt dein Klo nicht?",
+     "size": 90,
+     "sub": "Unter dir ist der Kanal.",
+     "sub_at": "Kanal",
+     "say": "Unter deinem Klo ist direkt der Kanal. Warum stinkt es dann eigentlich nicht?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Gute Frage!",
+        "at": "stinkt"
+       }
+      ]
+     }
+    },
+    {
+     "type": "flow",
+     "title": "Der Trick im Bogen",
+     "items": [
+      {
+       "icon": "drop",
+       "text": "Im gebogenen Rohr bleibt Wasser stehen",
+       "at": "gebogenen"
+      },
+      {
+       "icon": "warn",
+       "text": "Die Kanalgase kommen nicht durch",
+       "at": "Gase"
+      },
+      {
+       "icon": "calendar",
+       "text": "Patentiert 1775",
+       "at": "1775"
+      }
+     ],
+     "say": "Der Trick: Im gebogenen Rohr unter der Schüssel bleibt immer Wasser stehen. Durch dieses Wasser kommen die Gase aus dem Kanal nicht durch. Patentiert hat das der Schotte Alexander Cumming, schon 1775."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie die ganze Spülung funktioniert, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

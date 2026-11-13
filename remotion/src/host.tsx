@@ -53,6 +53,11 @@ export const lupoEvents = (s: SceneData, idx: number, last: boolean): Ev[] => {
       ev.push({ at: at(s.flip_at, 0.55), mood: "wow", dur: 1.6 });
       ev.push({ at: at(s.hot_at, 0.8) + 0.4, mood: "cheer", dur: 1.6 });
       break;
+    case "spuelung":
+      ev.push({ at: at(s.press_at, 0.08), mood: "pointLeft", dur: 1.2 });
+      ev.push({ at: at(s.flush_at, 0.25) + 0.3, mood: "wow", dur: 1.6 });
+      ev.push({ at: at(s.seal_at, 0.8) + 0.3, mood: "cheer", dur: 1.6 });
+      break;
     case "money":
       (s.moves || []).forEach((m: any, i: number) => ev.push({ at: at(m.at, 0.1 + 0.8 * i / s.moves.length), mood: "pointLeft", dur: 1.0 }));
       break;

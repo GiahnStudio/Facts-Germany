@@ -2,7 +2,7 @@ name: Folgen rendern
 on:
   push:
     branches: [durchschaut]
-    paths: ['episodes/**']
+    paths: ['episodes/**', 'voice_in/**']
   workflow_dispatch:
     inputs:
       episode:

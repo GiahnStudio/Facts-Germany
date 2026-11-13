@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 
 from thumbs import thumbnail  # noqa: E402
-from tts import SR, norm, synth  # noqa: E402
+from tts import SR, norm  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FPS = 30
@@ -94,9 +94,17 @@ def expand_words(words):
     return out
 
 
-def synth_scene(sc, voice, rate):
-    """Unterstützt Denkpausen: Text mit ' ... ' wird geteilt und mit Stille verbunden."""
+def synth_scene(sc, voice, rate, clip=None):
+    """Unterstützt Denkpausen: Text mit ' ... ' wird geteilt und mit Stille verbunden.
+    voice == "files": eigene Aufnahmen aus voice_in/<slug>/ (renderer/recorded.py), clip = (slug, "main_03")."""
     parts = [p.strip() for p in sc["say"].split(" ... ") if p.strip()]
+    if voice == "files":
+        import recorded
+        slug, cid = clip
+        ids = [cid] if len(parts) == 1 else [f"{cid}_{k + 1}" for k in range(len(parts))]
+        synth = lambda text, _v, _r: recorded.synth_clip(slug, ids[parts.index(text)], text)  # noqa: E731
+    else:
+        from tts import synth
     if len(parts) == 1:
         return synth(parts[0], voice, rate)
     gap = sc.get("think", 1.6)
@@ -166,7 +174,7 @@ def render_video(spec, scs, W, H, out_mp4, voice, rate, captions=False, preview_
     scenes_out, srt_tokens, t0 = [], [], 0.0
     prepared = []
     for i, sc in enumerate(scs):
-        wav, adur, words = synth_scene(sc, voice, rate)
+        wav, adur, words = synth_scene(sc, voice, rate, (slug, f"{tag}_{i:02d}"))
         words = expand_words(words)
         dur = adur + sc.get("pause", 0.45)
         rel = f"ep/{slug}/{tag}_{i:02d}.mp3"
@@ -255,6 +263,16 @@ def main():
     out = os.path.join(ROOT, "up", slug)
     os.makedirs(out, exist_ok=True)
     voice, rate = ep.get("voice", "de-DE-SeraphinaMultilingualNeural"), ep.get("rate", "+0%")
+    if voice == "files" and a.only != "thumbs":
+        import recorded
+        recorded.write_script(ep)
+        missing = recorded.prepare(ep)
+        if missing:
+            print(f"WARTE AUF AUFNAHMEN für {slug}: voice_in/{slug}/main.wav, short1.wav, short2.wav "
+                  f"(oder einzeln, siehe SPRECHTEXT.md). Fehlt u. a.: {', '.join(missing[:5])}")
+            if not a.preview:
+                sys.exit(0)
+            os.environ["REC_PLACEHOLDER"] = "1"
     plan_path = os.path.join(ROOT, "up", "plan.json")
     plan = json.load(open(plan_path)) if os.path.exists(plan_path) else []
     entry = {k: ep[k] for k in ("title", "date", "time", "tags", "pin") if k in ep}

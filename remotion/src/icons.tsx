@@ -173,6 +173,15 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <circle cx="64" cy="70" r="5" fill={accent} />
     </>
   ),
+  toilet: ({ accent }) => (
+    <>
+      <rect x="54" y="4" width="34" height="44" rx="5" fill={L} />
+      <rect x="62" y="10" width="18" height="6" rx="3" fill={accent} />
+      <path d="M10 46 L88 46 Q86 70 64 76 L60 96 L34 96 L36 76 Q14 70 10 46 Z" fill={L} />
+      <ellipse cx="49" cy="46" rx="39" ry="7" fill="#7d8698" />
+      <ellipse cx="49" cy="46" rx="26" ry="4" fill="#86c4f5" />
+    </>
+  ),
   door: ({ accent }) => (
     <>
       <rect x="22" y="4" width="56" height="92" rx="5" fill={L} />

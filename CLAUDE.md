@@ -47,6 +47,12 @@ Stimme: de-DE-Chirp3-HD-Rasalgethi (Google Cloud Text-to-Speech, Gratis-Kontinge
 Kanalstimme, nicht ändern. Wortzeiten kommen aus faster-whisper; der Abgleich Skript/Aufnahme steht als `match` in `audio_cache/*.json` (Ziel ≥ 0,85).
 Fehlt der Schlüssel, rendert die Action mit einer Ersatzstimme ("Kein GOOGLE_TTS_KEY" im Log) – dann GIAHN Bescheid geben.
 
+Eigene Aufnahmen (Voice Studio auf GIAHNs PC): In der Folge `"voice": "files"` setzen. `python renderer/recorded.py episodes/NN_slug.json`
+schreibt den Sprechtext nach `voice_in/<slug>/SPRECHTEXT.md`. GIAHN legt die Aufnahmen als `main.wav`, `short1.wav`, `short2.wav`
+(ganzer Text am Stück, wird per faster-whisper in Szenen zerlegt) oder einzeln (`main_03.wav` …) in `voice_in/<slug>/` und pusht.
+Ohne Aufnahmen meldet build.py "WARTE AUF AUFNAHMEN" und rendert nichts; ein Push nach `voice_in/**` startet das Rendern.
+Der Text muss wörtlich eingesprochen werden, sonst passen Untertitel und Animations-Cues nicht (match in audio_cache/rec_*.json prüfen).
+
 ## Hochladen auf YouTube (Kanal "Durchschaut", @DurchschautDE)
 
 > **Wichtig:** Das Claude-Fenster auf GIAHNs PC muss sichtbar sein (nicht minimiert/verdeckt). Bei `document.visibilityState==='hidden'` öffnen Menüs/Dialoge nicht und Uploads hängen → abbrechen und im Bericht melden.

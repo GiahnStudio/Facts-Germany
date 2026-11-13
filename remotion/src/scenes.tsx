@@ -8,6 +8,7 @@ import { MoneyScene } from "./money";
 import { AmpelScene } from "./ampel";
 import { AufzugScene } from "./aufzug";
 import { MikrowelleScene } from "./mikrowelle";
+import { SpuelungScene } from "./spuelung";
 
 type P = { s: any };
 const col: React.CSSProperties = { display: "flex", flexDirection: "column", alignItems: "center", gap: 34, width: "100%" };
@@ -438,5 +439,5 @@ const Outro: React.FC<P> = ({ s }) => {
 
 export const SCENES: Record<string, React.FC<P>> = {
   title: Title, chips: Chips, quiz: Quiz, bignum: BigNum, flow: Flow, fact: Fact, law: Fact, story: Story,
-  split: Split, list: List, case: Case, outro: Outro, machine: MachineScene, money: MoneyScene, ampel: AmpelScene, aufzug: AufzugScene, mikrowelle: MikrowelleScene,
+  split: Split, list: List, case: Case, outro: Outro, machine: MachineScene, money: MoneyScene, ampel: AmpelScene, aufzug: AufzugScene, mikrowelle: MikrowelleScene, spuelung: SpuelungScene,
 };

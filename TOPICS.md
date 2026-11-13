@@ -10,10 +10,10 @@
 - 2026-11-19 Warum kommt immer Wasser aus dem Hahn? (`07_wasserhahn`)
 - 2026-11-21 Wie funktioniert eine Rolltreppe? (`08_rolltreppe`)
 - 2026-11-23 Wie funktioniert ein Kühlschrank? (`09_kuehlschrank`)
+- 2026-11-25 Wie funktioniert die Toilettenspülung? (`10_toilette`, Stimme aus Voice Studio)
 
 ## Ideen
 - Wie weiß Google Maps, wo Stau ist?
-- Wie funktioniert die Toilettenspülung?
 - Wie kommt der Strom in die Steckdose?
 - Wie findet die Post deinen Brief? (Briefzentrum)
 - Wie funktioniert ein Blitzer?
