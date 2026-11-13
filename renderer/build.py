@@ -268,7 +268,7 @@ def main():
         recorded.write_script(ep)
         missing = recorded.prepare(ep)
         if missing:
-            print(f"WARTE AUF AUFNAHMEN für {slug}: voice_in/{slug}/main.wav, short1.wav, short2.wav "
+            print(f"WARTE AUF AUFNAHMEN für {slug}: voice_in/{slug}/main.wav (+ short1.wav, short2.wav, falls die Shorts auch eigene Aufnahmen haben) "
                   f"(oder einzeln, siehe SPRECHTEXT.md). Fehlt u. a.: {', '.join(missing[:5])}")
             if not a.preview:
                 sys.exit(0)
@@ -297,7 +297,7 @@ def main():
         for i, sh in enumerate(ep.get("shorts", []), 1):
             fn = f"short_{i}_{sh['slug']}.mp4"
             prev = os.path.join(ROOT, "preview", slug, f"short{i}") if a.preview else None
-            _, _, total = render_video(ep, sh["scenes"], 1080, 1920, os.path.join(out, fn), voice, rate, True, prev, tag=f"short{i}")
+            _, _, total = render_video(ep, sh["scenes"], 1080, 1920, os.path.join(out, fn), ep.get("voice_shorts", voice), rate, True, prev, tag=f"short{i}")
             entry["shorts"].append({"file": fn, "title": sh["title"], "date": sh["date"], "time": sh.get("time", "12:00"), "duration": round(total, 1)})
 
     if a.only in ("all", "thumbs"):

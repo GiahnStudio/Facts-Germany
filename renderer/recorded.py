@@ -25,6 +25,8 @@ SR = 24000
 def videos(ep):
     """[(tag, Szenenliste, Titel)] für Hauptvideo und Shorts."""
     out = [("main", ep["scenes"], "Hauptvideo")]
+    if ep.get("voice_shorts", ep.get("voice")) != "files":  # Shorts behalten ihre bisherige Stimme
+        return out
     for i, sh in enumerate(ep.get("shorts", []), 1):
         out.append((f"short{i}", sh["scenes"], f"Short {i}: {sh['title']}"))
     return out
@@ -155,8 +157,8 @@ def write_script(ep):
     d = os.path.join(ROOT, "voice_in", ep["slug"])
     os.makedirs(d, exist_ok=True)
     L = [f"# Sprechtext: {ep['title']}", "",
-         "Variante 1 (einfach): Pro Video den ganzen Block unten am Stück erzeugen und als `main.wav`, `short1.wav`, "
-         "`short2.wav` in diesen Ordner legen.", "",
+         "Variante 1 (einfach): Pro Video den ganzen Block unten am Stück erzeugen und als "
+         + ", ".join(f"`{tag}.wav`" for tag, _s, _t in videos(ep)) + " in diesen Ordner legen.", "",
          "Variante 2 (genau): Jeden Abschnitt einzeln erzeugen und unter dem angegebenen Namen speichern "
          "(z. B. `main_03.wav`).", "",
          "Formate: wav, mp3, m4a, flac oder ogg. Kurze Pausen zwischen den Absätzen sind gut, der Rest wird automatisch geschnitten.", ""]
