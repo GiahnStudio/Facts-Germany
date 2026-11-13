@@ -98,13 +98,13 @@
  },
  {
   "ep": "010-pulling-the-sprouts",
-  "date": null,
-  "time": null,
-  "status": "rendered",
+  "date": "2026-11-15",
+  "time": "18:00",
+  "status": "scheduled",
   "networks": [
    "tiktok"
   ],
-  "metricool_uuid": null,
+  "metricool_uuid": "-1839485586724666108",
   "note": "gesungene Suno-Fassung"
  }
 ]
