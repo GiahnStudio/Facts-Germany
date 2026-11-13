@@ -1,0 +1,133 @@
+{
+ "slug": "mikrowelle_voicestudio",
+ "voice": "files",
+ "date": "2026-11-13",
+ "time": "17:00",
+ "title": "Wie funktioniert eine Mikrowelle? (Warum dein Essen ohne Flamme heiß wird)",
+ "tags": "mikrowelle, wie funktioniert eine mikrowelle, magnetron, mikrowelle wassermoleküle, mikrowelle drehteller, mikrowelle gitter tür, mikrowelle radioaktiv, percy spencer, mikrowelle erfindung, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Kalte Suppe rein, Start drücken – und zwei Minuten später dampft sie. Aber wie, ganz ohne Flamme? Lupo schaut in die Mikrowelle: was das Magnetron macht, warum Wassermoleküle Milliarden Mal pro Sekunde tanzen, warum sich der Teller dreht, wieso durch die Tür Licht kommt, aber keine Mikrowellen – und wie ein geschmolzener Schokoriegel zur Erfindung führte.\n\nKapitel\n{kapitel}\n\nQuellen\n- Frequenz 2,45 GHz, Emissionsgrenzwert 5 mW/cm² (BfS-Infoblatt Mikrowellengeräte, Archiv): https://archiv.bge.de/archiv/www.asse.bund.de/SharedDocs/Downloads/BfS/DE/broschueren/emf/info-mikrowellengeraetee808.pdf\n- Moleküle rotieren, Erwärmung 2–3 cm unter der Oberfläche, nicht radioaktiv, Leckstrahlung ca. 1 % des Grenzwerts, Abschaltung beim Öffnen (ZDFheute mit BfS und BZfE): https://www.zdfheute.de/ratgeber/mikrowelle-schaedlich-strahlung-vitamine-100.html\n- Magnetron, Wellenlänge ca. 12 cm, Türgitter 1–2 mm, stehende Wellen, Drehteller (TU Graz, Institut für Experimentalphysik): https://www.tugraz.at/fileadmin/user_upload/Institute/IEP/Thermophysics_Group/Files/Experimente_mit_der_Mikrowelle_-_Jannach_Andreas.pdf\n- Erwärmung durch Ausrichtung molekularer Dipole (Spektrum Lexikon der Physik): https://www.spektrum.de/lexikon/physik/mikrowellenerwaermung/9765\n- Gitter und Metall-Innenraum halten die Wellen im Gerät (t-online): https://www.t-online.de/heim-garten/haushaltstipps/id_89948314/zwei-funktionen-darum-hat-die-mikrowelle-vorne-ein-gitter.html\n- Percy Spencer, Schokoriegel, Maiskörner, Patent 1945, erste Geräte 1,80 m / 340 kg (SRF): https://www.srf.ch/radio-srf-1/kochen/4-fakten-zum-80-jubilaeum-die-mikrowelle-zufallsfund-streitobjekt-und-alltagsheldin\n- Radarange ab 1947 (Lemelson-MIT): https://lemelson.mit.edu/resources/percy-spencer\n- 72,2 % der Haushalte, 30,4 Mio. Geräte, Stand 1.1.2023 (Statistisches Bundesamt): https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ausstattung-Gebrauchsgueter/Tabellen/a-evs-haushaltsgeraete-d.html\n- Nicht leer betreiben, Metall/Alu, Abdecken mit Deckel, Teller oder Abdeckhaube, umrühren (Neff-Gebrauchsanleitung): https://media3.bsh-group.com/Documents/9001972901_A.pdf\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#mikrowelle #wiefunktioniertdas #durchschaut",
+ "scenes": [],
+ "shorts": [
+  {
+   "slug": "tuer_gitter",
+   "title": "Warum kommen die Mikrowellen nicht durch die Tür? #shorts",
+   "date": "2026-11-13",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Warum kommen die Mikrowellen nicht durch die Glastür?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Das Glas ist extra dick",
+       "at": "A"
+      },
+      {
+       "text": "Die Löcher im Gitter sind zu klein",
+       "at": "B"
+      },
+      {
+       "text": "Die Tür ist magnetisch",
+       "at": "C"
+      }
+     ],
+     "say": "Warum kommen die Mikrowellen nicht durch die Glastür? A: Das Glas ist extra dick. B: Die Löcher im Gitter sind zu klein. C: Die Tür ist magnetisch.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "magnetisch"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Das Glas ist extra dick",
+      "Die Löcher im Gitter sind zu klein",
+      "Die Tür ist magnetisch"
+     ],
+     "say": "Richtig ist B. In der Tür steckt ein Metallgitter."
+    },
+    {
+     "type": "fact",
+     "icon": "door",
+     "label": "LICHT JA, MIKROWELLEN NEIN",
+     "headline": "Löcher: 1 bis 2 mm. Wellen: rund 12 cm.",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Licht passt durch, die Mikrowellen sind viel zu groß.",
+       "at": "Licht"
+      }
+     ],
+     "say": "Seine Löcher sind nur ein bis zwei Millimeter groß. Licht passt locker durch. Aber die Mikrowellen sind rund zwölf Zentimeter lang, für sie sind die Löcher viel zu klein."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "molekuel_tanz",
+   "title": "Darum wird dein Essen in der Mikrowelle heiß #shorts",
+   "date": "2026-11-14",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum wird dein Essen in der Mikrowelle heiß?",
+     "size": 84,
+     "say": "Warum wird dein Essen in der Mikrowelle eigentlich heiß? Da drin gibt es doch gar keine Flamme.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hä?",
+        "at": "Flamme"
+       }
+      ]
+     }
+    },
+    {
+     "type": "mikrowelle",
+     "title": "Das passiert da drin",
+     "on_at": "Magnetron",
+     "wave_at": "Wellen",
+     "flip_at": "Wassermoleküle",
+     "hot_at": "Wärme",
+     "say": "Das Magnetron schickt Wellen in den Garraum. Die treffen auf die Wassermoleküle im Essen. Die drehen sich 2,45 Milliarden Mal pro Sekunde hin und her und stoßen aneinander. Und diese Bewegung wird zu Wärme.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Wild!",
+        "at": "stoßen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Warum sich der Teller dreht, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ],
+ "voice_shorts": "files"
+}
