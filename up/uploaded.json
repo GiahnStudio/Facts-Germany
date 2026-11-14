@@ -57,7 +57,8 @@
     "uploaded": "2026-11-07",
     "thumb": true,
     "pinned": false,
-    "playlist": true
+    "playlist": true,
+    "comment": true
   },
   "mikrowelle:s1": {
     "uploaded": "2026-11-07",
