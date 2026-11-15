@@ -9,14 +9,14 @@
  "desc": "Du wirfst einen Brief in den gelben Kasten – und zwei Tage später liegt er meistens im richtigen Briefkasten, irgendwo in Deutschland. Aber wer liest eigentlich die Adresse? Lupo schaut ins Briefzentrum: wie eine Kamera deine Anschrift liest, was die orangen Striche unten auf dem Umschlag bedeuten, wie unleserliche Briefe „geheilt“ werden und warum ganz Deutschland 1993 neue Postleitzahlen bekam.\n\nKapitel\n{kapitel}\n\nQuellen\n- Deutsche Post: Vom Briefkasten zur Haustür (bis zu 40.000 Sendungen pro Stunde, Ablauf, Tour-Reihenfolge, Laufzeiten): https://www.deutschepost.de/de/s/so-funktioniert-die-deutsche-post-heute/vom-briefkasten-zur-haustuer.html\n- DHL Group: Post & Paket Deutschland (rund 42 Millionen Briefe je Werktag, 81 Briefzentren): https://group.dhl.com/de/ueber-uns/unternehmensbereiche/post-paket-deutschland.html\n- Deutsche Post: Automationsfähige Briefsendungen 2026 (Codierzone unten rechts, 150 × 15 mm, Leitcodierung, Lesbarkeit der Anschrift): https://www.deutschepost.de/dam/dpag/images/P_p/printmailing/downloads/dp-automationsfaehige-briefsendungen-2026.pdf\n- paketda: Der Zielcode auf Briefen (Inhalt, Druck im Briefzentrum, keine Wiederverwendung alter Umschläge, Großbriefe ohne Code): https://www.paketda.de/wissen/briefe-strichcode-zielcode.html\n- paketda: Digitaler Arbeitsplatz für unleserliche Briefe (KI-Lesesystem, gelbes Etikett, „heilen“): https://www.paketda.de/news-post-digitaler-arbeitsplatz.html\n- Körber: Address Digitization Stations bei der Deutschen Post (120 Stationen seit Juli 2024): https://www.koerber.com/en/insights-and-events/supply-chain-insights/deutsche-post\n- DHL Group: Factsheet 25 Jahre Postleitzahlen (1. Juli 1993, rund 800 Doppelungen, 57 % / 78 %, Bedeutung der Ziffern): https://group.dhl.com/content/dam/deutschepostdhl/de/media-center/media-relations/documents/2018/factsheet-25-jahre-plz-20180629.pdf\n- DHL Group: Briefzentrum München-Germering (rund 60 Sortiermaschinen, rund 2 Millionen Sendungen täglich, Zusammenlegung mit Starnberg): https://group.dhl.com/content/dam/deutschepostdhl/de/media-relations/press-releases/2025/pm-briefzentrum-germering-20250318.pdf\n- Nordkurier: 30 Jahre Briefzentrum Rostock (Postleitzahlen mit 18, sinkende Briefmengen): https://www.nordkurier.de/regional/rostock/30-jahre-briefzentrum-wie-bianca-thoms-und-120-kollegen-5-4-milliarden-sendungen-bewegen-und-was-bleibt-4600486\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#post #wiefunktioniertdas #durchschaut",
  "thumbs": {
   "A": {
-   "big": "Was bedeuten die orangen Striche?",
+   "big": "Wozu die orangen Striche?",
    "chip": "BLICK INS BRIEFZENTRUM",
    "mood": "wow",
    "icon": "letter"
   },
   "B": {
-   "big": "Diese Maschine liest deine Post",
-   "chip": "BIS ZU 40.000 PRO STUNDE",
+   "big": "Sie liest deine Post",
+   "chip": "40.000 PRO STUNDE",
    "stamp": "SORTIERT",
    "stamp_color": "green",
    "mood": "cheer",
