@@ -1,0 +1,644 @@
+{
+ "slug": "brief",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-27",
+ "time": "17:00",
+ "title": "Wie findet die Post deinen Brief? (Das bedeuten die orangen Striche)",
+ "tags": "post, wie findet die post meinen brief, briefzentrum, orange striche brief, leitcode, zielcode, postleitzahl, briefsortierung, deutsche post, briefverteilanlage, wie funktioniert das, durchschaut",
+ "pin": "Hast du die orangen Striche auf deinen Briefen schon mal bemerkt? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du wirfst einen Brief in den gelben Kasten – und zwei Tage später liegt er meistens im richtigen Briefkasten, irgendwo in Deutschland. Aber wer liest eigentlich die Adresse? Lupo schaut ins Briefzentrum: wie eine Kamera deine Anschrift liest, was die orangen Striche unten auf dem Umschlag bedeuten, wie unleserliche Briefe „geheilt“ werden und warum ganz Deutschland 1993 neue Postleitzahlen bekam.\n\nKapitel\n{kapitel}\n\nQuellen\n- Deutsche Post: Vom Briefkasten zur Haustür (bis zu 40.000 Sendungen pro Stunde, Ablauf, Tour-Reihenfolge, Laufzeiten): https://www.deutschepost.de/de/s/so-funktioniert-die-deutsche-post-heute/vom-briefkasten-zur-haustuer.html\n- DHL Group: Post & Paket Deutschland (rund 42 Millionen Briefe je Werktag, 81 Briefzentren): https://group.dhl.com/de/ueber-uns/unternehmensbereiche/post-paket-deutschland.html\n- Deutsche Post: Automationsfähige Briefsendungen 2026 (Codierzone unten rechts, 150 × 15 mm, Leitcodierung, Lesbarkeit der Anschrift): https://www.deutschepost.de/dam/dpag/images/P_p/printmailing/downloads/dp-automationsfaehige-briefsendungen-2026.pdf\n- paketda: Der Zielcode auf Briefen (Inhalt, Druck im Briefzentrum, keine Wiederverwendung alter Umschläge, Großbriefe ohne Code): https://www.paketda.de/wissen/briefe-strichcode-zielcode.html\n- paketda: Digitaler Arbeitsplatz für unleserliche Briefe (KI-Lesesystem, gelbes Etikett, „heilen“): https://www.paketda.de/news-post-digitaler-arbeitsplatz.html\n- Körber: Address Digitization Stations bei der Deutschen Post (120 Stationen seit Juli 2024): https://www.koerber.com/en/insights-and-events/supply-chain-insights/deutsche-post\n- DHL Group: Factsheet 25 Jahre Postleitzahlen (1. Juli 1993, rund 800 Doppelungen, 57 % / 78 %, Bedeutung der Ziffern): https://group.dhl.com/content/dam/deutschepostdhl/de/media-center/media-relations/documents/2018/factsheet-25-jahre-plz-20180629.pdf\n- DHL Group: Briefzentrum München-Germering (rund 60 Sortiermaschinen, rund 2 Millionen Sendungen täglich, Zusammenlegung mit Starnberg): https://group.dhl.com/content/dam/deutschepostdhl/de/media-relations/press-releases/2025/pm-briefzentrum-germering-20250318.pdf\n- Nordkurier: 30 Jahre Briefzentrum Rostock (Postleitzahlen mit 18, sinkende Briefmengen): https://www.nordkurier.de/regional/rostock/30-jahre-briefzentrum-wie-bianca-thoms-und-120-kollegen-5-4-milliarden-sendungen-bewegen-und-was-bleibt-4600486\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#post #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Was bedeuten die orangen Striche?",
+   "chip": "BLICK INS BRIEFZENTRUM",
+   "mood": "wow",
+   "icon": "letter"
+  },
+  "B": {
+   "big": "Diese Maschine liest deine Post",
+   "chip": "BIS ZU 40.000 PRO STUNDE",
+   "stamp": "SORTIERT",
+   "stamp_color": "green",
+   "mood": "cheer",
+   "icon": "letter"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie findet die Post deinen Brief?",
+   "size": 96,
+   "sub": "Rein in den gelben Kasten – und dann?",
+   "sub_at": "gelben",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: dein Brief. Du wirfst ihn in den gelben Briefkasten, und meistens ist er zwei Werktage später da. Aber wer liest eigentlich die Adresse? Und woher weiß die Post, wohin er muss?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Zauberei?",
+      "at": "woher"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute geht's ins Briefzentrum",
+   "items": [
+    {
+     "text": "Wer liest die Adresse?",
+     "at": "liest"
+    },
+    {
+     "text": "Die orangen Striche",
+     "at": "Striche"
+    },
+    {
+     "text": "Unleserliche Briefe",
+     "at": "unleserlichen"
+    },
+    {
+     "text": "Die Postleitzahl",
+     "at": "Postleitzahl"
+    }
+   ],
+   "say": "Heute schauen wir ins Briefzentrum: Wer deine Adresse liest, was die orangen Striche auf deinem Umschlag bedeuten, was mit unleserlichen Briefen passiert, und warum die Postleitzahl 1993 komplett neu gemacht wurde."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wer liest die Adresse auf deinem Brief als Erstes?",
+   "size": 58,
+   "options": [
+    {
+     "text": "Der Briefträger",
+     "at": "A"
+    },
+    {
+     "text": "Eine Kamera in einer Sortiermaschine",
+     "at": "B"
+    },
+    {
+     "text": "Ein Mitarbeiter am Postschalter",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wer liest die Adresse auf deinem Brief als Erstes? A: Der Briefträger. B: Eine Kamera in einer Sortiermaschine. C: Ein Mitarbeiter am Postschalter. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Ein riesiges System",
+   "title": "Die Briefpost in Deutschland",
+   "items": [
+    {
+     "num": "42 Mio.",
+     "label": "Briefe an jedem Werktag",
+     "at": "Millionen"
+    },
+    {
+     "num": "81",
+     "label": "Briefzentren",
+     "at": "Briefzentren"
+    }
+   ],
+   "say": "Die Deutsche Post befördert an jedem Werktag rund 42 Millionen Briefe. Sortiert werden sie in 81 Briefzentren, verteilt über ganz Deutschland.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "So viele!",
+      "at": "Millionen"
+     }
+    ]
+   },
+   "pause": 0.9
+  },
+  {
+   "type": "flow",
+   "chapter": "Der Weg deines Briefs",
+   "title": "Vom Briefkasten zur Haustür",
+   "items": [
+    {
+     "icon": "letter",
+     "text": "Briefkasten",
+     "at": "Briefkasten"
+    },
+    {
+     "icon": "machine",
+     "text": "Briefzentrum beim Absender",
+     "at": "nächste"
+    },
+    {
+     "icon": "truck",
+     "text": "Lkw oder Bahn",
+     "at": "Lkw"
+    },
+    {
+     "icon": "machine",
+     "text": "Briefzentrum am Ziel",
+     "at": "Zielregion"
+    },
+    {
+     "icon": "person",
+     "text": "Zusteller",
+     "at": "Zusteller"
+    }
+   ],
+   "say": "Aus dem Briefkasten kommt dein Brief ins nächste Briefzentrum. Dort wird er sortiert und fährt per Lkw oder Bahn in das Briefzentrum der Zielregion. Da wird er noch einmal sortiert, und dann bringt ihn der Zusteller an die Haustür."
+  },
+  {
+   "type": "brief",
+   "chapter": "Was in der Maschine passiert",
+   "title": "In der Sortieranlage",
+   "plz": "18055",
+   "city": "Rostock",
+   "region": "18",
+   "feed_at": "Förderband",
+   "scan_at": "Kamera",
+   "print_at": "Drucker",
+   "sort_at": "Fach",
+   "say": "Dein Brief läuft auf ein Förderband. Darüber sitzt eine Kamera, die die Anschrift erfasst. Eine Software liest daraus Postleitzahl, Straße und Hausnummer. Dann druckt ein Drucker einen Code aus orangefarbenen Strichen unten auf den Umschlag. Und am Ende landet der Brief im Fach für seine Zielregion. So verarbeitet ein Briefzentrum im Schnitt bis zu 40.000 Sendungen pro Stunde.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Klick!",
+      "at": "erfasst"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wer liest die Adresse als Erstes?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Der Briefträger",
+    "Eine Kamera in einer Sortiermaschine",
+    "Ein Mitarbeiter am Postschalter"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Eine Kamera in der Sortiermaschine. Menschen helfen erst, wenn die Maschine nicht weiterweiß."
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Geheimnis der orangen Striche",
+   "icon": "letter",
+   "label": "DER LEITCODE",
+   "headline": "Die Striche sind deine Adresse als Code",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Sie stehen unten rechts, in der Codierzone.",
+     "at": "Codierzone"
+    },
+    {
+     "text": "Darin steckt die Anschrift – verschlüsselt.",
+     "at": "verschlüsselt"
+    },
+    {
+     "text": "Am Ziel wird direkt nach dem Code weitersortiert.",
+     "at": "weitersortieren"
+    }
+   ],
+   "say": "Diese orangen Striche heißen Leitcode. Er steht unten rechts auf dem Umschlag, in einem Streifen, den die Post Codierzone nennt. Darin stecken Postleitzahl, Straße und Hausnummer, verschlüsselt. Im Briefzentrum der Zielregion kann die Maschine den Brief deshalb anhand der Striche gleich weitersortieren.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Geheimcode!",
+      "at": "verschlüsselt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Schon in der richtigen Reihenfolge",
+   "icon": "person",
+   "label": "ÜBERRASCHUNG",
+   "headline": "Sortiert nach Tour",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Die meisten Briefe liegen in der Reihenfolge der Tour.",
+     "at": "Reihenfolge"
+    },
+    {
+     "text": "Nur wenige müssen noch von Hand sortiert werden.",
+     "at": "Hand"
+    }
+   ],
+   "say": "Jetzt ein Detail, das überrascht. Am Ziel werden die Briefe nicht nur nach Straßen sortiert. Der Großteil liegt am Ende schon in der Reihenfolge, in der der Zusteller seine Tour läuft. Nur wenige Briefe müssen noch von Hand einsortiert werden.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Wie praktisch!",
+      "at": "Tour"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Wenn die Maschine nicht weiterweiß",
+   "title": "Unleserlich? Ab zum Brief-Doktor",
+   "steps": [
+    {
+     "date": "Problem",
+     "text": "Krakelige Schrift, Aufkleber im Weg: Die Maschine gibt auf.",
+     "at": "gibt"
+    },
+    {
+     "date": "Kamera",
+     "text": "Ein Spezial-Arbeitsplatz fotografiert den Brief noch einmal.",
+     "at": "fotografiert"
+    },
+    {
+     "date": "KI",
+     "text": "Eine Software schlägt die vollständige Adresse vor.",
+     "at": "schlägt"
+    },
+    {
+     "date": "Etikett",
+     "text": "Gelber Aufkleber drauf – und zurück in die Maschine.",
+     "at": "Etikett"
+    }
+   ],
+   "stamp": "GEHEILT",
+   "stamp_color": "green",
+   "stamp_at": "geheilt",
+   "say": "Aber was ist mit Briefen, die die Maschine nicht lesen kann? Krakelige Handschrift, ein Aufkleber an der falschen Stelle, und die Maschine gibt auf. Seit 2024 gibt es dafür Spezial-Arbeitsplätze. Eine Kamera fotografiert den Brief noch einmal, eine Software mit künstlicher Intelligenz schlägt die vollständige Adresse vor, und ein Mitarbeiter bestätigt sie. Dann kommt ein gelbes Etikett mit der Adresse drauf, und zurück geht's in die Maschine. Intern sagt man dazu: Die Briefe werden geheilt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Gute Besserung!",
+      "at": "geheilt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Die große Umstellung 1993",
+   "title": "Zweimal 5300?",
+   "steps": [
+    {
+     "date": "Nach 1990",
+     "text": "Nach der Wiedervereinigung gibt es rund 800 doppelte Postleitzahlen.",
+     "at": "doppelte"
+    },
+    {
+     "date": "Beispiel",
+     "text": "5300 ist Bonn – und gleichzeitig Weimar.",
+     "at": "Weimar"
+    },
+    {
+     "date": "1. Juli 1993",
+     "text": "Ganz Deutschland bekommt neue, fünfstellige Postleitzahlen.",
+     "at": "fünfstellige"
+    },
+    {
+     "date": "Eine Woche",
+     "text": "78 Prozent der Briefe tragen schon die neue Zahl.",
+     "at": "Woche"
+    }
+   ],
+   "say": "Nach der Wiedervereinigung gab es in Deutschland rund 800 doppelte Postleitzahlen. Die 5300 zum Beispiel war Bonn, und gleichzeitig Weimar. Deshalb bekam ganz Deutschland am 1. Juli 1993 neue, fünfstellige Postleitzahlen. Schon am ersten Tag trugen 57 Prozent der Briefe die neue Zahl, nach einer Woche waren es 78 Prozent.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Verwirrend!",
+      "at": "gleichzeitig"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Was die fünf Ziffern verraten",
+   "icon": "letter",
+   "label": "DIE POSTLEITZAHL",
+   "headline": "Die ersten zwei Ziffern = dein Briefzentrum",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Die ersten beiden Ziffern stehen für die Leitregion.",
+     "at": "Leitregion"
+    },
+    {
+     "text": "Die hinteren drei: Hausbriefkasten, Postfach oder Großkunde.",
+     "at": "Postfach"
+    }
+   ],
+   "say": "Und was verraten die fünf Ziffern? Die ersten beiden stehen für die Leitregion, und damit für das zuständige Briefzentrum. Die 18 zum Beispiel gehört zum Briefzentrum Rostock. Die hinteren drei Ziffern legen fest, ob der Brief in einen Hausbriefkasten, in ein Postfach oder an einen Großkunden geht."
+  },
+  {
+   "type": "split",
+   "chapter": "Nicht jeder Brief bekommt Striche",
+   "title": "Brief ist nicht gleich Brief",
+   "items": [
+    {
+     "icon": "letter",
+     "label": "BRIEF · POSTKARTE",
+     "title": "Bekommt den Leitcode",
+     "text": "Die Maschine liest die Anschrift und druckt die orangen Striche.",
+     "color": "green",
+     "at": "Postkarten"
+    },
+    {
+     "icon": "crate",
+     "label": "GROSSBRIEF · ZEITSCHRIFT",
+     "title": "Ohne orange Striche",
+     "text": "Kein Leitcode. Unförmige Sendungen werden von Hand bearbeitet.",
+     "color": "red",
+     "at": "Großbriefe"
+    }
+   ],
+   "say": "Nicht jede Sendung bekommt diese Striche. Normale Briefe und Postkarten ja. Großbriefe und Zeitschriften dagegen haben keinen solchen Code, und unförmige Sendungen werden von Hand bearbeitet."
+  },
+  {
+   "type": "list",
+   "chapter": "Warum ein Brief hängen bleibt",
+   "title": "Hier muss die Maschine passen",
+   "items": [
+    {
+     "text": "Unleserliche Handschrift",
+     "icon": "x",
+     "at": "Handschrift"
+    },
+    {
+     "text": "Aufkleber oder Schrift in der Codierzone",
+     "icon": "x",
+     "at": "Aufkleber"
+    },
+    {
+     "text": "Anschrift schief oder ohne Platz drumherum",
+     "icon": "x",
+     "at": "schief"
+    }
+   ],
+   "say": "Und wann muss die Maschine passen? Erstens bei unleserlicher Handschrift. Zweitens, wenn Aufkleber oder Schrift unten rechts in der Codierzone stehen, denn da muss Platz für den Code sein. Und drittens, wenn die Anschrift schief steht oder keinen freien Rand hat."
+  },
+  {
+   "type": "bignum",
+   "chapter": "Wer dahintersteckt",
+   "title": "Das Briefzentrum Germering bei München",
+   "items": [
+    {
+     "num": "60",
+     "label": "Sortiermaschinen",
+     "at": "Sortiermaschinen"
+    },
+    {
+     "num": "2 Mio.",
+     "label": "Sendungen pro Tag",
+     "at": "Sendungen"
+    }
+   ],
+   "say": "Und wie groß ist so ein Briefzentrum? Im neuen Briefzentrum Germering bei München stehen etwa 60 Sortiermaschinen. Und jeden Tag laufen dort rund zwei Millionen Sendungen durch.",
+   "pause": 1.2
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "letter",
+   "label": "Behauptung 1",
+   "text": "Die orangen Striche druckt der Umschlag-Hersteller.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Die orangen Striche druckt schon der Hersteller auf den Umschlag. ... Mythos. Die Striche kommen erst im Briefzentrum drauf, wenn die Maschine deine Adresse gelesen hat.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 2",
+   "text": "Alte Umschläge mit orangem Code kann man problemlos wiederverwenden.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Der",
+   "say": "Zweitens: Einen alten Umschlag mit orangem Code kann man problemlos wiederverwenden. ... Mythos. Der alte Code kann die Maschine verwirren, und der Brief landet womöglich im falschen Fach.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Oha!",
+      "at": "falschen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 3",
+   "text": "Die meisten Briefe sind nach zwei Werktagen da.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt",
+   "say": "Und drittens: Die meisten Briefe sind nach zwei Werktagen beim Empfänger. ... Stimmt. Das schreibt die Post selbst. Erlaubt sind übrigens bis zu vier Werktage für 99 Prozent der Briefe.",
+   "pause": 0.6
+  },
+  {
+   "type": "fact",
+   "chapter": "Die Post der Zukunft",
+   "icon": "chip",
+   "label": "WIE ES WEITERGEHT",
+   "headline": "Weniger Briefe, schlauere Maschinen",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Die Zahl der Briefe sinkt seit Jahren.",
+     "at": "sinkt"
+    },
+    {
+     "text": "Briefzentren werden zusammengelegt.",
+     "at": "Starnberg"
+    },
+    {
+     "text": "Künstliche Intelligenz hilft bei schwierigen Adressen.",
+     "at": "Intelligenz"
+    }
+   ],
+   "say": "Und wie geht es weiter? Die Zahl der Briefe sinkt seit Jahren. In Germering wurden deshalb zum Beispiel die Briefzentren München und Starnberg zusammengelegt. Und bei schwierigen Adressen hilft immer öfter künstliche Intelligenz."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps, damit dein Brief flott ankommt",
+   "items": [
+    {
+     "text": "Anschrift gut lesbar, am besten gedruckt",
+     "icon": "letter",
+     "at": "Eins"
+    },
+    {
+     "text": "Unten rechts einen Streifen frei lassen",
+     "icon": "barcode",
+     "at": "Zwei"
+    },
+    {
+     "text": "Postleitzahl genau prüfen",
+     "icon": "calendar",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps. Eins: Schreib die Anschrift gut lesbar, am besten gedruckt. Zwei: Lass unten rechts einen Streifen frei, etwa eineinhalb Zentimeter hoch, damit der Code draufpasst. Drei: Prüf die Postleitzahl genau, denn die ersten beiden Ziffern entscheiden über das Briefzentrum."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Kamera liest, Drucker codiert, Maschine sortiert.",
+   "size": 84,
+   "sub": "Dein Brief findet fast von allein den Weg.",
+   "sub_at": "Weg",
+   "say": "Also: Eine Kamera liest deine Adresse, ein Drucker macht daraus orange Striche, und Maschinen sortieren den Brief bis in die Reihenfolge der Zustelltour. So findet dein Brief fast von allein den Weg."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "orange_striche",
+   "title": "Was bedeuten die orangen Striche auf deinem Brief? #shorts",
+   "date": "2026-11-27",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Was bedeuten die orangen Striche auf deinem Brief?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Deko vom Umschlag",
+       "at": "A"
+      },
+      {
+       "text": "Deine Adresse als Code",
+       "at": "B"
+      },
+      {
+       "text": "Das Porto",
+       "at": "C"
+      }
+     ],
+     "say": "Was bedeuten eigentlich die orangen Striche unten auf deinem Brief? A: Deko vom Umschlag. B: Deine Adresse als Code. C: Das Porto.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "Porto"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Deko vom Umschlag",
+      "Deine Adresse als Code",
+      "Das Porto"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "fact",
+     "icon": "letter",
+     "label": "DER LEITCODE",
+     "headline": "Gedruckt im Briefzentrum",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Darin stecken Postleitzahl, Straße und Hausnummer.",
+       "at": "Hausnummer"
+      }
+     ],
+     "say": "Eine Maschine im Briefzentrum liest deine Adresse und druckt sie als Code auf den Umschlag. Darin stecken Postleitzahl, Straße und Hausnummer."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "brief_maschine",
+   "title": "So wird dein Brief im Briefzentrum sortiert #shorts",
+   "date": "2026-11-28",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Was passiert mit deinem Brief im Briefzentrum?",
+     "size": 80,
+     "say": "Was passiert eigentlich mit deinem Brief, nachdem du ihn eingeworfen hast?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Mal sehen!",
+        "at": "eingeworfen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "brief",
+     "title": "In der Sortieranlage",
+     "plz": "18055",
+     "city": "Rostock",
+     "region": "18",
+     "feed_at": "Förderband",
+     "scan_at": "Kamera",
+     "print_at": "Drucker",
+     "sort_at": "Fach",
+     "say": "Im Briefzentrum läuft er über ein Förderband. Eine Kamera erfasst die Adresse, ein Drucker setzt orange Striche als Code darauf, und dann landet er im Fach für seine Zielregion."
+    },
+    {
+     "type": "fact",
+     "icon": "person",
+     "label": "ÜBERRASCHUNG",
+     "headline": "Sortiert bis in die Reihenfolge der Tour",
+     "size": 64,
+     "lines": [
+      {
+       "text": "Nur wenige Briefe sortiert der Zusteller noch von Hand.",
+       "at": "Hand"
+      }
+     ],
+     "say": "Am Ziel liegen die meisten Briefe am Ende sogar schon in der Reihenfolge der Zustelltour. Nur wenige werden noch von Hand sortiert."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie das alles genau funktioniert, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

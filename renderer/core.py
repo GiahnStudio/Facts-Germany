@@ -134,6 +134,12 @@ def icon(name, s=300, color=INK, accent=AMBER):
         d.rounded_rectangle((S * .33, S * .15, S * .67, S * .48), S * .02, fill=accent)
         d.rounded_rectangle((S * .33, S * .54, S * .67, S * .87), S * .02, fill=(60, 66, 80))
         d.ellipse((S * .6, S * .5, S * .66, S * .56), fill=WHITE)
+    elif name == "letter":
+        d.rounded_rectangle((S * .06, S * .2, S * .94, S * .8), S * .05, fill=color)
+        d.line((S * .08, S * .24, S * .5, S * .54, S * .92, S * .24), fill=(125, 134, 152), width=lw // 2)
+        d.rectangle((S * .7, S * .27, S * .86, S * .45), fill=RED)
+        for i in range(9):
+            d.rectangle((S * (.46 + i * .05), S * (.66 if i % 3 == 0 else .7), S * (.46 + i * .05) + lw // 3, S * .76), fill=(255, 138, 31))
     elif name == "key":
         d.ellipse((S * .1, S * .3, S * .48, S * .68), fill=accent)
         d.ellipse((S * .2, S * .43, S * .3, S * .53), fill=(0, 0, 0, 0))

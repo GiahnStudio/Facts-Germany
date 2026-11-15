@@ -173,6 +173,24 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <circle cx="64" cy="70" r="5" fill={accent} />
     </>
   ),
+  letter: ({ accent }) => (
+    <>
+      <rect x="6" y="20" width="88" height="60" rx="6" fill={L} />
+      <path d="M8 24 L50 54 L92 24" stroke="#7d8698" strokeWidth="5" fill="none" strokeLinejoin="round" />
+      <rect x="70" y="27" width="16" height="18" rx="2" fill={C.red} />
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => <rect key={i} x={46 + i * 5} y={i % 3 ? 70 : 66} width="2.6" height={i % 3 ? 6 : 10} fill={accent === C.accent ? "#ff8a1f" : accent} />)}
+    </>
+  ),
+  truck: ({ accent }) => (
+    <>
+      <rect x="4" y="26" width="60" height="46" rx="5" fill={L} />
+      <path d="M64 40 h18 l14 16 v16 h-32 z" fill={C.yellow} />
+      <rect x="70" y="44" width="12" height="10" fill="#86c4f5" />
+      <circle cx="24" cy="76" r="10" fill={C.ink} /><circle cx="24" cy="76" r="4" fill={L} />
+      <circle cx="78" cy="76" r="10" fill={C.ink} /><circle cx="78" cy="76" r="4" fill={L} />
+      <rect x="12" y="38" width="40" height="8" rx="4" fill={accent} />
+    </>
+  ),
   toilet: ({ accent }) => (
     <>
       <rect x="54" y="4" width="34" height="44" rx="5" fill={L} />
