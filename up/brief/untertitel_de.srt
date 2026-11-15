@@ -1,0 +1,729 @@
+1
+00:00:00,000 --> 00:00:02,620
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,620 --> 00:00:04,100
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,760 --> 00:00:06,080
+Heute: dein Brief.
+
+4
+00:00:06,800 --> 00:00:08,660
+Du wirfst ihn in den
+gelben Briefkasten,
+
+5
+00:00:09,000 --> 00:00:10,760
+und meistens ist er
+zwei Werktage später
+
+6
+00:00:10,760 --> 00:00:13,220
+da. Aber wer liest
+eigentlich die Adresse?
+
+7
+00:00:13,840 --> 00:00:15,380
+Und woher weiß die
+Post, wohin er muss?
+
+8
+00:00:16,233 --> 00:00:18,233
+Heute schauen wir
+ins Briefzentrum:
+
+9
+00:00:18,773 --> 00:00:20,946
+Wer deine Adresse
+liest, was die orangen
+
+10
+00:00:21,020 --> 00:00:23,133
+Striche auf deinem
+Umschlag bedeuten, was
+
+11
+00:00:23,133 --> 00:00:25,613
+mit unleserlichen
+Briefen passiert, und
+
+12
+00:00:25,613 --> 00:00:28,993
+warum die Postleitzahl
+1993 komplett neu
+
+13
+00:00:28,993 --> 00:00:29,633
+gemacht wurde.
+
+14
+00:00:30,400 --> 00:00:32,120
+Kurze Frage vorab.
+
+15
+00:00:33,020 --> 00:00:35,000
+Wer liest die Adresse
+auf deinem Brief als
+
+16
+00:00:35,000 --> 00:00:37,200
+Erstes? A: Der Briefträger.
+
+17
+00:00:37,200 --> 00:00:40,300
+B: Eine Kamera in
+einer Sortiermaschine.
+
+18
+00:00:40,300 --> 00:00:43,880
+C: Ein Mitarbeiter
+am Postschalter.
+
+19
+00:00:44,480 --> 00:00:46,220
+Schreib deinen Tipp
+in die Kommentare.
+
+20
+00:00:47,433 --> 00:00:49,493
+Die Deutsche Post
+befördert an jedem
+
+21
+00:00:49,493 --> 00:00:52,073
+Werktag rund 42
+Millionen Briefe.
+
+22
+00:00:52,673 --> 00:00:55,113
+Sortiert werden sie
+in 81 Briefzentren,
+
+23
+00:00:55,433 --> 00:00:56,793
+verteilt über
+ganz Deutschland.
+
+24
+00:00:58,267 --> 00:01:00,587
+Aus dem Briefkasten
+kommt dein Brief ins
+
+25
+00:01:00,587 --> 00:01:01,667
+nächste Briefzentrum.
+
+26
+00:01:02,147 --> 00:01:04,627
+Dort wird er sortiert
+und fährt per Lkw
+
+27
+00:01:04,627 --> 00:01:06,407
+oder Bahn in das
+Briefzentrum der
+
+28
+00:01:07,117 --> 00:01:08,667
+Zielregion. Da wird
+er noch einmal
+
+29
+00:01:08,667 --> 00:01:10,487
+sortiert, und dann
+bringt ihn der
+
+30
+00:01:10,727 --> 00:01:11,687
+Zusteller an die Haustür.
+
+31
+00:01:12,433 --> 00:01:14,553
+Dein Brief läuft
+auf ein Förderband.
+
+32
+00:01:15,253 --> 00:01:17,093
+Darüber sitzt eine
+Kamera, die die
+
+33
+00:01:17,093 --> 00:01:17,973
+Anschrift erfasst.
+
+34
+00:01:18,593 --> 00:01:20,913
+Eine Software liest
+daraus Postleitzahl,
+
+35
+00:01:21,173 --> 00:01:22,493
+Straße und Hausnummer.
+
+36
+00:01:23,273 --> 00:01:25,393
+Dann druckt ein
+Drucker einen Code aus
+
+37
+00:01:25,393 --> 00:01:27,553
+orangefarbenen
+Strichen unten auf den
+
+38
+00:01:27,553 --> 00:01:30,613
+Umschlag. Und am Ende
+landet der Brief im
+
+39
+00:01:30,613 --> 00:01:31,973
+Fach für seine Zielregion.
+
+40
+00:01:32,833 --> 00:01:35,253
+So verarbeitet ein
+Briefzentrum im Schnitt
+
+41
+00:01:35,253 --> 00:01:37,493
+bis zu 40.000
+Sendungen pro Stunde.
+
+42
+00:01:38,333 --> 00:01:40,373
+Damit zur Auflösung.
+
+43
+00:01:41,113 --> 00:01:41,973
+Richtig ist B.
+
+44
+00:01:42,613 --> 00:01:44,253
+Eine Kamera in der
+Sortiermaschine.
+
+45
+00:01:45,033 --> 00:01:47,033
+Menschen helfen erst,
+wenn die Maschine
+
+46
+00:01:47,033 --> 00:01:47,881
+nicht weiterweiß.
+
+47
+00:01:48,600 --> 00:01:51,610
+Diese orangen Striche
+heißen Leitcode.
+
+48
+00:01:51,820 --> 00:01:53,900
+Er steht unten rechts
+auf dem Umschlag, in
+
+49
+00:01:53,900 --> 00:01:55,670
+einem Streifen, den
+die Post Codierzone
+
+50
+00:01:55,840 --> 00:01:59,380
+nennt. Darin stecken
+Postleitzahl, Straße
+
+51
+00:01:59,380 --> 00:02:01,120
+und Hausnummer, verschlüsselt.
+
+52
+00:02:02,020 --> 00:02:04,020
+Im Briefzentrum der
+Zielregion kann die
+
+53
+00:02:04,020 --> 00:02:05,720
+Maschine den Brief
+deshalb anhand der
+
+54
+00:02:05,720 --> 00:02:07,002
+Striche gleich
+weitersortieren.
+
+55
+00:02:07,800 --> 00:02:10,300
+Jetzt ein Detail,
+das überrascht.
+
+56
+00:02:11,180 --> 00:02:13,060
+Am Ziel werden die
+Briefe nicht nur nach
+
+57
+00:02:13,060 --> 00:02:13,960
+Straßen sortiert.
+
+58
+00:02:14,920 --> 00:02:16,880
+Der Großteil liegt
+am Ende schon in der
+
+59
+00:02:16,880 --> 00:02:18,700
+Reihenfolge, in der
+der Zusteller seine
+
+60
+00:02:18,700 --> 00:02:21,640
+Tour läuft. Nur wenige
+Briefe müssen noch
+
+61
+00:02:21,640 --> 00:02:22,920
+von Hand einsortiert werden.
+
+62
+00:02:23,700 --> 00:02:26,340
+Aber was ist mit Briefen,
+die die Maschine
+
+63
+00:02:26,340 --> 00:02:27,120
+nicht lesen kann?
+
+64
+00:02:27,900 --> 00:02:30,440
+Krakelige Handschrift,
+ein Aufkleber an
+
+65
+00:02:30,440 --> 00:02:32,480
+der falschen Stelle,
+und die Maschine gibt
+
+66
+00:02:32,480 --> 00:02:36,040
+auf. Seit 2024 gibt es dafür
+
+67
+00:02:36,040 --> 00:02:37,300
+Spezial-Arbeitsplätze.
+
+68
+00:02:38,440 --> 00:02:40,360
+Eine Kamera fotografiert
+den Brief noch
+
+69
+00:02:40,360 --> 00:02:42,440
+einmal, eine Software
+mit künstlicher
+
+70
+00:02:42,440 --> 00:02:44,120
+Intelligenz schlägt
+die vollständige
+
+71
+00:02:44,120 --> 00:02:46,400
+Adresse vor, und ein
+Mitarbeiter bestätigt
+
+72
+00:02:46,400 --> 00:02:49,260
+sie. Dann kommt ein
+gelbes Etikett mit der
+
+73
+00:02:49,260 --> 00:02:51,200
+Adresse drauf, und
+zurück geht's in die
+
+74
+00:02:51,200 --> 00:02:53,780
+Maschine. Intern
+sagt man dazu:
+
+75
+00:02:54,140 --> 00:02:55,360
+Die Briefe werden geheilt.
+
+76
+00:02:56,100 --> 00:02:58,040
+Nach der Wiedervereinigung
+gab es in
+
+77
+00:02:58,040 --> 00:02:59,820
+Deutschland rund 800 doppelte
+
+78
+00:02:59,820 --> 00:03:00,580
+Postleitzahlen.
+
+79
+00:03:01,460 --> 00:03:04,500
+Die 5300 zum Beispiel
+war Bonn, und
+
+80
+00:03:04,500 --> 00:03:05,660
+gleichzeitig Weimar.
+
+81
+00:03:06,060 --> 00:03:07,980
+Deshalb bekam ganz
+Deutschland am 1.
+
+82
+00:03:08,280 --> 00:03:11,380
+Juli 1993 neue, fünfstellige
+
+83
+00:03:11,380 --> 00:03:12,220
+Postleitzahlen.
+
+84
+00:03:13,180 --> 00:03:16,180
+Schon am ersten Tag
+trugen 57 Prozent der
+
+85
+00:03:16,180 --> 00:03:18,400
+Briefe die neue Zahl,
+nach einer Woche
+
+86
+00:03:18,400 --> 00:03:20,080
+waren es 78 Prozent.
+
+87
+00:03:21,067 --> 00:03:23,507
+Und was verraten
+die fünf Ziffern?
+
+88
+00:03:23,927 --> 00:03:25,307
+Die ersten beiden
+stehen für die
+
+89
+00:03:25,307 --> 00:03:27,707
+Leitregion, und damit
+für das zuständige
+
+90
+00:03:27,707 --> 00:03:28,427
+Briefzentrum.
+
+91
+00:03:28,867 --> 00:03:30,927
+Die 18 zum Beispiel gehört zum
+
+92
+00:03:30,927 --> 00:03:32,107
+Briefzentrum Rostock.
+
+93
+00:03:32,607 --> 00:03:34,727
+Die hinteren drei
+Ziffern legen fest, ob
+
+94
+00:03:34,727 --> 00:03:37,087
+der Brief in einen
+Hausbriefkasten, in ein
+
+95
+00:03:37,087 --> 00:03:39,327
+Postfach oder an einen
+Großkunden geht.
+
+96
+00:03:40,133 --> 00:03:42,953
+Nicht jede Sendung
+bekommt diese Striche.
+
+97
+00:03:43,673 --> 00:03:45,493
+Normale Briefe und
+Postkarten ja.
+
+98
+00:03:46,033 --> 00:03:48,333
+Großbriefe und
+Zeitschriften dagegen haben
+
+99
+00:03:48,333 --> 00:03:50,613
+keinen solchen
+Code, und unförmige
+
+100
+00:03:50,613 --> 00:03:52,413
+Sendungen werden von
+Hand bearbeitet.
+
+101
+00:03:53,167 --> 00:03:55,847
+Und wann muss die
+Maschine passen?
+
+102
+00:03:56,467 --> 00:03:58,627
+Erstens bei unleserlicher
+Handschrift.
+
+103
+00:03:59,627 --> 00:04:01,987
+Zweitens, wenn
+Aufkleber oder Schrift
+
+104
+00:04:01,987 --> 00:04:03,887
+unten rechts in der
+Codierzone stehen,
+
+105
+00:04:04,367 --> 00:04:05,947
+denn da muss Platz
+für den Code sein.
+
+106
+00:04:07,007 --> 00:04:09,087
+Und drittens, wenn
+die Anschrift schief
+
+107
+00:04:09,087 --> 00:04:10,667
+steht oder keinen
+freien Rand hat.
+
+108
+00:04:11,433 --> 00:04:13,593
+Und wie groß ist so
+ein Briefzentrum?
+
+109
+00:04:14,233 --> 00:04:16,093
+Im neuen Briefzentrum
+Germering bei
+
+110
+00:04:16,093 --> 00:04:18,353
+München stehen etwa
+60 Sortiermaschinen.
+
+111
+00:04:19,233 --> 00:04:21,793
+Und jeden Tag laufen
+dort rund zwei
+
+112
+00:04:21,793 --> 00:04:23,113
+Millionen Sendungen durch.
+
+113
+00:04:24,667 --> 00:04:26,887
+Jetzt du. Stimmt oder Mythos?
+
+114
+00:04:27,287 --> 00:04:29,667
+Erstens: Die orangen
+Striche druckt schon
+
+115
+00:04:29,667 --> 00:04:30,987
+der Hersteller
+auf den Umschlag.
+
+116
+00:04:32,723 --> 00:04:35,443
+Mythos. Die Striche
+kommen erst im
+
+117
+00:04:35,443 --> 00:04:37,543
+Briefzentrum drauf,
+wenn die Maschine
+
+118
+00:04:37,543 --> 00:04:38,823
+deine Adresse gelesen hat.
+
+119
+00:04:39,700 --> 00:04:43,060
+Zweitens: Einen alten
+Umschlag mit orangem
+
+120
+00:04:43,060 --> 00:04:45,098
+Code kann man problemlos
+wiederverwenden.
+
+121
+00:04:47,036 --> 00:04:50,316
+Mythos. Der alte Code
+kann die Maschine
+
+122
+00:04:50,316 --> 00:04:52,536
+verwirren, und der
+Brief landet womöglich
+
+123
+00:04:52,536 --> 00:04:53,316
+im falschen Fach.
+
+124
+00:04:54,980 --> 00:04:55,760
+Und drittens:
+
+125
+00:04:56,140 --> 00:04:58,480
+Die meisten Briefe
+sind nach zwei
+
+126
+00:04:58,480 --> 00:04:59,880
+Werktagen beim Empfänger.
+
+127
+00:05:01,808 --> 00:05:04,348
+Stimmt. Das schreibt
+die Post selbst.
+
+128
+00:05:04,748 --> 00:05:06,868
+Erlaubt sind übrigens
+bis zu vier Werktage
+
+129
+00:05:06,868 --> 00:05:08,588
+für 99 Prozent der Briefe.
+
+130
+00:05:09,467 --> 00:05:11,207
+Und wie geht es weiter?
+
+131
+00:05:12,067 --> 00:05:13,927
+Die Zahl der Briefe
+sinkt seit Jahren.
+
+132
+00:05:14,587 --> 00:05:16,527
+In Germering wurden
+deshalb zum Beispiel
+
+133
+00:05:16,527 --> 00:05:18,607
+die Briefzentren
+München und Starnberg
+
+134
+00:05:18,607 --> 00:05:19,407
+zusammengelegt.
+
+135
+00:05:20,207 --> 00:05:22,307
+Und bei schwierigen
+Adressen hilft immer
+
+136
+00:05:22,307 --> 00:05:23,907
+öfter künstliche Intelligenz.
+
+137
+00:05:25,090 --> 00:05:27,167
+Drei Tipps. Eins:
+
+138
+00:05:27,633 --> 00:05:29,660
+Schreib die Anschrift
+gut lesbar, am
+
+139
+00:05:29,660 --> 00:05:30,560
+besten gedruckt.
+
+140
+00:05:31,290 --> 00:05:33,560
+Zwei: Lass unten
+rechts einen Streifen
+
+141
+00:05:33,560 --> 00:05:35,760
+frei, etwa eineinhalb
+Zentimeter hoch,
+
+142
+00:05:36,100 --> 00:05:37,360
+damit der Code draufpasst.
+
+143
+00:05:37,940 --> 00:05:40,720
+Drei: Prüf die
+Postleitzahl genau, denn
+
+144
+00:05:40,720 --> 00:05:42,400
+die ersten beiden
+Ziffern entscheiden über
+
+145
+00:05:42,400 --> 00:05:43,280
+das Briefzentrum.
+
+146
+00:05:44,033 --> 00:05:47,333
+Also: Eine Kamera liest
+deine Adresse, ein
+
+147
+00:05:47,333 --> 00:05:49,793
+Drucker macht daraus
+orange Striche, und
+
+148
+00:05:49,793 --> 00:05:52,133
+Maschinen sortieren
+den Brief bis in die
+
+149
+00:05:52,133 --> 00:05:53,773
+Reihenfolge der Zustelltour.
+
+150
+00:05:54,213 --> 00:05:56,173
+So findet dein Brief
+fast von allein den
+
+151
+00:05:56,173 --> 00:05:58,873
+Weg. Wenn du wissen
+willst, wie andere
+
+152
+00:05:58,873 --> 00:06:00,693
+Dinge aus deinem
+Alltag funktionieren:
+
+153
+00:06:01,113 --> 00:06:03,213
+abonnieren. Alle zwei
+Tage durchschauen
+
+154
+00:06:03,213 --> 00:06:04,293
+wir zusammen ein neues.
+
+155
+00:06:04,953 --> 00:06:06,473
+Bis dann, euer Lupo!
