@@ -56,9 +56,8 @@
   "mikrowelle:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false,
-    "playlist": true,
-    "comment": true
+    "pinned": true,
+    "playlist": true
   },
   "mikrowelle:s1": {
     "uploaded": "2026-11-07",
@@ -75,7 +74,7 @@
   "strichcode:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false,
+    "pinned": true,
     "playlist": true
   },
   "strichcode:s1": {
@@ -158,6 +157,24 @@
   },
   "kuehlschrank:s2": {
     "uploaded": "2026-11-07",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "brief:main": {
+    "uploaded": "2026-11-17",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "brief:s1": {
+    "uploaded": "2026-11-17",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "brief:s2": {
+    "uploaded": "2026-11-17",
     "thumb": false,
     "pinned": false,
     "playlist": true
