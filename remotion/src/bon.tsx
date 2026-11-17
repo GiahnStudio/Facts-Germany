@@ -127,7 +127,7 @@ export const BonScene: React.FC<{ s: any }> = ({ s }) => {
             <circle cx={0} cy={0} r={Math.max(12, rollR * 0.18)} fill="none" stroke={INK} strokeWidth={4} />
           </g>
           {/* Kein Tinte-Hinweis */}
-          <g transform={`translate(${pX + pW - 8} ${slotY - 70})`} opacity={interpolate(t, [tHeat + 0.6, tHeat + 1], [0, 1], clamp) * (1 - zp)}>
+          <g transform={`translate(${pX + pW + 250} ${slotY + 40})`} opacity={interpolate(t, [tHeat + 0.6, tHeat + 1], [0, 1], clamp) * (1 - zp)}>
             <rect x={-200} y={-46} width={200} height={56} rx={28} fill={C.red} stroke={INK} strokeWidth={4} />
             <text x={-100} y={-8} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={28} fill={C.white}>0 × Tinte</text>
           </g>
