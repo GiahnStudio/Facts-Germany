@@ -12,10 +12,10 @@
 - 2026-11-23 Wie funktioniert ein Kühlschrank? (`09_kuehlschrank`)
 - 2026-11-25 Wie funktioniert die Toilettenspülung? (`10_toilette`, Stimme aus Voice Studio)
 - 2026-11-27 Wie findet die Post deinen Brief? (`11_brief`, Spezialszene brief)
+- 2026-11-29 Wie druckt die Kasse ohne Tinte? (`12_kassenbon`, Spezialszene bon)
 
 ## Ideen
 - Wie weiß Google Maps, wo Stau ist?
 - Wie kommt der Strom in die Steckdose?
 - Wie funktioniert ein Blitzer?
 - Wie funktioniert eine Waschmaschine, die das Gewicht der Wäsche erkennt?
-- Wie funktioniert der Kassenzettel-Drucker (Thermopapier)?
