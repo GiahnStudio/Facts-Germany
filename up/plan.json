@@ -268,5 +268,32 @@
     "duration": 28.3
    }
   ]
+ },
+ {
+  "title": "Wie druckt die Kasse ohne Tinte? (Das Geheimnis im Kassenbon)",
+  "date": "2026-11-29",
+  "time": "17:00",
+  "tags": "kassenbon, thermopapier, wie funktioniert ein kassenbon, bondrucker, thermodrucker, kassenzettel verblasst, kassenbon entsorgen, bonpflicht, blauer kassenbon, wie funktioniert das, durchschaut",
+  "pin": "Hast du den Fingernagel-Test schon ausprobiert? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "kassenbon",
+  "file": "kassenbon_video.mp4",
+  "desc": "Du bezahlst, es surrt kurz – und der Kassenbon ist fertig. Dabei steckt im Bondrucker keine einzige Patrone. Lupo schaut ins Thermopapier: wie winzige Heizpunkte die Schrift ins Papier zaubern, warum ein Fingernagel einen schwarzen Strich macht, wieso alte Bons verblassen, was der blaue Bon anders macht – und warum der erste Drucker dieser Art „Silent“ hieß.\n\nKapitel\n0:00 Intro\n0:26 Die Quizfrage\n0:43 Ganz schön viel Papier\n1:00 Das Geheimnis im Papier\n1:21 Was beim Drucken passiert\n1:45 Die Auflösung\n1:56 Der Fingernagel-Test\n2:13 Der Drucker, der leise war\n2:44 Warum Bons verblassen\n3:02 Weiß oder blau?\n3:24 Was die EU verboten hat\n3:47 Stimmt oder Mythos?\n4:33 Der Bon der Zukunft\n4:53 3 Tipps\n5:12 Fazit\n\nQuellen\n- Aufbau Thermopapier: farbloser Leukofarbstoff, Entwickler (schwache Säure), wachsartiges Lösungsmittel schmilzt bei Hitze; Druckkopf mit kleinen Heizelementen; Verblassen durch Sonne, Wärme, Weichmacher und Gerbstoffe (ChemistryViews): https://www.chemistryviews.org/?p=41618\n- Thermodruckkopf 1965 von Texas Instruments, Fingernagel kann durch Reibungswärme einen Strich erzeugen (Wikipedia, Thermal paper): https://en.wikipedia.org/wiki/Thermal_paper\n- Silent 700, 1971, wärmeempfindliches Papier machte es leise (Computer History Museum): https://www.computerhistory.org/revolution/artifact/181/728\n- Kratztest mit dem Fingernagel, Thermodirektdruck ohne Farbband (Zebra Technologies): https://docs.zebra.com/de/de/printers/desktop/zd411d-direct-thermal-printer/r-desk-ug-types-of-thermal-media/c-mlk-ug-determining-thermal-media-types.html\n- Mehr als 2 Millionen Kilometer zusätzliches Bonpapier pro Jahr, etwa eine Fichte pro Stunde (EHI Retail Institute, über Lebensmittel Praxis): https://lebensmittelpraxis.de/handel-aktuell/26067-ehi-retail-institute-rechnet-mit-drastischem-verbrauch-von-bonpapier-2019-12-06-13-27-57.html\n- BPA-Grenzwert 0,02 Gewichtsprozent seit 2. Januar 2020, Thermopapier in den Restmüll (Umweltbundesamt): https://umweltbundesamt.de/print/78474\n- Entsorgung von Kassenbons laut Umweltbundesamt (GIGA): https://www.giga.de/tech/umweltbundesamt-klaert-auf-so-gehoeren-kassenbons-wirklich-in-den-muell--01KHNQWJXKZSZ5380NMY2BA282\n- Blaue Bons ohne chemischen Entwickler: Schicht wird durch Hitze durchsichtig (Jarltech zu Koehler Blue4est): https://jarltech.com/en/news/511\n- Blue4est von Koehler Paper aus Oberkirch (Utopia): https://utopia.de/ratgeber/blaue-kassenbons-richtig-entsorgen-altpapier-oder-restmuell_603019/\n- Beleg muss vom Kunden nicht mitgenommen werden, Belegausgabepflicht seit 1.1.2020 (Merkblatt Finanzministerium Mecklenburg-Vorpommern): https://www.steuerportal-mv.de/static/Regierungsportal/Finanzministerium/Steuerportal/Inhalte/Merkblatt%20Belegausgabepflicht%20f%C3%BCr%20Unternehmer%20und.pdf\n- Kabinettsbeschluss September 2026: Papierbon-Pflicht soll ab 2028 entfallen (Deutsche Handwerks Zeitung): https://www.deutsche-handwerks-zeitung.de/bonpflicht-bleibt-nur-anders-was-der-gesetzentwurf-vorsieht-384034/\n- Zweites Kassengesetz im parlamentarischen Verfahren, elektronischer Beleg z. B. per QR-Code (NWB Experten-Blog): https://www.nwb-experten-blog.de/update-zweites-kassengesetz-auf-dem-parlamentarischen-weg/\n- Thermodrucke nicht dokumentenecht, Kopie auf Normalpapier (Wikipedia, Thermopapier): https://de.wikipedia.org/wiki/Thermopapier\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#kassenbon #wiefunktioniertdas #durchschaut",
+  "duration": 337.2,
+  "shorts": [
+   {
+    "file": "short_1_ohne_tinte.mp4",
+    "title": "Wie druckt die Kasse ohne Tinte? #shorts",
+    "date": "2026-11-29",
+    "time": "12:00",
+    "duration": 30.1
+   },
+   {
+    "file": "short_2_fingernagel_test.mp4",
+    "title": "Kratz mal mit dem Fingernagel über deinen Kassenbon #shorts",
+    "date": "2026-11-30",
+    "time": "12:00",
+    "duration": 28.2
+   }
+  ]
  }
 ]
