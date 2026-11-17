@@ -20,7 +20,7 @@ Hintergrund: GIAHN will vor dem 1. Februar 2027 die Monetarisierung schaffen (da
    - Videos werden mit Remotion animiert (`remotion/src`). Szenentypen: title, chips, quiz, bignum (zählt hoch), flow (Icons mit Linien),
      fact, story, split, list, case (Stimmt/Mythos mit Timer + Stempel), outro, sowie Spezialszenen:
      `machine` (animierter Automat, Cues insert_at/scan_at/db_at/press_at/bon_at), `money` (Münzen fliegen zwischen Knoten),
-     `ampel` (Induktionsschleife, Cues car_at/loop_at/signal_at/green_at) und `aufzug` (Seilriss + Fangvorrichtung, Cues move_at/cut_at/governor_at/grip_at).
+     `ampel` (Induktionsschleife, Cues car_at/loop_at/signal_at/green_at) `aufzug` (Seilriss + Fangvorrichtung, Cues move_at/cut_at/governor_at/grip_at) und `bon` (Bondrucker mit Thermopapier, Lupe ins Papier, Cues feed_at/heat_at/zoom_at/melt_at/tear_at).
      Für neue Themen gern eine eigene Spezialszene in `remotion/src` bauen (z. B. animierte Ampel), das macht die Folge unterhaltsamer.
    - Soundeffekte/Musik: `python renderer/sfx.py` (liegen in `remotion/public/sfx` und `remotion/public/music`).
    - Icons (`remotion/src/icons.tsx`): lens, machine, bottle, can, coin, barcode, eye, chip, press, crate, recycle, factory, shop, receipt, server, wash,

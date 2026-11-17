@@ -1,0 +1,565 @@
+{
+ "slug": "kassenbon",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-11-29",
+ "time": "17:00",
+ "title": "Wie druckt die Kasse ohne Tinte? (Das Geheimnis im Kassenbon)",
+ "tags": "kassenbon, thermopapier, wie funktioniert ein kassenbon, bondrucker, thermodrucker, kassenzettel verblasst, kassenbon entsorgen, bonpflicht, blauer kassenbon, wie funktioniert das, durchschaut",
+ "pin": "Hast du den Fingernagel-Test schon ausprobiert? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du bezahlst, es surrt kurz – und der Kassenbon ist fertig. Dabei steckt im Bondrucker keine einzige Patrone. Lupo schaut ins Thermopapier: wie winzige Heizpunkte die Schrift ins Papier zaubern, warum ein Fingernagel einen schwarzen Strich macht, wieso alte Bons verblassen, was der blaue Bon anders macht – und warum der erste Drucker dieser Art „Silent“ hieß.\n\nKapitel\n{kapitel}\n\nQuellen\n- Aufbau Thermopapier: farbloser Leukofarbstoff, Entwickler (schwache Säure), wachsartiges Lösungsmittel schmilzt bei Hitze; Druckkopf mit kleinen Heizelementen; Verblassen durch Sonne, Wärme, Weichmacher und Gerbstoffe (ChemistryViews): https://www.chemistryviews.org/?p=41618\n- Thermodruckkopf 1965 von Texas Instruments, Fingernagel kann durch Reibungswärme einen Strich erzeugen (Wikipedia, Thermal paper): https://en.wikipedia.org/wiki/Thermal_paper\n- Silent 700, 1971, wärmeempfindliches Papier machte es leise (Computer History Museum): https://www.computerhistory.org/revolution/artifact/181/728\n- Kratztest mit dem Fingernagel, Thermodirektdruck ohne Farbband (Zebra Technologies): https://docs.zebra.com/de/de/printers/desktop/zd411d-direct-thermal-printer/r-desk-ug-types-of-thermal-media/c-mlk-ug-determining-thermal-media-types.html\n- Mehr als 2 Millionen Kilometer zusätzliches Bonpapier pro Jahr, etwa eine Fichte pro Stunde (EHI Retail Institute, über Lebensmittel Praxis): https://lebensmittelpraxis.de/handel-aktuell/26067-ehi-retail-institute-rechnet-mit-drastischem-verbrauch-von-bonpapier-2019-12-06-13-27-57.html\n- BPA-Grenzwert 0,02 Gewichtsprozent seit 2. Januar 2020, Thermopapier in den Restmüll (Umweltbundesamt): https://umweltbundesamt.de/print/78474\n- Entsorgung von Kassenbons laut Umweltbundesamt (GIGA): https://www.giga.de/tech/umweltbundesamt-klaert-auf-so-gehoeren-kassenbons-wirklich-in-den-muell--01KHNQWJXKZSZ5380NMY2BA282\n- Blaue Bons ohne chemischen Entwickler: Schicht wird durch Hitze durchsichtig (Jarltech zu Koehler Blue4est): https://jarltech.com/en/news/511\n- Blue4est von Koehler Paper aus Oberkirch (Utopia): https://utopia.de/ratgeber/blaue-kassenbons-richtig-entsorgen-altpapier-oder-restmuell_603019/\n- Beleg muss vom Kunden nicht mitgenommen werden, Belegausgabepflicht seit 1.1.2020 (Merkblatt Finanzministerium Mecklenburg-Vorpommern): https://www.steuerportal-mv.de/static/Regierungsportal/Finanzministerium/Steuerportal/Inhalte/Merkblatt%20Belegausgabepflicht%20f%C3%BCr%20Unternehmer%20und.pdf\n- Kabinettsbeschluss September 2026: Papierbon-Pflicht soll ab 2028 entfallen (Deutsche Handwerks Zeitung): https://www.deutsche-handwerks-zeitung.de/bonpflicht-bleibt-nur-anders-was-der-gesetzentwurf-vorsieht-384034/\n- Zweites Kassengesetz im parlamentarischen Verfahren, elektronischer Beleg z. B. per QR-Code (NWB Experten-Blog): https://www.nwb-experten-blog.de/update-zweites-kassengesetz-auf-dem-parlamentarischen-weg/\n- Thermodrucke nicht dokumentenecht, Kopie auf Normalpapier (Wikipedia, Thermopapier): https://de.wikipedia.org/wiki/Thermopapier\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#kassenbon #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Gedruckt ohne Tinte?",
+   "chip": "DAS GEHEIMNIS IM BON",
+   "mood": "wow",
+   "icon": "receipt"
+  },
+  "B": {
+   "big": "Kratz mal am Kassenbon",
+   "chip": "DER FINGERNAGEL-TEST",
+   "stamp": "SCHWARZ!",
+   "stamp_color": "red",
+   "mood": "cheer",
+   "icon": "receipt"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie druckt die Kasse ohne Tinte?",
+   "size": 78,
+   "sub": "Kein Toner, keine Patrone, kein Farbband.",
+   "sub_at": "Patrone",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Kassenbon. Du bezahlst, es surrt kurz, und schon hängt der Zettel aus der Kasse. Aber in diesem Drucker steckt keine einzige Patrone. Wie kommt die Schrift dann aufs Papier?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Keine Patrone?!",
+      "at": "Patrone"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in den Bon",
+   "items": [
+    {
+     "text": "Der Trick mit der Hitze",
+     "at": "Hitze"
+    },
+    {
+     "text": "Was im Papier steckt",
+     "at": "Papier"
+    },
+    {
+     "text": "Warum Bons verblassen",
+     "at": "verblassen"
+    },
+    {
+     "text": "Wohin damit?",
+     "at": "wegwerfen"
+    }
+   ],
+   "say": "Heute schauen wir uns an, wie der Trick mit der Hitze funktioniert, was im Papier steckt, warum Bons mit der Zeit verblassen, und wo du sie am besten wegwerfen solltest."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie kommt die Schrift auf den Kassenbon?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Ein winziger Tintenstrahl",
+     "at": "A"
+    },
+    {
+     "text": "Hitze färbt das Papier schwarz",
+     "at": "B"
+    },
+    {
+     "text": "Ein Laser brennt die Buchstaben ein",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie kommt die Schrift auf den Kassenbon? A: Ein winziger Tintenstrahl. B: Hitze färbt das Papier schwarz. C: Ein Laser brennt die Buchstaben ein. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Ganz schön viel Papier",
+   "title": "Bonpapier im Handel",
+   "items": [
+    {
+     "num": "2 Mio. km",
+     "label": "zusätzliches Bonpapier pro Jahr (Schätzung EHI)",
+     "size": 120,
+     "at": "Millionen"
+    },
+    {
+     "num": "1 Fichte",
+     "label": "pro Stunde für dieses Papier",
+     "size": 120,
+     "at": "Fichte"
+    }
+   ],
+   "say": "Und Kassenbons gibt es jede Menge. Als 2020 die Bonpflicht kam, rechnete das EHI Retail Institute mit mehr als zwei Millionen Kilometern zusätzlichem Bonpapier pro Jahr, allein im Handel. Dafür müsse etwa jede Stunde eine Fichte gefällt werden.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Wie lang?!",
+      "at": "Kilometern"
+     }
+    ]
+   },
+   "pause": 0.9
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Geheimnis im Papier",
+   "icon": "receipt",
+   "label": "THERMOPAPIER",
+   "headline": "Die Farbe steckt schon im Papier",
+   "size": 78,
+   "lines": [
+    {
+     "text": "Vorne liegt eine hauchdünne Spezialschicht.",
+     "at": "Spezialschicht"
+    },
+    {
+     "text": "Darin: ein farbloser Farbstoff und ein Entwickler.",
+     "at": "Entwickler"
+    },
+    {
+     "text": "Beide warten nur auf Hitze.",
+     "at": "warten"
+    }
+   ],
+   "say": "Das Geheimnis steckt im Papier selbst. Kassenbons sind aus Thermopapier. Auf der Vorderseite liegt eine hauchdünne Spezialschicht. Darin stecken ein Farbstoff, der zunächst farblos ist, und ein sogenannter Entwickler, eine schwache Säure. Beide sind in einem wachsartigen Stoff eingeschlossen und warten nur auf Hitze."
+  },
+  {
+   "type": "bon",
+   "chapter": "Was beim Drucken passiert",
+   "title": "Im Bondrucker",
+   "feed_at": "Rolle",
+   "heat_at": "Heizpunkten",
+   "zoom_at": "Schauen",
+   "melt_at": "schmilzt",
+   "tear_at": "abgerissen",
+   "say": "Und so druckt die Kasse. Das Papier läuft von der Rolle an einem Druckkopf vorbei. Der hat eine Reihe aus winzigen Heizpunkten. Die Elektronik heizt blitzschnell genau die Punkte, an denen ein Buchstabe entstehen soll. Schauen wir ins Papier: Durch die Hitze schmilzt das Wachs, Farbstoff und Entwickler treffen sich, und der Farbstoff wird schwarz. Zeile für Zeile entsteht so dein Bon, bis er abgerissen wird.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Heiß!",
+      "at": "blitzschnell"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie kommt die Schrift auf den Kassenbon?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Ein winziger Tintenstrahl",
+    "Hitze färbt das Papier schwarz",
+    "Ein Laser brennt die Buchstaben ein"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Hitze färbt das Papier schwarz. Kein Tintenstrahl und kein Laser, nur winzige Heizpunkte."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Fingernagel-Test",
+   "icon": "receipt",
+   "label": "PROBIER'S AUS",
+   "headline": "Ein Fingernagel reicht",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Schnell und fest über die Vorderseite kratzen.",
+     "at": "Fingernagel"
+    },
+    {
+     "text": "Die Reibung erzeugt Wärme.",
+     "at": "Reibung"
+    },
+    {
+     "text": "Es entsteht ein dunkler Strich.",
+     "at": "Strich"
+    }
+   ],
+   "say": "Das kannst du sogar selbst ausprobieren. Kratz mal mit dem Fingernagel schnell und fest über die Vorderseite eines Kassenbons. Die Reibung kann genug Wärme erzeugen, und es entsteht ein dunkler Strich. Genau so empfiehlt es sogar ein Druckerhersteller, um Thermopapier zu erkennen.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Kratz, kratz!",
+      "at": "Kratz"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Der Drucker, der leise war",
+   "title": "Der Drucker ohne Krach",
+   "steps": [
+    {
+     "date": "Früher",
+     "text": "Fernschreiber schlagen Buchstaben laut aufs Papier.",
+     "at": "Fernschreiber"
+    },
+    {
+     "date": "1965",
+     "text": "Texas Instruments entwickelt einen Druckkopf, der mit Wärme druckt.",
+     "at": "Texas"
+    },
+    {
+     "date": "1971",
+     "text": "Das Terminal „Silent 700“ druckt auf wärmeempfindliches Papier.",
+     "at": "Silent"
+    },
+    {
+     "date": "Heute",
+     "text": "Kassenbons, Parkscheine, Fahrkarten.",
+     "at": "Parkscheinen"
+    }
+   ],
+   "stamp": "LEISE",
+   "stamp_color": "green",
+   "stamp_at": "leise.",
+   "say": "Dass solche Drucker so ruhig sind, hat übrigens eine Geschichte. Früher schlugen Fernschreiber die Buchstaben laut aufs Papier. 1965 entwickelte die Firma Texas Instruments einen Druckkopf, der mit Wärme druckt. 1971 kam ein Terminal auf den Markt, das auf wärmeempfindliches Papier druckte. Sein Name: Silent 700. Silent heißt leise. Heute steckt das Prinzip in Kassenbons, Parkscheinen und Fahrkarten.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Psst!",
+      "at": "Silent"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum Bons verblassen",
+   "icon": "flame",
+   "label": "DAS PROBLEM",
+   "headline": "Wärme und Licht löschen die Schrift",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Sonne und Wärme können die Schicht wieder anschmelzen.",
+     "at": "Sonnenlicht"
+    },
+    {
+     "text": "Weichmacher aus Folien oder Gerbstoffe aus Geldbörsen dringen ein.",
+     "at": "Weichmacher"
+    },
+    {
+     "text": "Der Farbstoff wird wieder farblos.",
+     "at": "farblose"
+    }
+   ],
+   "say": "Und das erklärt auch, warum alte Bons oft verblassen. Sonnenlicht und Wärme können die Schicht wieder anschmelzen. Und Stoffe wie Weichmacher aus Klarsichtfolien oder Gerbstoffe aus Geldbörsen können eindringen. Dann kehrt der Farbstoff in seine farblose Form zurück, und die Schrift verschwindet.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Weg ist sie!",
+      "at": "verschwindet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Weiß oder blau?",
+   "title": "Bon ist nicht gleich Bon",
+   "items": [
+    {
+     "icon": "receipt",
+     "label": "WEISSER BON",
+     "title": "Chemische Reaktion",
+     "text": "Farbstoff und Entwickler reagieren und werden schwarz.",
+     "color": "blue",
+     "at": "weißen"
+    },
+    {
+     "icon": "receipt",
+     "label": "BLAUER BON",
+     "title": "Ohne chemischen Entwickler",
+     "text": "Hitze macht eine Schicht durchsichtig, darunter liegt Schwarz.",
+     "color": "green",
+     "at": "blauen"
+    }
+   ],
+   "say": "Vielleicht hast du auch schon blaugraue Kassenbons gesehen. Die funktionieren anders. Beim weißen Bon reagieren Farbstoff und Entwickler chemisch miteinander. Beim blauen Bon gibt es keinen chemischen Entwickler. Dort wird eine Schicht durch Hitze durchsichtig, und darunter kommt eine schwarze Schicht zum Vorschein. Dieses Papier stellt der Hersteller Koehler aus Baden-Württemberg her."
+  },
+  {
+   "type": "fact",
+   "chapter": "Was die EU verboten hat",
+   "icon": "warn",
+   "label": "SEIT 2. JANUAR 2020",
+   "headline": "Bisphenol A ist im Bonpapier verboten",
+   "size": 72,
+   "lines": [
+    {
+     "text": "Früher oft als Entwickler im Einsatz.",
+     "at": "Früher"
+    },
+    {
+     "text": "Erlaubt: höchstens 0,02 Gewichtsprozent.",
+     "at": "Gewichtsprozent"
+    },
+    {
+     "text": "Viele Hersteller haben umgestellt.",
+     "at": "umgestellt"
+    }
+   ],
+   "say": "Und noch etwas hat sich geändert. Früher wurde als Entwickler oft ein Stoff namens Bisphenol A eingesetzt. Die EU stuft ihn als besonders besorgniserregend ein. Seit dem 2. Januar 2020 darf Thermopapier in der EU deshalb höchstens noch 0,02 Gewichtsprozent davon enthalten. Viele Hersteller haben auf andere Entwickler umgestellt."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "receipt",
+   "label": "Behauptung 1",
+   "text": "Ein Bondrucker braucht eine Farbpatrone.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Thermodrucker",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Ein Bondrucker braucht eine Farbpatrone. ... Mythos. Thermodrucker brauchen weder Tinte noch Farbband, nur das spezielle Papier.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "recycle",
+   "label": "Behauptung 2",
+   "text": "Weiße Kassenbons gehören ins Altpapier.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Das",
+   "say": "Zweitens: Weiße Kassenbons gehören ins Altpapier. ... Mythos. Das Umweltbundesamt empfiehlt den Restmüll. Sonst können Stoffe aus der Beschichtung über Recyclingpapier wieder im Kreislauf landen.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "shop",
+   "label": "Behauptung 3",
+   "text": "Du musst den Kassenbon mitnehmen.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "say": "Und drittens: Du musst den Kassenbon mitnehmen. ... Mythos. Die Kasse muss dir einen Beleg anbieten, aber mitnehmen musst du ihn nicht. So steht es in einem Schreiben des Bundesfinanzministeriums.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Ab in den Müll!",
+      "at": "Bundesfinanzministeriums"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Bon der Zukunft",
+   "icon": "calendar",
+   "label": "GEPLANT AB 2028",
+   "headline": "Der Papierbon soll keine Pflicht mehr sein",
+   "size": 70,
+   "lines": [
+    {
+     "text": "Die Bundesregierung hat einen Gesetzentwurf beschlossen.",
+     "at": "Gesetzentwurf"
+    },
+    {
+     "text": "Statt Papier: digitale Belege, etwa per QR-Code.",
+     "at": "QR-Code"
+    },
+    {
+     "text": "Noch berät der Bundestag.",
+     "at": "berät"
+    }
+   ],
+   "say": "Und wie geht es weiter? Im September 2026 hat die Bundesregierung einen Gesetzentwurf beschlossen. Ab 2028 soll die Pflicht für Papierbons wegfallen. Stattdessen sollen digitale Belege kommen, zum Beispiel per QR-Code. Beschlossen ist das aber noch nicht, gerade berät der Bundestag darüber."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für deine Kassenbons",
+   "items": [
+    {
+     "text": "Wichtige Bons gleich abfotografieren oder kopieren",
+     "icon": "camera",
+     "at": "Eins"
+    },
+    {
+     "text": "Kühl und dunkel lagern, nicht in Klarsichtfolie",
+     "icon": "house",
+     "at": "Zwei"
+    },
+    {
+     "text": "Weiße Bons in den Restmüll",
+     "icon": "recycle",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für deine Kassenbons. Eins: Wichtige Bons, zum Beispiel von teuren Geräten, gleich abfotografieren oder kopieren, denn die Schrift hält nicht ewig. Zwei: Bons kühl und dunkel aufbewahren und nicht in Klarsichtfolien stecken. Drei: Weiße Bons gehören in den Restmüll."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Hitze statt Tinte.",
+   "size": 100,
+   "sub": "Die Farbe steckt schon im Papier.",
+   "sub_at": "steckt",
+   "say": "Also: Der Bondrucker hat keine Tinte. Winzige Heizpunkte schmelzen eine Schicht im Papier, und ein farbloser Farbstoff wird schwarz. Hitze statt Tinte, die Farbe steckt schon im Papier."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "ohne_tinte",
+   "title": "Wie druckt die Kasse ohne Tinte? #shorts",
+   "date": "2026-11-29",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie kommt die Schrift auf den Kassenbon?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Ein winziger Tintenstrahl",
+       "at": "A"
+      },
+      {
+       "text": "Hitze färbt das Papier schwarz",
+       "at": "B"
+      },
+      {
+       "text": "Ein Laser brennt sie ein",
+       "at": "C"
+      }
+     ],
+     "say": "Im Bondrucker steckt keine Patrone. Wie kommt die Schrift dann auf den Kassenbon? A: Ein winziger Tintenstrahl. B: Hitze färbt das Papier schwarz. C: Ein Laser brennt sie ein.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm…?",
+        "at": "Laser"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Ein winziger Tintenstrahl",
+      "Hitze färbt das Papier schwarz",
+      "Ein Laser brennt sie ein"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "fact",
+     "icon": "receipt",
+     "label": "THERMOPAPIER",
+     "headline": "Die Farbe steckt schon im Papier",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Winzige Heizpunkte machen einen farblosen Farbstoff schwarz.",
+       "at": "Heizpunkte"
+      }
+     ],
+     "say": "Der Bon ist aus Thermopapier. Winzige Heizpunkte im Druckkopf machen einen farblosen Farbstoff in der Beschichtung schwarz."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "fingernagel_test",
+   "title": "Kratz mal mit dem Fingernagel über deinen Kassenbon #shorts",
+   "date": "2026-11-30",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Kratz mal über deinen Kassenbon.",
+     "size": 86,
+     "stamp": "SCHWARZ!",
+     "stamp_color": "red",
+     "stamp_at": "Strich",
+     "say": "Kratz mal mit dem Fingernagel schnell über einen Kassenbon. Siehst du den dunklen Strich?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Huch!",
+        "at": "Strich"
+       }
+      ]
+     }
+    },
+    {
+     "type": "bon",
+     "title": "Im Bondrucker",
+     "feed_at": "Rolle",
+     "heat_at": "Heizpunkte",
+     "zoom_at": "Im",
+     "melt_at": "schmilzt",
+     "tear_at": "schwarz.",
+     "say": "Das Papier von der Rolle hat eine Spezialschicht. Im Drucker heizen winzige Heizpunkte. Dann schmilzt ein Wachs, und ein farbloser Farbstoff wird schwarz."
+    },
+    {
+     "type": "fact",
+     "icon": "flame",
+     "label": "REIBUNG = WÄRME",
+     "headline": "Dein Fingernagel ist ein Mini-Drucker",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Die Reibung macht genug Wärme für einen Strich.",
+       "at": "Reibung"
+      }
+     ],
+     "say": "Und beim Kratzen erzeugt die Reibung genug Wärme für einen Strich. Dein Fingernagel ist also ein Mini-Drucker."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie der Bondrucker genau funktioniert, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
