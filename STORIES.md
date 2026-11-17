@@ -12,13 +12,13 @@ Gemeinfreie Stoffe immer in eigenen Worten nacherzählen. Aesop-Stoffe dürfen i
 - The Tiger and the Mouse (Aesop: Lion and Mouse) — auch die Kleinen können helfen
 - The Hen That Laid Golden Eggs (Aesop) — Gier zerstört die Quelle
 - The Cicada and the Ant (Aesop) — vorsorgen
-- The Fox and the Persimmons (Aesop: Fox and Grapes) — Ausreden
 - The Dog on the Bridge (Aesop) — Gier nach dem Spiegelbild
 - The Boy Who Cried Tiger (Aesop) — Vertrauen verspielt man nur einmal
 - Original: The Lantern Maker and the Moth — Licht, das man verschenkt
 - Original: Two Farmers and the Shortcut — Abkürzungen kosten am Ende mehr
 
 ## Erledigt
+- 011 The Fox and the Persimmons (Aesop, Japan) — gesungene Suno-Fassung. Moral: It's easy to scorn what you cannot reach.
 - 010 Pulling the Sprouts (Mencius, Japan) — gesungene Suno-Fassung. Moral: You cannot hurry what must grow.
 - 009 Empty Your Cup (Zen) — gesungene Suno-Fassung. Moral: Empty your cup, and let the world pour in.
 - 008 The Wind and the Sun (Aesop, Japan) — gesungene Suno-Fassung. Moral: Gentleness opens what force keeps shut.

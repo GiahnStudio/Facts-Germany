@@ -54,5 +54,12 @@
   "status": "queued",
   "date": null,
   "url": null
+ },
+ {
+  "ep": "011-the-fox-and-the-persimmons",
+  "file": "out/011-the-fox-and-the-persimmons.mp4",
+  "status": "queued",
+  "date": null,
+  "url": null
  }
 ]

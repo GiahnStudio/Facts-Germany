@@ -108,5 +108,16 @@
   ],
   "metricool_uuid": "-1839485586724666108",
   "note": "gesungene Suno-Fassung; 15.11. fehlgeschlagen: Auto publish failed. Tiktok refresh token unknown error (-1) — TikTok in Metricool neu verbinden, dann neu einplanen"
+ },
+ {
+  "ep": "011-the-fox-and-the-persimmons",
+  "date": null,
+  "time": null,
+  "status": "rendered",
+  "networks": [
+   "tiktok"
+  ],
+  "metricool_uuid": null,
+  "note": "gesungene Suno-Fassung; noch nicht eingeplant (TikTok-Verbindung in Metricool abgelaufen, siehe 010)"
  }
 ]

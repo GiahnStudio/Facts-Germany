@@ -1,0 +1,141 @@
+{
+ "clip": "aba891b1-49ba-46dd-8f4e-b46e09e1872d",
+ "start": 1.98,
+ "dur": 75.18,
+ "sections": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.2
+  },
+  {
+   "id": "L02",
+   "t0": 5.27,
+   "t1": 10.13
+  },
+  {
+   "id": "L03",
+   "t0": 10.33,
+   "t1": 15.36
+  },
+  {
+   "id": "L04",
+   "t0": 15.41,
+   "t1": 21.06
+  },
+  {
+   "id": "L05",
+   "t0": 21.11,
+   "t1": 26.13
+  },
+  {
+   "id": "L06",
+   "t0": 26.21,
+   "t1": 31.23
+  },
+  {
+   "id": "L07",
+   "t0": 31.31,
+   "t1": 36.28
+  },
+  {
+   "id": "L08",
+   "t0": 36.37,
+   "t1": 41.34
+  },
+  {
+   "id": "L09",
+   "t0": 41.39,
+   "t1": 46.46
+  },
+  {
+   "id": "L10",
+   "t0": 46.57,
+   "t1": 51.91
+  },
+  {
+   "id": "L11",
+   "t0": 51.99,
+   "t1": 56.61
+  },
+  {
+   "id": "L12",
+   "t0": 56.62,
+   "t1": 61.0
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "t0": 0.3,
+   "t1": 5.2,
+   "text": "A hungry fox came down the hill one day"
+  },
+  {
+   "id": "L02",
+   "t0": 5.27,
+   "t1": 10.13,
+   "text": "And saw persimmons ripe above the way"
+  },
+  {
+   "id": "L03",
+   "t0": 10.33,
+   "t1": 15.36,
+   "text": "So round and gold, they looked so soft and sweet"
+  },
+  {
+   "id": "L04",
+   "t0": 15.41,
+   "t1": 21.06,
+   "text": "But far too high above his little feet"
+  },
+  {
+   "id": "L05",
+   "t0": 21.11,
+   "t1": 26.13,
+   "text": "He jumped and jumped until the sun was low"
+  },
+  {
+   "id": "L06",
+   "t0": 26.21,
+   "t1": 31.23,
+   "text": "He snapped his teeth, but the branch would not let go"
+  },
+  {
+   "id": "L07",
+   "t0": 31.31,
+   "t1": 36.28,
+   "text": "He climbed a stone and tumbled to the ground"
+  },
+  {
+   "id": "L08",
+   "t0": 36.37,
+   "t1": 41.34,
+   "text": "And sat there in the leaves without a sound"
+  },
+  {
+   "id": "L09",
+   "t0": 41.39,
+   "t1": 46.46,
+   "text": "They're sour, he said, and turned his nose up high"
+  },
+  {
+   "id": "L10",
+   "t0": 46.57,
+   "t1": 51.91,
+   "text": "And walked off hungry under the evening sky"
+  },
+  {
+   "id": "L11",
+   "t0": 51.99,
+   "t1": 56.61,
+   "text": "Up in the tree, a crow began to preach"
+  },
+  {
+   "id": "L12",
+   "t0": 56.62,
+   "t1": 61.0,
+   "text": "It's easy to scorn what you cannot reach"
+  }
+ ]
+}

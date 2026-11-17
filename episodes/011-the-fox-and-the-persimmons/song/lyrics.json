@@ -1,0 +1,18 @@
+{
+  "title": "Tales 011 - The Fox and the Persimmons",
+  "style": "japanese folk storytelling ballad, shamisen, shakuhachi flute, koto, soft taiko, warm clear male vocal, gentle and wise, crisp diction, 92 bpm, very short song, vocals start immediately",
+  "sections": [
+    { "id": "L01", "tag": "Verse 1", "lines": ["A hungry fox came down the hill one day"] },
+    { "id": "L02", "lines": ["And saw persimmons ripe above the way"] },
+    { "id": "L03", "lines": ["So round and gold, they looked so soft and sweet"] },
+    { "id": "L04", "lines": ["But far too high above his little feet"] },
+    { "id": "L05", "tag": "Verse 2", "lines": ["He jumped and jumped until the sun was low"] },
+    { "id": "L06", "lines": ["He snapped his teeth, but the branch would not let go"] },
+    { "id": "L07", "lines": ["He climbed a stone and tumbled to the ground"] },
+    { "id": "L08", "lines": ["And sat there in the leaves without a sound"] },
+    { "id": "L09", "tag": "Chorus", "lines": ["They're sour, he said, and turned his nose up high"] },
+    { "id": "L10", "lines": ["And walked off hungry under the evening sky"] },
+    { "id": "L11", "lines": ["Up in the tree, a crow began to preach"] },
+    { "id": "L12", "tag": "Outro", "lines": ["It's easy to scorn what you cannot reach"] }
+  ]
+}
