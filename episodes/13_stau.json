@@ -1,0 +1,586 @@
+{
+ "slug": "stau",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-12-01",
+ "time": "17:00",
+ "title": "Wie weiß Google Maps, wo Stau ist? (Dein Handy verrät es)",
+ "tags": "google maps stau, wie weiß google maps wo stau ist, google maps verkehr, stau anzeige, google maps farben, 99 handys google maps, simon weckert, floating car data, adac staubilanz, wie funktioniert das, durchschaut",
+ "pin": "Hättest du gedacht, dass dein Handy der Staumelder ist? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du öffnest Google Maps – und die Straße vor dir ist plötzlich rot. Aber woher weiß die App eigentlich, dass da Stau ist? Lupo schaut hinter die Karte: wie die Handys in den Autos anonym ihr Tempo verraten, was Grün, Orange und Rot bedeuten, wie ein Berliner Künstler mit 99 Smartphones einen Stau erfunden hat, wie die App den Verkehr der nächsten Minuten schätzt – und ab wann ein Stau für den ADAC überhaupt ein Stau ist.\n\nKapitel\n{kapitel}\n\nQuellen\n- Google Maps 101: Verkehrsdaten aus aggregierten Standortdaten, historische Muster plus Live-Daten, Prognose für 10, 20 oder 50 Minuten, über 97 % genaue Ankunftszeiten, Daten von Behörden und Meldungen von Nutzern (Google, 2020): https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/\n- Verkehrsprognose mit Graph Neural Networks, u. a. für Berlin (Google DeepMind, 2020): https://deepmind.google/discover/blog/traffic-prediction-with-advanced-graph-neural-networks/\n- Anonyme Orts- und Tempodaten, Daten vieler Handys gebündelt, Start- und Endpunkte jeder Fahrt gelöscht, abschaltbar (Business Fleet zum Google-Start der Crowdsourcing-Verkehrsdaten 2009): https://www.businessfleet.com/65644/google-traffic-report-application-keeps-privacy-in-mind\n- Bedeutung der Farben Grün, Orange, Rot (Google-Maps-Hilfe): https://support.google.com/maps/answer/3092439?hl=de-DE\n- Verkehrsinfos in Google Maps für Deutschland seit Juli 2011 (Google Deutschland Blog): https://blog.google/intl/de-de/produkte/suchen-entdecken/echzeit-verkehrsinformationen-google-maps\n- Simon Weckert, 99 Smartphones im Handkarren, Brücke gegenüber dem Google-Büro in Berlin (netzpolitik.org, Februar 2020): https://netzpolitik.org/2020/mit-99-smartphones-gegen-google-maps/\n- Trick klappte nur auf fast leeren Straßen, ein normal fahrendes Auto reichte, Weckert räumte Schwierigkeiten ein (GoogleWatchBlog): https://www.googlewatchblog.de/2020/02/google-maps-der-hack/\n- Radardetektoren über den Fahrstreifen im 15-Sekunden-Takt, Induktionsschleifen (Senatsverwaltung Berlin, Verkehrsbeeinflussung): https://www.berlin.de/sen/uvk/verkehr/verkehrsmanagement/verkehrsbeeinflussung/\n- Floating Car Data aus vernetzten Fahrzeugen und Apps (BayernInfo): https://bayerninfo.de/en/about-bayerninfo/data-sources\n- ADAC Staubilanz 2025: 496.000 Staus (2024: 516.000), 478.000 Staustunden (+7 %), 866.000 km, Stau unter 20 km/h ab 300 m, stockender Verkehr unter 40 km/h, 278 Mrd. Datensätze aus Lkw-Flotten und Smartphone-Apps: https://www.adac.de/news/staubilanz-2025/\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#googlemaps #stau #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Woher weiß Maps vom Stau?",
+   "chip": "DEIN HANDY VERRÄT ES",
+   "mood": "wow",
+   "icon": "phone"
+  },
+  "B": {
+   "big": "99 Handys = Fake-Stau",
+   "chip": "BERLIN 2020",
+   "stamp": "ERFUNDEN",
+   "stamp_color": "red",
+   "mood": "cheer",
+   "icon": "car"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie weiß Google Maps, wo Stau ist?",
+   "size": 78,
+   "sub": "Die Antwort steckt in deiner Tasche.",
+   "sub_at": "Tasche",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Stau auf der Karte. Du öffnest Google Maps, und plötzlich ist die Straße vor dir rot. Aber woher weiß die App das eigentlich? Die Antwort steckt vermutlich gerade in deiner Tasche.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Rot?!",
+      "at": "rot"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir hinter die Karte",
+   "items": [
+    {
+     "text": "Wer den Stau verrät",
+     "at": "verrät"
+    },
+    {
+     "text": "Was die Farben bedeuten",
+     "at": "Farben"
+    },
+    {
+     "text": "Der Mann mit 99 Handys",
+     "at": "Handys"
+    },
+    {
+     "text": "Der Blick in die Zukunft",
+     "at": "Zukunft"
+    }
+   ],
+   "say": "Heute schauen wir uns an, wer den Stau verrät, was die Farben auf der Karte bedeuten, wie ein Mann mit 99 Handys einen Stau erfunden hat, und wie die App sogar in die Zukunft schaut."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Woher weiß Google Maps, wo Stau ist?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Von Kameras über jeder Straße",
+     "at": "A"
+    },
+    {
+     "text": "Die Polizei meldet jeden Stau",
+     "at": "B"
+    },
+    {
+     "text": "Handys verraten ihr Tempo",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Woher weiß Google Maps, wo Stau ist? A: Von Kameras über jeder Straße. B: Die Polizei meldet jeden Stau. C: Handys verraten, wie schnell sie unterwegs sind. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "So viel Stau",
+   "title": "Stau auf Autobahnen 2025",
+   "items": [
+    {
+     "num": "496.000",
+     "label": "Staus (ADAC-Staubilanz)",
+     "size": 120,
+     "at": "Staus"
+    },
+    {
+     "num": "866.000 km",
+     "label": "Staulänge zusammen",
+     "size": 120,
+     "at": "Kilometer"
+    }
+   ],
+   "say": "Und Stau gibt es reichlich. Laut ADAC bildeten sich 2025 auf deutschen Autobahnen rund 496.000 Staus. Zusammen waren sie 866.000 Kilometer lang. Das ist mehr als zwanzigmal um die ganze Erde.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Uff!",
+      "at": "Erde"
+     }
+    ]
+   },
+   "pause": 0.9
+  },
+  {
+   "type": "fact",
+   "chapter": "Wer den Stau verrät",
+   "icon": "phone",
+   "label": "DIE WICHTIGSTE QUELLE",
+   "headline": "Dein Handy ist der Staumelder",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Handys in den Autos melden anonym Ort und Tempo.",
+     "at": "Standort"
+    },
+    {
+     "text": "Daraus berechnet Google, wie schnell es vorangeht.",
+     "at": "berechnet"
+    },
+    {
+     "text": "Viele Autos zusammen ergeben die Verkehrslage.",
+     "at": "zusammen"
+    }
+   ],
+   "say": "Die wichtigste Quelle für Google Maps sind wir selbst. Genauer gesagt: unsere Handys. Wer Google Maps nutzt und die Standortfreigabe eingeschaltet hat, kann anonym seinen Standort und sein Tempo beisteuern. Daraus berechnet Google, wie schnell es auf einer Straße gerade vorangeht. Die Daten vieler Autos zusammen ergeben dann die Verkehrslage."
+  },
+  {
+   "type": "stau",
+   "chapter": "Wie aus Handys ein Stau wird",
+   "title": "Auf der Autobahn",
+   "drive_at": "fahren",
+   "ping_at": "senden",
+   "slow_at": "bremsen",
+   "red_at": "färbt",
+   "say": "So sieht das aus. Auf der Autobahn fahren viele Autos, und in vielen liegt ein Handy. Die Handys senden immer wieder ihren Ort und ihr Tempo an einen Server. Der rechnet daraus das Durchschnittstempo aus. Dann bremsen alle ab, und das Tempo fällt von über 90 auf nur noch ein paar Kilometer pro Stunde. Für den Server ist klar: Hier geht kaum etwas. Und auf deiner Karte färbt sich die Straße rot.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Oh oh …",
+      "at": "kaum"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Was mit deinen Daten passiert",
+   "icon": "eye",
+   "label": "LAUT GOOGLE",
+   "headline": "Anonym und gebündelt",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Genutzt werden anonyme Orts- und Tempodaten.",
+     "at": "anonyme"
+    },
+    {
+     "text": "Die Daten vieler Handys werden zusammengefasst.",
+     "at": "zusammengefasst"
+    },
+    {
+     "text": "Start und Ziel jeder Fahrt werden gelöscht.",
+     "at": "gelöscht"
+    }
+   ],
+   "say": "Und was ist mit dem Datenschutz? Laut Google werden dafür nur anonyme Orts- und Tempodaten genutzt. Die Daten vieler Handys aus derselben Gegend werden zusammengefasst, damit sich kein einzelnes Handy herauspicken lässt. Und Start und Ziel jeder Fahrt werden dauerhaft gelöscht. Wer nicht mitmachen will, kann das abschalten.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Psst!",
+      "at": "herauspicken"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Woher weiß Google Maps, wo Stau ist?",
+   "size": 60,
+   "answer": "C",
+   "reveal_at": "Richtig",
+   "options": [
+    "Von Kameras über jeder Straße",
+    "Die Polizei meldet jeden Stau",
+    "Handys verraten ihr Tempo"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist C. Die Handys verraten, wie schnell sie unterwegs sind. Viele Handys zusammen zeigen, wie gut der Verkehr fließt."
+  },
+  {
+   "type": "fact",
+   "chapter": "Was die Farben bedeuten",
+   "icon": "phone",
+   "label": "GOOGLE MAPS",
+   "headline": "Grün, Orange, Rot",
+   "size": 84,
+   "lines": [
+    {
+     "text": "Grün: Der Verkehr fließt reibungslos.",
+     "at": "Grün"
+    },
+    {
+     "text": "Orange: mittleres Verkehrsaufkommen.",
+     "at": "Orange"
+    },
+    {
+     "text": "Rot: viel Verkehr. Je dunkler, desto langsamer.",
+     "at": "dunkler"
+    }
+   ],
+   "say": "Und was bedeuten die Farben? Laut Google heißt Grün: Der Verkehr fließt reibungslos. Orange steht für mittleres Verkehrsaufkommen. Und Rot für viel Verkehr. Je dunkler das Rot, desto langsamer geht es voran."
+  },
+  {
+   "type": "story",
+   "chapter": "Der Mann mit 99 Handys",
+   "title": "Berlin, Anfang 2020",
+   "steps": [
+    {
+     "date": "Idee",
+     "text": "Ein Künstler packt 99 Smartphones in einen Handwagen.",
+     "at": "Smartphones"
+    },
+    {
+     "date": "Aktion",
+     "text": "Er zieht ihn langsam über eine Brücke gegenüber dem Google-Büro.",
+     "at": "Brücke"
+    },
+    {
+     "date": "Karte",
+     "text": "Die Straße wird rot, als wäre dort Stau.",
+     "at": "rot"
+    },
+    {
+     "date": "Straße",
+     "text": "Kaum ein Auto unterwegs.",
+     "at": "kaum"
+    }
+   ],
+   "stamp": "ERFUNDEN",
+   "stamp_color": "red",
+   "stamp_at": "erfunden",
+   "say": "Dass das so funktioniert, hat ein Künstler aus Berlin eindrucksvoll gezeigt. Anfang 2020 packte Simon Weckert 99 Smartphones in einen kleinen Handwagen. Den zog er langsam über Straßen, unter anderem über eine Brücke gegenüber dem Berliner Büro von Google. Auf der Karte wurde die Straße rot, als ob dort Stau wäre. Dabei war auf der Straße kaum ein Auto unterwegs. Ein Stau, komplett erfunden.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Clever!",
+      "at": "Handwagen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Haken an dem Trick",
+   "icon": "car",
+   "label": "DER HAKEN",
+   "headline": "Ein echtes Auto reicht",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Der Trick klappte nur auf fast leeren Straßen.",
+     "at": "leeren"
+    },
+    {
+     "text": "Ein normal fahrendes Auto konnte den Fake-Stau auflösen.",
+     "at": "Fuhr"
+    },
+    {
+     "text": "Weckert räumte ein: schwieriger als im Video.",
+     "at": "räumte"
+    }
+   ],
+   "say": "Ganz so einfach ist es aber nicht. Der Trick klappte nur auf fast leeren Straßen. Fuhr ein einziges Auto mit normalem Tempo und Handy vorbei, konnte der Fake-Stau wieder verschwinden. Weckert räumte später ein, dass es schwieriger war, als das Video vermuten ließ."
+  },
+  {
+   "type": "split",
+   "chapter": "Zwei Wege, Stau zu messen",
+   "title": "Handy oder Straße?",
+   "items": [
+    {
+     "icon": "phone",
+     "label": "IN DER APP",
+     "title": "Handys im Auto",
+     "text": "Anonyme Orts- und Tempodaten vieler Nutzer.",
+     "color": "blue",
+     "at": "App"
+    },
+    {
+     "icon": "eye",
+     "label": "AN DER AUTOBAHN",
+     "title": "Sensoren an der Straße",
+     "text": "Radar über den Spuren, Schleifen im Asphalt.",
+     "color": "green",
+     "at": "Autobahnabschnitten"
+    }
+   ],
+   "say": "Google ist aber nicht der Einzige, der Stau misst. In der App kommen die Daten von den Handys. Auf manchen Autobahnabschnitten messen dagegen Sensoren direkt an der Straße. In Berlin zum Beispiel erfassen Radargeräte über den Fahrstreifen alle 15 Sekunden Tempo und Verkehrsmenge. Dazu kommen Induktionsschleifen im Asphalt, wie bei der Ampel aus unserer anderen Folge."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Blick in die Zukunft",
+   "icon": "calendar",
+   "label": "PROGNOSE",
+   "headline": "Gestern hilft für gleich",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Live-Daten plus der Verkehr von früher.",
+     "at": "kombiniert"
+    },
+    {
+     "text": "Geschätzt wird der Verkehr in 10, 20 oder 50 Minuten.",
+     "at": "schätzt"
+    },
+    {
+     "text": "Laut Google: über 97 % der Ankunftszeiten stimmen.",
+     "at": "Ankunftszeit"
+    }
+   ],
+   "say": "Und jetzt wird es richtig clever. Google Maps zeigt nicht nur, wie der Verkehr jetzt gerade ist. Die App kombiniert die Live-Daten mit dem, was früher auf dieser Straße los war. Mit maschinellem Lernen schätzt sie, wie der Verkehr in 10, 20 oder 50 Minuten aussieht, also dann, wenn du dort ankommst. Laut Google war die geschätzte Ankunftszeit schon 2020 bei über 97 Prozent der Fahrten zuverlässig.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Hellseher!",
+      "at": "ankommst"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Ab wann ist es Stau?",
+   "icon": "warn",
+   "label": "ADAC-STAUBILANZ",
+   "headline": "Stau ab 300 Metern",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Unter 20 km/h auf mindestens 300 Metern: Stau.",
+     "at": "langsamer"
+    },
+    {
+     "text": "Unter 40 km/h: stockender Verkehr.",
+     "at": "stockend"
+    },
+    {
+     "text": "Ausgewertet: rund 278 Milliarden Datensätze.",
+     "at": "Milliarden"
+    }
+   ],
+   "say": "Übrigens: Ab wann ist ein Stau eigentlich ein Stau? Der ADAC zählt für seine Staubilanz Verkehr, der langsamer als 20 Kilometer pro Stunde ist, auf mindestens 300 Metern. Unter 40 spricht er von stockendem Verkehr. Und auch der ADAC nutzt dafür Daten von Handy-Apps und Lkw-Flotten, für 2025 rund 278 Milliarden Datensätze."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "eye",
+   "label": "Behauptung 1",
+   "text": "Google Maps erkennt Stau vor allem mit Kameras.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Google Maps erkennt Stau vor allem mit Kameras. ... Mythos. Die wichtigste Quelle sind anonyme Daten von Handys. Dazu kommen Angaben von Behörden, etwa zu Baustellen, und Meldungen von Nutzern.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 2",
+   "text": "Weniger Staus heißt automatisch weniger Zeit im Stau.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Laut",
+   "say": "Zweitens: Weniger Staus heißt automatisch weniger Zeit im Stau. ... Mythos. Laut ADAC gab es 2025 zwar weniger Staus als im Jahr davor. Die Staustunden stiegen aber um rund 7 Prozent, weil die Staus länger dauerten.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Na toll!",
+      "at": "länger"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "phone",
+   "label": "Behauptung 3",
+   "text": "Je dunkler das Rot auf der Karte, desto langsamer der Verkehr.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. So",
+   "say": "Und drittens: Je dunkler das Rot auf der Karte, desto langsamer der Verkehr. ... Stimmt. So erklärt es Google selbst in der Hilfe zu Google Maps.",
+   "pause": 0.6
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für die nächste Fahrt",
+   "items": [
+    {
+     "text": "Vor der Abfahrt die Verkehrslage checken",
+     "icon": "phone",
+     "at": "Eins"
+    },
+    {
+     "text": "Während der Fahrt bedient der Beifahrer die App",
+     "icon": "person",
+     "at": "Zwei"
+    },
+    {
+     "text": "Sperrungen und Baustellen in der App melden",
+     "icon": "warn",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für die nächste Fahrt. Eins: Schau vor der Abfahrt kurz auf die Verkehrslage, dann weißt du, was dich erwartet. Zwei: Während der Fahrt bedient die App am besten der Beifahrer, nicht du am Steuer. Drei: Siehst du eine Sperrung oder Baustelle, kann der Beifahrer sie in der App melden. Das hilft allen anderen."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Der Stau verrät sich selbst.",
+   "size": 96,
+   "sub": "Durch die Handys in den Autos.",
+   "sub_at": "durch",
+   "say": "Also: Google Maps sieht den Stau nicht von oben. Viele Handys in den Autos melden anonym, wie schnell sie sind. Wird es überall langsam, wird die Straße rot. Der Stau verrät sich also selbst, durch die Handys in den Autos."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "stau_quiz",
+   "title": "Woher weiß Google Maps, wo Stau ist? #shorts",
+   "date": "2026-12-01",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Woher weiß Google Maps, wo Stau ist?",
+     "size": 58,
+     "options": [
+      {
+       "text": "Von Kameras über jeder Straße",
+       "at": "A"
+      },
+      {
+       "text": "Die Polizei meldet jeden Stau",
+       "at": "B"
+      },
+      {
+       "text": "Handys verraten ihr Tempo",
+       "at": "C"
+      }
+     ],
+     "say": "Die Straße auf Google Maps ist rot. Aber woher weiß die App, dass da Stau ist? A: Von Kameras über jeder Straße. B: Die Polizei meldet jeden Stau. C: Handys verraten ihr Tempo.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm …?",
+        "at": "Tempo"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "C",
+     "reveal_at": "Richtig",
+     "options": [
+      "Von Kameras über jeder Straße",
+      "Die Polizei meldet jeden Stau",
+      "Handys verraten ihr Tempo"
+     ],
+     "say": "Richtig ist C."
+    },
+    {
+     "type": "fact",
+     "icon": "phone",
+     "label": "LAUT GOOGLE",
+     "headline": "Dein Handy ist der Staumelder",
+     "size": 64,
+     "lines": [
+      {
+       "text": "Viele Handys melden anonym, wie schnell sie sind. Werden alle langsam, wird die Straße rot.",
+       "at": "anonym"
+      }
+     ],
+     "say": "Handys mit Google Maps und Standortfreigabe melden anonym, wie schnell sie unterwegs sind. Werden viele gleichzeitig langsam, wird die Straße auf der Karte rot."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "99_handys",
+   "title": "Er erfand mit 99 Handys einen Stau #shorts",
+   "date": "2026-12-02",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Mit 99 Handys einen Stau erfinden?",
+     "size": 84,
+     "stamp": "FAKE-STAU",
+     "stamp_color": "red",
+     "stamp_at": "rot",
+     "say": "Ein Künstler aus Berlin zog 99 Handys in einem Handwagen über die Straße. Und auf Google Maps wurde die Straße rot.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Echt jetzt?",
+        "at": "Handwagen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "stau",
+     "title": "So erkennt die App Stau",
+     "drive_at": "Fahren",
+     "ping_at": "senden",
+     "slow_at": "Bremsen",
+     "red_at": "färbt",
+     "say": "Der Grund: Google Maps wertet anonym aus, wie schnell Handys unterwegs sind. Fahren viele Autos, senden ihre Handys Ort und Tempo. Bremsen alle ab, färbt sich die Straße auf der Karte rot."
+    },
+    {
+     "type": "fact",
+     "icon": "car",
+     "label": "DER HAKEN",
+     "headline": "Ein echtes Auto reicht",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Der Trick klappte nur auf fast leeren Straßen.",
+       "at": "leeren"
+      }
+     ],
+     "say": "Der Trick klappte aber nur auf fast leeren Straßen. Fuhr ein Auto mit normalem Tempo vorbei, konnte der Stau wieder verschwinden."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie Google Maps den Stau genau erkennt, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

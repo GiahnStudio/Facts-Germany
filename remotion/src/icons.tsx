@@ -191,6 +191,25 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <rect x="12" y="38" width="40" height="8" rx="4" fill={accent} />
     </>
   ),
+  phone: ({ accent }) => (
+    <>
+      <rect x="26" y="4" width="48" height="92" rx="10" fill={L} />
+      <rect x="31" y="14" width="38" height="66" rx="4" fill="#e9eef3" />
+      <path d="M31 70 C 44 62, 46 44, 54 38 S 66 26, 69 22" stroke={C.red} strokeWidth="6" fill="none" strokeLinecap="round" />
+      <circle cx="44" cy="58" r="5" fill={accent} stroke="#fff" strokeWidth="2" />
+      <rect x="42" y="85" width="16" height="5" rx="2.5" fill="#7d8698" />
+    </>
+  ),
+  car: ({ accent }) => (
+    <>
+      <path d="M14 58 l10 -22 a8 8 0 0 1 7 -5 h38 a8 8 0 0 1 7 5 l10 22 z" fill={accent} />
+      <rect x="6" y="56" width="88" height="22" rx="8" fill={accent} />
+      <path d="M28 52 l7 -15 h30 l7 15 z" fill="#86c4f5" />
+      <circle cx="26" cy="80" r="10" fill={C.ink} /><circle cx="26" cy="80" r="4" fill={L} />
+      <circle cx="74" cy="80" r="10" fill={C.ink} /><circle cx="74" cy="80" r="4" fill={L} />
+      <rect x="84" y="60" width="8" height="7" rx="2" fill="#fff2a8" />
+    </>
+  ),
   toilet: ({ accent }) => (
     <>
       <rect x="54" y="4" width="34" height="44" rx="5" fill={L} />

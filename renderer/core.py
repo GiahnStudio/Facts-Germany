@@ -140,6 +140,17 @@ def icon(name, s=300, color=INK, accent=AMBER):
         d.rectangle((S * .7, S * .27, S * .86, S * .45), fill=RED)
         for i in range(9):
             d.rectangle((S * (.46 + i * .05), S * (.66 if i % 3 == 0 else .7), S * (.46 + i * .05) + lw // 3, S * .76), fill=(255, 138, 31))
+    elif name == "phone":
+        d.rounded_rectangle((S * .26, S * .04, S * .74, S * .96), S * .1, fill=color)
+        d.rounded_rectangle((S * .31, S * .14, S * .69, S * .8), S * .04, fill=(233, 238, 243))
+        d.line((S * .31, S * .7, S * .45, S * .6, S * .54, S * .38, S * .69, S * .22), fill=RED, width=lw // 2)
+        d.ellipse((S * .4, S * .53, S * .48, S * .61), fill=accent)
+    elif name == "car":
+        d.polygon([(S * .14, S * .58), (S * .26, S * .33), (S * .74, S * .33), (S * .86, S * .58)], fill=accent)
+        d.rounded_rectangle((S * .06, S * .56, S * .94, S * .78), S * .08, fill=accent)
+        d.polygon([(S * .28, S * .52), (S * .35, S * .37), (S * .65, S * .37), (S * .72, S * .52)], fill=(134, 196, 245))
+        for cx in (.26, .74):
+            d.ellipse((S * (cx - .1), S * .7, S * (cx + .1), S * .9), fill=INK)
     elif name == "key":
         d.ellipse((S * .1, S * .3, S * .48, S * .68), fill=accent)
         d.ellipse((S * .2, S * .43, S * .3, S * .53), fill=(0, 0, 0, 0))
