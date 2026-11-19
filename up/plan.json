@@ -295,5 +295,32 @@
     "duration": 28.2
    }
   ]
+ },
+ {
+  "title": "Wie weiß Google Maps, wo Stau ist? (Dein Handy verrät es)",
+  "date": "2026-12-01",
+  "time": "17:00",
+  "tags": "google maps stau, wie weiß google maps wo stau ist, google maps verkehr, stau anzeige, google maps farben, 99 handys google maps, simon weckert, floating car data, adac staubilanz, wie funktioniert das, durchschaut",
+  "pin": "Hättest du gedacht, dass dein Handy der Staumelder ist? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "stau",
+  "file": "stau_video.mp4",
+  "desc": "Du öffnest Google Maps – und die Straße vor dir ist plötzlich rot. Aber woher weiß die App eigentlich, dass da Stau ist? Lupo schaut hinter die Karte: wie die Handys in den Autos anonym ihr Tempo verraten, was Grün, Orange und Rot bedeuten, wie ein Berliner Künstler mit 99 Smartphones einen Stau erfunden hat, wie die App den Verkehr der nächsten Minuten schätzt – und ab wann ein Stau für den ADAC überhaupt ein Stau ist.\n\nKapitel\n0:00 Intro\n0:27 Die Quizfrage\n0:44 So viel Stau\n1:02 Wer den Stau verrät\n1:24 Wie aus Handys ein Stau wird\n1:48 Was mit deinen Daten passiert\n2:08 Die Auflösung\n2:18 Was die Farben bedeuten\n2:34 Der Mann mit 99 Handys\n2:58 Der Haken an dem Trick\n3:15 Zwei Wege, Stau zu messen\n3:39 Der Blick in die Zukunft\n4:03 Ab wann ist es Stau?\n4:28 Stimmt oder Mythos?\n5:22 3 Tipps\n5:41 Fazit\n\nQuellen\n- Google Maps 101: Verkehrsdaten aus aggregierten Standortdaten, historische Muster plus Live-Daten, Prognose für 10, 20 oder 50 Minuten, über 97 % genaue Ankunftszeiten, Daten von Behörden und Meldungen von Nutzern (Google, 2020): https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/\n- Verkehrsprognose mit Graph Neural Networks, u. a. für Berlin (Google DeepMind, 2020): https://deepmind.google/discover/blog/traffic-prediction-with-advanced-graph-neural-networks/\n- Anonyme Orts- und Tempodaten, Daten vieler Handys gebündelt, Start- und Endpunkte jeder Fahrt gelöscht, abschaltbar (Business Fleet zum Google-Start der Crowdsourcing-Verkehrsdaten 2009): https://www.businessfleet.com/65644/google-traffic-report-application-keeps-privacy-in-mind\n- Bedeutung der Farben Grün, Orange, Rot (Google-Maps-Hilfe): https://support.google.com/maps/answer/3092439?hl=de-DE\n- Verkehrsinfos in Google Maps für Deutschland seit Juli 2011 (Google Deutschland Blog): https://blog.google/intl/de-de/produkte/suchen-entdecken/echzeit-verkehrsinformationen-google-maps\n- Simon Weckert, 99 Smartphones im Handkarren, Brücke gegenüber dem Google-Büro in Berlin (netzpolitik.org, Februar 2020): https://netzpolitik.org/2020/mit-99-smartphones-gegen-google-maps/\n- Trick klappte nur auf fast leeren Straßen, ein normal fahrendes Auto reichte, Weckert räumte Schwierigkeiten ein (GoogleWatchBlog): https://www.googlewatchblog.de/2020/02/google-maps-der-hack/\n- Radardetektoren über den Fahrstreifen im 15-Sekunden-Takt, Induktionsschleifen (Senatsverwaltung Berlin, Verkehrsbeeinflussung): https://www.berlin.de/sen/uvk/verkehr/verkehrsmanagement/verkehrsbeeinflussung/\n- Floating Car Data aus vernetzten Fahrzeugen und Apps (BayernInfo): https://bayerninfo.de/en/about-bayerninfo/data-sources\n- ADAC Staubilanz 2025: 496.000 Staus (2024: 516.000), 478.000 Staustunden (+7 %), 866.000 km, Stau unter 20 km/h ab 300 m, stockender Verkehr unter 40 km/h, 278 Mrd. Datensätze aus Lkw-Flotten und Smartphone-Apps: https://www.adac.de/news/staubilanz-2025/\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#googlemaps #stau #wiefunktioniertdas #durchschaut",
+  "duration": 368.0,
+  "shorts": [
+   {
+    "file": "short_1_stau_quiz.mp4",
+    "title": "Woher weiß Google Maps, wo Stau ist? #shorts",
+    "date": "2026-12-01",
+    "time": "12:00",
+    "duration": 32.2
+   },
+   {
+    "file": "short_2_99_handys.mp4",
+    "title": "Er erfand mit 99 Handys einen Stau #shorts",
+    "date": "2026-12-02",
+    "time": "12:00",
+    "duration": 37.4
+   }
+  ]
  }
 ]

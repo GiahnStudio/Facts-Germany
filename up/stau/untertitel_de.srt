@@ -1,0 +1,735 @@
+1
+00:00:00,000 --> 00:00:02,260
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,260 --> 00:00:03,580
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,200 --> 00:00:05,900
+Heute: der Stau auf der Karte.
+
+4
+00:00:06,540 --> 00:00:08,660
+Du öffnest Google Maps,
+und plötzlich ist
+
+5
+00:00:08,660 --> 00:00:09,640
+die Straße vor dir rot.
+
+6
+00:00:10,440 --> 00:00:12,240
+Aber woher weiß die
+App das eigentlich?
+
+7
+00:00:12,960 --> 00:00:14,740
+Die Antwort steckt
+vermutlich gerade in
+
+8
+00:00:14,740 --> 00:00:15,340
+deiner Tasche.
+
+9
+00:00:16,067 --> 00:00:18,787
+Heute schauen wir
+uns an, wer den Stau
+
+10
+00:00:18,787 --> 00:00:20,807
+verrät, was die
+Farben auf der Karte
+
+11
+00:00:20,807 --> 00:00:23,607
+bedeuten, wie ein Mann
+mit 99 Handys einen
+
+12
+00:00:23,607 --> 00:00:25,827
+Stau erfunden hat,
+und wie die App sogar
+
+13
+00:00:25,827 --> 00:00:26,807
+in die Zukunft schaut.
+
+14
+00:00:27,667 --> 00:00:28,827
+Kurze Frage vorab.
+
+15
+00:00:29,647 --> 00:00:31,547
+Woher weiß Google
+Maps, wo Stau ist?
+
+16
+00:00:32,127 --> 00:00:34,167
+A: Von Kameras
+über jeder Straße.
+
+17
+00:00:34,887 --> 00:00:37,287
+B: Die Polizei
+meldet jeden Stau.
+
+18
+00:00:38,007 --> 00:00:40,327
+C: Handys verraten,
+wie schnell sie
+
+19
+00:00:40,327 --> 00:00:41,007
+unterwegs sind.
+
+20
+00:00:41,627 --> 00:00:43,407
+Schreib deinen Tipp
+in die Kommentare.
+
+21
+00:00:44,700 --> 00:00:46,280
+Und Stau gibt es reichlich.
+
+22
+00:00:46,860 --> 00:00:50,500
+Laut ADAC bildeten sich
+2025 auf deutschen
+
+23
+00:00:50,500 --> 00:00:53,760
+Autobahnen rund 496.000 Staus.
+
+24
+00:00:54,520 --> 00:00:58,100
+Zusammen waren sie
+866.000 Kilometer lang.
+
+25
+00:00:58,620 --> 00:01:00,640
+Das ist mehr als
+zwanzigmal um die ganze
+
+26
+00:01:00,640 --> 00:01:03,740
+Erde. Die wichtigste
+Quelle für Google
+
+27
+00:01:03,740 --> 00:01:04,760
+Maps sind wir selbst.
+
+28
+00:01:05,280 --> 00:01:05,960
+Genauer gesagt:
+
+29
+00:01:06,400 --> 00:01:07,140
+unsere Handys.
+
+30
+00:01:07,620 --> 00:01:09,080
+Wer Google Maps nutzt und die
+
+31
+00:01:09,600 --> 00:01:11,460
+Standortfreigabe
+eingeschaltet hat, kann
+
+32
+00:01:11,460 --> 00:01:13,680
+anonym seinen Standort
+und sein Tempo
+
+33
+00:01:13,680 --> 00:01:16,900
+beisteuern. Daraus
+berechnet Google, wie
+
+34
+00:01:16,900 --> 00:01:18,460
+schnell es auf
+einer Straße gerade
+
+35
+00:01:18,460 --> 00:01:21,380
+vorangeht. Die Daten
+vieler Autos zusammen
+
+36
+00:01:21,780 --> 00:01:23,300
+ergeben dann die Verkehrslage.
+
+37
+00:01:24,067 --> 00:01:25,407
+So sieht das aus.
+
+38
+00:01:26,327 --> 00:01:28,747
+Auf der Autobahn fahren
+viele Autos, und
+
+39
+00:01:28,747 --> 00:01:29,947
+in vielen liegt ein Handy.
+
+40
+00:01:30,487 --> 00:01:32,367
+Die Handys senden
+immer wieder ihren Ort
+
+41
+00:01:32,367 --> 00:01:33,827
+und ihr Tempo an einen Server.
+
+42
+00:01:34,407 --> 00:01:36,247
+Der rechnet daraus das
+Durchschnittstempo
+
+43
+00:01:36,247 --> 00:01:39,007
+aus. Dann bremsen alle
+ab, und das Tempo
+
+44
+00:01:39,007 --> 00:01:41,067
+fällt von über 90 auf
+nur noch ein paar
+
+45
+00:01:41,067 --> 00:01:42,147
+Kilometer pro Stunde.
+
+46
+00:01:42,727 --> 00:01:43,907
+Für den Server ist klar:
+
+47
+00:01:44,287 --> 00:01:45,167
+Hier geht kaum etwas.
+
+48
+00:01:45,767 --> 00:01:47,467
+Und auf deiner Karte
+färbt sich die Straße
+
+49
+00:01:47,467 --> 00:01:50,787
+rot. Und was ist mit
+dem Datenschutz?
+
+50
+00:01:51,547 --> 00:01:54,087
+Laut Google werden
+dafür nur anonyme Orts-
+
+51
+00:01:54,147 --> 00:01:55,307
+und Tempodaten genutzt.
+
+52
+00:01:56,207 --> 00:01:58,067
+Die Daten vieler
+Handys aus derselben
+
+53
+00:01:58,067 --> 00:02:00,167
+Gegend werden
+zusammengefasst, damit sich
+
+54
+00:02:00,167 --> 00:02:02,087
+kein einzelnes Handy
+herauspicken lässt.
+
+55
+00:02:02,947 --> 00:02:04,767
+Und Start und Ziel
+jeder Fahrt werden
+
+56
+00:02:04,767 --> 00:02:05,747
+dauerhaft gelöscht.
+
+57
+00:02:06,267 --> 00:02:07,627
+Wer nicht mitmachen
+will, kann das
+
+58
+00:02:07,627 --> 00:02:10,607
+abschalten. Damit
+zur Auflösung.
+
+59
+00:02:11,167 --> 00:02:12,047
+Richtig ist C.
+
+60
+00:02:12,727 --> 00:02:14,187
+Die Handys verraten,
+wie schnell sie
+
+61
+00:02:14,187 --> 00:02:14,827
+unterwegs sind.
+
+62
+00:02:15,327 --> 00:02:17,347
+Viele Handys zusammen
+zeigen, wie gut der
+
+63
+00:02:17,347 --> 00:02:18,167
+Verkehr fließt.
+
+64
+00:02:18,833 --> 00:02:20,933
+Und was bedeuten die Farben?
+
+65
+00:02:21,613 --> 00:02:23,053
+Laut Google heißt Grün:
+
+66
+00:02:23,513 --> 00:02:25,173
+Der Verkehr fließt
+reibungslos.
+
+67
+00:02:25,693 --> 00:02:27,173
+Orange steht für mittleres
+
+68
+00:02:27,173 --> 00:02:28,033
+Verkehrsaufkommen.
+
+69
+00:02:28,033 --> 00:02:29,993
+Und Rot für viel Verkehr.
+
+70
+00:02:30,573 --> 00:02:32,813
+Je dunkler das Rot,
+desto langsamer geht
+
+71
+00:02:32,813 --> 00:02:35,573
+es voran. Dass das
+so funktioniert, hat
+
+72
+00:02:35,573 --> 00:02:37,233
+ein Künstler aus
+Berlin eindrucksvoll
+
+73
+00:02:37,233 --> 00:02:40,353
+gezeigt. Anfang 2020
+packte Simon Weckert
+
+74
+00:02:40,353 --> 00:02:43,053
+99 Smartphones in einen
+kleinen Handwagen.
+
+75
+00:02:44,073 --> 00:02:46,093
+Den zog er langsam
+über Straßen, unter
+
+76
+00:02:46,093 --> 00:02:47,873
+anderem über eine
+Brücke gegenüber dem
+
+77
+00:02:47,873 --> 00:02:49,033
+Berliner Büro von Google.
+
+78
+00:02:49,713 --> 00:02:51,753
+Auf der Karte wurde
+die Straße rot, als ob
+
+79
+00:02:51,753 --> 00:02:52,513
+dort Stau wäre.
+
+80
+00:02:53,413 --> 00:02:55,213
+Dabei war auf der
+Straße kaum ein Auto
+
+81
+00:02:55,213 --> 00:02:57,973
+unterwegs. Ein Stau,
+komplett erfunden.
+
+82
+00:02:58,767 --> 00:03:00,687
+Ganz so einfach
+ist es aber nicht.
+
+83
+00:03:01,607 --> 00:03:03,607
+Der Trick klappte
+nur auf fast leeren
+
+84
+00:03:03,607 --> 00:03:06,227
+Straßen. Fuhr ein
+einziges Auto mit
+
+85
+00:03:06,227 --> 00:03:08,567
+normalem Tempo und
+Handy vorbei, konnte
+
+86
+00:03:08,567 --> 00:03:10,007
+der Fake-Stau wieder
+verschwinden.
+
+87
+00:03:10,587 --> 00:03:12,607
+Weckert räumte
+später ein, dass es
+
+88
+00:03:12,607 --> 00:03:14,627
+schwieriger war, als
+das Video vermuten
+
+89
+00:03:14,627 --> 00:03:17,440
+ließ. Google ist aber
+nicht der Einzige,
+
+90
+00:03:17,440 --> 00:03:18,773
+der Stau misst.
+
+91
+00:03:19,020 --> 00:03:20,640
+In der App kommen
+die Daten von den
+
+92
+00:03:20,640 --> 00:03:23,040
+Handys. Auf manchen
+Autobahnabschnitten
+
+93
+00:03:23,040 --> 00:03:25,020
+messen dagegen
+Sensoren direkt an der
+
+94
+00:03:25,020 --> 00:03:28,060
+Straße. In Berlin zum
+Beispiel erfassen
+
+95
+00:03:28,060 --> 00:03:30,680
+Radargeräte über den
+Fahrstreifen alle 15
+
+96
+00:03:30,680 --> 00:03:32,380
+Sekunden Tempo und
+Verkehrsmenge.
+
+97
+00:03:33,380 --> 00:03:35,500
+Dazu kommen
+Induktionsschleifen im
+
+98
+00:03:35,500 --> 00:03:37,700
+Asphalt, wie bei der
+Ampel aus unserer
+
+99
+00:03:37,700 --> 00:03:38,380
+anderen Folge.
+
+100
+00:03:39,167 --> 00:03:40,367
+Und jetzt wird es
+richtig clever.
+
+101
+00:03:40,987 --> 00:03:42,647
+Google Maps zeigt
+nicht nur, wie der
+
+102
+00:03:42,647 --> 00:03:43,887
+Verkehr jetzt gerade ist.
+
+103
+00:03:44,267 --> 00:03:46,047
+Die App kombiniert die
+Live-Daten mit dem,
+
+104
+00:03:46,047 --> 00:03:47,707
+was früher auf dieser
+Straße los war.
+
+105
+00:03:48,067 --> 00:03:50,107
+Mit maschinellem Lernen
+schätzt sie, wie
+
+106
+00:03:50,107 --> 00:03:52,667
+der Verkehr in 10,
+20 oder 50 Minuten
+
+107
+00:03:52,667 --> 00:03:54,507
+aussieht, also
+dann, wenn du dort
+
+108
+00:03:54,507 --> 00:03:57,307
+ankommst. Laut Google
+war die geschätzte
+
+109
+00:03:57,307 --> 00:04:00,527
+Ankunftszeit schon
+2020 bei über 97
+
+110
+00:04:00,807 --> 00:04:02,507
+Prozent der Fahrten
+zuverlässig.
+
+111
+00:04:03,233 --> 00:04:06,073
+Übrigens: Ab wann ist
+ein Stau eigentlich
+
+112
+00:04:06,073 --> 00:04:09,053
+ein Stau? Der ADAC
+zählt für seine
+
+113
+00:04:09,520 --> 00:04:11,693
+Staubilanz Verkehr,
+der langsamer als 20
+
+114
+00:04:11,693 --> 00:04:13,893
+Kilometer pro Stunde
+ist, auf mindestens
+
+115
+00:04:13,893 --> 00:04:16,913
+300 Metern. Unter
+40 spricht er von
+
+116
+00:04:16,913 --> 00:04:17,793
+stockendem Verkehr.
+
+117
+00:04:18,593 --> 00:04:21,373
+Und auch der ADAC
+nutzt dafür Daten von
+
+118
+00:04:21,723 --> 00:04:25,373
+Handy-Apps und
+Lkw-Flotten, für 2025 rund
+
+119
+00:04:25,373 --> 00:04:27,717
+278 Milliarden Datensätze.
+
+120
+00:04:28,567 --> 00:04:31,427
+Jetzt du. Stimmt oder Mythos?
+
+121
+00:04:32,367 --> 00:04:35,027
+Erstens: Google Maps
+erkennt Stau vor
+
+122
+00:04:35,027 --> 00:04:35,827
+allem mit Kameras.
+
+123
+00:04:37,823 --> 00:04:41,243
+Mythos. Die wichtigste
+Quelle sind anonyme
+
+124
+00:04:41,243 --> 00:04:42,283
+Daten von Handys.
+
+125
+00:04:42,843 --> 00:04:45,203
+Dazu kommen Angaben
+von Behörden, etwa zu
+
+126
+00:04:45,203 --> 00:04:47,343
+Baustellen, und
+Meldungen von Nutzern.
+
+127
+00:04:49,267 --> 00:04:52,427
+Zweitens: Weniger Staus
+heißt automatisch
+
+128
+00:04:52,427 --> 00:04:53,627
+weniger Zeit im Stau.
+
+129
+00:04:55,503 --> 00:05:01,603
+Mythos. Laut ADAC gab
+es 2025 zwar weniger
+
+130
+00:05:01,603 --> 00:05:03,183
+Staus als im Jahr davor.
+
+131
+00:05:04,343 --> 00:05:06,843
+Die Staustunden
+stiegen aber um rund 7
+
+132
+00:05:06,843 --> 00:05:09,163
+Prozent, weil die
+Staus länger dauerten.
+
+133
+00:05:10,133 --> 00:05:11,213
+Und drittens:
+
+134
+00:05:11,933 --> 00:05:14,453
+Je dunkler das Rot
+auf der Karte, desto
+
+135
+00:05:14,453 --> 00:05:15,433
+langsamer der Verkehr.
+
+136
+00:05:17,421 --> 00:05:20,361
+Stimmt. So erklärt es
+Google selbst in der
+
+137
+00:05:20,361 --> 00:05:21,321
+Hilfe zu Google Maps.
+
+138
+00:05:22,467 --> 00:05:24,307
+Drei Tipps für die
+nächste Fahrt.
+
+139
+00:05:24,727 --> 00:05:26,627
+Eins: Schau vor der
+Abfahrt kurz auf die
+
+140
+00:05:26,627 --> 00:05:28,447
+Verkehrslage, dann
+weißt du, was dich
+
+141
+00:05:28,447 --> 00:05:29,767
+erwartet. Zwei:
+
+142
+00:05:30,307 --> 00:05:31,787
+Während der Fahrt
+bedient die App am
+
+143
+00:05:31,787 --> 00:05:33,727
+besten der Beifahrer,
+nicht du am Steuer.
+
+144
+00:05:34,537 --> 00:05:36,407
+Drei: Siehst du
+eine Sperrung oder
+
+145
+00:05:36,407 --> 00:05:38,347
+Baustelle, kann der
+Beifahrer sie in der
+
+146
+00:05:38,347 --> 00:05:40,767
+App melden. Das
+hilft allen anderen.
+
+147
+00:05:41,633 --> 00:05:45,273
+Also: Google Maps sieht
+den Stau nicht von
+
+148
+00:05:45,273 --> 00:05:47,933
+oben. Viele Handys
+in den Autos melden
+
+149
+00:05:47,933 --> 00:05:49,253
+anonym, wie schnell sie sind.
+
+150
+00:05:49,773 --> 00:05:51,753
+Wird es überall langsam,
+wird die Straße
+
+151
+00:05:51,753 --> 00:05:54,553
+rot. Der Stau verrät
+sich also selbst,
+
+152
+00:05:54,553 --> 00:05:56,213
+durch die Handys in den Autos.
+
+153
+00:05:57,000 --> 00:05:58,900
+Wenn du wissen willst,
+wie andere Dinge
+
+154
+00:05:58,900 --> 00:06:00,460
+aus deinem Alltag
+funktionieren:
+
+155
+00:06:00,880 --> 00:06:02,980
+abonnieren. Alle zwei
+Tage durchschauen
+
+156
+00:06:02,980 --> 00:06:04,060
+wir zusammen ein neues.
+
+157
+00:06:04,720 --> 00:06:06,240
+Bis dann, euer Lupo!
