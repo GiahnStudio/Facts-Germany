@@ -1,0 +1,732 @@
+1
+00:00:00,000 --> 00:00:02,540
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,540 --> 00:00:04,120
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,800 --> 00:00:06,080
+Heute: die Steckdose.
+
+4
+00:00:06,700 --> 00:00:08,660
+Du steckst den Stecker
+rein, und das Licht
+
+5
+00:00:08,660 --> 00:00:10,440
+geht an. Jeden Tag.
+
+6
+00:00:11,240 --> 00:00:13,320
+Aber woher kommt der
+Strom eigentlich, und
+
+7
+00:00:13,320 --> 00:00:14,680
+wie schafft er es
+bis in deine Wand?
+
+8
+00:00:15,460 --> 00:00:17,120
+Er hat eine weite
+Reise hinter sich.
+
+9
+00:00:18,440 --> 00:00:20,560
+Heute schauen wir uns
+die Reise des Stroms
+
+10
+00:00:20,560 --> 00:00:22,440
+an, warum er unterwegs
+so viel Volt hat,
+
+11
+00:00:22,880 --> 00:00:24,600
+warum in halb Europa
+plötzlich Uhren
+
+12
+00:00:24,600 --> 00:00:26,390
+nachgingen, und was
+vor über hundert
+
+13
+00:00:26,320 --> 00:00:27,900
+Jahren in Frankfurt
+passiert ist.
+
+14
+00:00:28,633 --> 00:00:30,513
+Kurze Frage vorab.
+
+15
+00:00:31,853 --> 00:00:33,993
+Mit wie viel Volt läuft
+der Strom über die
+
+16
+00:00:33,993 --> 00:00:35,493
+großen Überlandleitungen?
+
+17
+00:00:36,133 --> 00:00:39,753
+A: 230 Volt, wie
+in der Steckdose.
+
+18
+00:00:40,473 --> 00:00:42,833
+B: Rund 1.000 Volt.
+
+19
+00:00:43,633 --> 00:00:46,853
+C: Bis zu 380.000 Volt.
+
+20
+00:00:47,353 --> 00:00:49,153
+Schreib deinen Tipp
+in die Kommentare.
+
+21
+00:00:50,467 --> 00:00:52,327
+Das Netz dafür ist riesig.
+
+22
+00:00:52,767 --> 00:00:54,667
+Rund 1,9 Millionen Kilometer
+
+23
+00:00:54,667 --> 00:00:56,147
+Stromleitungen
+ziehen sich durch
+
+24
+00:00:56,147 --> 00:00:58,827
+Deutschland. Das reicht
+fast fünfzigmal um
+
+25
+00:00:58,827 --> 00:01:01,087
+die Erde. Die ganz
+großen Leitungen
+
+26
+00:01:01,087 --> 00:01:02,447
+betreiben nur
+vier Unternehmen:
+
+27
+00:01:03,260 --> 00:01:06,371
+Tennet, 50Hertz,
+Amprion und TransnetBW.
+
+28
+00:01:07,500 --> 00:01:08,960
+So sieht die Reise aus.
+
+29
+00:01:09,660 --> 00:01:11,460
+In einem Kraftwerk
+wird Strom erzeugt.
+
+30
+00:01:11,860 --> 00:01:13,520
+Im Umspannwerk wird
+die Spannung dann
+
+31
+00:01:13,520 --> 00:01:16,420
+hochgedreht, auf bis
+zu 380.000 Volt.
+
+32
+00:01:17,020 --> 00:01:18,820
+So geht es über
+Land, an riesigen
+
+33
+00:01:18,820 --> 00:01:19,840
+Strommasten entlang.
+
+34
+00:01:20,320 --> 00:01:22,340
+Weitere Umspannwerke
+senken die Spannung
+
+35
+00:01:22,340 --> 00:01:25,360
+wieder, erst auf
+110.000 Volt, dann auf
+
+36
+00:01:25,650 --> 00:01:27,080
+10.000 bis 30.000 Volt.
+
+37
+00:01:27,640 --> 00:01:29,040
+Die letzte Station
+ist eine kleine
+
+38
+00:01:29,490 --> 00:01:30,780
+Ortsnetzstation
+in deiner Nähe.
+
+39
+00:01:31,100 --> 00:01:33,420
+Danach sind es nur
+noch 230 Volt, und
+
+40
+00:01:33,420 --> 00:01:34,400
+deine Lampe leuchtet.
+
+41
+00:01:35,167 --> 00:01:36,827
+Aber warum dieser
+Umweg über so viel
+
+42
+00:01:36,827 --> 00:01:38,527
+Spannung? Ganz einfach:
+
+43
+00:01:38,967 --> 00:01:40,467
+Bei hoher Spannung
+geht auf dem Weg
+
+44
+00:01:40,467 --> 00:01:41,627
+weniger Energie verloren.
+
+45
+00:01:42,347 --> 00:01:44,547
+Darum reist der Strom
+den größten Teil der
+
+46
+00:01:44,547 --> 00:01:45,767
+Strecke mit hoher Spannung.
+
+47
+00:01:46,407 --> 00:01:48,327
+Erst kurz vor deinem
+Zuhause wird sie auf
+
+48
+00:01:48,327 --> 00:01:49,907
+230 Volt gesenkt.
+
+49
+00:01:50,633 --> 00:01:51,973
+Damit zur Auflösung.
+
+50
+00:01:52,573 --> 00:01:53,493
+Richtig ist C.
+
+51
+00:01:54,313 --> 00:01:56,353
+Auf den größten
+Leitungen sind es bis zu
+
+52
+00:01:56,983 --> 00:01:57,833
+380.000 Volt.
+
+53
+00:01:58,873 --> 00:02:01,393
+Das ist über 1.600-mal
+so viel wie in
+
+54
+00:02:01,393 --> 00:02:02,133
+deiner Steckdose.
+
+55
+00:02:02,900 --> 00:02:03,900
+Und jetzt wird es spannend.
+
+56
+00:02:04,380 --> 00:02:05,940
+Im Stromnetz müssen
+Erzeugung und
+
+57
+00:02:05,940 --> 00:02:07,840
+Verbrauch in jedem
+Moment im Gleichgewicht
+
+58
+00:02:07,840 --> 00:02:10,480
+sein. Den Takt gibt
+die Netzfrequenz vor.
+
+59
+00:02:11,200 --> 00:02:13,400
+In ganz Kontinentaleuropa
+sind das 50
+
+60
+00:02:13,900 --> 00:02:15,760
+Hertz. Wird mehr
+Strom verbraucht als
+
+61
+00:02:15,760 --> 00:02:17,400
+erzeugt, sinkt die Frequenz.
+
+62
+00:02:17,880 --> 00:02:19,840
+Wird zu viel
+eingespeist, steigt sie.
+
+63
+00:02:20,567 --> 00:02:23,187
+Wie wichtig dieser
+Takt ist, zeigte sich
+
+64
+00:02:23,187 --> 00:02:26,827
+Anfang 2018. Wegen
+eines Streits zwischen
+
+65
+00:02:26,827 --> 00:02:28,927
+Serbien und dem
+Kosovo fehlte im
+
+66
+00:02:28,927 --> 00:02:30,827
+europäischen Netz
+wochenlang ein bisschen
+
+67
+00:02:30,827 --> 00:02:33,527
+Energie. Die Frequenz
+lag im Schnitt bei
+
+68
+00:02:34,817 --> 00:02:37,607
+49,996 Hertz statt bei 50.
+
+69
+00:02:37,947 --> 00:02:39,247
+Das klingt winzig.
+
+70
+00:02:39,807 --> 00:02:42,007
+Aber manche Uhren an
+der Steckdose, zum
+
+71
+00:02:42,007 --> 00:02:43,727
+Beispiel in Mikrowellen
+oder Weckern,
+
+72
+00:02:44,127 --> 00:02:45,487
+zählen genau diesen Takt mit.
+
+73
+00:02:45,487 --> 00:02:47,707
+Sie liefen langsamer.
+
+74
+00:02:48,267 --> 00:02:50,787
+Im März gingen sie
+in 25 Ländern fast
+
+75
+00:02:50,957 --> 00:02:51,767
+sechs Minuten nach.
+
+76
+00:02:53,033 --> 00:02:55,373
+Dass Strom so weit
+reisen kann, musste
+
+77
+00:02:55,373 --> 00:02:56,953
+aber erst einmal
+jemand beweisen.
+
+78
+00:02:57,913 --> 00:03:00,273
+1891 gab es in
+Frankfurt eine große
+
+79
+00:03:00,273 --> 00:03:01,653
+Elektrotechnische Ausstellung.
+
+80
+00:03:02,753 --> 00:03:05,013
+Organisator Oskar von
+Miller wollte dort
+
+81
+00:03:05,013 --> 00:03:06,953
+Strom aus einem
+Kraftwerk in Lauffen am
+
+82
+00:03:06,953 --> 00:03:10,213
+Neckar zeigen, 175
+Kilometer entfernt.
+
+83
+00:03:10,653 --> 00:03:13,073
+Der Strom reiste
+dafür mit 15.000 Volt
+
+84
+00:03:13,073 --> 00:03:13,933
+durch die Leitung.
+
+85
+00:03:14,373 --> 00:03:16,513
+Ende August leuchteten
+am Eingangstor der
+
+86
+00:03:16,513 --> 00:03:18,593
+Ausstellung 1.000
+Glühlampen auf.
+
+87
+00:03:18,593 --> 00:03:20,913
+Und ein Motor pumpte
+Wasser für einen
+
+88
+00:03:21,073 --> 00:03:23,013
+sechs Meter hohen
+künstlichen Wasserfall.
+
+89
+00:03:23,833 --> 00:03:25,873
+Man kann sich das
+Stromnetz wie ein
+
+90
+00:03:25,873 --> 00:03:26,973
+Straßennetz vorstellen.
+
+91
+00:03:27,873 --> 00:03:29,813
+Das Übertragungsnetz
+ist die Autobahn:
+
+92
+00:03:30,233 --> 00:03:34,113
+Leitungen mit 220.000
+oder 380.000 Volt,
+
+93
+00:03:34,473 --> 00:03:37,333
+rund 37.000 Kilometer
+lang, betrieben von
+
+94
+00:03:37,333 --> 00:03:39,053
+den vier großen
+Netzbetreibern.
+
+95
+00:03:39,773 --> 00:03:41,233
+Das Verteilnetz
+sind die Land- und
+
+96
+00:03:41,233 --> 00:03:43,713
+Wohnstraßen. Es bringt
+den Strom bis zu
+
+97
+00:03:43,713 --> 00:03:45,333
+dir nach Hause
+und gehört vielen
+
+98
+00:03:45,333 --> 00:03:47,713
+regionalen und kommunalen
+Netzbetreibern.
+
+99
+00:03:48,333 --> 00:03:50,053
+Und wie zuverlässig
+ist das Ganze?
+
+100
+00:03:50,953 --> 00:03:52,673
+Laut Bundesnetzagentur
+hatte jeder
+
+101
+00:03:52,673 --> 00:03:55,913
+Stromkunde 2024 im
+Schnitt nur 11,7
+
+102
+00:03:55,913 --> 00:03:56,993
+Minuten keinen Strom.
+
+103
+00:03:57,773 --> 00:03:58,553
+Im ganzen Jahr!
+
+104
+00:03:59,293 --> 00:04:01,733
+Für diese Statistik haben 830
+
+105
+00:04:01,733 --> 00:04:03,553
+Netzbetreiber ihre
+Unterbrechungen
+
+106
+00:04:03,553 --> 00:04:06,520
+gemeldet. Jetzt du.
+
+107
+00:04:07,480 --> 00:04:08,640
+Stimmt oder Mythos?
+
+108
+00:04:09,480 --> 00:04:11,860
+Erstens: Mit einem
+Ökostrom-Tarif kommt
+
+109
+00:04:11,860 --> 00:04:13,360
+dein Strom direkt vom Windrad.
+
+110
+00:04:15,344 --> 00:04:18,044
+Mythos. Im Netz
+vermischt sich der Strom
+
+111
+00:04:18,044 --> 00:04:20,304
+aus allen Kraftwerken,
+physikalisch ist er
+
+112
+00:04:20,304 --> 00:04:21,244
+nicht zu unterscheiden.
+
+113
+00:04:21,564 --> 00:04:22,804
+Man spricht vom Stromsee.
+
+114
+00:04:24,064 --> 00:04:26,024
+Ökostromkunden
+beeinflussen aber, was in
+
+115
+00:04:26,024 --> 00:04:26,964
+diesen See fließt.
+
+116
+00:04:28,640 --> 00:04:30,980
+Zweitens: Die
+Elektronen flitzen
+
+117
+00:04:30,980 --> 00:04:32,920
+blitzschnell vom
+Kraftwerk bis in deine
+
+118
+00:04:32,920 --> 00:04:35,336
+Lampe. Mythos.
+
+119
+00:04:35,136 --> 00:04:38,376
+Die Elektronen selbst
+kommen im Draht nur
+
+120
+00:04:38,376 --> 00:04:40,376
+ein paar Millimeter
+pro Sekunde voran.
+
+121
+00:04:40,836 --> 00:04:42,916
+Dass die Lampe trotzdem
+sofort leuchtet,
+
+122
+00:04:43,016 --> 00:04:44,736
+liegt daran, dass der
+Draht schon voller
+
+123
+00:04:44,736 --> 00:04:46,276
+beweglicher Elektronen steckt.
+
+124
+00:04:47,200 --> 00:04:48,660
+Und drittens:
+
+125
+00:04:49,160 --> 00:04:50,980
+Eine Uhr kann falsch
+gehen, weil das
+
+126
+00:04:50,980 --> 00:04:52,320
+Stromnetz aus dem Takt ist.
+
+127
+00:04:54,296 --> 00:04:58,556
+Stimmt. Genau das ist
+2018 passiert, mit
+
+128
+00:04:58,556 --> 00:05:00,216
+fast sechs Minuten Verspätung.
+
+129
+00:05:01,233 --> 00:05:01,873
+Und die Zukunft?
+
+130
+00:05:02,853 --> 00:05:04,613
+Für sehr lange Strecken
+plant Deutschland
+
+131
+00:05:04,613 --> 00:05:06,913
+neue Stromautobahnen,
+die mit Gleichstrom
+
+132
+00:05:06,913 --> 00:05:11,073
+arbeiten. Mit bis zu
+525.000 Volt sollen
+
+133
+00:05:11,073 --> 00:05:12,853
+sie Strom über
+große Entfernungen
+
+134
+00:05:12,853 --> 00:05:13,653
+transportieren.
+
+135
+00:05:14,543 --> 00:05:15,893
+Drei Dinge zum Ausprobieren.
+
+136
+00:05:16,533 --> 00:05:18,353
+Eins: Halte
+Ausschau nach einer
+
+137
+00:05:18,353 --> 00:05:20,173
+Ortsnetzstation
+in deiner Nähe.
+
+138
+00:05:20,673 --> 00:05:22,273
+Das ist die letzte
+Station, bevor der
+
+139
+00:05:22,273 --> 00:05:23,153
+Strom zu dir kommt.
+
+140
+00:05:23,833 --> 00:05:25,853
+Zwei: Schau auf
+deine Stromrechnung.
+
+141
+00:05:26,233 --> 00:05:28,033
+Dein Lieferant muss
+dort angeben, aus
+
+142
+00:05:28,033 --> 00:05:30,113
+welchen Energieträgern
+sein Strom stammt.
+
+143
+00:05:31,023 --> 00:05:33,053
+Drei: Vergleich mal
+die Uhr an deiner
+
+144
+00:05:33,053 --> 00:05:34,613
+Mikrowelle mit der
+auf deinem Handy.
+
+145
+00:05:35,093 --> 00:05:36,673
+Vielleicht zählt
+sie ja den Takt des
+
+146
+00:05:36,673 --> 00:05:38,720
+Netzes. Also:
+
+147
+00:05:39,520 --> 00:05:41,520
+Der Strom aus deiner
+Steckdose kommt aus
+
+148
+00:05:41,520 --> 00:05:43,460
+Kraftwerken, oft weit weg.
+
+149
+00:05:44,220 --> 00:05:45,500
+Für die Reise
+wird die Spannung
+
+150
+00:05:45,500 --> 00:05:47,780
+hochgedreht, damit
+wenig verloren geht,
+
+151
+00:05:48,220 --> 00:05:50,740
+und kurz vor dir
+wieder auf 230 Volt
+
+152
+00:05:50,740 --> 00:05:53,540
+gesenkt. Und das
+alles im Takt von 50
+
+153
+00:05:53,540 --> 00:05:56,440
+Hertz. Wenn du wissen
+willst, wie andere
+
+154
+00:05:56,440 --> 00:05:58,260
+Dinge aus deinem
+Alltag funktionieren:
+
+155
+00:05:58,680 --> 00:06:00,780
+abonnieren. Alle zwei
+Tage durchschauen
+
+156
+00:06:00,780 --> 00:06:01,860
+wir zusammen ein neues.
+
+157
+00:06:02,520 --> 00:06:04,040
+Bis dann, euer Lupo!
