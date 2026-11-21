@@ -14,8 +14,8 @@
 - 2026-11-27 Wie findet die Post deinen Brief? (`11_brief`, Spezialszene brief)
 - 2026-11-29 Wie druckt die Kasse ohne Tinte? (`12_kassenbon`, Spezialszene bon)
 - 2026-12-01 Wie weiß Google Maps, wo Stau ist? (`13_stau`, Spezialszene stau)
+- 2026-12-03 Wie kommt der Strom in die Steckdose? (`14_strom`, Spezialszene netz)
 
 ## Ideen
-- Wie kommt der Strom in die Steckdose?
 - Wie funktioniert ein Blitzer?
 - Wie funktioniert eine Waschmaschine, die das Gewicht der Wäsche erkennt?
