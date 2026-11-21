@@ -110,7 +110,7 @@
   "wasserhahn:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false,
+    "pinned": true,
     "playlist": true
   },
   "wasserhahn:s1": {
@@ -193,6 +193,42 @@
   },
   "kassenbon:s2": {
     "uploaded": "2026-11-18",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "stau:main": {
+    "uploaded": "2026-11-21",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "stau:s1": {
+    "uploaded": "2026-11-21",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "stau:s2": {
+    "uploaded": "2026-11-21",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "strom:main": {
+    "uploaded": "2026-11-21",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "strom:s1": {
+    "uploaded": "2026-11-21",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "strom:s2": {
+    "uploaded": "2026-11-21",
     "thumb": false,
     "pinned": false,
     "playlist": true
