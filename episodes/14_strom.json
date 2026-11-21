@@ -1,0 +1,557 @@
+{
+ "slug": "strom",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-12-03",
+ "time": "17:00",
+ "title": "Wie kommt der Strom in die Steckdose? (Er reist mit 380.000 Volt)",
+ "tags": "strom, steckdose, wie kommt der strom in die steckdose, stromnetz, umspannwerk, hochspannung, 380 kv, 50 hertz, netzfrequenz, ortsnetzstation, lauffen frankfurt 1891, wie funktioniert das, durchschaut",
+ "pin": "Hast du bei der Quizfrage richtig getippt: A, B oder C? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Stecker rein, Licht an – jeden Tag. Aber woher kommt der Strom eigentlich, und wie schafft er es bis in deine Wand? Lupo folgt dem Strom vom Kraftwerk über die Umspannwerke und die riesigen Strommasten bis zur Ortsnetzstation in deiner Nähe. Er erklärt, warum der Strom unterwegs mit bis zu 380.000 Volt reist, warum das Netz im Takt von 50 Hertz schlägt, wieso 2018 in halb Europa die Uhren fast sechs Minuten nachgingen – und wie 1891 in Frankfurt 1.000 Glühlampen mit Strom aus 175 Kilometern Entfernung aufleuchteten.\n\nKapitel\n{kapitel}\n\nQuellen\n- Spannungsebenen (Übertragungsnetz 220/380 kV, Niederspannung 230/400 V), Übertragungsnetz rund 37.000 km, vier Übertragungsnetzbetreiber, viele regionale und kommunale Verteilnetzbetreiber, geplante HGÜ-Leitungen bis 525 kV (Bundesministerium für Wirtschaft und Energie): https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Dossier/NetzeUndNetzausbau/das-deutsche-stromnetz.html\n- Netz rund 1,9 Millionen Kilometer (BDEW), Weg vom Kraftwerk über Umspannwerke und Ortsnetzstationen, 380 kV / 110 kV / 10–30 kV / 230 V, höhere Spannung verursacht geringere Energieverluste (EnBW): https://www.enbw.com/unternehmen/themen/netze/stromnetze-so-kommt-der-strom-in-die-steckdose.html\n- 50 Hz im kontinentaleuropäischen Verbundnetz, Erzeugung und Verbrauch müssen immer im Gleichgewicht sein (SMARD, Bundesnetzagentur): https://www.smard.de/page/en/wiki-article/5884/211056\n- Frequenz sinkt bei mehr Verbrauch als Erzeugung, steigt bei zu viel Einspeisung (VDE, Hintergrund Netzstabilität): https://www.vde.com/resource/blob/2388242/015a457cae19545d72caceaeb56d4a57/vde-hintergrund-netzstabilitaet-data.pdf\n- 2018: Uhren in 25 Ländern fast sechs Minuten zu spät, mittlere Frequenz rund 49,996 Hz, Streit zwischen Serbien und Kosovo (National Geographic): https://www.nationalgeographic.com/science/article/european-clocks-six-minutes-late-serbia-kosovo-electricity-grid-spd\n- Drehstromübertragung Lauffen–Frankfurt 1891: 175 km, 15.000 V, 1.000 Glühlampen am Eingangstor, sechs Meter hoher künstlicher Wasserfall, Oskar von Miller (VDE): https://www.vde.com/de/geschichte/karte/baden-wuerttemberg/drehstromuebertragung-lauffen-frankfurt\n- 11,7 Minuten Unterbrechung je Letztverbraucher 2024, 830 Netzbetreiber (Bundesnetzagentur): https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251009_Saidi_Strom.html\n- Strom ist physikalisch nach Erzeugungsart nicht unterscheidbar (Umweltbundesamt): https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/hintergrundwissen-oekostrom-stromkennzeichen\n- Stromsee-Modell, Ökostromkunden beeinflussen das Mischungsverhältnis (Stadtwerke München): https://www.swm.de/unternehmen/magazin/energie/stromsee-modell\n- Driftgeschwindigkeit der Elektronen in der Größenordnung von Millimetern je Sekunde (Lernhelfer, Schülerlexikon Physik): https://www.lernhelfer.de/schuelerlexikon/physik-abitur/artikel/leitung-metallen\n- Stromkennzeichnung auf oder mit der Rechnung (§ 42 Energiewirtschaftsgesetz): https://www.gesetze-im-internet.de/enwg_2005/__42.html\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#strom #steckdose #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Woher kommt der Strom?",
+   "chip": "ER REIST MIT 380.000 VOLT",
+   "mood": "wow",
+   "icon": "plug"
+  },
+  "B": {
+   "big": "Uhren 6 Min. zu spät!",
+   "chip": "SCHULD: DAS STROMNETZ",
+   "stamp": "STIMMT",
+   "stamp_color": "green",
+   "mood": "facepalm",
+   "icon": "bolt"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie kommt der Strom in die Steckdose?",
+   "size": 76,
+   "sub": "Er hat eine weite Reise hinter sich.",
+   "sub_at": "Reise",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: die Steckdose. Du steckst den Stecker rein, und das Licht geht an. Jeden Tag. Aber woher kommt der Strom eigentlich, und wie schafft er es bis in deine Wand? Er hat eine weite Reise hinter sich.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Klick!",
+      "at": "Licht"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute folgen wir dem Strom",
+   "items": [
+    {
+     "text": "Die Reise des Stroms",
+     "at": "Reise"
+    },
+    {
+     "text": "Warum so viel Volt?",
+     "at": "Volt"
+    },
+    {
+     "text": "Uhren, die nachgingen",
+     "at": "Uhren"
+    },
+    {
+     "text": "Eine Leitung von 1891",
+     "at": "Frankfurt"
+    }
+   ],
+   "say": "Heute schauen wir uns die Reise des Stroms an, warum er unterwegs so viel Volt hat, warum in halb Europa plötzlich Uhren nachgingen, und was vor über hundert Jahren in Frankfurt passiert ist."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Mit wie viel Volt läuft Strom über die großen Überlandleitungen?",
+   "size": 56,
+   "options": [
+    {
+     "text": "230 Volt, wie in der Steckdose",
+     "at": "A"
+    },
+    {
+     "text": "Rund 1.000 Volt",
+     "at": "B"
+    },
+    {
+     "text": "Bis zu 380.000 Volt",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Mit wie viel Volt läuft der Strom über die großen Überlandleitungen? A: 230 Volt, wie in der Steckdose. B: Rund 1.000 Volt. C: Bis zu 380.000 Volt. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Ein riesiges Netz",
+   "title": "Das deutsche Stromnetz",
+   "items": [
+    {
+     "num": "1,9 Mio. km",
+     "label": "Stromleitungen",
+     "size": 120,
+     "at": "Kilometer"
+    },
+    {
+     "num": "4",
+     "label": "Betreiber der großen Leitungen",
+     "size": 120,
+     "at": "vier"
+    }
+   ],
+   "say": "Das Netz dafür ist riesig. Rund 1,9 Millionen Kilometer Stromleitungen ziehen sich durch Deutschland. Das reicht fast fünfzigmal um die Erde. Die ganz großen Leitungen betreiben nur vier Unternehmen: Tennet, 50Hertz, Amprion und TransnetBW.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Wow!",
+      "at": "Erde"
+     }
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "type": "netz",
+   "chapter": "Die Reise des Stroms",
+   "title": "Vom Kraftwerk bis zu dir",
+   "gen_at": "erzeugt",
+   "up_at": "hochgedreht",
+   "line_at": "Land",
+   "down_at": "senken",
+   "home_at": "Danach",
+   "say": "So sieht die Reise aus. In einem Kraftwerk wird Strom erzeugt. Im Umspannwerk wird die Spannung dann hochgedreht, auf bis zu 380.000 Volt. So geht es über Land, an riesigen Strommasten entlang. Weitere Umspannwerke senken die Spannung wieder, erst auf 110.000 Volt, dann auf 10.000 bis 30.000 Volt. Die letzte Station ist eine kleine Ortsnetzstation in deiner Nähe. Danach sind es nur noch 230 Volt, und deine Lampe leuchtet."
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum so viel Volt?",
+   "icon": "bolt",
+   "label": "DER TRICK",
+   "headline": "Hohe Spannung, wenig Verlust",
+   "size": 78,
+   "lines": [
+    {
+     "text": "Bei hoher Spannung geht weniger Energie verloren.",
+     "at": "verloren"
+    },
+    {
+     "text": "Darum reist der Strom die meiste Strecke mit Hochspannung.",
+     "at": "Strecke"
+    },
+    {
+     "text": "Erst kurz vor dir wird sie auf 230 Volt gesenkt.",
+     "at": "gesenkt"
+    }
+   ],
+   "say": "Aber warum dieser Umweg über so viel Spannung? Ganz einfach: Bei hoher Spannung geht auf dem Weg weniger Energie verloren. Darum reist der Strom den größten Teil der Strecke mit hoher Spannung. Erst kurz vor deinem Zuhause wird sie auf 230 Volt gesenkt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Schlau!",
+      "at": "verloren"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Mit wie viel Volt läuft Strom über die großen Überlandleitungen?",
+   "size": 56,
+   "answer": "C",
+   "reveal_at": "Richtig",
+   "options": [
+    "230 Volt, wie in der Steckdose",
+    "Rund 1.000 Volt",
+    "Bis zu 380.000 Volt"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist C. Auf den größten Leitungen sind es bis zu 380.000 Volt. Das ist über 1.600-mal so viel wie in deiner Steckdose."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Takt des Netzes",
+   "icon": "bolt",
+   "label": "50 HERTZ",
+   "headline": "Erzeugung = Verbrauch",
+   "size": 84,
+   "lines": [
+    {
+     "text": "Erzeugung und Verbrauch: immer im Gleichgewicht.",
+     "at": "Gleichgewicht"
+    },
+    {
+     "text": "Der Takt in Kontinentaleuropa: 50 Hertz.",
+     "at": "Takt"
+    },
+    {
+     "text": "Mehr Verbrauch als Erzeugung: Die Frequenz sinkt.",
+     "at": "sinkt"
+    }
+   ],
+   "say": "Und jetzt wird es spannend. Im Stromnetz müssen Erzeugung und Verbrauch in jedem Moment im Gleichgewicht sein. Den Takt gibt die Netzfrequenz vor. In ganz Kontinentaleuropa sind das 50 Hertz. Wird mehr Strom verbraucht als erzeugt, sinkt die Frequenz. Wird zu viel eingespeist, steigt sie."
+  },
+  {
+   "type": "story",
+   "chapter": "Die Uhren, die nachgingen",
+   "title": "Europa, Anfang 2018",
+   "steps": [
+    {
+     "date": "Januar",
+     "text": "Im Netz fehlt wochenlang ein bisschen Energie.",
+     "at": "fehlte"
+    },
+    {
+     "date": "Frequenz",
+     "text": "Im Schnitt nur 49,996 statt 50 Hertz.",
+     "at": "Schnitt"
+    },
+    {
+     "date": "Folge",
+     "text": "Uhren, die den Takt mitzählen, laufen langsamer.",
+     "at": "langsamer"
+    },
+    {
+     "date": "März",
+     "text": "Fast sechs Minuten zu spät, in 25 Ländern.",
+     "at": "fast"
+    }
+   ],
+   "stamp": "6 MIN. ZU SPÄT",
+   "stamp_color": "red",
+   "stamp_at": "Minuten",
+   "say": "Wie wichtig dieser Takt ist, zeigte sich Anfang 2018. Wegen eines Streits zwischen Serbien und dem Kosovo fehlte im europäischen Netz wochenlang ein bisschen Energie. Die Frequenz lag im Schnitt bei 49,996 Hertz statt bei 50. Das klingt winzig. Aber manche Uhren an der Steckdose, zum Beispiel in Mikrowellen oder Weckern, zählen genau diesen Takt mit. Sie liefen langsamer. Im März gingen sie in 25 Ländern fast sechs Minuten nach.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Verschlafen!",
+      "at": "Weckern"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Die Leitung von 1891",
+   "title": "Frankfurt, 1891",
+   "steps": [
+    {
+     "date": "Idee",
+     "text": "Strom aus einem Kraftwerk in Lauffen am Neckar.",
+     "at": "Lauffen"
+    },
+    {
+     "date": "175 km",
+     "text": "Eine Leitung bis nach Frankfurt.",
+     "at": "entfernt"
+    },
+    {
+     "date": "15.000 V",
+     "text": "Der Strom reist mit 15.000 Volt.",
+     "at": "reiste"
+    },
+    {
+     "date": "August",
+     "text": "1.000 Glühlampen leuchten am Eingangstor.",
+     "at": "Glühlampen"
+    }
+   ],
+   "stamp": "ES KLAPPT!",
+   "stamp_color": "green",
+   "stamp_at": "Wasserfall",
+   "say": "Dass Strom so weit reisen kann, musste aber erst einmal jemand beweisen. 1891 gab es in Frankfurt eine große Elektrotechnische Ausstellung. Organisator Oskar von Miller wollte dort Strom aus einem Kraftwerk in Lauffen am Neckar zeigen, 175 Kilometer entfernt. Der Strom reiste dafür mit 15.000 Volt durch die Leitung. Ende August leuchteten am Eingangstor der Ausstellung 1.000 Glühlampen auf. Und ein Motor pumpte Wasser für einen sechs Meter hohen künstlichen Wasserfall.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Es werde Licht!",
+      "at": "Glühlampen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Autobahn und Landstraße",
+   "title": "Zwei Arten von Netz",
+   "items": [
+    {
+     "icon": "pylon",
+     "label": "ÜBERTRAGUNGSNETZ",
+     "title": "Die Stromautobahn",
+     "text": "220.000 oder 380.000 Volt, rund 37.000 km.",
+     "color": "blue",
+     "at": "Autobahn"
+    },
+    {
+     "icon": "house",
+     "label": "VERTEILNETZ",
+     "title": "Die Straßen zu dir",
+     "text": "Viele regionale und kommunale Netzbetreiber.",
+     "color": "green",
+     "at": "Verteilnetz"
+    }
+   ],
+   "say": "Man kann sich das Stromnetz wie ein Straßennetz vorstellen. Das Übertragungsnetz ist die Autobahn: Leitungen mit 220.000 oder 380.000 Volt, rund 37.000 Kilometer lang, betrieben von den vier großen Netzbetreibern. Das Verteilnetz sind die Land- und Wohnstraßen. Es bringt den Strom bis zu dir nach Hause und gehört vielen regionalen und kommunalen Netzbetreibern."
+  },
+  {
+   "type": "bignum",
+   "chapter": "Wie zuverlässig ist das?",
+   "title": "Stromausfall in Deutschland 2024",
+   "items": [
+    {
+     "num": "11,7 Min.",
+     "label": "ohne Strom im ganzen Jahr (Ø)",
+     "size": 120,
+     "at": "Minuten"
+    },
+    {
+     "num": "830",
+     "label": "Netzbetreiber meldeten",
+     "size": 120,
+     "at": "gemeldet"
+    }
+   ],
+   "say": "Und wie zuverlässig ist das Ganze? Laut Bundesnetzagentur hatte jeder Stromkunde 2024 im Schnitt nur 11,7 Minuten keinen Strom. Im ganzen Jahr! Für diese Statistik haben 830 Netzbetreiber ihre Unterbrechungen gemeldet.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Nur?!",
+      "at": "Jahr"
+     }
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "plug",
+   "label": "Behauptung 1",
+   "text": "Mit Ökostrom-Tarif kommt dein Strom direkt vom Windrad.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Im",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Mit einem Ökostrom-Tarif kommt dein Strom direkt vom Windrad. ... Mythos. Im Netz vermischt sich der Strom aus allen Kraftwerken, physikalisch ist er nicht zu unterscheiden. Man spricht vom Stromsee. Ökostromkunden beeinflussen aber, was in diesen See fließt.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "bolt",
+   "label": "Behauptung 2",
+   "text": "Die Elektronen flitzen blitzschnell vom Kraftwerk bis in deine Lampe.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Die",
+   "say": "Zweitens: Die Elektronen flitzen blitzschnell vom Kraftwerk bis in deine Lampe. ... Mythos. Die Elektronen selbst kommen im Draht nur ein paar Millimeter pro Sekunde voran. Dass die Lampe trotzdem sofort leuchtet, liegt daran, dass der Draht schon voller beweglicher Elektronen steckt.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 3",
+   "text": "Eine Uhr kann falsch gehen, weil das Stromnetz aus dem Takt ist.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. Genau",
+   "say": "Und drittens: Eine Uhr kann falsch gehen, weil das Stromnetz aus dem Takt ist. ... Stimmt. Genau das ist 2018 passiert, mit fast sechs Minuten Verspätung.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Tick, tack!",
+      "at": "Verspätung"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Die Zukunft",
+   "icon": "pylon",
+   "label": "GEPLANT",
+   "headline": "Stromautobahnen mit Gleichstrom",
+   "size": 72,
+   "lines": [
+    {
+     "text": "Neue Leitungen mit Gleichstrom sind geplant.",
+     "at": "plant"
+    },
+    {
+     "text": "Bis zu 525.000 Volt.",
+     "at": "arbeiten"
+    },
+    {
+     "text": "Für große Entfernungen.",
+     "at": "Entfernungen"
+    }
+   ],
+   "say": "Und die Zukunft? Für sehr lange Strecken plant Deutschland neue Stromautobahnen, die mit Gleichstrom arbeiten. Mit bis zu 525.000 Volt sollen sie Strom über große Entfernungen transportieren."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Dinge zum Ausprobieren",
+   "title": "3 Dinge zum Ausprobieren",
+   "items": [
+    {
+     "text": "Die Ortsnetzstation in deiner Nähe entdecken",
+     "icon": "house",
+     "at": "Eins"
+    },
+    {
+     "text": "Den Strommix auf der Stromrechnung lesen",
+     "icon": "receipt",
+     "at": "Zwei"
+    },
+    {
+     "text": "Die Uhr an der Mikrowelle mit dem Handy vergleichen",
+     "icon": "calendar",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Dinge zum Ausprobieren. Eins: Halte Ausschau nach einer Ortsnetzstation in deiner Nähe. Das ist die letzte Station, bevor der Strom zu dir kommt. Zwei: Schau auf deine Stromrechnung. Dein Lieferant muss dort angeben, aus welchen Energieträgern sein Strom stammt. Drei: Vergleich mal die Uhr an deiner Mikrowelle mit der auf deinem Handy. Vielleicht zählt sie ja den Takt des Netzes."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Dein Strom hat eine weite Reise hinter sich.",
+   "size": 84,
+   "sub": "Hoch, über Land, wieder runter.",
+   "sub_at": "gesenkt",
+   "say": "Also: Der Strom aus deiner Steckdose kommt aus Kraftwerken, oft weit weg. Für die Reise wird die Spannung hochgedreht, damit wenig verloren geht, und kurz vor dir wieder auf 230 Volt gesenkt. Und das alles im Takt von 50 Hertz."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "strom_quiz",
+   "title": "Wie viel Volt hat eine Überlandleitung? #shorts",
+   "date": "2026-12-03",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie viel Volt hat eine große Überlandleitung?",
+     "size": 56,
+     "options": [
+      {
+       "text": "230 Volt, wie in der Steckdose",
+       "at": "A"
+      },
+      {
+       "text": "Rund 1.000 Volt",
+       "at": "B"
+      },
+      {
+       "text": "Bis zu 380.000 Volt",
+       "at": "C"
+      }
+     ],
+     "say": "Mit wie viel Volt läuft der Strom über die großen Überlandleitungen? A: 230 Volt, wie in der Steckdose. B: Rund 1.000 Volt. C: Bis zu 380.000 Volt.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm …?",
+        "at": "C"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "C",
+     "reveal_at": "Richtig",
+     "options": [
+      "230 Volt, wie in der Steckdose",
+      "Rund 1.000 Volt",
+      "Bis zu 380.000 Volt"
+     ],
+     "say": "Richtig ist C."
+    },
+    {
+     "type": "fact",
+     "icon": "bolt",
+     "label": "DER TRICK",
+     "headline": "Hohe Spannung, wenig Verlust",
+     "size": 64,
+     "lines": [
+      {
+       "text": "Bei hoher Spannung geht unterwegs weniger Energie verloren. Erst kurz vor dir wird auf 230 Volt gesenkt.",
+       "at": "verloren"
+      }
+     ],
+     "say": "Bis zu 380.000 Volt, denn bei hoher Spannung geht unterwegs weniger Energie verloren. Erst kurz vor deinem Zuhause wird die Spannung auf 230 Volt gesenkt."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "strom_reise",
+   "title": "So kommt der Strom in deine Steckdose #shorts",
+   "date": "2026-12-04",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Woher kommt der Strom in deiner Steckdose?",
+     "size": 80,
+     "stamp": "380.000 VOLT",
+     "stamp_color": "red",
+     "stamp_at": "Volt",
+     "say": "Dein Strom hat eine weite Reise hinter sich. Unterwegs hat er bis zu 380.000 Volt.",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Echt jetzt?",
+        "at": "Reise"
+       }
+      ]
+     }
+    },
+    {
+     "type": "netz",
+     "title": "Vom Kraftwerk bis zu dir",
+     "gen_at": "erzeugt",
+     "up_at": "hochgedreht",
+     "line_at": "Land",
+     "down_at": "senken",
+     "home_at": "Am",
+     "say": "Im Kraftwerk wird Strom erzeugt. Im Umspannwerk wird die Spannung hochgedreht. Über Land geht es an Strommasten entlang. Dann senken Umspannwerke die Spannung wieder. Am Ende kommen 230 Volt aus der Steckdose."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Warum der Strom so viel Spannung braucht, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

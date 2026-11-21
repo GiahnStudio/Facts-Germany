@@ -140,6 +140,16 @@ def icon(name, s=300, color=INK, accent=AMBER):
         d.rectangle((S * .7, S * .27, S * .86, S * .45), fill=RED)
         for i in range(9):
             d.rectangle((S * (.46 + i * .05), S * (.66 if i % 3 == 0 else .7), S * (.46 + i * .05) + lw // 3, S * .76), fill=(255, 138, 31))
+    elif name == "plug":
+        d.rounded_rectangle((S * .1, S * .1, S * .9, S * .9), S * .18, fill=color)
+        d.ellipse((S * .2, S * .2, S * .8, S * .8), fill=WHITE, outline=accent, width=lw // 2)
+        for cx in (.38, .62):
+            d.ellipse((S * (cx - .06), S * .44, S * (cx + .06), S * .56), fill=INK)
+    elif name == "bolt":
+        d.polygon([(S * .58, S * .04), (S * .18, S * .58), (S * .44, S * .58), (S * .36, S * .96), (S * .82, S * .38), (S * .54, S * .38)], fill=accent)
+    elif name == "pylon":
+        for a, b in (((.5, .04), (.3, .96)), ((.5, .04), (.7, .96)), ((.38, .6), (.62, .6)), ((.34, .78), (.66, .78)), ((.16, .24), (.84, .24)), ((.24, .44), (.76, .44))):
+            d.line((S * a[0], S * a[1], S * b[0], S * b[1]), fill=color, width=lw // 2)
     elif name == "phone":
         d.rounded_rectangle((S * .26, S * .04, S * .74, S * .96), S * .1, fill=color)
         d.rounded_rectangle((S * .31, S * .14, S * .69, S * .8), S * .04, fill=(233, 238, 243))

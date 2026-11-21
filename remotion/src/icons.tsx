@@ -191,6 +191,38 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <rect x="12" y="38" width="40" height="8" rx="4" fill={accent} />
     </>
   ),
+  house: ({ accent }) => (
+    <>
+      <path d="M10 48 L50 12 L90 48" stroke={L} strokeWidth="8" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M20 44 V90 H80 V44 L50 18 Z" fill={L} />
+      <rect x="42" y="62" width="16" height="28" rx="3" fill={accent} />
+      <rect x="27" y="52" width="12" height="12" rx="2" fill="#86c4f5" />
+      <rect x="61" y="52" width="12" height="12" rx="2" fill="#86c4f5" />
+    </>
+  ),
+  plug: ({ accent }) => (
+    <>
+      <rect x="10" y="10" width="80" height="80" rx="18" fill={L} />
+      <circle cx="50" cy="50" r="30" fill="#ffffff" stroke={accent} strokeWidth="6" />
+      <circle cx="38" cy="50" r="6" fill={C.ink} />
+      <circle cx="62" cy="50" r="6" fill={C.ink} />
+      <rect x="46" y="20" width="8" height="8" rx="2" fill="#9aa3b5" />
+      <rect x="46" y="72" width="8" height="8" rx="2" fill="#9aa3b5" />
+    </>
+  ),
+  bolt: ({ accent }) => (
+    <>
+      <path d="M58 4 L18 58 h26 l-8 38 l46 -58 h-28 z" fill={accent} stroke={C.ink} strokeWidth="4" strokeLinejoin="round" />
+    </>
+  ),
+  pylon: ({ accent }) => (
+    <>
+      <path d="M50 4 L30 96 M50 4 L70 96 M38 60 L62 60 M34 78 L66 78 M42 40 L58 40" stroke={L} strokeWidth="6" fill="none" strokeLinecap="round" />
+      <path d="M16 24 H84 M24 44 H76" stroke={L} strokeWidth="6" strokeLinecap="round" />
+      <circle cx="18" cy="30" r="5" fill={accent} /><circle cx="82" cy="30" r="5" fill={accent} />
+      <circle cx="26" cy="50" r="5" fill={accent} /><circle cx="74" cy="50" r="5" fill={accent} />
+    </>
+  ),
   phone: ({ accent }) => (
     <>
       <rect x="26" y="4" width="48" height="92" rx="10" fill={L} />
