@@ -1,0 +1,713 @@
+1
+00:00:00,000 --> 00:00:02,520
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,520 --> 00:00:03,880
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,520 --> 00:00:05,780
+Heute: die Waschmaschine.
+
+4
+00:00:06,380 --> 00:00:08,380
+Du stopfst die Wäsche
+rein, machst die Tür
+
+5
+00:00:08,380 --> 00:00:09,600
+zu und drückst auf Start.
+
+6
+00:00:10,400 --> 00:00:12,220
+Kein Mensch sagt ihr,
+wie viel Wäsche in
+
+7
+00:00:12,220 --> 00:00:12,860
+der Trommel liegt.
+
+8
+00:00:13,400 --> 00:00:15,380
+Und trotzdem zeigen
+manche Maschinen nach
+
+9
+00:00:15,380 --> 00:00:17,400
+kurzer Zeit an, wie
+viele Kilo es sind.
+
+10
+00:00:18,220 --> 00:00:19,040
+Woher weiß sie das?
+
+11
+00:00:19,833 --> 00:00:21,613
+Heute schauen wir
+in die Trommel:
+
+12
+00:00:22,373 --> 00:00:24,433
+Wiegen ohne Waage,
+wie viel Wasser die
+
+13
+00:00:24,433 --> 00:00:26,173
+Maschine braucht,
+warum sie beim
+
+14
+00:00:26,173 --> 00:00:28,213
+Schleudern wackelt,
+und was ein warmer
+
+15
+00:00:28,213 --> 00:00:29,433
+Motor damit zu tun hat.
+
+16
+00:00:30,167 --> 00:00:32,027
+Kurze Frage vorab.
+
+17
+00:00:33,167 --> 00:00:34,887
+Wie merkt eine
+Waschmaschine, wie viel
+
+18
+00:00:34,887 --> 00:00:35,607
+Wäsche drin ist?
+
+19
+00:00:36,687 --> 00:00:38,687
+A: Eine Kamera zählt
+die Wäschestücke.
+
+20
+00:00:39,447 --> 00:00:42,127
+B: Sie dreht die
+Trommel und spürt, wie
+
+21
+00:00:42,127 --> 00:00:42,787
+schwer das geht.
+
+22
+00:00:43,527 --> 00:00:45,907
+C: Sie misst, wie
+warm die Wäsche ist.
+
+23
+00:00:46,597 --> 00:00:48,527
+Schreib deinen Tipp
+in die Kommentare.
+
+24
+00:00:50,380 --> 00:00:52,733
+Erst mal: Eine
+Waschmaschine hat fast
+
+25
+00:00:52,733 --> 00:00:55,413
+jeder. Laut Statistischem
+Bundesamt stand
+
+26
+00:00:55,413 --> 00:00:59,813
+Anfang 2023 in 97,4
+Prozent der Haushalte
+
+27
+00:00:59,813 --> 00:01:00,633
+in Deutschland eine.
+
+28
+00:01:01,533 --> 00:01:02,953
+Und die Trommel
+kann Gas geben.
+
+29
+00:01:03,993 --> 00:01:06,313
+Beim Waschen dreht sie
+sich nur 20 bis 55
+
+30
+00:01:06,313 --> 00:01:09,013
+Mal pro Minute, beim
+Schleudern schafft
+
+31
+00:01:09,013 --> 00:01:11,773
+sie bis zu 1.600
+Umdrehungen pro Minute.
+
+32
+00:01:12,967 --> 00:01:15,587
+So läuft das bei
+vielen Maschinen mit
+
+33
+00:01:15,587 --> 00:01:16,267
+Wiegefunktion.
+
+34
+00:01:17,147 --> 00:01:19,627
+Du legst die Wäsche
+rein und drückst auf
+
+35
+00:01:19,627 --> 00:01:22,227
+Start. Dann dreht
+sich die Trommel ein
+
+36
+00:01:22,227 --> 00:01:23,207
+paar Mal hin und her.
+
+37
+00:01:24,067 --> 00:01:26,227
+Der Motor beschleunigt
+sie und bremst sie
+
+38
+00:01:26,227 --> 00:01:29,127
+wieder ab. Ist viel
+Wäsche drin, braucht
+
+39
+00:01:29,127 --> 00:01:30,107
+er dafür mehr Kraft.
+
+40
+00:01:31,087 --> 00:01:33,187
+Daraus rechnet die
+Elektronik aus, wie
+
+41
+00:01:33,187 --> 00:01:35,387
+schwer die Ladung
+ist, und im Display
+
+42
+00:01:35,387 --> 00:01:36,427
+erscheint das Gewicht.
+
+43
+00:01:37,187 --> 00:01:39,147
+Danach passt die
+Maschine die Wassermenge
+
+44
+00:01:39,147 --> 00:01:39,967
+an die Ladung an.
+
+45
+00:01:40,767 --> 00:01:42,487
+Damit zur Auflösung.
+
+46
+00:01:43,167 --> 00:01:44,207
+Richtig ist B.
+
+47
+00:01:44,747 --> 00:01:46,487
+Die Maschine dreht
+die Trommel und spürt
+
+48
+00:01:46,487 --> 00:01:47,787
+am Motor, wie schwer das geht.
+
+49
+00:01:48,347 --> 00:01:49,867
+Eine Kamera braucht
+sie dafür nicht.
+
+50
+00:01:50,667 --> 00:01:52,567
+Das kennst du vom
+Einkaufswagen.
+
+51
+00:01:53,507 --> 00:01:55,727
+Ein leerer Wagen
+rollt sofort los, ein
+
+52
+00:01:55,727 --> 00:01:57,087
+voller lässt sich
+viel schwerer
+
+53
+00:01:57,087 --> 00:01:59,267
+anschieben. Und er
+lässt sich auch
+
+54
+00:01:59,267 --> 00:02:00,367
+schwerer wieder abbremsen.
+
+55
+00:02:01,207 --> 00:02:02,767
+Physiker nennen das Trägheit.
+
+56
+00:02:03,747 --> 00:02:05,367
+Genau diesen
+Unterschied misst die
+
+57
+00:02:05,367 --> 00:02:06,767
+Waschmaschine
+über ihren Motor.
+
+58
+00:02:07,667 --> 00:02:11,187
+Ende 1997 meldet der
+Hersteller Miele ein
+
+59
+00:02:11,187 --> 00:02:12,807
+Patent für so ein
+Verfahren an:
+
+60
+00:02:13,367 --> 00:02:15,387
+Trommel beschleunigen,
+wieder abbremsen
+
+61
+00:02:15,767 --> 00:02:17,507
+und dabei messen,
+wie stark der Motor
+
+62
+00:02:17,507 --> 00:02:18,307
+arbeiten muss.
+
+63
+00:02:19,127 --> 00:02:20,607
+Im Patent steht
+auch ein Problem.
+
+64
+00:02:21,127 --> 00:02:23,267
+Ist der Motor warm,
+kann sich die Messung
+
+65
+00:02:23,267 --> 00:02:24,787
+um rund 20 Prozent irren.
+
+66
+00:02:25,127 --> 00:02:27,347
+Der Trick: Die Maschine
+misst bei zwei
+
+67
+00:02:27,347 --> 00:02:29,347
+verschiedenen Drehzahlen
+und rechnet den
+
+68
+00:02:29,347 --> 00:02:29,967
+Fehler heraus.
+
+69
+00:02:30,647 --> 00:02:32,367
+Das Ergebnis liegt
+dann laut Patent
+
+70
+00:02:32,367 --> 00:02:34,167
+höchstens noch 6
+Prozent daneben.
+
+71
+00:02:34,900 --> 00:02:37,140
+Es gibt aber noch
+einen zweiten Weg.
+
+72
+00:02:37,560 --> 00:02:39,860
+Erstens: die Trommel
+drehen und am Motor
+
+73
+00:02:39,860 --> 00:02:41,620
+spüren, wie träge
+die Ladung ist.
+
+74
+00:02:42,100 --> 00:02:44,340
+Zweitens: Der Behälter
+mit der Trommel
+
+75
+00:02:44,340 --> 00:02:45,140
+hängt an Federn.
+
+76
+00:02:45,560 --> 00:02:47,500
+Je mehr Wäsche drin
+ist, desto tiefer
+
+77
+00:02:47,500 --> 00:02:50,040
+sinkt er ein, und ein
+Wegsensor misst, wie
+
+78
+00:02:50,040 --> 00:02:53,560
+weit. Auch dafür hat
+Miele 2001 ein Patent
+
+79
+00:02:53,560 --> 00:02:55,927
+angemeldet. Und dann
+kommt das Wasser.
+
+80
+00:02:56,687 --> 00:02:58,967
+Wäsche kann bis zu
+400 Prozent ihres
+
+81
+00:02:58,967 --> 00:03:00,947
+eigenen Gewichts an
+Wasser aufnehmen, also
+
+82
+00:03:00,947 --> 00:03:02,747
+bis zu viermal so
+viel, wie sie trocken
+
+83
+00:03:02,747 --> 00:03:05,267
+wiegt. Deshalb misst
+ein Drucksensor den
+
+84
+00:03:05,267 --> 00:03:06,407
+Wasserstand im Behälter.
+
+85
+00:03:07,067 --> 00:03:08,847
+Saugt die Wäsche Wasser
+auf und der Stand
+
+86
+00:03:08,847 --> 00:03:10,127
+sinkt, läuft Wasser nach.
+
+87
+00:03:10,933 --> 00:03:12,173
+Jetzt zum Schleudern.
+
+88
+00:03:12,713 --> 00:03:14,973
+Hier dreht die Trommel
+richtig auf, und
+
+89
+00:03:14,973 --> 00:03:16,233
+die Wäsche wird an
+die Trommelwand
+
+90
+00:03:16,233 --> 00:03:18,553
+gepresst. Klumpt die
+Wäsche aber auf einer
+
+91
+00:03:18,553 --> 00:03:20,813
+Seite zusammen, etwa
+um eine schwere
+
+92
+00:03:20,813 --> 00:03:23,013
+Badematte, hängt viel
+Gewicht auf einer
+
+93
+00:03:23,013 --> 00:03:25,833
+Seite. Das nennt man
+Unwucht, und die
+
+94
+00:03:25,833 --> 00:03:27,193
+Maschine fängt an zu wackeln.
+
+95
+00:03:27,673 --> 00:03:29,373
+Die Elektronik merkt
+das und senkt die
+
+96
+00:03:29,373 --> 00:03:32,393
+Drehzahl. Dann bremst
+sie, und die Trommel
+
+97
+00:03:32,393 --> 00:03:34,353
+versucht, die Wäsche
+neu zu verteilen.
+
+98
+00:03:34,733 --> 00:03:36,853
+Liegt alles gleichmäßig,
+kann sie wieder
+
+99
+00:03:36,853 --> 00:03:37,553
+voll schleudern.
+
+100
+00:03:38,300 --> 00:03:40,620
+Typische Gründe für
+so eine Unwucht:
+
+101
+00:03:41,140 --> 00:03:43,400
+ein einzelnes schweres
+Teil wie eine Decke
+
+102
+00:03:43,400 --> 00:03:46,120
+oder Badematte, sehr
+kleine Ladungen mit
+
+103
+00:03:46,120 --> 00:03:48,880
+nur ein oder zwei
+Teilen, oder Bettbezüge,
+
+104
+00:03:49,080 --> 00:03:50,620
+in denen sich die
+Wäsche verknotet.
+
+105
+00:03:51,040 --> 00:03:52,720
+Und laut Miele kann
+schon eine leichte
+
+106
+00:03:52,720 --> 00:03:54,420
+Schräglage Unwucht
+verursachen.
+
+107
+00:03:55,100 --> 00:03:56,820
+Die Maschine sollte
+also nicht schief
+
+108
+00:03:56,820 --> 00:03:58,860
+stehen. Jetzt du.
+
+109
+00:03:59,560 --> 00:04:00,910
+Stimmt oder Mythos?
+
+110
+00:04:01,300 --> 00:04:03,580
+Erstens: Je länger
+ein Waschprogramm
+
+111
+00:04:03,580 --> 00:04:05,740
+dauert, desto mehr
+Strom braucht es.
+
+112
+00:04:07,656 --> 00:04:10,076
+Mythos. Das lange
+Eco-Programm ist laut
+
+113
+00:04:10,076 --> 00:04:12,116
+Öko-Test sehr oft
+die sparsamste Wahl.
+
+114
+00:04:12,476 --> 00:04:14,476
+Denn die meiste Energie
+geht ins Aufheizen
+
+115
+00:04:14,476 --> 00:04:17,096
+des Wassers. Eco wäscht
+kühler und gleicht
+
+116
+00:04:17,096 --> 00:04:18,196
+das mit mehr Zeit aus.
+
+117
+00:04:19,960 --> 00:04:22,880
+Zweitens: Wird dein
+Warmwasser mit Strom
+
+118
+00:04:22,880 --> 00:04:25,400
+erhitzt, spart ein
+Warmwasseranschluss an
+
+119
+00:04:25,400 --> 00:04:26,320
+der Waschmaschine nichts.
+
+120
+00:04:28,336 --> 00:04:31,096
+Stimmt. Laut
+Verbraucherzentrale bringt
+
+121
+00:04:31,096 --> 00:04:32,836
+der Anschluss dann
+keine Einsparung.
+
+122
+00:04:33,533 --> 00:04:35,013
+Und drittens:
+
+123
+00:04:35,473 --> 00:04:37,393
+Eine große Trommel
+ist immer sparsamer.
+
+124
+00:04:39,909 --> 00:04:42,049
+Mythos. Je größer die
+Trommel, desto mehr
+
+125
+00:04:42,049 --> 00:04:43,349
+Wasser und Strom braucht sie.
+
+126
+00:04:43,869 --> 00:04:45,549
+Laut Verbraucherzentrale
+sind große
+
+127
+00:04:45,549 --> 00:04:47,669
+Maschinen nur dann
+wirklich sparsam, wenn
+
+128
+00:04:47,669 --> 00:04:48,789
+sie auch voll beladen sind.
+
+129
+00:04:49,600 --> 00:04:52,100
+Und die Sensoren
+werden immer schlauer.
+
+130
+00:04:52,680 --> 00:04:54,960
+Eine stufenlose
+Mengenautomatik erkennt
+
+131
+00:04:54,960 --> 00:04:56,780
+auch, wie saugfähig
+die Wäsche ist.
+
+132
+00:04:57,540 --> 00:04:59,480
+Und einige Modelle
+messen sogar den
+
+133
+00:04:59,480 --> 00:05:00,300
+Verschmutzungsgrad.
+
+134
+00:05:01,033 --> 00:05:02,713
+Drei Tipps für deinen
+nächsten Waschtag.
+
+135
+00:05:03,493 --> 00:05:06,033
+Eins: Misch große und
+kleine Wäschestücke,
+
+136
+00:05:06,433 --> 00:05:07,753
+dann verteilt sich
+alles besser.
+
+137
+00:05:08,503 --> 00:05:10,693
+Zwei: Füll die Trommel
+nicht bis zum Rand,
+
+138
+00:05:11,153 --> 00:05:12,733
+oben sollte etwa
+eine Handbreit Platz
+
+139
+00:05:12,733 --> 00:05:14,343
+bleiben. Drei:
+
+140
+00:05:15,093 --> 00:05:17,153
+Stell die Maschine
+gerade auf, denn schon
+
+141
+00:05:17,153 --> 00:05:19,173
+eine leichte Schräglage
+kann zu Unwucht
+
+142
+00:05:19,173 --> 00:05:21,000
+führen. Also:
+
+143
+00:05:21,700 --> 00:05:23,860
+Die Maschine dreht
+die Trommel, spürt am
+
+144
+00:05:23,860 --> 00:05:26,060
+Motor, wie schwer das
+geht, und rechnet
+
+145
+00:05:26,060 --> 00:05:27,240
+daraus das Gewicht aus.
+
+146
+00:05:28,120 --> 00:05:29,880
+Viele Waschmaschinen
+wiegen also mit dem
+
+147
+00:05:29,880 --> 00:05:32,673
+Motor. Wenn du wissen
+willst, wie andere
+
+148
+00:05:32,673 --> 00:05:34,493
+Dinge aus deinem
+Alltag funktionieren:
+
+149
+00:05:34,913 --> 00:05:37,013
+abonnieren. Alle zwei
+Tage durchschauen
+
+150
+00:05:37,013 --> 00:05:38,093
+wir zusammen ein neues.
+
+151
+00:05:38,753 --> 00:05:40,273
+Bis dann, euer Lupo!

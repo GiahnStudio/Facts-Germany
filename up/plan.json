@@ -349,5 +349,32 @@
     "duration": 28.0
    }
   ]
+ },
+ {
+  "title": "Woher weiß die Waschmaschine, wie viel Wäsche drin ist?",
+  "date": "2026-12-05",
+  "time": "17:00",
+  "tags": "waschmaschine, wie funktioniert eine waschmaschine, waschmaschine wiegt wäsche, mengenautomatik, beladungserkennung, waschmaschine wackelt, unwucht waschmaschine, schleudern, eco programm, wie funktioniert das, durchschaut",
+  "pin": "Zeigt deine Waschmaschine auch an, wie viele Kilo drin sind? 👇 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "waschmaschine",
+  "file": "waschmaschine_video.mp4",
+  "desc": "Du stopfst die Wäsche rein, drückst auf Start – und ein paar Sekunden später zeigt die Maschine an, wie viele Kilo drin sind. Aber wie wiegt eine Waschmaschine ohne Waage? Lupo schaut in die Trommel: wie der Motor das Gewicht spürt, warum ein warmer Motor die Messung verfälscht, wie viel Wasser deine Wäsche schluckt und warum die Maschine beim Schleudern manchmal durchs Bad tanzt.\n\nKapitel\n0:00 Intro\n0:30 Die Quizfrage\n0:49 Fast in jedem Haushalt\n1:12 Wiegen ohne Waage\n1:40 Die Auflösung\n1:50 Der Einkaufswagen-Trick\n2:07 Das Problem mit dem warmen Motor\n2:34 Zwei Wege zum Gewicht\n2:54 Wie viel Wasser?\n3:10 Warum sie wackelt\n3:38 Typische Wackel-Gründe\n3:57 Stimmt oder Mythos?\n4:49 Immer schlauer\n5:00 3 Tipps\n5:20 Fazit\n\nQuellen\n- Ausstattung privater Haushalte, Waschmaschine 97,4 % (Statistisches Bundesamt, EVS 2023): https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ausstattung-Gebrauchsgueter/Tabellen/a-evs-haushaltsgeraete-d.html\n- Trommeldrehzahlen, Mengenautomatik, Drucksensor, Wasseraufnahme bis 400 % (WKO, Lernunterlage Waschmaschine und Trockner): https://www.wko.at/oe/handel/elektrohandelsprofi/lernunterlage-waschmaschine-und-trockner.pdf\n- Wiegefunktion: Trommel dreht sich, „kg“ blinkt, Sensor für Verschmutzung (Coolblue zu AEG ProSense): https://www.coolblue.de/beratung/was-ist-die-aeg-prosense-technologie.html\n- Wäschemenge über Beschleunigen, Abbremsen und Motor-Stellgröße, Fehler durch warmen Motor (Miele-Patent DE19857903A1): https://patents.google.com/patent/DE19857903A1/de\n- Wäschegewicht über Absenkung des Laugenbehälters mit Wegsensor (Miele-Patent DE10122749A1): https://patents.google.com/patent/DE10122749A1/de\n- Unwucht: Drehzahl wird reduziert, große und kleine Teile mischen, Maschine lotrecht aufstellen (Miele): https://www.miele.de/support/customer-assistance/waschmaschinen-1191/alle_kategorien/waschmaschine_schleudert_nicht_richtig-93012580363\n- Ursachen für Unwucht, Wäsche an der Trommelwand, eine Handbreit Platz (Haier): https://www.haier-europe.com/de_DE/blog/waschmaschine-wackelt-beim-schleudern/\n- Eco-Programm oft am sparsamsten, Energie fürs Aufheizen (Öko-Test): https://www.oekotest.de/bauen-wohnen/spart-das-kurzwaschprogramm-energie_13390_1.html\n- Große Trommeln, Warmwasseranschluss (Verbraucherzentrale): https://www.verbraucherzentrale.de/wissen/energie/strom-sparen/beim-kauf-einer-waschmaschine-an-den-stromverbrauch-denken-5891\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#waschmaschine #wiefunktioniertdas #durchschaut",
+  "duration": 342.0,
+  "shorts": [
+   {
+    "file": "short_1_wiegt_mit_motor.mp4",
+    "title": "Woher weiß die Waschmaschine, wie viel Wäsche drin ist? #shorts",
+    "date": "2026-12-05",
+    "time": "12:00",
+    "duration": 30.0
+   },
+   {
+    "file": "short_2_unwucht.mp4",
+    "title": "Darum wackelt deine Waschmaschine beim Schleudern #shorts",
+    "date": "2026-12-06",
+    "time": "12:00",
+    "duration": 32.5
+   }
+  ]
  }
 ]
