@@ -1,0 +1,575 @@
+{
+ "slug": "waschmaschine",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-12-05",
+ "time": "17:00",
+ "title": "Woher weiß die Waschmaschine, wie viel Wäsche drin ist?",
+ "tags": "waschmaschine, wie funktioniert eine waschmaschine, waschmaschine wiegt wäsche, mengenautomatik, beladungserkennung, waschmaschine wackelt, unwucht waschmaschine, schleudern, eco programm, wie funktioniert das, durchschaut",
+ "pin": "Zeigt deine Waschmaschine auch an, wie viele Kilo drin sind? 👇 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du stopfst die Wäsche rein, drückst auf Start – und ein paar Sekunden später zeigt die Maschine an, wie viele Kilo drin sind. Aber wie wiegt eine Waschmaschine ohne Waage? Lupo schaut in die Trommel: wie der Motor das Gewicht spürt, warum ein warmer Motor die Messung verfälscht, wie viel Wasser deine Wäsche schluckt und warum die Maschine beim Schleudern manchmal durchs Bad tanzt.\n\nKapitel\n{kapitel}\n\nQuellen\n- Ausstattung privater Haushalte, Waschmaschine 97,4 % (Statistisches Bundesamt, EVS 2023): https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Ausstattung-Gebrauchsgueter/Tabellen/a-evs-haushaltsgeraete-d.html\n- Trommeldrehzahlen, Mengenautomatik, Drucksensor, Wasseraufnahme bis 400 % (WKO, Lernunterlage Waschmaschine und Trockner): https://www.wko.at/oe/handel/elektrohandelsprofi/lernunterlage-waschmaschine-und-trockner.pdf\n- Wiegefunktion: Trommel dreht sich, „kg“ blinkt, Sensor für Verschmutzung (Coolblue zu AEG ProSense): https://www.coolblue.de/beratung/was-ist-die-aeg-prosense-technologie.html\n- Wäschemenge über Beschleunigen, Abbremsen und Motor-Stellgröße, Fehler durch warmen Motor (Miele-Patent DE19857903A1): https://patents.google.com/patent/DE19857903A1/de\n- Wäschegewicht über Absenkung des Laugenbehälters mit Wegsensor (Miele-Patent DE10122749A1): https://patents.google.com/patent/DE10122749A1/de\n- Unwucht: Drehzahl wird reduziert, große und kleine Teile mischen, Maschine lotrecht aufstellen (Miele): https://www.miele.de/support/customer-assistance/waschmaschinen-1191/alle_kategorien/waschmaschine_schleudert_nicht_richtig-93012580363\n- Ursachen für Unwucht, Wäsche an der Trommelwand, eine Handbreit Platz (Haier): https://www.haier-europe.com/de_DE/blog/waschmaschine-wackelt-beim-schleudern/\n- Eco-Programm oft am sparsamsten, Energie fürs Aufheizen (Öko-Test): https://www.oekotest.de/bauen-wohnen/spart-das-kurzwaschprogramm-energie_13390_1.html\n- Große Trommeln, Warmwasseranschluss (Verbraucherzentrale): https://www.verbraucherzentrale.de/wissen/energie/strom-sparen/beim-kauf-einer-waschmaschine-an-den-stromverbrauch-denken-5891\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#waschmaschine #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "Sie wiegt deine Wäsche!",
+   "chip": "OHNE WAAGE",
+   "mood": "wow",
+   "icon": "wash"
+  },
+  "B": {
+   "big": "Warum sie beim Schleudern tanzt",
+   "chip": "UNWUCHT ERKLÄRT",
+   "stamp": "RUMMS!",
+   "stamp_color": "red",
+   "mood": "facepalm",
+   "icon": "warn"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Woher weiß sie, wie viel drin ist?",
+   "size": 92,
+   "sub": "Kein Mensch sagt ihr, wie viel Wäsche in der Trommel liegt.",
+   "sub_at": "Mensch",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: die Waschmaschine. Du stopfst die Wäsche rein, machst die Tür zu und drückst auf Start. Kein Mensch sagt ihr, wie viel Wäsche in der Trommel liegt. Und trotzdem zeigen manche Maschinen nach kurzer Zeit an, wie viele Kilo es sind. Woher weiß sie das?",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Spioniert die?",
+      "at": "Kilo"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in die Trommel",
+   "items": [
+    {
+     "text": "Wiegen ohne Waage",
+     "at": "Wiegen"
+    },
+    {
+     "text": "Wie viel Wasser?",
+     "at": "Wasser"
+    },
+    {
+     "text": "Warum sie wackelt",
+     "at": "wackelt"
+    },
+    {
+     "text": "Ein warmer Motor",
+     "at": "warmer"
+    }
+   ],
+   "say": "Heute schauen wir in die Trommel: Wiegen ohne Waage, wie viel Wasser die Maschine braucht, warum sie beim Schleudern wackelt, und was ein warmer Motor damit zu tun hat."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie merkt die Waschmaschine, wie viel Wäsche drin ist?",
+   "size": 58,
+   "options": [
+    {
+     "text": "Eine Kamera zählt die Wäschestücke",
+     "at": "A"
+    },
+    {
+     "text": "Sie dreht die Trommel und spürt, wie schwer das geht",
+     "at": "B"
+    },
+    {
+     "text": "Sie misst, wie warm die Wäsche ist",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie merkt eine Waschmaschine, wie viel Wäsche drin ist? A: Eine Kamera zählt die Wäschestücke. B: Sie dreht die Trommel und spürt, wie schwer das geht. C: Sie misst, wie warm die Wäsche ist. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Fast in jedem Haushalt",
+   "title": "Waschmaschinen in Deutschland",
+   "items": [
+    {
+     "num": "97,4 %",
+     "label": "der Haushalte haben eine (2023)",
+     "size": 120,
+     "at": "Prozent"
+    },
+    {
+     "num": "1.600",
+     "label": "Umdrehungen pro Minute beim Schleudern (bis zu)",
+     "size": 120,
+     "at": "Umdrehungen"
+    }
+   ],
+   "say": "Erst mal: Eine Waschmaschine hat fast jeder. Laut Statistischem Bundesamt stand Anfang 2023 in 97,4 Prozent der Haushalte in Deutschland eine. Und die Trommel kann Gas geben. Beim Waschen dreht sie sich nur 20 bis 55 Mal pro Minute, beim Schleudern schafft sie bis zu 1.600 Umdrehungen pro Minute.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Wusch!",
+      "at": "schafft"
+     }
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "type": "wasch",
+   "mode": "wiegen",
+   "chapter": "Wiegen ohne Waage",
+   "title": "So wiegt die Maschine",
+   "kg": "4,5 kg",
+   "steps": [
+    "Wäsche rein, Start",
+    "Trommel dreht hin und her",
+    "Elektronik rechnet das Gewicht",
+    "Wasser passend zur Menge"
+   ],
+   "load_at": "legst",
+   "spin_at": "hin",
+   "weigh_at": "rechnet",
+   "water_at": "Wassermenge",
+   "say": "So läuft das bei vielen Maschinen mit Wiegefunktion. Du legst die Wäsche rein und drückst auf Start. Dann dreht sich die Trommel ein paar Mal hin und her. Der Motor beschleunigt sie und bremst sie wieder ab. Ist viel Wäsche drin, braucht er dafür mehr Kraft. Daraus rechnet die Elektronik aus, wie schwer die Ladung ist, und im Display erscheint das Gewicht. Danach passt die Maschine die Wassermenge an die Ladung an.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Hau ruck!",
+      "at": "mehr Kraft"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie merkt die Maschine, wie viel Wäsche drin ist?",
+   "size": 58,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Eine Kamera zählt die Wäschestücke",
+    "Sie dreht die Trommel und spürt, wie schwer das geht",
+    "Sie misst, wie warm die Wäsche ist"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Die Maschine dreht die Trommel und spürt am Motor, wie schwer das geht. Eine Kamera braucht sie dafür nicht."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Einkaufswagen-Trick",
+   "icon": "wash",
+   "label": "PHYSIK IN DER TROMMEL",
+   "headline": "Schwer heißt: träge",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Eine volle Trommel lässt sich schwerer anschieben.",
+     "at": "anschieben"
+    },
+    {
+     "text": "Und schwerer wieder abbremsen.",
+     "at": "abbremsen"
+    },
+    {
+     "text": "Genau diesen Unterschied misst der Motor.",
+     "at": "Unterschied"
+    }
+   ],
+   "say": "Das kennst du vom Einkaufswagen. Ein leerer Wagen rollt sofort los, ein voller lässt sich viel schwerer anschieben. Und er lässt sich auch schwerer wieder abbremsen. Physiker nennen das Trägheit. Genau diesen Unterschied misst die Waschmaschine über ihren Motor.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Logisch!",
+      "at": "Trägheit"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Das Problem mit dem warmen Motor",
+   "title": "Ein Patent von 1997",
+   "steps": [
+    {
+     "date": "Ende 1997",
+     "text": "Miele meldet ein Verfahren an: Trommel beschleunigen, abbremsen, Motor messen.",
+     "at": "Miele"
+    },
+    {
+     "date": "Problem",
+     "text": "Ist der Motor warm, kann sich die Messung um rund 20 % irren.",
+     "at": "warm"
+    },
+    {
+     "date": "Trick",
+     "text": "Die Maschine misst bei zwei Drehzahlen und rechnet den Fehler heraus.",
+     "at": "zwei"
+    },
+    {
+     "date": "Ergebnis",
+     "text": "Höchstens noch 6 % daneben.",
+     "at": "Ergebnis"
+    }
+   ],
+   "stamp": "NUR 6 % DANEBEN",
+   "stamp_color": "green",
+   "stamp_at": "daneben",
+   "say": "Ende 1997 meldet der Hersteller Miele ein Patent für so ein Verfahren an: Trommel beschleunigen, wieder abbremsen und dabei messen, wie stark der Motor arbeiten muss. Im Patent steht auch ein Problem. Ist der Motor warm, kann sich die Messung um rund 20 Prozent irren. Der Trick: Die Maschine misst bei zwei verschiedenen Drehzahlen und rechnet den Fehler heraus. Das Ergebnis liegt dann laut Patent höchstens noch 6 Prozent daneben.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Clever!",
+      "at": "Trick"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Zwei Wege zum Gewicht",
+   "title": "Zwei Arten zu wiegen",
+   "items": [
+    {
+     "icon": "wash",
+     "label": "METHODE 1",
+     "title": "Trommel drehen",
+     "text": "Der Motor spürt, wie träge die Ladung ist.",
+     "color": "blue",
+     "at": "Erstens"
+    },
+    {
+     "icon": "chip",
+     "label": "METHODE 2",
+     "title": "Federn messen",
+     "text": "Ein Sensor misst, wie tief der Wäschebehälter einsinkt.",
+     "color": "green",
+     "at": "Zweitens"
+    }
+   ],
+   "say": "Es gibt aber noch einen zweiten Weg. Erstens: die Trommel drehen und am Motor spüren, wie träge die Ladung ist. Zweitens: Der Behälter mit der Trommel hängt an Federn. Je mehr Wäsche drin ist, desto tiefer sinkt er ein, und ein Wegsensor misst, wie weit. Auch dafür hat Miele 2001 ein Patent angemeldet."
+  },
+  {
+   "type": "fact",
+   "chapter": "Wie viel Wasser?",
+   "icon": "drop",
+   "label": "DURSTIGE WÄSCHE",
+   "headline": "Wäsche schluckt bis zu viermal ihr Gewicht",
+   "size": 72,
+   "lines": [
+    {
+     "text": "Ein Drucksensor misst den Wasserstand im Behälter.",
+     "at": "Drucksensor"
+    },
+    {
+     "text": "Saugt die Wäsche, läuft Wasser nach.",
+     "at": "nach"
+    }
+   ],
+   "say": "Und dann kommt das Wasser. Wäsche kann bis zu 400 Prozent ihres eigenen Gewichts an Wasser aufnehmen, also bis zu viermal so viel, wie sie trocken wiegt. Deshalb misst ein Drucksensor den Wasserstand im Behälter. Saugt die Wäsche Wasser auf und der Stand sinkt, läuft Wasser nach.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Durstig!",
+      "at": "viermal"
+     }
+    ]
+   }
+  },
+  {
+   "type": "wasch",
+   "mode": "unwucht",
+   "chapter": "Warum sie wackelt",
+   "title": "Das Problem mit der Badematte",
+   "rpm": 1400,
+   "steps": [
+    "Schleudern",
+    "Unwucht! Drehzahl runter",
+    "Bremsen, neu verteilen",
+    "Gleichmäßig: läuft rund"
+   ],
+   "spin_at": "Schleudern",
+   "wobble_at": "wackeln",
+   "fix_at": "bremst",
+   "fast_at": "gleichmäßig",
+   "say": "Jetzt zum Schleudern. Hier dreht die Trommel richtig auf, und die Wäsche wird an die Trommelwand gepresst. Klumpt die Wäsche aber auf einer Seite zusammen, etwa um eine schwere Badematte, hängt viel Gewicht auf einer Seite. Das nennt man Unwucht, und die Maschine fängt an zu wackeln. Die Elektronik merkt das und senkt die Drehzahl. Dann bremst sie, und die Trommel versucht, die Wäsche neu zu verteilen. Liegt alles gleichmäßig, kann sie wieder voll schleudern.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Rumms!",
+      "at": "Unwucht"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Typische Wackel-Gründe",
+   "icon": "warn",
+   "label": "WENN ES RUMPELT",
+   "headline": "Typische Gründe für Unwucht",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Ein einzelnes schweres Teil, z. B. Decke oder Badematte",
+     "at": "Decke"
+    },
+    {
+     "text": "Sehr kleine Ladungen mit nur ein, zwei Teilen",
+     "at": "kleine"
+    },
+    {
+     "text": "Bettbezüge, in denen sich Wäsche verknotet",
+     "at": "Bettbezüge"
+    },
+    {
+     "text": "Die Maschine steht schief",
+     "at": "schief"
+    }
+   ],
+   "say": "Typische Gründe für so eine Unwucht: ein einzelnes schweres Teil wie eine Decke oder Badematte, sehr kleine Ladungen mit nur ein oder zwei Teilen, oder Bettbezüge, in denen sich die Wäsche verknotet. Und laut Miele kann schon eine leichte Schräglage Unwucht verursachen. Die Maschine sollte also nicht schief stehen."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "flame",
+   "label": "Behauptung 1",
+   "text": "Je länger ein Waschprogramm dauert, desto mehr Strom braucht es.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Das",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Je länger ein Waschprogramm dauert, desto mehr Strom braucht es. ... Mythos. Das lange Eco-Programm ist laut Öko-Test sehr oft die sparsamste Wahl. Denn die meiste Energie geht ins Aufheizen des Wassers. Eco wäscht kühler und gleicht das mit mehr Zeit aus.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "drop",
+   "label": "Behauptung 2",
+   "text": "Wird dein Warmwasser mit Strom erhitzt, spart ein Warmwasseranschluss an der Waschmaschine nichts.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. Laut",
+   "say": "Zweitens: Wird dein Warmwasser mit Strom erhitzt, spart ein Warmwasseranschluss an der Waschmaschine nichts. ... Stimmt. Laut Verbraucherzentrale bringt der Anschluss dann keine Einsparung.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "wash",
+   "label": "Behauptung 3",
+   "text": "Eine große Trommel ist immer sparsamer.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Je",
+   "say": "Und drittens: Eine große Trommel ist immer sparsamer. ... Mythos. Je größer die Trommel, desto mehr Wasser und Strom braucht sie. Laut Verbraucherzentrale sind große Maschinen nur dann wirklich sparsam, wenn sie auch voll beladen sind.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Fangfrage!",
+      "at": "voll"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Immer schlauer",
+   "icon": "eye",
+   "label": "SENSOREN",
+   "headline": "Die Maschine fühlt immer mehr",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Stufenlose Automatik erkennt, wie saugfähig Wäsche ist.",
+     "at": "saugfähig"
+    },
+    {
+     "text": "Einige Modelle messen sogar den Verschmutzungsgrad.",
+     "at": "Verschmutzungsgrad"
+    }
+   ],
+   "say": "Und die Sensoren werden immer schlauer. Eine stufenlose Mengenautomatik erkennt auch, wie saugfähig die Wäsche ist. Und einige Modelle messen sogar den Verschmutzungsgrad."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Tipps für deinen Waschtag",
+   "items": [
+    {
+     "text": "Große und kleine Wäschestücke mischen",
+     "icon": "wash",
+     "at": "Eins"
+    },
+    {
+     "text": "Oben etwa eine Handbreit Platz lassen",
+     "icon": "drop",
+     "at": "Zwei"
+    },
+    {
+     "text": "Die Maschine gerade aufstellen",
+     "icon": "warn",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Tipps für deinen nächsten Waschtag. Eins: Misch große und kleine Wäschestücke, dann verteilt sich alles besser. Zwei: Füll die Trommel nicht bis zum Rand, oben sollte etwa eine Handbreit Platz bleiben. Drei: Stell die Maschine gerade auf, denn schon eine leichte Schräglage kann zu Unwucht führen."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Drehen, spüren, rechnen.",
+   "size": 92,
+   "sub": "Viele Waschmaschinen wiegen mit dem Motor.",
+   "sub_at": "wiegen",
+   "say": "Also: Die Maschine dreht die Trommel, spürt am Motor, wie schwer das geht, und rechnet daraus das Gewicht aus. Viele Waschmaschinen wiegen also mit dem Motor."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "wiegt_mit_motor",
+   "title": "Woher weiß die Waschmaschine, wie viel Wäsche drin ist? #shorts",
+   "date": "2026-12-05",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie merkt die Waschmaschine, wie viel Wäsche drin ist?",
+     "size": 54,
+     "options": [
+      {
+       "text": "Eine Kamera zählt die Wäschestücke",
+       "at": "A"
+      },
+      {
+       "text": "Sie dreht die Trommel und spürt, wie schwer das geht",
+       "at": "B"
+      },
+      {
+       "text": "Sie misst, wie warm die Wäsche ist",
+       "at": "C"
+      }
+     ],
+     "say": "Wie merkt eine Waschmaschine, wie viel Wäsche drin ist? A: Eine Kamera zählt die Wäschestücke. B: Sie dreht die Trommel und spürt, wie schwer das geht. C: Sie misst, wie warm die Wäsche ist.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm …?",
+        "at": "C"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Eine Kamera zählt die Wäschestücke",
+      "Sie dreht die Trommel und spürt, wie schwer das geht",
+      "Sie misst, wie warm die Wäsche ist"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "fact",
+     "icon": "wash",
+     "label": "WIE BEIM EINKAUFSWAGEN",
+     "headline": "Volle Trommel = schwerer zu bewegen",
+     "size": 66,
+     "lines": [
+      {
+       "text": "Der Motor beschleunigt und bremst die Trommel und spürt, wie viel Kraft er braucht.",
+       "at": "Kraft"
+      }
+     ],
+     "say": "Der Motor beschleunigt die Trommel und bremst sie wieder ab. Ist viel Wäsche drin, braucht er mehr Kraft. Daraus rechnet die Maschine das Gewicht aus."
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "unwucht",
+   "title": "Darum wackelt deine Waschmaschine beim Schleudern #shorts",
+   "date": "2026-12-06",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum tanzt die Waschmaschine?",
+     "size": 86,
+     "say": "Warum tanzt deine Waschmaschine beim Schleudern manchmal durchs Bad?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hilfe!",
+        "at": "Bad"
+       }
+      ]
+     }
+    },
+    {
+     "type": "wasch",
+     "mode": "unwucht",
+     "title": "Die Unwucht",
+     "rpm": 1400,
+     "steps": [
+      "Schleudern",
+      "Unwucht! Drehzahl runter",
+      "Bremsen, neu verteilen",
+      "Läuft rund"
+     ],
+     "spin_at": "Schleudern",
+     "wobble_at": "Unwucht",
+     "fix_at": "bremst",
+     "fast_at": "gleichmäßig",
+     "say": "Beim Schleudern klumpt die Wäsche manchmal auf einer Seite zusammen. Das ist eine Unwucht. Die Maschine senkt die Drehzahl, bremst und versucht, die Wäsche neu zu verteilen. Liegt alles gleichmäßig, geht es wieder mit vollem Tempo weiter."
+    },
+    {
+     "type": "fact",
+     "icon": "wash",
+     "label": "TIPP",
+     "headline": "Große und kleine Teile mischen",
+     "size": 70,
+     "lines": [
+      {
+       "text": "Dann verteilt sich die Wäsche besser.",
+       "at": "besser"
+      }
+     ],
+     "say": "Der Tipp: Misch große und kleine Wäschestücke. Dann verteilt sich alles besser."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie deine Waschmaschine sogar die Wäsche wiegt, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
