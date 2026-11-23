@@ -15,7 +15,7 @@
 - 2026-11-29 Wie druckt die Kasse ohne Tinte? (`12_kassenbon`, Spezialszene bon)
 - 2026-12-01 Wie weiß Google Maps, wo Stau ist? (`13_stau`, Spezialszene stau)
 - 2026-12-03 Wie kommt der Strom in die Steckdose? (`14_strom`, Spezialszene netz)
+- 2026-12-05 Woher weiß die Waschmaschine, wie viel Wäsche drin ist? (`15_waschmaschine`, Spezialszene wasch)
 
 ## Ideen
 - Wie funktioniert ein Blitzer?
-- Wie funktioniert eine Waschmaschine, die das Gewicht der Wäsche erkennt?
