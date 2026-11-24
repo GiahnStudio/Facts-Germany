@@ -232,5 +232,23 @@
     "thumb": false,
     "pinned": false,
     "playlist": true
+  },
+  "waschmaschine:main": {
+    "uploaded": "2026-11-24",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "waschmaschine:s1": {
+    "uploaded": "2026-11-24",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "waschmaschine:s2": {
+    "uploaded": "2026-11-24",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
   }
 }
