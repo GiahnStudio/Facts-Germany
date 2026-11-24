@@ -128,7 +128,7 @@
   "rolltreppe:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false,
+    "pinned": true,
     "playlist": true
   },
   "rolltreppe:s1": {
@@ -146,7 +146,7 @@
   "kuehlschrank:main": {
     "uploaded": "2026-11-07",
     "thumb": true,
-    "pinned": false,
+    "pinned": true,
     "playlist": true
   },
   "kuehlschrank:s1": {
