@@ -1,0 +1,562 @@
+{
+ "slug": "blitzer",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-12-07",
+ "time": "17:00",
+ "title": "Woher weiß der Blitzer, wie schnell du bist?",
+ "tags": "blitzer, wie funktioniert ein blitzer, radarfalle, radarblitzer, doppler effekt, laser blitzer, lichtschranke blitzer, starenkasten, section control, infrarot blitzer, tacho abweichung, wie funktioniert das, durchschaut",
+ "pin": "Hast du schon mal einen Blitz gesehen und dich erschrocken? 😅 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Du fährst an einem grauen Kasten vorbei – und manchmal blitzt es rot. Aber woher weiß so ein Blitzer eigentlich, wie schnell du warst? Er hat ja keinen Tacho. Lupo schaut in den Kasten: wie Radarwellen dein Tempo verraten, wie Laser und Lichtschranken messen, welche Sensoren im Asphalt stecken, warum du manchen Blitz gar nicht siehst und wer prüft, ob der Blitzer richtig misst.\n\nKapitel\n{kapitel}\n\nQuellen\n- Messverfahren Laser, Radar (Doppler-Effekt), Induktionsschleife (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/geschwindigkeitsmessung/\n- Erster Einsatz am 15. Februar 1959 zwischen Düsseldorf und Ratingen, Telefunken VRG 1/VRG 2, Sensoren im Asphalt mit Kristallen, Lichtschranke mit fünf Sensoren, Laser für bis zu vier Fahrspuren, 1.479 fest montierte Blitzer in Baden-Württemberg (Stuttgarter Zeitung/dpa): https://www.stuttgarter-zeitung.de/panorama/schrecken-der-temposuender-der-blitzer-feiert-geburtstag-79121528.html\n- Geschichte der Verkehrsüberwachung, Zulassung VRG 2 1958 (Deutsches Museum): https://blog.deutsches-museum.de/en/2025/07/18/speed-up-a-brief-history-of-traffic-monitoring\n- Toleranzabzug 3 km/h bzw. 3 %, Tacho darf nie weniger anzeigen (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/blitzer-toleranz/\n- Infrarot-Blitzer ohne sichtbaren Blitz (Stuttgarter Zeitung): https://www.stuttgarter-zeitung.de/lokales/baden-wuerttemberg/merkt-man-wenn-man-geblitzt-wird-infrarot-schwarzlicht-78825352.html\n- Eichfrist ein Jahr, Prüfung durch PTB und Eichamt (Regierungspräsidium Tübingen): https://rp.baden-wuerttemberg.de/rpt/presse-und-soziale-medien/pressemitteilungen/artikel/geschwindigkeitsmessgeraete-im-check/api/pdf\n- Eichfristen-Übersicht, Geschwindigkeitsmessgeräte 1 Jahr (Eichbehörde Sachsen): https://www.eichbehoerde.sachsen.de/download/AGME/Eichfristen.pdf\n- Section Control auf der B6 bei Laatzen (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/section-control/\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#blitzer #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "So misst der Blitzer dein Tempo",
+   "chip": "RADAR ERKLÄRT",
+   "mood": "wow",
+   "icon": "camera"
+  },
+  "B": {
+   "big": "Diesen Blitz siehst du nie",
+   "chip": "INFRAROT",
+   "stamp": "UNSICHTBAR",
+   "stamp_color": "red",
+   "mood": "facepalm",
+   "icon": "camera"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Woher weiß der Blitzer, wie schnell du bist?",
+   "size": 84,
+   "sub": "Der Kasten hat ja keinen Tacho.",
+   "sub_at": "Tacho",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Blitzer. Du fährst an einem grauen Kasten vorbei, und manchmal blitzt es rot. Aber woher weiß so ein Kasten eigentlich, wie schnell du warst? Er hat ja keinen Tacho.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Erwischt!",
+      "at": "rot"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in den Kasten",
+   "items": [
+    {
+     "text": "Radarwellen",
+     "at": "Radarwellen"
+    },
+    {
+     "text": "Laser und Lichtstrahlen",
+     "at": "Laser"
+    },
+    {
+     "text": "Sensoren im Asphalt",
+     "at": "Asphalt"
+    },
+    {
+     "text": "Der unsichtbare Blitz",
+     "at": "unsichtbar"
+    }
+   ],
+   "say": "Heute schauen wir in den Kasten: Radarwellen, Laser und Lichtstrahlen, Sensoren im Asphalt, und ein Blitz, der fast unsichtbar ist."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie misst ein Radar-Blitzer dein Tempo?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Er macht zwei Fotos und vergleicht sie",
+     "at": "A"
+    },
+    {
+     "text": "Er schickt Funkwellen los und schaut, wie sie zurückkommen",
+     "at": "B"
+    },
+    {
+     "text": "Er misst, wie laut dein Motor ist",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie misst ein Radar-Blitzer, wie schnell du bist? A: Er macht zwei Fotos und vergleicht sie. B: Er schickt Funkwellen los und schaut, wie sie zurückkommen. C: Er misst, wie laut dein Motor ist. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Älter als du denkst",
+   "title": "Blitzer in Zahlen",
+   "items": [
+    {
+     "num": "1.479",
+     "label": "fest montierte Blitzer allein in Baden-Württemberg",
+     "size": 120,
+     "at": "Baden"
+    },
+    {
+     "num": "1959",
+     "label": "erster offizieller Radar-Blitzer in Deutschland",
+     "size": 120,
+     "at": "ersten",
+     "plain": true
+    }
+   ],
+   "say": "Erst mal ein paar Zahlen. Allein in Baden-Württemberg sind laut Stuttgarter Zeitung 1.479 Blitzer fest montiert. Und die Technik ist älter, als du denkst. Den ersten offiziellen Radar-Blitzer in Deutschland gab es schon 1959.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "So viele?!",
+      "at": "montiert"
+     }
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "type": "blitzer",
+   "mode": "radar",
+   "chapter": "So misst das Radar",
+   "title": "Der Radar-Blitzer",
+   "kmh": 63,
+   "limit": 50,
+   "steps": [
+    "Radarwellen raus",
+    "Echo kommt gestaucht zurück",
+    "Stauchung = Tempo",
+    "Zu schnell: Foto!"
+   ],
+   "send_at": "schickt",
+   "echo_at": "zurückgeworfen",
+   "speed_at": "rechnet",
+   "flash_at": "Blitz",
+   "say": "So läuft das beim Radar-Blitzer. Dein Auto kommt näher. Der Kasten schickt ständig Radarwellen los. Sie treffen dein Auto und werden zurückgeworfen. Weil du auf den Kasten zufährst, kommen die Wellen verändert zurück, nämlich zusammengestaucht. Je stärker sie gestaucht sind, desto schneller bist du. Daraus rechnet das Gerät dein Tempo aus. Und liegt das über dem Limit, löst die Kamera aus. Blitz!",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Ping!",
+      "at": "Radarwellen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie misst ein Radar-Blitzer dein Tempo?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Er macht zwei Fotos und vergleicht sie",
+    "Er schickt Funkwellen los und schaut, wie sie zurückkommen",
+    "Er misst, wie laut dein Motor ist"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Der Radar-Blitzer schickt Funkwellen los und schaut, wie sie von deinem Auto zurückkommen."
+  },
+  {
+   "type": "fact",
+   "chapter": "Der Sirenen-Trick",
+   "icon": "bolt",
+   "label": "PHYSIK",
+   "headline": "Der Doppler-Effekt",
+   "size": 82,
+   "lines": [
+    {
+     "text": "Kommt ein Krankenwagen auf dich zu, klingt die Sirene höher.",
+     "at": "Krankenwagen"
+    },
+    {
+     "text": "Mit Radarwellen passiert dasselbe.",
+     "at": "dasselbe"
+    },
+    {
+     "text": "Das Gerät misst, wie stark sich die Welle verändert.",
+     "at": "misst"
+    }
+   ],
+   "say": "Das kennst du vom Krankenwagen. Fährt er auf dich zu, klingt die Sirene höher, fährt er weg, klingt sie tiefer. Das ist der Doppler-Effekt. Mit Radarwellen passiert dasselbe, nur hörst du es nicht. Das Gerät misst, wie stark sich die Welle verändert, und kennt damit dein Tempo.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Tatü-tata!",
+      "at": "Sirene"
+     }
+    ]
+   }
+  },
+  {
+   "type": "story",
+   "chapter": "Der erste Blitzer",
+   "title": "Wie alles anfing",
+   "steps": [
+    {
+     "date": "1956",
+     "text": "Telefunken zeigt den Prototyp VRG 1 auf einer Polizeiausstellung in Essen.",
+     "at": "Telefunken"
+    },
+    {
+     "date": "1958",
+     "text": "Der Nachfolger VRG 2 bekommt seine Zulassung.",
+     "at": "Nachfolger"
+    },
+    {
+     "date": "15.2.1959",
+     "text": "Erster offizieller Einsatz zwischen Düsseldorf und Ratingen.",
+     "at": "Februar"
+    },
+    {
+     "date": "Danach",
+     "text": "Die Ur-Radarfalle bleibt bis in die 1980er Jahre im Einsatz.",
+     "at": "achtziger"
+    }
+   ],
+   "stamp": "SEIT 1959",
+   "stamp_color": "red",
+   "stamp_at": "Einsatz. Die",
+   "say": "Und so fing es an. 1956 zeigt die Firma Telefunken auf einer Polizeiausstellung in Essen den Prototyp VRG 1. Der Nachfolger VRG 2 bekommt 1958 seine Zulassung. Am 15. Februar 1959 nimmt er auf einer Straße zwischen Düsseldorf und Ratingen offiziell seinen Dienst auf. Und diese Ur-Radarfalle bleibt bis in die achtziger Jahre im Einsatz. Die Fotos waren damals übrigens noch analog.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Oldschool!",
+      "at": "analog"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Messen mit Licht",
+   "title": "Zwei Blitzer, die mit Licht messen",
+   "items": [
+    {
+     "icon": "eye",
+     "label": "LASER",
+     "title": "Lichtimpulse",
+     "text": "Misst, wie lange das Licht hin und zurück braucht. Bis zu vier Spuren auf einmal.",
+     "color": "blue",
+     "at": "Erstens"
+    },
+    {
+     "icon": "chip",
+     "label": "LICHTSCHRANKE",
+     "title": "Strahlen quer über die Straße",
+     "text": "Dein Auto unterbricht einen Strahl nach dem anderen.",
+     "color": "green",
+     "at": "Zweitens"
+    }
+   ],
+   "say": "Neben Radar gibt es auch Blitzer, die mit Licht messen. Erstens: der Laser-Blitzer. Er schickt Lichtimpulse los, die von deinem Auto zurückkommen, und rechnet aus Weg und Zeit dein Tempo aus. Manche Geräte überwachen so bis zu vier Fahrspuren auf einmal. Zweitens: die Lichtschranke. Unsichtbare Lichtstrahlen gehen quer über die Straße, ein Modell hat zum Beispiel fünf Sensoren. Dein Auto unterbricht einen Strahl nach dem anderen, und aus der Zeit dazwischen ergibt sich das Tempo."
+  },
+  {
+   "type": "blitzer",
+   "mode": "piezo",
+   "chapter": "Sensoren im Asphalt",
+   "title": "Drei Streifen im Asphalt",
+   "kmh": 60,
+   "limit": 50,
+   "steps": [
+    "Drei Sensoren im Asphalt",
+    "Reifen drückt drauf",
+    "Weg ÷ Zeit = Tempo",
+    "Zu schnell: Foto!"
+   ],
+   "strip_at": "drei",
+   "cross_at": "Reifen",
+   "calc_at": "geteilt",
+   "flash_at": "Blitz",
+   "say": "Es geht aber auch ganz ohne Wellen. Bei manchen fest montierten Blitzern liegen drei Sensorstreifen quer in der Fahrbahn, etwa einen Meter auseinander. Darin stecken empfindliche Kristalle. Wenn dein Reifen drüberrollt, werden sie verformt und erzeugen dabei Strom. So merkt das Gerät, wann du welchen Streifen überfährst. Bei sechzig Kilometern pro Stunde brauchst du für zwei Meter nur zwölf Hundertstel Sekunden. Weg geteilt durch Zeit ergibt dein Tempo. Zu schnell? Blitz!",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Knack!",
+      "at": "Kristalle"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Warum etwas abgezogen wird",
+   "icon": "calendar",
+   "label": "TOLERANZ",
+   "headline": "Ein bisschen Abzug ist immer drin",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Bis 100 km/h: minus 3 km/h",
+     "at": "drei"
+    },
+    {
+     "text": "Über 100 km/h: minus 3 Prozent",
+     "at": "Prozent"
+    },
+    {
+     "text": "Gemessen 63 km/h → es zählen 60 km/h",
+     "at": "zählen"
+    }
+   ],
+   "say": "Ganz perfekt misst aber kein Gerät. Deshalb wird vom gemessenen Tempo laut ADAC immer etwas abgezogen. Bis 100 Kilometer pro Stunde sind das drei Kilometer pro Stunde, darüber drei Prozent. Werden also 63 gemessen, zählen am Ende 60."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "camera",
+   "label": "Behauptung 1",
+   "text": "Wenn du geblitzt wirst, siehst du das immer.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Es",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Wenn du geblitzt wirst, siehst du das immer. ... Mythos. Es gibt Blitzer, die mit Infrarotlicht arbeiten. Das ist für das menschliche Auge unsichtbar. Viele Fahrer merken dann gar nicht, dass sie geblitzt wurden.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Psst!",
+      "at": "unsichtbar"
+     }
+    ]
+   }
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "car",
+   "label": "Behauptung 2",
+   "text": "Dein Tacho darf mehr anzeigen, als du wirklich fährst.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. Laut",
+   "say": "Zweitens: Dein Tacho darf mehr anzeigen, als du wirklich fährst. ... Stimmt. Laut ADAC darf ein Tacho nie weniger anzeigen, als du fährst. Mehr dagegen schon: bei neueren Autos bis zu zehn Prozent plus vier Kilometer pro Stunde.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 3",
+   "text": "Ein Blitzer wird einmal geprüft und misst dann für immer.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Erst",
+   "say": "Und drittens: Ein Blitzer wird einmal geprüft und misst dann für immer. ... Mythos. Erst prüft die Physikalisch-Technische Bundesanstalt die Bauart. Dann muss jedes einzelne Gerät zum Eichamt, und zwar jedes Jahr. Allein in Baden-Württemberg wurden 2018 mehr als 2.000 solcher Messgeräte geprüft.",
+   "pause": 0.6,
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Jedes Jahr!",
+      "at": "Jahr"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Messen über die ganze Strecke",
+   "icon": "car",
+   "label": "SECTION CONTROL",
+   "headline": "Ein Blitzer für 2,2 Kilometer",
+   "size": 76,
+   "lines": [
+    {
+     "text": "B6 bei Laatzen in Niedersachsen",
+     "at": "Laatzen"
+    },
+    {
+     "text": "Erfasst bei Einfahrt und Ausfahrt, misst den Durchschnitt",
+     "at": "Einfahrt"
+    },
+    {
+     "text": "Kein Verstoß: Daten sofort gelöscht",
+     "at": "gelöscht"
+    },
+    {
+     "text": "Seit Anfang 2024 abgeschaltet",
+     "at": "abgeschaltet"
+    }
+   ],
+   "say": "Und dann gab es noch einen ganz anderen Blitzer. Auf der B6 zwischen Gleidingen und Laatzen in Niedersachsen wurde auf etwa 2,2 Kilometern nicht an einem Punkt gemessen, sondern über die ganze Strecke. Jedes Auto wurde bei der Einfahrt und bei der Ausfahrt erfasst, daraus ergab sich die Durchschnittsgeschwindigkeit. War niemand zu schnell, wurden die Daten laut ADAC sofort wieder gelöscht. Das nennt man Section Control. Seit Anfang 2024 ist die Anlage aber abgeschaltet, wegen neuer Vorgaben zur Eichung.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Clever!",
+      "at": "Strecke"
+     }
+    ]
+   }
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Dinge zum Selbst-Entdecken",
+   "items": [
+    {
+     "text": "Achte auf schmale Streifen quer im Asphalt",
+     "icon": "car",
+     "at": "Eins"
+    },
+    {
+     "text": "Vergleich deinen Tacho mal mit dem Navi",
+     "icon": "phone",
+     "at": "Zwei"
+    },
+    {
+     "text": "Halte dich ans Limit, dann ist die Technik egal",
+     "icon": "camera",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Dinge zum Selbst-Entdecken. Eins: Achte vor einem Blitzer mal auf schmale Streifen quer im Asphalt. Das können die Sensoren sein. Zwei: Vergleich deinen Tacho mal mit dem Navi. Ein Navi mit GPS ist laut ADAC meist genauer. Drei: Halte dich einfach ans Limit, dann ist egal, wie der Blitzer misst."
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Weg geteilt durch Zeit.",
+   "size": 92,
+   "sub": "Radar, Laser oder Sensoren: Am Ende rechnet jeder Blitzer.",
+   "sub_at": "Ende",
+   "say": "Also: Ein Blitzer hat keinen Tacho. Er schickt Funkwellen oder Licht los, oder er spürt deine Reifen im Asphalt. Am Ende misst er immer, wie viel Weg du in welcher Zeit schaffst, und rechnet daraus dein Tempo aus."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "radar_echo",
+   "title": "Wie misst ein Blitzer dein Tempo? #shorts",
+   "date": "2026-12-07",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie misst ein Radar-Blitzer dein Tempo?",
+     "size": 56,
+     "options": [
+      {
+       "text": "Er macht zwei Fotos und vergleicht sie",
+       "at": "A"
+      },
+      {
+       "text": "Er schickt Funkwellen los und schaut, wie sie zurückkommen",
+       "at": "B"
+      },
+      {
+       "text": "Er misst, wie laut dein Motor ist",
+       "at": "C"
+      }
+     ],
+     "say": "Wie misst ein Radar-Blitzer, wie schnell du bist? A: Er macht zwei Fotos und vergleicht sie. B: Er schickt Funkwellen los und schaut, wie sie zurückkommen. C: Er misst, wie laut dein Motor ist.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm …?",
+        "at": "C"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Er macht zwei Fotos und vergleicht sie",
+      "Er schickt Funkwellen los und schaut, wie sie zurückkommen",
+      "Er misst, wie laut dein Motor ist"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "blitzer",
+     "mode": "radar",
+     "title": "Das Echo verrät dich",
+     "kmh": 63,
+     "limit": 50,
+     "steps": [
+      "Radarwellen raus",
+      "Echo kommt gestaucht zurück",
+      "Stauchung = Tempo",
+      "Zu schnell: Foto!"
+     ],
+     "send_at": "schickt",
+     "echo_at": "zurück",
+     "speed_at": "schneller",
+     "flash_at": "Blitz",
+     "say": "Der Kasten schickt Radarwellen los. Fährst du auf ihn zu, kommen sie zusammengestaucht zurück. Je stärker, desto schneller bist du. Zu schnell? Blitz!"
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "streifen_im_asphalt",
+   "title": "Diese drei Streifen im Asphalt verraten dein Tempo #shorts",
+   "date": "2026-12-08",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Drei Streifen im Asphalt?",
+     "size": 86,
+     "say": "Hast du vor einem Blitzer schon mal drei schmale Streifen im Asphalt gesehen?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hä?",
+        "at": "Streifen"
+       }
+      ]
+     }
+    },
+    {
+     "type": "blitzer",
+     "mode": "piezo",
+     "title": "Sensoren im Asphalt",
+     "kmh": 60,
+     "limit": 50,
+     "steps": [
+      "Drei Sensoren im Asphalt",
+      "Reifen drückt drauf",
+      "Weg ÷ Zeit = Tempo",
+      "Zu schnell: Foto!"
+     ],
+     "strip_at": "Sensoren",
+     "cross_at": "Reifen",
+     "calc_at": "geteilt",
+     "flash_at": "Blitz",
+     "say": "Das können Sensoren sein, etwa einen Meter auseinander. Rollt dein Reifen drüber, erzeugen Kristalle darin Strom. Bei sechzig Kilometern pro Stunde brauchst du für zwei Meter nur zwölf Hundertstel Sekunden. Weg geteilt durch Zeit ist dein Tempo. Zu schnell? Blitz!"
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie Blitzer noch messen, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

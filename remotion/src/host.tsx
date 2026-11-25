@@ -89,6 +89,16 @@ export const lupoEvents = (s: SceneData, idx: number, last: boolean): Ev[] => {
         ev.push({ at: at(s.water_at, 0.82) + 0.6, mood: "happy", dur: 1.4 });
       }
       break;
+    case "blitzer":
+      if (s.mode === "piezo") {
+        ev.push({ at: at(s.strip_at, 0.15), mood: "pointLeft", dur: 1.3 });
+        ev.push({ at: at(s.calc_at, 0.6) + 0.6, mood: "think", dur: 1.4 });
+      } else {
+        ev.push({ at: at(s.send_at, 0.15), mood: "pointLeft", dur: 1.3 });
+        ev.push({ at: at(s.speed_at, 0.6) + 0.8, mood: "wow", dur: 1.4 });
+      }
+      ev.push({ at: at(s.flash_at, 0.82) + 0.1, mood: "facepalm", dur: 1.8 });
+      break;
     case "money":
       (s.moves || []).forEach((m: any, i: number) => ev.push({ at: at(m.at, 0.1 + 0.8 * i / s.moves.length), mood: "pointLeft", dur: 1.0 }));
       break;

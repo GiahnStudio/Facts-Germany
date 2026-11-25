@@ -14,6 +14,7 @@ import { BonScene } from "./bon";
 import { StauScene } from "./stau";
 import { NetzScene } from "./netz";
 import { WaschScene } from "./wasch";
+import { BlitzerScene } from "./blitzer";
 
 type P = { s: any };
 const col: React.CSSProperties = { display: "flex", flexDirection: "column", alignItems: "center", gap: 34, width: "100%" };
@@ -169,11 +170,11 @@ const parseNum = (s: string) => {
   return { val, dec, suffix: m[2] };
 };
 
-const CountUp: React.FC<{ text: string; at: number; size: number; color: string }> = ({ text, at, size, color }) => {
+const CountUp: React.FC<{ text: string; at: number; size: number; color: string; plain?: boolean }> = ({ text, at, size, color, plain }) => {
   const p = useLin(at, 1.3, Easing.out(Easing.cubic));
   const pop = usePop(at + 1.3, { damping: 7 });
   const pn = parseNum(text);
-  const shown = pn ? (pn.val * p).toLocaleString("de-DE", { minimumFractionDigits: pn.dec, maximumFractionDigits: pn.dec }) + pn.suffix : text;
+  const shown = pn ? (pn.val * p).toLocaleString("de-DE", { minimumFractionDigits: pn.dec, maximumFractionDigits: pn.dec, useGrouping: !plain }) + pn.suffix : text;
   const ticks = [];
   for (let x = at; x < at + 1.2; x += 0.1) ticks.push(x);
   return (
@@ -195,7 +196,7 @@ const BigNum: React.FC<P> = ({ s }) => {
           const a = at(it.at, 0.1 + 0.5 * i);
           return (
             <Rise key={i} at={a} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-              <CountUp text={it.num} at={a} size={fs(it.size || 150, v)} color={COLOR[it.color || "amber"]} />
+              <CountUp text={it.num} at={a} size={fs(it.size || 150, v)} color={COLOR[it.color || "amber"]} plain={!!it.plain} />
               <div style={txt(fs(42, v))}>{it.label}</div>
             </Rise>
           );
@@ -444,5 +445,5 @@ const Outro: React.FC<P> = ({ s }) => {
 
 export const SCENES: Record<string, React.FC<P>> = {
   title: Title, chips: Chips, quiz: Quiz, bignum: BigNum, flow: Flow, fact: Fact, law: Fact, story: Story,
-  split: Split, list: List, case: Case, outro: Outro, machine: MachineScene, money: MoneyScene, ampel: AmpelScene, aufzug: AufzugScene, mikrowelle: MikrowelleScene, spuelung: SpuelungScene, brief: BriefScene, bon: BonScene, stau: StauScene, netz: NetzScene, wasch: WaschScene,
+  split: Split, list: List, case: Case, outro: Outro, machine: MachineScene, money: MoneyScene, ampel: AmpelScene, aufzug: AufzugScene, mikrowelle: MikrowelleScene, spuelung: SpuelungScene, brief: BriefScene, bon: BonScene, stau: StauScene, netz: NetzScene, wasch: WaschScene, blitzer: BlitzerScene,
 };

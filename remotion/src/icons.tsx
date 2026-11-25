@@ -259,6 +259,16 @@ const paths: Record<string, (p: { accent: string }) => React.ReactNode> = {
       <rect x="64" y="44" width="6" height="16" rx="3" fill={accent} />
     </>
   ),
+  camera: ({ accent }) => (
+    <>
+      <rect x="6" y="26" width="88" height="62" rx="10" fill={L} />
+      <rect x="30" y="14" width="34" height="16" rx="4" fill={L} />
+      <circle cx="50" cy="57" r="22" fill={C.ink} />
+      <circle cx="50" cy="57" r="13" fill={accent} />
+      <circle cx="45" cy="52" r="4" fill="#ffffff99" />
+      <rect x="72" y="34" width="14" height="9" rx="2" fill={C.red} />
+    </>
+  ),
   machine: ({ accent }) => (
     <>
       <rect x="18" y="4" width="64" height="92" rx="6" fill={L} />
