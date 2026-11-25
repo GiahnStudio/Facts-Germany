@@ -250,5 +250,23 @@
     "thumb": false,
     "pinned": false,
     "playlist": true
+  },
+  "blitzer:main": {
+    "uploaded": "2026-11-25",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "blitzer:s1": {
+    "uploaded": "2026-11-25",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "blitzer:s2": {
+    "uploaded": "2026-11-25",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
   }
 }
