@@ -16,6 +16,11 @@
 - 2026-12-01 Wie weiß Google Maps, wo Stau ist? (`13_stau`, Spezialszene stau)
 - 2026-12-03 Wie kommt der Strom in die Steckdose? (`14_strom`, Spezialszene netz)
 - 2026-12-05 Woher weiß die Waschmaschine, wie viel Wäsche drin ist? (`15_waschmaschine`, Spezialszene wasch)
+- 2026-12-07 Woher weiß der Blitzer, wie schnell du bist? (`16_blitzer`, Spezialszene blitzer)
 
 ## Ideen
-- Wie funktioniert ein Blitzer?
+- Wie funktioniert eine Automatiktür (Schiebetür im Supermarkt)?
+- Wie funktioniert ein Rauchmelder?
+- Wie funktioniert ein Geldautomat?
+- Wie funktioniert ein Touchscreen?
+- Wie funktioniert eine Ladesäule fürs E-Auto?
