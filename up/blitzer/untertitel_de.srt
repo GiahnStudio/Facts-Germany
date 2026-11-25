@@ -1,0 +1,719 @@
+1
+00:00:00,000 --> 00:00:02,600
+Hi, ich bin Lupo, und
+ich durchschaue für
+
+2
+00:00:02,600 --> 00:00:04,020
+dich die Dinge aus
+deinem Alltag.
+
+3
+00:00:04,800 --> 00:00:05,860
+Heute: der Blitzer.
+
+4
+00:00:06,560 --> 00:00:08,420
+Du fährst an einem
+grauen Kasten vorbei,
+
+5
+00:00:08,920 --> 00:00:10,180
+und manchmal blitzt es rot.
+
+6
+00:00:11,200 --> 00:00:12,840
+Aber woher weiß so ein
+Kasten eigentlich,
+
+7
+00:00:12,840 --> 00:00:13,920
+wie schnell du warst?
+
+8
+00:00:14,720 --> 00:00:15,660
+Er hat ja keinen Tacho.
+
+9
+00:00:16,433 --> 00:00:18,093
+Heute schauen wir
+in den Kasten:
+
+10
+00:00:18,533 --> 00:00:20,753
+Radarwellen, Laser
+und Lichtstrahlen,
+
+11
+00:00:21,033 --> 00:00:23,533
+Sensoren im Asphalt,
+und ein Blitz, der
+
+12
+00:00:23,533 --> 00:00:24,533
+fast unsichtbar ist.
+
+13
+00:00:25,267 --> 00:00:26,427
+Kurze Frage vorab.
+
+14
+00:00:26,847 --> 00:00:28,367
+Wie misst ein
+Radar-Blitzer, wie schnell
+
+15
+00:00:28,367 --> 00:00:30,787
+du bist? A: Er macht
+zwei Fotos und
+
+16
+00:00:30,787 --> 00:00:31,387
+vergleicht sie.
+
+17
+00:00:31,867 --> 00:00:33,927
+B: Er schickt Funkwellen
+los und schaut,
+
+18
+00:00:33,927 --> 00:00:34,787
+wie sie zurückkommen.
+
+19
+00:00:35,707 --> 00:00:38,047
+C: Er misst, wie
+laut dein Motor ist.
+
+20
+00:00:38,417 --> 00:00:39,867
+Schreib deinen Tipp
+in die Kommentare.
+
+21
+00:00:41,413 --> 00:00:42,820
+Erst mal ein paar Zahlen.
+
+22
+00:00:43,400 --> 00:00:45,480
+Allein in Baden-Württemberg
+sind laut
+
+23
+00:00:45,480 --> 00:00:49,580
+Stuttgarter Zeitung
+1.479 Blitzer fest
+
+24
+00:00:49,840 --> 00:00:51,680
+montiert. Und die
+Technik ist älter, als
+
+25
+00:00:51,680 --> 00:00:53,760
+du denkst. Den
+ersten offiziellen
+
+26
+00:00:53,760 --> 00:00:55,780
+Radar-Blitzer in
+Deutschland gab es schon
+
+27
+00:00:55,780 --> 00:01:00,527
+1959. So läuft das
+beim Radar-Blitzer.
+
+28
+00:01:01,127 --> 00:01:02,447
+Dein Auto kommt näher.
+
+29
+00:01:02,887 --> 00:01:04,787
+Der Kasten schickt
+ständig Radarwellen
+
+30
+00:01:04,787 --> 00:01:07,047
+los. Sie treffen
+dein Auto und werden
+
+31
+00:01:07,047 --> 00:01:07,807
+zurückgeworfen.
+
+32
+00:01:08,687 --> 00:01:10,807
+Weil du auf den Kasten
+zufährst, kommen
+
+33
+00:01:10,807 --> 00:01:12,667
+die Wellen verändert
+zurück, nämlich
+
+34
+00:01:12,667 --> 00:01:13,747
+zusammengestaucht.
+
+35
+00:01:14,267 --> 00:01:16,167
+Je stärker sie
+gestaucht sind, desto
+
+36
+00:01:16,167 --> 00:01:16,907
+schneller bist du.
+
+37
+00:01:17,687 --> 00:01:19,947
+Daraus rechnet das
+Gerät dein Tempo aus.
+
+38
+00:01:20,787 --> 00:01:22,707
+Und liegt das über
+dem Limit, löst die
+
+39
+00:01:22,707 --> 00:01:24,167
+Kamera aus. Blitz!
+
+40
+00:01:24,967 --> 00:01:26,847
+Damit zur Auflösung.
+
+41
+00:01:27,327 --> 00:01:28,047
+Richtig ist B.
+
+42
+00:01:28,827 --> 00:01:30,767
+Der Radar-Blitzer
+schickt Funkwellen los
+
+43
+00:01:30,767 --> 00:01:32,587
+und schaut, wie sie
+von deinem Auto
+
+44
+00:01:32,587 --> 00:01:33,167
+zurückkommen.
+
+45
+00:01:33,980 --> 00:01:35,200
+Das kennst du vom
+Krankenwagen.
+
+46
+00:01:35,580 --> 00:01:37,440
+Fährt er auf dich zu,
+klingt die Sirene
+
+47
+00:01:37,440 --> 00:01:39,400
+höher, fährt er weg,
+klingt sie tiefer.
+
+48
+00:01:39,940 --> 00:01:41,100
+Das ist der Doppler-Effekt.
+
+49
+00:01:41,460 --> 00:01:43,700
+Mit Radarwellen
+passiert dasselbe, nur
+
+50
+00:01:43,700 --> 00:01:44,420
+hörst du es nicht.
+
+51
+00:01:45,080 --> 00:01:46,900
+Das Gerät misst, wie
+stark sich die Welle
+
+52
+00:01:46,900 --> 00:01:49,000
+verändert, und kennt
+damit dein Tempo.
+
+53
+00:01:49,733 --> 00:01:51,173
+Und so fing es an.
+
+54
+00:01:52,113 --> 00:01:55,313
+1956 zeigt die Firma
+Telefunken auf einer
+
+55
+00:01:55,313 --> 00:01:57,753
+Polizeiausstellung in
+Essen den Prototyp
+
+56
+00:01:58,400 --> 00:02:02,993
+VRG 1. Der Nachfolger
+VRG 2 bekommt 1958
+
+57
+00:02:02,993 --> 00:02:04,373
+seine Zulassung.
+
+58
+00:02:05,093 --> 00:02:09,413
+Am 15. Februar 1959
+nimmt er auf einer
+
+59
+00:02:09,413 --> 00:02:11,453
+Straße zwischen
+Düsseldorf und Ratingen
+
+60
+00:02:11,453 --> 00:02:12,813
+offiziell seinen Dienst auf.
+
+61
+00:02:13,733 --> 00:02:15,793
+Und diese Ur-Radarfalle
+bleibt bis in die
+
+62
+00:02:16,053 --> 00:02:17,113
+achtziger Jahre im Einsatz.
+
+63
+00:02:17,113 --> 00:02:20,093
+Die Fotos waren
+damals übrigens noch
+
+64
+00:02:20,093 --> 00:02:23,880
+analog. Neben Radar
+gibt es auch Blitzer,
+
+65
+00:02:24,080 --> 00:02:24,900
+die mit Licht messen.
+
+66
+00:02:25,810 --> 00:02:27,860
+Erstens: der Laser-Blitzer.
+
+67
+00:02:28,760 --> 00:02:31,060
+Er schickt Lichtimpulse
+los, die von
+
+68
+00:02:31,060 --> 00:02:33,300
+deinem Auto zurückkommen,
+und rechnet aus
+
+69
+00:02:33,300 --> 00:02:34,880
+Weg und Zeit dein Tempo aus.
+
+70
+00:02:35,880 --> 00:02:38,070
+Manche Geräte überwachen
+so bis zu vier
+
+71
+00:02:38,000 --> 00:02:39,100
+Fahrspuren auf einmal.
+
+72
+00:02:40,130 --> 00:02:41,860
+Zweitens: die Lichtschranke.
+
+73
+00:02:42,320 --> 00:02:44,300
+Unsichtbare Lichtstrahlen
+gehen quer über
+
+74
+00:02:44,300 --> 00:02:46,420
+die Straße, ein Modell
+hat zum Beispiel
+
+75
+00:02:46,570 --> 00:02:47,240
+fünf Sensoren.
+
+76
+00:02:48,060 --> 00:02:50,260
+Dein Auto unterbricht
+einen Strahl nach
+
+77
+00:02:50,260 --> 00:02:52,480
+dem anderen, und aus
+der Zeit dazwischen
+
+78
+00:02:52,480 --> 00:02:53,540
+ergibt sich das Tempo.
+
+79
+00:02:54,233 --> 00:02:55,853
+Es geht aber auch
+ganz ohne Wellen.
+
+80
+00:02:56,313 --> 00:02:58,073
+Bei manchen fest
+montierten Blitzern
+
+81
+00:02:58,073 --> 00:03:00,013
+liegen drei Sensorstreifen
+quer in der
+
+82
+00:03:00,013 --> 00:03:02,113
+Fahrbahn, etwa einen
+Meter auseinander.
+
+83
+00:03:02,913 --> 00:03:04,573
+Darin stecken
+empfindliche Kristalle.
+
+84
+00:03:05,053 --> 00:03:06,753
+Wenn dein Reifen
+drüberrollt, werden sie
+
+85
+00:03:06,753 --> 00:03:08,453
+verformt und erzeugen
+dabei Strom.
+
+86
+00:03:09,073 --> 00:03:10,633
+So merkt das Gerät,
+wann du welchen
+
+87
+00:03:10,633 --> 00:03:11,753
+Streifen überfährst.
+
+88
+00:03:12,473 --> 00:03:14,473
+Bei sechzig Kilometern
+pro Stunde brauchst
+
+89
+00:03:14,473 --> 00:03:15,866
+du für zwei Meter nur
+zwölf Hundertstel
+
+90
+00:03:15,793 --> 00:03:19,053
+Sekunden. Weg geteilt
+durch Zeit ergibt
+
+91
+00:03:19,053 --> 00:03:20,353
+dein Tempo. Zu schnell?
+
+92
+00:03:20,353 --> 00:03:24,747
+Blitz! Ganz perfekt
+misst aber kein Gerät.
+
+93
+00:03:25,287 --> 00:03:27,227
+Deshalb wird vom
+gemessenen Tempo laut
+
+94
+00:03:27,227 --> 00:03:29,827
+ADAC immer etwas abgezogen.
+
+95
+00:03:30,627 --> 00:03:33,267
+Bis 100 Kilometer pro
+Stunde sind das drei
+
+96
+00:03:33,287 --> 00:03:35,460
+Kilometer pro
+Stunde, darüber drei
+
+97
+00:03:35,654 --> 00:03:38,787
+Prozent. Werden also
+63 gemessen, zählen
+
+98
+00:03:38,787 --> 00:03:41,593
+am Ende 60. Jetzt du.
+
+99
+00:03:42,153 --> 00:03:43,193
+Stimmt oder Mythos?
+
+100
+00:03:43,953 --> 00:03:47,013
+Erstens: Wenn du geblitzt
+wirst, siehst du
+
+101
+00:03:47,013 --> 00:03:49,829
+das immer. Mythos.
+
+102
+00:03:50,189 --> 00:03:52,049
+Es gibt Blitzer, die
+mit Infrarotlicht
+
+103
+00:03:52,049 --> 00:03:54,289
+arbeiten. Das ist für
+das menschliche Auge
+
+104
+00:03:54,289 --> 00:03:56,649
+unsichtbar. Viele
+Fahrer merken dann gar
+
+105
+00:03:56,649 --> 00:03:57,929
+nicht, dass sie
+geblitzt wurden.
+
+106
+00:03:59,700 --> 00:04:02,900
+Zweitens: Dein Tacho
+darf mehr anzeigen,
+
+107
+00:04:02,900 --> 00:04:04,100
+als du wirklich fährst.
+
+108
+00:04:05,988 --> 00:04:09,708
+Stimmt. Laut ADAC
+darf ein Tacho nie
+
+109
+00:04:09,708 --> 00:04:11,588
+weniger anzeigen,
+als du fährst.
+
+110
+00:04:12,668 --> 00:04:13,648
+Mehr dagegen schon:
+
+111
+00:04:14,168 --> 00:04:16,728
+bei neueren Autos bis
+zu zehn Prozent plus
+
+112
+00:04:16,935 --> 00:04:18,168
+vier Kilometer pro Stunde.
+
+113
+00:04:19,233 --> 00:04:21,073
+Und drittens:
+
+114
+00:04:21,533 --> 00:04:24,353
+Ein Blitzer wird einmal
+geprüft und misst
+
+115
+00:04:24,353 --> 00:04:24,913
+dann für immer.
+
+116
+00:04:26,929 --> 00:04:29,769
+Mythos. Erst prüft die
+
+117
+00:04:30,309 --> 00:04:31,829
+Physikalisch-Technische
+Bundesanstalt die
+
+118
+00:04:31,829 --> 00:04:34,669
+Bauart. Dann muss jedes
+einzelne Gerät zum
+
+119
+00:04:34,669 --> 00:04:36,609
+Eichamt, und zwar jedes Jahr.
+
+120
+00:04:37,489 --> 00:04:40,449
+Allein in Baden-Württemberg
+wurden 2018
+
+121
+00:04:40,449 --> 00:04:43,289
+mehr als 2.000 solcher
+Messgeräte geprüft.
+
+122
+00:04:44,233 --> 00:04:45,833
+Und dann gab es noch
+einen ganz anderen
+
+123
+00:04:45,833 --> 00:04:48,793
+Blitzer. Auf der B6
+zwischen Gleidingen
+
+124
+00:04:48,793 --> 00:04:50,653
+und Laatzen in
+Niedersachsen wurde auf
+
+125
+00:04:50,653 --> 00:04:52,873
+etwa 2,2 Kilometern
+nicht an einem Punkt
+
+126
+00:04:52,873 --> 00:04:54,893
+gemessen, sondern über
+die ganze Strecke.
+
+127
+00:04:55,813 --> 00:04:57,833
+Jedes Auto wurde bei
+der Einfahrt und bei
+
+128
+00:04:57,833 --> 00:04:59,873
+der Ausfahrt erfasst,
+daraus ergab sich
+
+129
+00:04:59,873 --> 00:05:01,133
+die
+Durchschnittsgeschwindigkeit.
+
+130
+00:05:01,993 --> 00:05:04,193
+War niemand zu schnell,
+wurden die Daten
+
+131
+00:05:04,193 --> 00:05:06,233
+laut ADAC sofort
+wieder gelöscht.
+
+132
+00:05:06,593 --> 00:05:08,353
+Das nennt man Section Control.
+
+133
+00:05:08,353 --> 00:05:12,213
+Seit Anfang 2024
+ist die Anlage aber
+
+134
+00:05:12,213 --> 00:05:14,593
+abgeschaltet, wegen
+neuer Vorgaben zur
+
+135
+00:05:14,593 --> 00:05:17,460
+Eichung. Drei Dinge
+zum Selbst-Entdecken.
+
+136
+00:05:18,010 --> 00:05:20,540
+Eins: Achte vor einem
+Blitzer mal auf
+
+137
+00:05:20,540 --> 00:05:22,400
+schmale Streifen
+quer im Asphalt.
+
+138
+00:05:22,940 --> 00:05:24,260
+Das können die Sensoren sein.
+
+139
+00:05:25,070 --> 00:05:27,120
+Zwei: Vergleich deinen
+Tacho mal mit dem
+
+140
+00:05:27,120 --> 00:05:30,260
+Navi. Ein Navi mit GPS
+ist laut ADAC meist
+
+141
+00:05:30,260 --> 00:05:31,510
+genauer. Drei:
+
+142
+00:05:31,860 --> 00:05:33,680
+Halte dich einfach
+ans Limit, dann ist
+
+143
+00:05:33,680 --> 00:05:35,040
+egal, wie der Blitzer misst.
+
+144
+00:05:35,733 --> 00:05:38,753
+Also: Ein Blitzer
+hat keinen Tacho.
+
+145
+00:05:39,153 --> 00:05:41,573
+Er schickt Funkwellen
+oder Licht los, oder
+
+146
+00:05:41,573 --> 00:05:43,313
+er spürt deine
+Reifen im Asphalt.
+
+147
+00:05:43,793 --> 00:05:46,113
+Am Ende misst er immer,
+wie viel Weg du in
+
+148
+00:05:46,113 --> 00:05:48,353
+welcher Zeit schaffst,
+und rechnet daraus
+
+149
+00:05:48,353 --> 00:05:49,213
+dein Tempo aus.
+
+150
+00:05:50,067 --> 00:05:51,967
+Wenn du wissen willst,
+wie andere Dinge
+
+151
+00:05:51,967 --> 00:05:53,527
+aus deinem Alltag
+funktionieren:
+
+152
+00:05:53,947 --> 00:05:56,047
+abonnieren. Alle zwei
+Tage durchschauen
+
+153
+00:05:56,047 --> 00:05:57,127
+wir zusammen ein neues.
+
+154
+00:05:57,787 --> 00:05:59,307
+Bis dann, euer Lupo!

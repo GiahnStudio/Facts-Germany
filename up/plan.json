@@ -376,5 +376,32 @@
     "duration": 32.5
    }
   ]
+ },
+ {
+  "title": "Woher weiß der Blitzer, wie schnell du bist?",
+  "date": "2026-12-07",
+  "time": "17:00",
+  "tags": "blitzer, wie funktioniert ein blitzer, radarfalle, radarblitzer, doppler effekt, laser blitzer, lichtschranke blitzer, starenkasten, section control, infrarot blitzer, tacho abweichung, wie funktioniert das, durchschaut",
+  "pin": "Hast du schon mal einen Blitz gesehen und dich erschrocken? 😅 Und was soll Lupo als Nächstes durchschauen?",
+  "v": "blitzer",
+  "file": "blitzer_video.mp4",
+  "desc": "Du fährst an einem grauen Kasten vorbei – und manchmal blitzt es rot. Aber woher weiß so ein Blitzer eigentlich, wie schnell du warst? Er hat ja keinen Tacho. Lupo schaut in den Kasten: wie Radarwellen dein Tempo verraten, wie Laser und Lichtschranken messen, welche Sensoren im Asphalt stecken, warum du manchen Blitz gar nicht siehst und wer prüft, ob der Blitzer richtig misst.\n\nKapitel\n0:00 Intro\n0:25 Die Quizfrage\n0:41 Älter als du denkst\n0:58 So misst das Radar\n1:24 Die Auflösung\n1:33 Der Sirenen-Trick\n1:49 Der erste Blitzer\n2:21 Messen mit Licht\n2:54 Sensoren im Asphalt\n3:22 Warum etwas abgezogen wird\n3:40 Stimmt oder Mythos?\n4:44 Messen über die ganze Strecke\n5:15 3 Tipps\n5:35 Fazit\n\nQuellen\n- Messverfahren Laser, Radar (Doppler-Effekt), Induktionsschleife (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/geschwindigkeitsmessung/\n- Erster Einsatz am 15. Februar 1959 zwischen Düsseldorf und Ratingen, Telefunken VRG 1/VRG 2, Sensoren im Asphalt mit Kristallen, Lichtschranke mit fünf Sensoren, Laser für bis zu vier Fahrspuren, 1.479 fest montierte Blitzer in Baden-Württemberg (Stuttgarter Zeitung/dpa): https://www.stuttgarter-zeitung.de/panorama/schrecken-der-temposuender-der-blitzer-feiert-geburtstag-79121528.html\n- Geschichte der Verkehrsüberwachung, Zulassung VRG 2 1958 (Deutsches Museum): https://blog.deutsches-museum.de/en/2025/07/18/speed-up-a-brief-history-of-traffic-monitoring\n- Toleranzabzug 3 km/h bzw. 3 %, Tacho darf nie weniger anzeigen (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/blitzer-toleranz/\n- Infrarot-Blitzer ohne sichtbaren Blitz (Stuttgarter Zeitung): https://www.stuttgarter-zeitung.de/lokales/baden-wuerttemberg/merkt-man-wenn-man-geblitzt-wird-infrarot-schwarzlicht-78825352.html\n- Eichfrist ein Jahr, Prüfung durch PTB und Eichamt (Regierungspräsidium Tübingen): https://rp.baden-wuerttemberg.de/rpt/presse-und-soziale-medien/pressemitteilungen/artikel/geschwindigkeitsmessgeraete-im-check/api/pdf\n- Eichfristen-Übersicht, Geschwindigkeitsmessgeräte 1 Jahr (Eichbehörde Sachsen): https://www.eichbehoerde.sachsen.de/download/AGME/Eichfristen.pdf\n- Section Control auf der B6 bei Laatzen (ADAC): https://www.adac.de/verkehr/recht/bussgeld-punkte/section-control/\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#blitzer #wiefunktioniertdas #durchschaut",
+  "duration": 361.0,
+  "shorts": [
+   {
+    "file": "short_1_radar_echo.mp4",
+    "title": "Wie misst ein Blitzer dein Tempo? #shorts",
+    "date": "2026-12-07",
+    "time": "12:00",
+    "duration": 32.0
+   },
+   {
+    "file": "short_2_streifen_im_asphalt.mp4",
+    "title": "Diese drei Streifen im Asphalt verraten dein Tempo #shorts",
+    "date": "2026-12-08",
+    "time": "12:00",
+    "duration": 28.8
+   }
+  ]
  }
 ]
