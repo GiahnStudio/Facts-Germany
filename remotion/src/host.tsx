@@ -99,6 +99,17 @@ export const lupoEvents = (s: SceneData, idx: number, last: boolean): Ev[] => {
       }
       ev.push({ at: at(s.flash_at, 0.82) + 0.1, mood: "facepalm", dur: 1.8 });
       break;
+    case "rauchmelder":
+      if (s.mode === "raum") {
+        ev.push({ at: at(s.rise_at, 0.12), mood: "pointLeft", dur: 1.3 });
+        ev.push({ at: at(s.alarm_at, 0.6) + 0.2, mood: "wow", dur: 1.6 });
+        ev.push({ at: at(s.wake_at, 0.82) + 0.3, mood: "cheer", dur: 1.8 });
+      } else {
+        ev.push({ at: at(s.light_at, 0.12), mood: "pointLeft", dur: 1.3 });
+        ev.push({ at: at(s.scatter_at, 0.6) + 0.5, mood: "wow", dur: 1.6 });
+        ev.push({ at: at(s.alarm_at, 0.82) + 0.2, mood: "cheer", dur: 1.6 });
+      }
+      break;
     case "money":
       (s.moves || []).forEach((m: any, i: number) => ev.push({ at: at(m.at, 0.1 + 0.8 * i / s.moves.length), mood: "pointLeft", dur: 1.0 }));
       break;

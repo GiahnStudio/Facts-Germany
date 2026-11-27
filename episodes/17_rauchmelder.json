@@ -1,0 +1,588 @@
+{
+ "slug": "rauchmelder",
+ "voice": "de-DE-Chirp3-HD-Rasalgethi",
+ "date": "2026-12-09",
+ "time": "17:00",
+ "title": "Wie funktioniert ein Rauchmelder?",
+ "tags": "rauchmelder, wie funktioniert ein rauchmelder, rauchwarnmelder, streulicht, optischer rauchmelder, ionisationsrauchmelder, rauchmelder piept, rauchmelder decke, q label, hitzemelder, wie funktioniert das, durchschaut",
+ "pin": "Wann hast du zuletzt die Prüftaste an deinem Rauchmelder gedrückt? 🔔 Und was soll Lupo als Nächstes durchschauen?",
+ "desc": "Das kleine weiße Ding an der Decke hat keine Nase – und merkt trotzdem, wenn es brennt. Aber wie eigentlich? Lupo schaut in den Rauchmelder: wie unsichtbares Licht in einer dunklen Kammer den Rauch verrät, wozu das winzige Labyrinth gut ist, warum der Melder an die Decke gehört, warum du Rauch im Schlaf nicht riechst und warum manche Melder radioaktiv sind.\n\nKapitel\n{kapitel}\n\nQuellen\n- Streulichtverfahren: Infrarot-Lichtimpuls ins Leere, Fotozelle seitlich, Gehäuse ohne Fremdlicht, Auslöseschwelle (Baunetz Wissen): https://www.baunetzwissen.de/glossar/s/streulichtverfahren-7880807\n- Labyrinth aus Kunststofflamellen, Infrarot-LED und Empfangsdiode, 85 dB(A) in 3 m Entfernung (ELVjournal 2/2012): https://media.elv.com/file/hightech_rauchmelder.pdf\n- Rund 200.000 Brände im Jahr, zwei bis drei Atemzüge Brandrauch, 120 Sekunden, Feuerwehr nach 8 bis 10 Minuten, Q-Melder mit mindestens zehn Jahren Batterie (Feuerwehr Hannover): https://www.hannover.de/Leben-in-der-Region-Hannover/Sicherheit-Ordnung/Feuerwehr-Hannover/Service-und-Downloads2/Merkbl%C3%A4tter,-Tipps,-Formulare/Rauchmelder.%C2%ADRetten.%C2%ADLeben\n- 95 % der Brandtoten sterben an Rauchgasen, BAM-Brandversuch 2006 (Feuerwehr Heidelberg): https://www.heidelberg.de/Feuerwehr/feuerwehr/Infos+fuer+die+Bevoelkerung/Notwendigkeit+von+Rauchmeldern.html\n- \"Wenn man schläft, schläft auch die Nase\", die meisten Brände entstehen nachts (Planet Wissen): https://www.planet-wissen.de/gesellschaft/organisationen/feuerwehr/pwiebrandgefahrverhueten100.html\n- Rauch weckt Schlafende nicht, sondern macht schnell bewusstlos (Innenministerium Baden-Württemberg): https://im.baden-wuerttemberg.de/de/sicherheit/feuerwehr/tipps/rauchmelder-retten-leben\n- Montage an der Decke, weil warmer Rauch aufsteigt, Prüftaste mindestens einmal im Jahr (Stiftung Warentest): https://www.test.de/Rauchmelder-im-Test-4957385-4958976/\n- Raummitte, mindestens 50 cm von der Wand (Feuerwehr Dieburg): https://www.feuerwehr-dieburg.de/wp-content/uploads/2018/12/FF-DI-RWM-A4-Auswahl-des-Montageortes.pdf\n- Austausch nach spätestens zehn Jahren, DIN EN 14604, Q-Zeichen, Staub und Spinnweben, Fehlalarme nahe Küche und Bad, Hitzemelder in Küchen, jährliche Prüfung (ADAC): https://www.adac.de/rund-ums-haus/sicherheit/rauchmelder-pflicht\n- Ablaufdatum auf der Rückseite, Staub und Insekten (Verbraucherzentrale): https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/rauchmelder-austauschen-wann-es-noetig-ist-und-worauf-sie-achten-sollten-116728\n- Ionisationsrauchmelder mit Americium-241 (Bundesamt für Strahlenschutz): https://www.bfs.de/EN/topics/ion/daily-life/smoke-detector/smoke-detector.html\n- Ionisationsmelder werden zunehmend durch optische ersetzt (DGUV): https://dguv.de/fb-etem/faq/faq_ionisierend/ionisationsrauchmelder/index.jsp\n\nAlle zwei Tage durchschaut Lupo ein neues Ding aus deinem Alltag. Abonnieren nicht vergessen!\n\n#rauchmelder #wiefunktioniertdas #durchschaut",
+ "thumbs": {
+  "A": {
+   "big": "So riecht dein Rauchmelder",
+   "chip": "OHNE NASE",
+   "mood": "wow",
+   "icon": "melder"
+  },
+  "B": {
+   "big": "Dieser Rauch weckt dich nicht",
+   "chip": "IM SCHLAF",
+   "stamp": "MYTHOS",
+   "stamp_color": "red",
+   "mood": "facepalm",
+   "icon": "melder"
+  }
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "chapter": "Intro",
+   "text": "Wie funktioniert ein Rauchmelder?",
+   "size": 84,
+   "sub": "Er hat keine Nase – und merkt trotzdem Rauch.",
+   "sub_at": "Nase",
+   "say": "Hi, ich bin Lupo, und ich durchschaue für dich die Dinge aus deinem Alltag. Heute: der Rauchmelder. Das kleine weiße Ding an der Decke, das du meistens gar nicht bemerkst. Aber woher weiß es eigentlich, dass es brennt? Es hat ja keine Nase.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Hallo da oben!",
+      "at": "Decke"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chips",
+   "title": "Heute schauen wir in den Melder",
+   "items": [
+    {
+     "text": "Licht in einer dunklen Kammer",
+     "at": "Licht"
+    },
+    {
+     "text": "Ein winziges Labyrinth",
+     "at": "Labyrinth"
+    },
+    {
+     "text": "Warum er an die Decke gehört",
+     "at": "Decke"
+    },
+    {
+     "text": "Warum du Rauch im Schlaf nicht riechst",
+     "at": "Schlaf"
+    }
+   ],
+   "say": "Heute schauen wir rein: Licht in einer dunklen Kammer, ein winziges Labyrinth, warum der Melder an die Decke gehört, und warum du Rauch im Schlaf nicht riechst."
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Quizfrage",
+   "kicker": "KURZE FRAGE",
+   "question": "Wie merkt ein Rauchmelder den Rauch?",
+   "size": 60,
+   "options": [
+    {
+     "text": "Er riecht ihn mit einem chemischen Sensor",
+     "at": "A"
+    },
+    {
+     "text": "Rauch lenkt Licht auf einen Sensor",
+     "at": "B"
+    },
+    {
+     "text": "Er spürt die Hitze des Feuers",
+     "at": "C"
+    }
+   ],
+   "say": "Kurze Frage vorab. Wie merkt ein Rauchmelder den Rauch? A: Er riecht ihn mit einem chemischen Sensor. B: Der Rauch lenkt Licht auf einen Sensor. C: Er spürt die Hitze des Feuers. Schreib deinen Tipp in die Kommentare.",
+   "pause": 0.8
+  },
+  {
+   "type": "bignum",
+   "chapter": "Warum es ihn gibt",
+   "title": "Brände in Zahlen",
+   "items": [
+    {
+     "num": "200.000",
+     "label": "Brände pro Jahr in Deutschland",
+     "size": 120,
+     "at": "brennt"
+    },
+    {
+     "num": "95 %",
+     "label": "der Brandtoten sterben am Rauch, nicht an den Flammen",
+     "size": 120,
+     "at": "Prozent",
+     "color": "red"
+    }
+   ],
+   "say": "Erst mal: Warum gibt es ihn überhaupt? Laut Feuerwehr Hannover brennt es in Deutschland rund 200.000 Mal im Jahr. Und laut Feuerwehr Heidelberg sterben 95 Prozent der Brandtoten nicht durch die Flammen, sondern durch die Rauchgase.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Uff!",
+      "at": "Rauchgase"
+     }
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "type": "fact",
+   "chapter": "Wenn die Nase schläft",
+   "icon": "person",
+   "label": "IM SCHLAF",
+   "headline": "Wenn du schläfst, schläft auch die Nase",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Rauch weckt dich nicht auf",
+     "at": "weckt"
+    },
+    {
+     "text": "Er macht schnell bewusstlos",
+     "at": "bewusstlos"
+    },
+    {
+     "text": "Schon zwei bis drei Atemzüge können tödlich sein",
+     "at": "Atemzüge"
+    }
+   ],
+   "say": "Und das Gemeine: Laut Planet Wissen entstehen die meisten Brände nachts. Und wenn du schläfst, schläft auch deine Nase. Der Rauch weckt dich also nicht auf. Laut Innenministerium Baden-Württemberg macht er stattdessen schnell bewusstlos. Und laut Feuerwehr Hannover können schon zwei bis drei Atemzüge Brandrauch tödlich sein. Deshalb braucht es jemanden, der wach bleibt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Zzz …",
+      "at": "schläft"
+     }
+    ]
+   }
+  },
+  {
+   "type": "rauchmelder",
+   "mode": "kammer",
+   "chapter": "Licht im Dunkeln",
+   "title": "Blick in die Messkammer",
+   "steps": [
+    "Infrarot-Licht ins Leere",
+    "Rauch dringt ein",
+    "Rauch streut das Licht",
+    "Alarm!"
+   ],
+   "light_at": "Lichtimpulse",
+   "smoke_at": "Jetzt",
+   "scatter_at": "gestreut",
+   "alarm_at": "Alarm",
+   "say": "So sieht es im Inneren aus. Da ist eine kleine, dunkle Kammer. Eine Leuchtdiode schickt immer wieder kurze Lichtimpulse los, im Infrarotbereich, also unsichtbar für uns. Das Licht zielt ins Leere. Seitlich davon sitzt eine Fotozelle, ein Lichtsensor. Normalerweise trifft das Licht sie nicht. Jetzt kommt Rauch in die Kammer. Die Rauchteilchen lenken das Licht ab, es wird gestreut, und ein Teil davon landet auf dem Sensor. Wird es dort hell genug: Alarm!",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Unsichtbar!",
+      "at": "unsichtbar"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "chapter": "Die Auflösung",
+   "kicker": "AUFLÖSUNG",
+   "question": "Wie merkt ein Rauchmelder den Rauch?",
+   "size": 60,
+   "answer": "B",
+   "reveal_at": "Richtig",
+   "options": [
+    "Er riecht ihn mit einem chemischen Sensor",
+    "Rauch lenkt Licht auf einen Sensor",
+    "Er spürt die Hitze des Feuers"
+   ],
+   "say": "Damit zur Auflösung. Richtig ist B. Der Rauch lenkt Licht auf einen Sensor. Gerochen wird dabei gar nichts."
+  },
+  {
+   "type": "fact",
+   "chapter": "Das Labyrinth",
+   "icon": "melder",
+   "label": "BAUWEISE",
+   "headline": "Ein Labyrinth gegen Licht von außen",
+   "size": 76,
+   "lines": [
+    {
+     "text": "Kunststoff-Lamellen rund um die Kammer",
+     "at": "Kunststoff"
+    },
+    {
+     "text": "Rauch kommt hinein, Licht von außen nicht",
+     "at": "hindurch"
+    },
+    {
+     "text": "Der Sensor sieht nur, was der Rauch zu ihm lenkt",
+     "at": "Sensor"
+    }
+   ],
+   "say": "Damit das klappt, muss es in der Kammer wirklich dunkel sein. Laut dem Fachmagazin ELVjournal sitzt deshalb rund um die Kammer ein Labyrinth aus Kunststoff-Lamellen. Rauch kommt hindurch, Licht von außen aber nicht. Der Sensor bekommt also nur das Licht ab, das der Rauch selbst zu ihm hinlenkt."
+  },
+  {
+   "type": "story",
+   "chapter": "Wie schnell es geht",
+   "title": "Wie schnell ein Feuer wächst",
+   "steps": [
+    {
+     "date": "2006",
+     "text": "Brandversuch der Bundesanstalt für Materialforschung",
+     "at": "Brandversuch"
+    },
+    {
+     "date": "Nach 2 Min.",
+     "text": "Das Zimmer brennt lichterloh.",
+     "at": "lichterloh"
+    },
+    {
+     "date": "Nach 4 Min.",
+     "text": "Vollbrand",
+     "at": "Vollbrand"
+    },
+    {
+     "date": "8–10 Min.",
+     "text": "So lange braucht die Feuerwehr im Schnitt.",
+     "at": "braucht"
+    }
+   ],
+   "stamp": "120 SEKUNDEN",
+   "stamp_color": "red",
+   "stamp_at": "Sekunden",
+   "say": "Wie wenig Zeit man hat, zeigt ein Brandversuch der Bundesanstalt für Materialforschung aus dem Jahr 2006. Nach zwei Minuten brannte das Zimmer lichterloh. Nach vier Minuten war es ein Vollbrand. Die Feuerwehr braucht laut Feuerwehr Hannover im Schnitt acht bis zehn Minuten bis zum Einsatzort. Im Brandfall bleiben dir laut Hannover etwa 120 Sekunden, um dich in Sicherheit zu bringen.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "So schnell?!",
+      "at": "Vollbrand"
+     }
+    ]
+   }
+  },
+  {
+   "type": "rauchmelder",
+   "mode": "raum",
+   "chapter": "Warum an die Decke?",
+   "title": "Warum er an die Decke gehört",
+   "steps": [
+    "Warmer Rauch steigt auf",
+    "Rauch erreicht den Melder",
+    "Alarm: 85 dB",
+    "Aufwachen und raus!"
+   ],
+   "rise_at": "steigt",
+   "detect_at": "Erreicht",
+   "alarm_at": "piept",
+   "wake_at": "Schlaf",
+   "say": "Und warum hängt der Melder an der Decke? Laut Stiftung Warentest, weil warmer Rauch nach oben steigt. Am besten hängt er in der Mitte des Raums, laut Feuerwehr mindestens 50 Zentimeter von der Wand entfernt. Erreicht der Rauch ihn, piept er los, laut Norm mit 85 Dezibel in drei Metern Entfernung. So warnt er dich auch im Schlaf.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Piiiep!",
+      "at": "piept"
+     }
+    ]
+   }
+  },
+  {
+   "type": "split",
+   "chapter": "Zwei Arten Melder",
+   "title": "Zwei Arten, Rauch zu erkennen",
+   "items": [
+    {
+     "icon": "eye",
+     "label": "OPTISCH",
+     "title": "Licht und Sensor",
+     "text": "Rauch streut Licht auf eine Fotozelle.",
+     "color": "blue",
+     "at": "Erstens"
+    },
+    {
+     "icon": "warn",
+     "label": "IONISATION",
+     "title": "Mit radioaktivem Stoff",
+     "text": "Winzige Menge Americium-241. Wird zunehmend ersetzt.",
+     "color": "red",
+     "at": "Zweitens"
+    }
+   ],
+   "say": "Es gibt übrigens noch eine zweite Art. Erstens: der optische Melder, so wie eben gesehen, mit Licht und Sensor. Zweitens: der Ionisationsmelder. Darin steckt laut Bundesamt für Strahlenschutz meist eine winzige Menge des radioaktiven Stoffs Americium-241. Die Strahlung lädt Luftteilchen in der Kammer elektrisch auf, und es fließt ein winziger Strom. Kommt Rauch hinein, ändert sich der Strom, und der Melder schlägt Alarm. Laut der Unfallversicherung DGUV werden solche Melder aber zunehmend durch optische ersetzt."
+  },
+  {
+   "type": "list",
+   "chapter": "Warum er ohne Feuer piept",
+   "title": "Warum er piept, obwohl nichts brennt",
+   "items": [
+    {
+     "text": "Staub, Spinnweben oder Insekten im Melder",
+     "icon": "warn",
+     "at": "Staub"
+    },
+    {
+     "text": "Wasserdampf aus Küche oder Bad",
+     "icon": "drop",
+     "at": "Wasserdampf"
+    },
+    {
+     "text": "Die Batterie wird schwach",
+     "icon": "bolt",
+     "at": "Batterie"
+    }
+   ],
+   "say": "Und warum piept so ein Melder manchmal, obwohl gar nichts brennt? Erstens: Staub. Laut ADAC muss die Sensorik frei von Staub und Spinnweben sein, laut Verbraucherzentrale stören auch Insekten. Zweitens: Wasserdampf. Laut ADAC sind in der Nähe von Küche und Bad Fehlalarme möglich. Drittens: die Batterie. Wird sie schwach, meldet sich der Melder mit einem Warnton.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Nerv!",
+      "at": "obwohl"
+     }
+    ]
+   }
+  },
+  {
+   "type": "fact",
+   "chapter": "Wer prüft den Melder?",
+   "icon": "calendar",
+   "label": "PRÜFZEICHEN",
+   "headline": "Norm und Q-Zeichen",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Europäische Norm DIN EN 14604",
+     "at": "Norm"
+    },
+    {
+     "text": "Q-Zeichen vom Forum Brandrauchprävention",
+     "at": "Forum"
+    },
+    {
+     "text": "Q-Melder: Batterie hält mindestens 10 Jahre",
+     "at": "mindestens"
+    }
+   ],
+   "say": "Und wer sorgt dafür, dass so ein Melder auch wirklich funktioniert? Laut ADAC sollte er die Norm DIN EN 14604 erfüllen. Dazu gibt es das Q-Zeichen vom Forum Brandrauchprävention. Es steht für geprüfte Qualität und Langlebigkeit. Q-Melder haben laut Feuerwehr Hannover eine Batterie, die mindestens zehn Jahre hält."
+  },
+  {
+   "type": "case",
+   "chapter": "Stimmt oder Mythos?",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "person",
+   "label": "Behauptung 1",
+   "text": "Wenn es nachts brennt, weckt dich der Rauchgeruch.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Laut",
+   "say": "Jetzt du. Stimmt oder Mythos? Erstens: Wenn es nachts brennt, weckt dich der Rauchgeruch. ... Mythos. Laut Innenministerium Baden-Württemberg wecken Rauch und Kohlenmonoxid Schlafende nicht auf. Sie machen schnell bewusstlos. Genau dafür gibt es den Melder.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "calendar",
+   "label": "Behauptung 2",
+   "text": "Ein Rauchmelder hält nicht ewig.",
+   "verdict": "STIMMT",
+   "verdict_color": "green",
+   "verdict_at": "Stimmt. Laut",
+   "say": "Zweitens: Ein Rauchmelder hält nicht ewig. ... Stimmt. Laut ADAC sollte er nach spätestens zehn Jahren ausgetauscht werden, weil die Sensoren mit der Zeit an Empfindlichkeit verlieren. Das Ablaufdatum steht laut Verbraucherzentrale auf der Rückseite.",
+   "pause": 0.6
+  },
+  {
+   "type": "case",
+   "kicker": "STIMMT ODER MYTHOS?",
+   "icon": "warn",
+   "label": "Behauptung 3",
+   "text": "In jedem Rauchmelder steckt etwas Radioaktives.",
+   "verdict": "MYTHOS",
+   "verdict_color": "red",
+   "verdict_at": "Mythos. Optische",
+   "say": "Und drittens: In jedem Rauchmelder steckt etwas Radioaktives. ... Mythos. Optische Melder arbeiten nur mit Licht. Einen radioaktiven Stoff haben nur Ionisationsmelder, und die werden laut DGUV zunehmend ersetzt.",
+   "pause": 0.6
+  },
+  {
+   "type": "fact",
+   "chapter": "Und in der Küche?",
+   "icon": "flame",
+   "label": "KÜCHE",
+   "headline": "Hier hilft ein Hitzemelder",
+   "size": 80,
+   "lines": [
+    {
+     "text": "Dampf kann einen Rauchmelder stören",
+     "at": "Dampf"
+    },
+    {
+     "text": "Hitzemelder reagieren auf Wärme statt auf Rauch",
+     "at": "Wärme"
+    },
+    {
+     "text": "Sinnvoll in Küche und Heizungsraum",
+     "at": "Heizungsräumen"
+    }
+   ],
+   "say": "Und was ist mit der Küche? Laut ADAC kann Dampf die Funktion eines Rauchmelders stören. Dort helfen Geräte mit Hitzemelder. Die reagieren nicht auf Rauch, sondern auf Wärme. Laut ADAC sind sie besonders in Küchen und Heizungsräumen sinnvoll."
+  },
+  {
+   "type": "list",
+   "chapter": "3 Tipps",
+   "title": "3 Dinge zum Selbst-Entdecken",
+   "items": [
+    {
+     "text": "Drück mindestens einmal im Jahr die Prüftaste",
+     "icon": "bell",
+     "at": "Eins"
+    },
+    {
+     "text": "Such das Ablaufdatum auf der Rückseite",
+     "icon": "calendar",
+     "at": "Zwei"
+    },
+    {
+     "text": "Halte die Schlitze frei von Staub",
+     "icon": "melder",
+     "at": "Drei"
+    }
+   ],
+   "say": "Drei Dinge zum Selbst-Entdecken. Eins: Drück mindestens einmal im Jahr die Prüftaste. Das empfehlen ADAC und Stiftung Warentest. Zwei: Schau mal auf die Rückseite deines Melders. Dort steht, bis wann er hält. Drei: Halte die Schlitze frei von Staub, damit der Rauch auch reinkommt.",
+   "lupo": {
+    "bubbles": [
+     {
+      "text": "Piep-Test!",
+      "at": "Prüftaste"
+     }
+    ]
+   }
+  },
+  {
+   "type": "title",
+   "chapter": "Fazit",
+   "kicker": "FAZIT",
+   "text": "Licht, das der Rauch umlenkt.",
+   "size": 92,
+   "sub": "Kein Riechen, sondern Streulicht in einer dunklen Kammer.",
+   "sub_at": "Sensor",
+   "say": "Also: Ein Rauchmelder riecht gar nichts. In seiner dunklen Kammer läuft Licht ins Leere. Erst wenn Rauch hineinkommt, wird das Licht gestreut und trifft den Sensor. Und dann piept er so laut, dass er dich auch im Schlaf warnt."
+  },
+  {
+   "type": "outro",
+   "sub": "Alle zwei Tage durchschauen wir ein Ding aus deinem Alltag.",
+   "button": "ABONNIEREN",
+   "button_at": "abonnieren",
+   "say": "Wenn du wissen willst, wie andere Dinge aus deinem Alltag funktionieren: abonnieren. Alle zwei Tage durchschauen wir zusammen ein neues. Bis dann, euer Lupo!",
+   "pause": 1.5
+  }
+ ],
+ "shorts": [
+  {
+   "slug": "licht_im_dunkeln",
+   "title": "Wie merkt ein Rauchmelder den Rauch? #shorts",
+   "date": "2026-12-09",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "quiz",
+     "kicker": "QUIZ",
+     "question": "Wie merkt ein Rauchmelder den Rauch?",
+     "size": 56,
+     "options": [
+      {
+       "text": "Er riecht ihn mit einem chemischen Sensor",
+       "at": "A"
+      },
+      {
+       "text": "Rauch lenkt Licht auf einen Sensor",
+       "at": "B"
+      },
+      {
+       "text": "Er spürt die Hitze des Feuers",
+       "at": "C"
+      }
+     ],
+     "say": "Wie merkt ein Rauchmelder den Rauch? A: Er riecht ihn mit einem chemischen Sensor. B: Der Rauch lenkt Licht auf einen Sensor. C: Er spürt die Hitze des Feuers.",
+     "pause": 0.9,
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hm …?",
+        "at": "C"
+       }
+      ]
+     }
+    },
+    {
+     "type": "quiz",
+     "kicker": "AUFLÖSUNG",
+     "question": "Richtig ist:",
+     "size": 70,
+     "answer": "B",
+     "reveal_at": "Richtig",
+     "options": [
+      "Er riecht ihn mit einem chemischen Sensor",
+      "Rauch lenkt Licht auf einen Sensor",
+      "Er spürt die Hitze des Feuers"
+     ],
+     "say": "Richtig ist B."
+    },
+    {
+     "type": "rauchmelder",
+     "mode": "kammer",
+     "title": "Licht im Dunkeln",
+     "steps": [
+      "Infrarot-Licht ins Leere",
+      "Rauch dringt ein",
+      "Rauch streut das Licht",
+      "Alarm!"
+     ],
+     "light_at": "unsichtbares",
+     "smoke_at": "Kommt",
+     "scatter_at": "gestreut",
+     "alarm_at": "Alarm",
+     "say": "In einer dunklen Kammer schickt eine Leuchtdiode unsichtbares Infrarotlicht ins Leere. Kommt Rauch hinein, wird das Licht gestreut und trifft einen Sensor. Hell genug? Alarm!"
+    },
+    {
+     "type": "outro",
+     "sub": "Folge DURCHSCHAUT für mehr Alltags-Technik.",
+     "button": "FOLGEN",
+     "say": "Folge Durchschaut für mehr Alltagstechnik.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "slug": "warum_an_der_decke",
+   "title": "Darum hängt der Rauchmelder an der Decke #shorts",
+   "date": "2026-12-10",
+   "time": "12:00",
+   "scenes": [
+    {
+     "type": "title",
+     "text": "Warum hängt er an der Decke?",
+     "size": 86,
+     "say": "Warum hängt der Rauchmelder eigentlich an der Decke und nicht an der Wand?",
+     "lupo": {
+      "bubbles": [
+       {
+        "text": "Hä?",
+        "at": "Wand"
+       }
+      ]
+     }
+    },
+    {
+     "type": "rauchmelder",
+     "mode": "raum",
+     "title": "Rauch steigt auf",
+     "steps": [
+      "Warmer Rauch steigt auf",
+      "Rauch erreicht den Melder",
+      "Alarm: 85 dB",
+      "Aufwachen und raus!"
+     ],
+     "rise_at": "steigt",
+     "detect_at": "Erreicht",
+     "alarm_at": "piept",
+     "wake_at": "Schlaf",
+     "say": "Weil warmer Rauch nach oben steigt, schreibt die Stiftung Warentest. Am besten hängt er in der Raummitte. Erreicht der Rauch ihn, piept er mit 85 Dezibel. So warnt er dich auch im Schlaf. Denn wenn du schläfst, schläft auch deine Nase."
+    },
+    {
+     "type": "outro",
+     "sub": "Ganzes Video auf dem Kanal.",
+     "button": "FOLGEN",
+     "say": "Wie der Melder den Rauch erkennt, siehst du im ganzen Video auf dem Kanal.",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
