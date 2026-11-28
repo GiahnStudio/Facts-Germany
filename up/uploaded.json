@@ -164,7 +164,7 @@
   "brief:main": {
     "uploaded": "2026-11-17",
     "thumb": true,
-    "pinned": false,
+    "pinned": true,
     "playlist": true
   },
   "brief:s1": {
@@ -265,6 +265,24 @@
   },
   "blitzer:s2": {
     "uploaded": "2026-11-25",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "rauchmelder:main": {
+    "uploaded": "2026-11-28",
+    "thumb": true,
+    "pinned": false,
+    "playlist": true
+  },
+  "rauchmelder:s1": {
+    "uploaded": "2026-11-28",
+    "thumb": false,
+    "pinned": false,
+    "playlist": true
+  },
+  "rauchmelder:s2": {
+    "uploaded": "2026-11-28",
     "thumb": false,
     "pinned": false,
     "playlist": true
